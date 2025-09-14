@@ -7,7 +7,7 @@ use IEEE.std_logic_1161.all;
 
 entity dffg_N is 
     generic(N : integer := 32);
-    port()port(i_CLK        : in std_logic;
+    port(i_CLK        : in std_logic;
        i_RST        : in std_logic;     -- Reset input
        i_WE         : in std_logic;     -- Write enable input
        i_D          : in std_logic_vector(N-1 downto 0);     -- Data value input
