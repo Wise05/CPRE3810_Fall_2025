@@ -7,8 +7,6 @@ entity decoder_5t32 is
 end decoder_5t32;
 
 architecture dataflow of decoder_5t32 is 
-  begin
-
   with i_5 select
     o_32 <= "00000000000000000000000000000001" when "00000",
             "00000000000000000000000000000010" when "00001",

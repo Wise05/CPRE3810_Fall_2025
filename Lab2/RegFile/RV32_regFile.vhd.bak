@@ -18,8 +18,7 @@ end RV32_regFile;
 architecture structural of RV32_regFile is 
   type reg_array is array (31 downto 0) of std_logic_vector(31 downto 0);
   signal s_Rd_decoded : std_logic_vector(31 downto 0);
-  signal s_WE : std_logic_vector(31 downto 0);
-  signal s_o_Q : reg_array;
+  signal s_o_Q        : reg_array;
 
   component decoder_5t32 is 
     port (i_5 : in std_logic_vector(4 downto 0);
@@ -48,10 +47,7 @@ begin
       o_32 => s_Rd_decoded
     );
 
-
   gen_regs : for i in 0 to 31 generate
-    s_WE(i) <= s_Rd_decoded(i) and RegWrite;
-
     -- Register 0 is hardwired to 0
     zero_reg : if i = 0 generate
       s_o_Q(0) <= (others => '0');
@@ -63,7 +59,7 @@ begin
         port map (
           i_CLK => clk,
           i_RST => rst,
-          i_WE => s_WE(i),
+          i_WE => s_Rd_decoded(i) and RegWrite,
           i_D => DATA_IN,
           o_Q => s_o_Q(i)
         );

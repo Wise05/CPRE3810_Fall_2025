@@ -29,9 +29,9 @@ begin
     G_NBIT_REGISTER: for i in 0 to N-1 generate
         REGI: dffg port map (
             i_CLK => i_CLK,
-            i_RST => i_RST,
+            iRST => i_RST,
             i_WE => i_WE,
-            i_D => i_D(i),
+            iD => i_D(i),
             o_Q => o_Q(i)
         );
     end generate G_NBIT_REGISTER;
