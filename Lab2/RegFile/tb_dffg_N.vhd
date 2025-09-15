@@ -8,7 +8,6 @@ end tb_dffg;
 
 architecture behavior of tb_dffg is
   
-  -- Calculate the clock period as twice the half-period
   constant cCLK_PER  : time := gCLK_HPER * 2;
 
 
@@ -21,7 +20,6 @@ architecture behavior of tb_dffg is
          o_Q          : out std_logic_vector(N-1 downto 0));   -- Data value output
   end component;
 
-  -- Temporary signals to connect to the dff component.
   signal s_CLK, s_RST, s_WE  : std_logic;
   signal s_D, s_Q : std_logic_vector(DATA_WIDTH-1 downto 0);
 
@@ -34,9 +32,6 @@ begin
            i_D   => s_D,
            o_Q   => s_Q);
 
-  -- This process sets the clock value (low for gCLK_HPER, then high
-  -- for gCLK_HPER). Absent a "wait" command, processes restart 
-  -- at the beginning once they have reached the final statement.
   P_CLK: process
   begin
     s_CLK <= '0';
@@ -48,7 +43,6 @@ begin
   -- Testbench process  
   P_TB: process
   begin
-    -- Reset the FF
     s_RST <= '1';
     s_WE  <= '0';
     s_D   <= x"00000000";
