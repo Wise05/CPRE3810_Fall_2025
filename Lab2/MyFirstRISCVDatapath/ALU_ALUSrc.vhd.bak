@@ -39,6 +39,7 @@ architecture structural of ALU_ALUSrc is
 begin 
 
   SRC : mux2t1_32bits 
+    generic map (N => 32)
     port map (
       i_D => B_i,
       i_imm => Imm,

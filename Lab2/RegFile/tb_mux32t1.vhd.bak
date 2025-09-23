@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
-use work.regfile_pkg.all;  
+use work.regfile_pkg.all;  -- brings in reg_array type
 
 entity tb_mux_32t1 is
 end tb_mux_32t1;
@@ -9,7 +9,7 @@ end tb_mux_32t1;
 architecture sim of tb_mux_32t1 is
   constant cCLK_PER : time := 10 ns;
 
-
+  -- DUT component
   component mux_32t1 is
     port (
       i_32 : in  reg_array;
@@ -18,11 +18,13 @@ architecture sim of tb_mux_32t1 is
     );
   end component;
 
+  -- signals
   signal s_i32 : reg_array := (others => (others => '0'));
   signal s_sel : std_logic_vector(4 downto 0) := (others => '0');
   signal s_out : std_logic_vector(31 downto 0);
 
 begin
+  -- DUT instantiation
   DUT : mux_32t1
     port map (
       i_32 => s_i32,
@@ -30,6 +32,7 @@ begin
       o_1  => s_out
     );
 
+  -- Test process
   P_TB : process
   begin
     -- Test case 1: Select register 0
@@ -62,7 +65,7 @@ begin
     wait for cCLK_PER;
     -- Expect o_1 = CAFEBABE
 
-    wait;
+    wait; -- stop simulation
   end process;
 end sim;
 

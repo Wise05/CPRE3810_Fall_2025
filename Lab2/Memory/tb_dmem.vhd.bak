@@ -96,7 +96,7 @@ begin
             wait for gCLK_HPER/2;
             wait for cCLK_PER;
         end loop;
-        wait;
+        wait
     end process;
 end architecture;
 

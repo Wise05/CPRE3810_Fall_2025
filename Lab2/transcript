@@ -12,34 +12,125 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-# Load canceled
-vsim work.tb_mux_32t1
-# vsim work.tb_mux_32t1 
-# Start time: 14:39:58 on Sep 14,2025
+vsim work.tb_dmem
+# vsim work.tb_dmem 
+# Start time: 18:46:58 on Sep 22,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.tb_mux_32t1(sim)#1
-quit -sim
-# End time: 14:40:10 on Sep 14,2025, Elapsed time: 0:00:12
-# Errors: 0, Warnings: 0
-vsim work.tb_mux_32t1 -voptargs=+acc
-# vsim work.tb_mux_32t1 -voptargs="+acc" 
-# Start time: 14:40:52 on Sep 14,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_mux_32t1(sim)#1
-# Loading work.mux_32t1(dataflow)#1
+# Loading work.tb_dmem(sim)#1
+run 0 ns  ;
+# ** Note: Starting dmem testbench...
+#    Time: 0 ns  Iteration: 0  Instance: /tb_dmem
 add wave -position insertpoint  \
-sim:/tb_mux_32t1/s_i32 \
-sim:/tb_mux_32t1/s_sel \
-sim:/tb_mux_32t1/s_out \
-sim:/tb_mux_32t1/cCLK_PER
-run 600
+sim:/tb_dmem/clk \
+sim:/tb_dmem/addr \
+sim:/tb_dmem/data \
+sim:/tb_dmem/we \
+sim:/tb_dmem/q \
+sim:/tb_dmem/temp_values \
+sim:/tb_dmem/gCLK_HPER \
+sim:/tb_dmem/cCLK_PER
+mem load -infile dmem.hex -format hex /tb_dmem/dmem/ram
+run -all
+
+quit -sim
+stop
+# End time: 18:51:31 on Sep 22,2025, Elapsed time: 0:04:33
+# Errors: 0, Warnings: 0
+# ** UI-Msg (Error): (vish-4000) A design must be loaded before the "mti_syncstop" command can be used.
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:52:31 on Sep 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_dmem
+# -- Compiling architecture sim of tb_dmem
+# -- Loading package ENV
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd(100): (vcom-1516) Package "STD.ENV" does not exist in this language version.
+# End time: 18:52:31 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:53:07 on Sep 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_dmem
+# -- Compiling architecture sim of tb_dmem
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd(100): near "end": (vcom-1576) expecting ';'.
+# End time: 18:53:07 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:55:13 on Sep 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_dmem
+# -- Compiling architecture sim of tb_dmem
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd(100): near "end": (vcom-1576) expecting ';'.
+# End time: 18:55:13 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:55:22 on Sep 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_dmem
+# -- Compiling architecture sim of tb_dmem
+# End time: 18:55:22 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_dmem
+# vsim work.tb_dmem 
+# Start time: 18:55:34 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_dmem(sim)#1
+add wave -position insertpoint  \
+sim:/tb_dmem/clk \
+sim:/tb_dmem/addr \
+sim:/tb_dmem/data \
+sim:/tb_dmem/we \
+sim:/tb_dmem/q \
+sim:/tb_dmem/temp_values \
+sim:/tb_dmem/gCLK_HPER \
+sim:/tb_dmem/cCLK_PER
+vsim work.tb_dmem
+# End time: 19:04:21 on Sep 22,2025, Elapsed time: 0:08:47
+# Errors: 0, Warnings: 0
+# vsim work.tb_dmem 
+# Start time: 19:04:21 on Sep 22,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_dmem(sim)#1
+add wave -position insertpoint  \
+sim:/tb_dmem/clk \
+sim:/tb_dmem/addr \
+sim:/tb_dmem/data \
+sim:/tb_dmem/we \
+sim:/tb_dmem/q \
+sim:/tb_dmem/temp_values \
+sim:/tb_dmem/gCLK_HPER \
+sim:/tb_dmem/cCLK_PER
+run 0 ns  ;
+mem load -infile dmem.hex -format hex /tb_dmem/dmem/ram
+run 2000

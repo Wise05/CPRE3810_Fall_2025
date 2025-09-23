@@ -19,5 +19,5 @@ begin
   with ALUSrc select
     o_O <= i_D when '0',
            i_imm when '1',
-           x"00000000" when others;
+           "0" when others;
 end behavior;

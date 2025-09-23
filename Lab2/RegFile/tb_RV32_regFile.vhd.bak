@@ -73,7 +73,6 @@ begin
         Rd      <= "00000";
         DATA_IN <= x"DEADBEEF";
         RegWrite <= '1';
-	wait for gCLK_HPER;
         wait until rising_edge(clk);
         RegWrite <= '0';
         wait for cCLK_PER;
@@ -82,7 +81,6 @@ begin
         Rd      <= "00001"; -- x1
         DATA_IN <= x"00000011";
         RegWrite <= '1';
-	wait for gCLK_HPER;
         wait until rising_edge(clk);
         RegWrite <= '0';
         wait for cCLK_PER;
@@ -90,7 +88,6 @@ begin
         Rd      <= "00010"; -- x2
         DATA_IN <= x"00000022";
         RegWrite <= '1';
-	wait for gCLK_HPER;
         wait until rising_edge(clk);
         RegWrite <= '0';
         wait for cCLK_PER;
@@ -98,7 +95,6 @@ begin
         Rd      <= "00011"; -- x3
         DATA_IN <= x"00000033";
         RegWrite <= '1';
-	wait for gCLK_HPER;
         wait until rising_edge(clk);
         RegWrite <= '0';
         wait for cCLK_PER;
