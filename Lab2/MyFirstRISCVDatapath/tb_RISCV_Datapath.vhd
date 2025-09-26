@@ -17,10 +17,25 @@ architecture tb of tb_RISCV_Datapath is
   signal nAdd_Sub : std_logic;
   signal C_out    : std_logic;
 
-  constant CLK_PERIOD : time := 10 ns;
+  constant gCLK_HPER : time := 5 ns;
+  constant cCLK_PER  : time := gCLK_HPER * 2;
+
+  component RISCV_Datapath is 
+    port (
+      clk : in std_logic;
+      rst : in std_logic;
+      RegWrite: in std_logic; -- write enable for entire RV32
+      Rd: in std_logic_vector(4 downto 0);
+      DATA_IN : in std_logic_vector(31 downto 0);
+      RS1 : in std_logic_vector(4 downto 0);
+      RS2 : in std_logic_vector(4 downto 0);
+      OS1 : out std_logic_vector(31 downto 0);
+      OS2 : out std_logic_vector(31 downto 0)
+    );
+  end component;
 
 begin
-  DUT: entity work.RISCV_Datapath
+  DUT: entity RISCV_Datapath
     port map (
       clk => clk,
       rst => rst,
@@ -38,20 +53,20 @@ begin
   clk_process : process
   begin
     clk <= '0';
-    wait for CLK_PERIOD/2;
+    wait for gCLK_HPER;
     clk <= '1';
-    wait for CLK_PERIOD/2;
+    wait for gCLK_HPER;
   end process;
 
   -- Test sequence
-  stim_proc : process
+  sim_proc : process
   begin
     -- Reset
     rst <= '1';
     RegWrite <= '0';
-    wait for 3*CLK_PERIOD;
+    wait for 3*cCLK_PER;
     rst <= '0';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- ADDI for all the needed regs
     for i in 1 to 10 loop
@@ -62,7 +77,7 @@ begin
       ALUSrc   <= '1';  
       nAdd_Sub <= '0'; 
       RegWrite <= '1';
-      wait for CLK_PERIOD;
+      wait for cCLK_PER;
     end loop;
 
     -- add x11, x1, x2
@@ -72,7 +87,7 @@ begin
     ALUSrc   <= '0'; 
     nAdd_Sub <= '0';
     RegWrite <= '1';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- sub x12, x11, x3
     Rd       <= "01100"; -- 12
@@ -80,56 +95,56 @@ begin
     RS2      <= "00011"; -- 3
     ALUSrc   <= '0';
     nAdd_Sub <= '1';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- add x13, x12, x4
     Rd       <= "01101";
     RS1      <= "01100";
     RS2      <= "00100";
     nAdd_Sub <= '0';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- sub x14, x13, x5
     Rd       <= "01110";
     RS1      <= "01101";
     RS2      <= "00101";
     nAdd_Sub <= '1';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- add x15, x14, x6
     Rd       <= "01111";
     RS1      <= "01110";
     RS2      <= "00110";
     nAdd_Sub <= '0';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- sub x16, x15, x7
     Rd       <= "10000";
     RS1      <= "01111";
     RS2      <= "00111";
     nAdd_Sub <= '1';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- add x17, x16, x8
     Rd       <= "10001";
     RS1      <= "10000";
     RS2      <= "01000";
     nAdd_Sub <= '0';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- sub x18, x17, x9
     Rd       <= "10010";
     RS1      <= "10001";
     RS2      <= "01001";
     nAdd_Sub <= '1';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- add x19, x18, x10
     Rd       <= "10011";
     RS1      <= "10010";
     RS2      <= "01010";
     nAdd_Sub <= '0';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- addi x20, zero, -35
     Rd       <= "10100";
@@ -137,7 +152,7 @@ begin
     imm      <= std_logic_vector(to_signed(-35, 32));
     ALUSrc   <= '1';
     nAdd_Sub <= '0';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     -- add x21, x19, x20
     Rd       <= "10101";
@@ -145,7 +160,7 @@ begin
     RS2      <= "10100";
     ALUSrc   <= '0';
     nAdd_Sub <= '0';
-    wait for CLK_PERIOD;
+    wait for cCLK_PER;
 
     RegWrite <= '0';
     wait;
