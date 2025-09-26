@@ -42,7 +42,7 @@ architecture tb of tb_RISCV_Datapath2 is
   end component;
 
 begin
-  DUT: entity work.RISCV_Datapath2
+  DUT: entity RISCV_Datapath2
   port map (
     clk => clk,
     rst => rst,

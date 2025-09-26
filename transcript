@@ -1,0 +1,290 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+cd /home/zevang/Documents/CPRE3810_Fall_2025/Lab2
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:22:44 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extender_Nt32
+# -- Compiling architecture Behavioral of extender_Nt32
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd(24): (vcom-1389) OTHERS aggregate cannot be operand of operator with unconstrained array formal.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd(28): (vcom-1389) OTHERS aggregate cannot be operand of operator with unconstrained array formal.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd(32): VHDL Compiler exiting
+# End time: 13:22:44 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:25:06 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extender_Nt32
+# -- Compiling architecture Behavioral of extender_Nt32
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd(24): (vcom-1389) OTHERS aggregate cannot be operand of operator with unconstrained array formal.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd(28): (vcom-1389) OTHERS aggregate cannot be operand of operator with unconstrained array formal.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd(43): VHDL Compiler exiting
+# End time: 13:25:06 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:28:43 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/extender_Nt32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extender_Nt32
+# -- Compiling architecture Behavioral of extender_Nt32
+# End time: 13:28:43 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/tb_extender_Nt32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:28:51 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Extenders/tb_extender_Nt32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_Extender
+# -- Compiling architecture sim of tb_Extender
+# End time: 13:28:51 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:29:05 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_dmem
+# -- Compiling architecture sim of tb_dmem
+# End time: 13:29:05 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:29:11 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RISCV_Datapath2
+# -- Compiling architecture structural of RISCV_Datapath2
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd(126): near "port": syntax error
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd(135): near "(": (vcom-1576) expecting MAP.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd(125): (vcom-1035) Formal port "clk" has OPEN or no actual associated with it.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd(125): (vcom-1035) Formal port "addr" has OPEN or no actual associated with it.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd(125): (vcom-1035) Formal port "data" has OPEN or no actual associated with it.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd(142): VHDL Compiler exiting
+# End time: 13:29:11 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:30:40 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RISCV_Datapath2
+# -- Compiling architecture structural of RISCV_Datapath2
+# End time: 13:30:40 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:30:46 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath2
+# -- Compiling architecture tb of tb_RISCV_Datapath2
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(23): near "constant": (vcom-1576) expecting ';'.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(24): (vcom-1136) Unknown identifier "gCLK_HPER".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(24): Type error resolving infix expression "*" as type std.STANDARD.TIME.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(60): Visible name 'RISCV_Datapath2' is not an entity. Use expanded name.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(66): (vcom-1136) Unknown identifier "gCLK_HPER".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(68): (vcom-1136) Unknown identifier "gCLK_HPER".
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(251): VHDL Compiler exiting
+# End time: 13:30:46 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:31:37 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath2
+# -- Compiling architecture tb of tb_RISCV_Datapath2
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(60): Visible name 'RISCV_Datapath2' is not an entity. Use expanded name.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(255): VHDL Compiler exiting
+# End time: 13:31:37 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:32:52 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RISCV_Datapath2
+# -- Compiling architecture structural of RISCV_Datapath2
+# End time: 13:32:52 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:32:55 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath2
+# -- Compiling architecture tb of tb_RISCV_Datapath2
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(60): Visible name 'RISCV_Datapath2' is not an entity. Use expanded name.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(255): VHDL Compiler exiting
+# End time: 13:32:55 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:33:32 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath2
+# -- Compiling architecture tb of tb_RISCV_Datapath2
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(60): Visible name 'RISCV_Datapath2' is not an entity. Use expanded name.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd(255): VHDL Compiler exiting
+# End time: 13:33:32 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:34:54 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RISCV_Datapath2
+# -- Compiling architecture structural of RISCV_Datapath2
+# End time: 13:34:54 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:35:51 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath2
+# -- Compiling architecture tb of tb_RISCV_Datapath2
+# -- Loading entity RISCV_Datapath2
+# End time: 13:35:51 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 13:36:05 on Sep 26,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath2
+# -- Compiling architecture tb of tb_RISCV_Datapath2
+# -- Loading entity RISCV_Datapath2
+# End time: 13:36:05 on Sep 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_riscv_datapath2 -voptargs=+acc
+# vsim work.tb_riscv_datapath2 -voptargs="+acc" 
+# Start time: 13:36:57 on Sep 26,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/ALU_ALUSrc.vhd(49): (vopt-3473) Component instance "Add_Sub : add_sub_N" is not bound.
+#         Region: /tb_RISCV_Datapath2/DUT/ALU
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_riscv_datapath2(tb)#1
+# Loading work.riscv_datapath2(structural)#1
+# Loading work.regfile_pkg(body)
+# Loading work.rv32_regfile(structural)#1
+# Loading work.decoder_5t32(dataflow)#1
+# Loading work.dffg_n(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux_32t1(dataflow)#1
+# Loading work.extender_nt32(behavioral)#1
+# Loading work.alu_alusrc(structural)#1
+# Loading work.mux2t1_32bits(behavior)#1
+# ** Warning: (vsim-3473) Component instance "Add_Sub : add_sub_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_riscv_datapath2/DUT/ALU File: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/ALU_ALUSrc.vhd
+# Loading work.mem(rtl)#1
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath2/DUT/ALU/C_out, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath2/C_out.
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath2/DUT/ALU/S_i(31 downto 10), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath2/DUT/ALU_s(31 downto 10).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath2/DUT/ALU/S_i(9 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath2/DUT/ALU_s(9 downto 0).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath2/DUT/C_out, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath2/C_out.
+add wave -position insertpoint  \
+sim:/tb_riscv_datapath2/clk \
+sim:/tb_riscv_datapath2/rst \
+sim:/tb_riscv_datapath2/RS1 \
+sim:/tb_riscv_datapath2/RS2 \
+sim:/tb_riscv_datapath2/RegWrite \
+sim:/tb_riscv_datapath2/Rd \
+sim:/tb_riscv_datapath2/imm \
+sim:/tb_riscv_datapath2/imm_sel \
+sim:/tb_riscv_datapath2/ALUSrc \
+sim:/tb_riscv_datapath2/nAdd_Sub \
+sim:/tb_riscv_datapath2/memToReg \
+sim:/tb_riscv_datapath2/memWrite \
+sim:/tb_riscv_datapath2/C_out \
+sim:/tb_riscv_datapath2/gCLK_HPER \
+sim:/tb_riscv_datapath2/cCLK_PER
+mem load -infile dmem.hex -format hex /tb_dmem/dmem/ram
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object '/tb_dmem/dmem/ram' not found.
+# 
+
+run 3000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /tb_riscv_datapath2/DUT/Memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 95 ns  Iteration: 1  Instance: /tb_riscv_datapath2/DUT/Memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 1  Instance: /tb_riscv_datapath2/DUT/Memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 1  Instance: /tb_riscv_datapath2/DUT/Memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 215 ns  Iteration: 1  Instance: /tb_riscv_datapath2/DUT/Memory
+quit -sim
+# End time: 13:48:29 on Sep 26,2025, Elapsed time: 0:11:32
+# Errors: 0, Warnings: 12

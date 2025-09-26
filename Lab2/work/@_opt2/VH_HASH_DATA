@@ -1,13 +1,67 @@
 [N
-4
+10
 2
 6 dffg_n
+10
+10 ADDR_WIDTH
 4
 1 N
+8
+3 rtl
+6
+10 behavioral
+5
+13 extender_nt32
+9
+10 DATA_WIDTH
 3
 10 structural
+7
+3 mem
 1
 51 /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/work
+]
+[G
+1
+5
+6
+1
+4
+1
+0
+12
+0
+0 0
+0
+0
+]
+[G
+1
+7
+8
+1
+10
+1
+0
+10
+0
+0 0
+0
+0
+]
+[G
+1
+7
+8
+1
+9
+1
+0
+32
+0
+0 0
+0
+0
 ]
 [G
 1
