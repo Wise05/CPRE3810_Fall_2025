@@ -12,125 +12,315 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vsim work.tb_dmem
-# vsim work.tb_dmem 
-# Start time: 18:46:58 on Sep 22,2025
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/RISCV_Datapath.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:48:25 on Sep 27,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/RISCV_Datapath.vhd 
+# -- Loading package STANDARD
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/RISCV_Datapath.vhd(1): near ";": syntax error
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/RISCV_Datapath.vhd(1): VHDL Compiler exiting
+# End time: 09:48:25 on Sep 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/RISCV_Datapath.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:48:48 on Sep 27,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/RISCV_Datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RISCV_Datapath
+# -- Compiling architecture structural of RISCV_Datapath
+# End time: 09:48:48 on Sep 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:48:51 on Sep 27,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath
+# -- Compiling architecture tb of tb_RISCV_Datapath
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd(38): Expecting a type name, found signal "OS1" instead.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd(38): Bad resolution function (STD_LOGIC) for type (error).
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd(38): near ":": (vcom-1576) expecting ';' or ')'.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd(39): VHDL Compiler exiting
+# End time: 09:48:51 on Sep 27,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/RISCV_Datapath.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:50:17 on Sep 27,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/RISCV_Datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RISCV_Datapath
+# -- Compiling architecture structural of RISCV_Datapath
+# End time: 09:50:17 on Sep 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:50:19 on Sep 27,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath
+# -- Compiling architecture tb of tb_RISCV_Datapath
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd(60): Visible name 'RISCV_Datapath' is not an entity. Use expanded name.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd(179): VHDL Compiler exiting
+# End time: 09:50:20 on Sep 27,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:50:42 on Sep 27,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath
+# -- Compiling architecture tb of tb_RISCV_Datapath
+# -- Loading entity RISCV_Datapath
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd(59): (vcom-1023) Positional association (signal "S_i") found after named association.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd(179): VHDL Compiler exiting
+# End time: 09:50:42 on Sep 27,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:51:09 on Sep 27,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath
+# -- Compiling architecture tb of tb_RISCV_Datapath
+# -- Loading entity RISCV_Datapath
+# End time: 09:51:09 on Sep 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:51:16 on Sep 27,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RISCV_Datapath2
+# -- Compiling architecture structural of RISCV_Datapath2
+# End time: 09:51:16 on Sep 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:51:19 on Sep 27,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_RISCV_Datapath2
+# -- Compiling architecture tb of tb_RISCV_Datapath2
+# End time: 09:51:19 on Sep 27,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_riscv_datapath
+# vsim work.tb_riscv_datapath 
+# Start time: 09:52:17 on Sep 27,2025
 # ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/ALU_ALUSrc.vhd(49): (vopt-3473) Component instance "Add_Sub : add_sub_N" is not bound.
+#         Region: /tb_RISCV_Datapath/DUT/ALU
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.tb_dmem(sim)#1
-run 0 ns  ;
-# ** Note: Starting dmem testbench...
-#    Time: 0 ns  Iteration: 0  Instance: /tb_dmem
+# Loading work.regfile_pkg(body)
+# Loading work.tb_riscv_datapath(tb)#1
+# Loading work.dffg_n(structural)#1
+# ** Warning: (vsim-3473) Component instance "Add_Sub : add_sub_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_riscv_datapath/DUT/ALU File: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/ALU_ALUSrc.vhd
 add wave -position insertpoint  \
-sim:/tb_dmem/clk \
-sim:/tb_dmem/addr \
-sim:/tb_dmem/data \
-sim:/tb_dmem/we \
-sim:/tb_dmem/q \
-sim:/tb_dmem/temp_values \
-sim:/tb_dmem/gCLK_HPER \
-sim:/tb_dmem/cCLK_PER
-mem load -infile dmem.hex -format hex /tb_dmem/dmem/ram
-run -all
-
+sim:/tb_riscv_datapath/clk \
+sim:/tb_riscv_datapath/rst \
+sim:/tb_riscv_datapath/RS1 \
+sim:/tb_riscv_datapath/RS2 \
+sim:/tb_riscv_datapath/RegWrite \
+sim:/tb_riscv_datapath/Rd \
+sim:/tb_riscv_datapath/imm \
+sim:/tb_riscv_datapath/ALUSrc \
+sim:/tb_riscv_datapath/nAdd_Sub \
+sim:/tb_riscv_datapath/C_out \
+sim:/tb_riscv_datapath/gCLK_HPER \
+sim:/tb_riscv_datapath/cCLK_PER
+add wave -position insertpoint  \
+sim:/tb_riscv_datapath/DUT/OS1_s \
+sim:/tb_riscv_datapath/DUT/OS2_s \
+sim:/tb_riscv_datapath/DUT/S_i_s
+run 500
 quit -sim
-stop
-# End time: 18:51:31 on Sep 22,2025, Elapsed time: 0:04:33
-# Errors: 0, Warnings: 0
-# ** UI-Msg (Error): (vish-4000) A design must be loaded before the "mti_syncstop" command can be used.
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 18:52:31 on Sep 22,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_dmem
-# -- Compiling architecture sim of tb_dmem
-# -- Loading package ENV
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd(100): (vcom-1516) Package "STD.ENV" does not exist in this language version.
-# End time: 18:52:31 on Sep 22,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 18:53:07 on Sep 22,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_dmem
-# -- Compiling architecture sim of tb_dmem
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd(100): near "end": (vcom-1576) expecting ';'.
-# End time: 18:53:07 on Sep 22,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 18:55:13 on Sep 22,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_dmem
-# -- Compiling architecture sim of tb_dmem
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd(100): near "end": (vcom-1576) expecting ';'.
-# End time: 18:55:13 on Sep 22,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 18:55:22 on Sep 22,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/Memory/tb_dmem.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_dmem
-# -- Compiling architecture sim of tb_dmem
-# End time: 18:55:22 on Sep 22,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.tb_dmem
-# vsim work.tb_dmem 
-# Start time: 18:55:34 on Sep 22,2025
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# End time: 09:53:41 on Sep 27,2025, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 2
+# Load canceled
+vsim work.riscv_datapath2
+# vsim work.riscv_datapath2 
+# Start time: 09:56:31 on Sep 27,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/ALU_ALUSrc.vhd(49): (vopt-3473) Component instance "Add_Sub : add_sub_N" is not bound.
+#         Region: /RISCV_Datapath2/ALU
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.regfile_pkg(body)
+# Loading ieee.numeric_std(body)
+# Loading work.riscv_datapath2(structural)#1
+# Loading work.dffg_n(structural)#1
+# ** Warning: (vsim-3473) Component instance "Add_Sub : add_sub_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /riscv_datapath2/ALU File: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/ALU_ALUSrc.vhd
+quit -sim
+# End time: 09:56:54 on Sep 27,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 2
+vsim work.tb_riscv_datapath -voptargs=+acc
+# vsim work.tb_riscv_datapath -voptargs="+acc" 
+# Start time: 09:57:09 on Sep 27,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/ALU_ALUSrc.vhd(49): (vopt-3473) Component instance "Add_Sub : add_sub_N" is not bound.
+#         Region: /tb_RISCV_Datapath/DUT/ALU
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.tb_dmem(sim)#1
+# Loading work.tb_riscv_datapath(tb)#1
+# Loading work.riscv_datapath(structural)#1
+# Loading work.regfile_pkg(body)
+# Loading work.rv32_regfile(structural)#1
+# Loading work.decoder_5t32(dataflow)#1
+# Loading work.dffg_n(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.mux_32t1(dataflow)#1
+# Loading work.alu_alusrc(structural)#1
+# Loading work.mux2t1_32bits(behavior)#1
+# ** Warning: (vsim-3473) Component instance "Add_Sub : add_sub_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_riscv_datapath/DUT/ALU File: /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/ALU_ALUSrc.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/C_out, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/C_out.
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(31), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(31).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(30), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(30).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(29), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(29).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(28), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(28).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(27), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(27).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(26), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(26).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(25), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(25).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(24), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(24).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(23), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(23).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(22), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(22).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(21), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(21).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(20), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(20).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(19), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(19).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(18), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(18).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(17), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(17).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(16), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(16).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(15), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(15).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(14), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(14).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(13), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(13).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(12), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(12).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(11), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(11).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(10), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(10).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(9), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(9).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(8), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(8).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(7), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(7).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(6), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(6).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(5), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(5).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(4), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(4).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(3), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(3).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(2), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(2).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(1), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(1).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/ALU/S_i(0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/DUT/S_i_s(0).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_riscv_datapath/DUT/C_out, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_riscv_datapath/C_out.
 add wave -position insertpoint  \
-sim:/tb_dmem/clk \
-sim:/tb_dmem/addr \
-sim:/tb_dmem/data \
-sim:/tb_dmem/we \
-sim:/tb_dmem/q \
-sim:/tb_dmem/temp_values \
-sim:/tb_dmem/gCLK_HPER \
-sim:/tb_dmem/cCLK_PER
-vsim work.tb_dmem
-# End time: 19:04:21 on Sep 22,2025, Elapsed time: 0:08:47
-# Errors: 0, Warnings: 0
-# vsim work.tb_dmem 
-# Start time: 19:04:21 on Sep 22,2025
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_dmem(sim)#1
-add wave -position insertpoint  \
-sim:/tb_dmem/clk \
-sim:/tb_dmem/addr \
-sim:/tb_dmem/data \
-sim:/tb_dmem/we \
-sim:/tb_dmem/q \
-sim:/tb_dmem/temp_values \
-sim:/tb_dmem/gCLK_HPER \
-sim:/tb_dmem/cCLK_PER
-run 0 ns  ;
-mem load -infile dmem.hex -format hex /tb_dmem/dmem/ram
-run 2000
+sim:/tb_riscv_datapath/clk \
+sim:/tb_riscv_datapath/rst \
+sim:/tb_riscv_datapath/RS1 \
+sim:/tb_riscv_datapath/RS2 \
+sim:/tb_riscv_datapath/RegWrite \
+sim:/tb_riscv_datapath/Rd \
+sim:/tb_riscv_datapath/imm \
+sim:/tb_riscv_datapath/ALUSrc \
+sim:/tb_riscv_datapath/nAdd_Sub \
+sim:/tb_riscv_datapath/C_out \
+sim:/tb_riscv_datapath/OS1 \
+sim:/tb_riscv_datapath/OS2 \
+sim:/tb_riscv_datapath/S_i
+run 500
+# End time: 09:58:55 on Sep 27,2025, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 37

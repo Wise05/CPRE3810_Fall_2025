@@ -56,7 +56,7 @@ begin
       C_out => C_out,
       OS1 => OS1,
       OS2 => OS2,
-      S_i => S_i
+      S_i
     );
 
   -- Clock generation
