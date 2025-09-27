@@ -12,14 +12,14 @@ entity RISCV_Datapath is
     imm : in std_logic_vector(31 downto 0);
     ALUSrc : in std_logic;
     nAdd_Sub : in std_logic; -- 0 => add, 1 => subtract
-    C_out: out std_logic
+    C_out: out std_logic;
+    OS1 : out std_logic_vector(31 downto 0);
+    OS2 : out std_logic_vector(31 downto 0);
+    S_i : out std_logic_vector(31 downto 0);
   );
 end RISCV_Datapath;
 
 architecture structural of RISCV_Datapath is 
-  signal OS1_s : std_logic_vector(31 downto 0);
-  signal OS2_s : std_logic_vector(31 downto 0);
-  signal S_i   : std_logic_vector(31 downto 0);
 
   component ALU_ALUSrc is
     port (
@@ -58,14 +58,14 @@ begin
       DATA_IN => S_i,     -- ALU result fed back into register file
       RS1 => RS1,
       RS2 => RS2,
-      OS1 => OS1_s,
-      OS2 => OS2_s
+      OS1 => OS1,
+      OS2 => OS2
     );
 
   ALU : ALU_ALUSrc
     port map (
-      A_i => OS1_s, 
-      B_i => OS2_s,    
+      A_i => OS1, 
+      B_i => OS2,    
       Imm => imm, 
       ALUSrc => ALUSrc,
       nAdd_Sub => nAdd_Sub, 
@@ -74,4 +74,4 @@ begin
     );
 
 end structural;
-
+s

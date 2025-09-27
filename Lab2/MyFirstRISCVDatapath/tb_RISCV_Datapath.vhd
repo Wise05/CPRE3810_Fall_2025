@@ -16,6 +16,9 @@ architecture tb of tb_RISCV_Datapath is
   signal ALUSrc   : std_logic;
   signal nAdd_Sub : std_logic;
   signal C_out    : std_logic;
+  signal  OS1 : std_logic_vector(31 downto 0);
+  signal OS2 : std_logic_vector(31 downto 0);
+  signal S_i : std_logic_vector(31 downto 0);
 
   constant gCLK_HPER : time := 5 ns;
   constant cCLK_PER  : time := gCLK_HPER * 2;
@@ -32,6 +35,9 @@ architecture tb of tb_RISCV_Datapath is
       ALUSrc : in std_logic;
       nAdd_Sub : in std_logic; -- 0 => add, 1 => subtract
       C_out: out std_logic
+      OS1 : out std_logic_vector(31 downto 0);
+      OS2 : out std_logic_vector(31 downto 0);
+      S_i : out std_logic_vector(31 downto 0);
     );
   end component;
 
@@ -47,7 +53,10 @@ begin
       imm => imm,
       ALUSrc => ALUSrc,
       nAdd_Sub => nAdd_Sub,
-      C_out => C_out
+      C_out => C_out,
+      OS1 => OS1,
+      OS2 => OS2,
+      S_i
     );
 
   -- Clock generation

@@ -15,41 +15,41 @@ entity RISCV_Datapath2 is
     nAdd_Sub : in std_logic; -- 0 => add, 1 => subtract
     memToReg : in std_logic;
     memWrite : in std_logic;
-    C_out: out std_logic
+    C_out: out std_logic;
+    OS1 : out std_logic_vector(31 downto 0);
+    OS2 : out std_logic_vector(31 downto 0);
+    S_i : out std_logic_vector(31 downto 0)
     );
 end RISCV_Datapath2;
 
 architecture structural of RISCV_Datapath2 is 
-  signal OS1_s : std_logic_vector(31 downto 0);
-  signal OS2_s : std_logic_vector(31 downto 0);
-  signal ALU_s : std_logic_vector(31 downto 0);
   signal immExt_s : std_logic_vector(31 downto 0);
   signal memQ_s : std_logic_vector(31 downto 0);
   signal DATA_IN_s : std_logic_vector(31 downto 0);
 
   component ALU_ALUSrc is 
     port (
-      A_i      : in std_logic_vector(31 downto 0);
-      B_i      : in std_logic_vector(31 downto 0);
-      Imm      : in std_logic_vector(31 downto 0);
-      ALUSrc   : in std_logic;
+      A_i : in std_logic_vector(31 downto 0);
+      B_i : in std_logic_vector(31 downto 0);
+      Imm : in std_logic_vector(31 downto 0);
+      ALUSrc : in std_logic;
       nAdd_Sub : in std_logic;
-      C_out    : out std_logic;
-      S_i      : out std_logic_vector(31 downto 0)
+      C_out : out std_logic;
+      S_i : out std_logic_vector(31 downto 0)
     );
   end component;
 
   component RV32_regFile is 
     port (
-      clk      : in std_logic;
-      rst      : in std_logic;
+      clk : in std_logic;
+      rst : in std_logic;
       RegWrite : in std_logic; 
-      Rd       : in std_logic_vector(4 downto 0);
-      DATA_IN  : in std_logic_vector(31 downto 0);
-      RS1      : in std_logic_vector(4 downto 0);
-      RS2      : in std_logic_vector(4 downto 0);
-      OS1      : out std_logic_vector(31 downto 0);
-      OS2      : out std_logic_vector(31 downto 0)
+      Rd : in std_logic_vector(4 downto 0);
+      DATA_IN : in std_logic_vector(31 downto 0);
+      RS1 : in std_logic_vector(4 downto 0);
+      RS2 : in std_logic_vector(4 downto 0);
+      OS1 : out std_logic_vector(31 downto 0);
+      OS2 : out std_logic_vector(31 downto 0)
     );
   end component;
 
@@ -98,8 +98,8 @@ begin
       DATA_IN => DATA_IN_s,
       RS1 => RS1,
       RS2 => RS2, 
-      OS1 => OS1_s,
-      OS2 => OS2_s
+      OS1 => OS1,
+      OS2 => OS2
     );
 
   Extender : extender_Nt32 
@@ -112,28 +112,28 @@ begin
 
   ALU : ALU_ALUSrc 
     port map (
-      A_i => OS1_s,
-      B_i => OS2_s,
+      A_i => OS1,
+      B_i => OS2,
       Imm => immExt_s,
       ALUSrc => ALUSrc,
       nAdd_Sub => nAdd_Sub,
       C_out => C_out,
-      S_i => ALU_s
+      S_i => S_i
     );
 
   Memory : mem
     generic map (DATA_WIDTH => 32, ADDR_WIDTH => 10)
     port map (
       clk => clk,
-      addr => ALU_s(9 downto 0),
-      data => OS2_s,
+      addr => S_i(9 downto 0),
+      data => OS2,
       we => memWrite,
       q => memQ_s
     );
 
     Load_Src : mux2t1_32bits  
       port map (
-        i_D => ALU_s,
+        i_D => S_i,
         i_imm => memQ_s,
         ALUSrc => memToReg,
         o_O => DATA_IN_s
