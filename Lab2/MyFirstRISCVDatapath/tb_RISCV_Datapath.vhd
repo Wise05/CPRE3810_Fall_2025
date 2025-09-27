@@ -22,15 +22,16 @@ architecture tb of tb_RISCV_Datapath is
 
   component RISCV_Datapath is 
     port (
-      clk : in std_logic;
+      clk: in std_logic;
       rst : in std_logic;
-      RegWrite: in std_logic; -- write enable for entire RV32
-      Rd: in std_logic_vector(4 downto 0);
-      DATA_IN : in std_logic_vector(31 downto 0);
       RS1 : in std_logic_vector(4 downto 0);
       RS2 : in std_logic_vector(4 downto 0);
-      OS1 : out std_logic_vector(31 downto 0);
-      OS2 : out std_logic_vector(31 downto 0)
+      RegWrite : in std_logic;
+      Rd : in std_logic_vector(4 downto 0);
+      imm : in std_logic_vector(31 downto 0);
+      ALUSrc : in std_logic;
+      nAdd_Sub : in std_logic; -- 0 => add, 1 => subtract
+      C_out: out std_logic
     );
   end component;
 
