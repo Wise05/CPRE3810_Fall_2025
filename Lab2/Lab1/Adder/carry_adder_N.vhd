@@ -15,17 +15,19 @@ end carry_adder_N;
 
 architecture structural of carry_adder_N is
 
-signal carry : std_logic_vector(N-1 downto 0);
+  signal carry : std_logic_vector(N downto 0);  -- N+1 bits
 
-component full_adder is 
-port (A : in std_logic;
-	B : in std_logic;
-	Cin : in std_logic;
-	S : out std_logic;
-	Cout : out std_logic);
-end component;
+  component full_adder is 
+    port (
+      A    : in std_logic;
+      B    : in std_logic;
+      Cin  : in std_logic;
+      S    : out std_logic;
+      Cout : out std_logic
+    );
+  end component;
 
-begin 
+begin
 
   carry(0) <= C_in;  
 
@@ -43,5 +45,3 @@ begin
   C_out <= carry(N);
 
 end structural;
-		
-	

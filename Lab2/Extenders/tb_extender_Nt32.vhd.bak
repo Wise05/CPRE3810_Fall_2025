@@ -24,7 +24,7 @@ architecture sim of tb_extender_Nt32 is
 
 begin
   -- Instantiate the DUT
-  DUT: extender_Nt32
+  DUT: Extender
     generic map (N => 12)
     port map (
       imm_in => imm_in,

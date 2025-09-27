@@ -1,1 +1,1 @@
-/usr/local/mentor/questasim/linux_x86_64/VisualizerRls/bin/viscom -nolock -quiet -jmem_size 16023840 work.riscv_datapath2 -quiet -auto_acc_if_foreign -work work -allow_unnamed -o _opt1 -id 1-000ae431a4f1-68d7fb1f-863aa-21b6
+/usr/local/mentor/questasim/linux_x86_64/VisualizerRls/bin/viscom -nolock -quiet -jmem_size 16023840 work.tb_mux2t1_32bits -quiet -auto_acc_if_foreign -work work -allow_unnamed -o _opt1 -id 1-000ae431a4f1-68d8756e-8c643-4a1b

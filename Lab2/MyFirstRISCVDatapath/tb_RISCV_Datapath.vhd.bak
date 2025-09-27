@@ -42,7 +42,7 @@ architecture tb of tb_RISCV_Datapath is
   end component;
 
 begin
-  DUT: entity work.RISCV_Datapath
+  DUT: entity RISCV_Datapath
     port map (
       clk => clk,
       rst => rst,
@@ -56,7 +56,7 @@ begin
       C_out => C_out,
       OS1 => OS1,
       OS2 => OS2,
-      S_i
+      S_i => S_i
     );
 
   -- Clock generation
