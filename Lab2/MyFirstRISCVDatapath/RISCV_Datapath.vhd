@@ -1,4 +1,4 @@
-library IEEE;
+;library IEEE;
 use IEEE.std_logic_1164.all;
 
 entity RISCV_Datapath is 
@@ -15,12 +15,15 @@ entity RISCV_Datapath is
     C_out: out std_logic;
     OS1 : out std_logic_vector(31 downto 0);
     OS2 : out std_logic_vector(31 downto 0);
-    S_i : out std_logic_vector(31 downto 0);
+    S_i : out std_logic_vector(31 downto 0)
   );
 end RISCV_Datapath;
 
 architecture structural of RISCV_Datapath is 
-
+  signal OS1_s : std_logic_vector(31 downto 0);
+  signal OS2_s : std_logic_vector(31 downto 0);
+  signal S_i_s : std_logic_vector(31 downto 0);
+  
   component ALU_ALUSrc is
     port (
       A_i      : in std_logic_vector(31 downto 0);
@@ -32,7 +35,7 @@ architecture structural of RISCV_Datapath is
       S_i      : out std_logic_vector(31 downto 0)
     );
   end component;
-
+  
   component RV32_regFile is 
     port (
       clk      : in std_logic;
@@ -48,30 +51,32 @@ architecture structural of RISCV_Datapath is
   end component;
 
 begin
-
   Reg_File : RV32_regFile 
     port map (
       clk => clk,
       rst => rst,
       RegWrite => RegWrite,
       Rd => Rd,
-      DATA_IN => S_i,     -- ALU result fed back into register file
+      DATA_IN => S_i_s,
       RS1 => RS1,
       RS2 => RS2,
-      OS1 => OS1,
-      OS2 => OS2
+      OS1 => OS1_s,
+      OS2 => OS2_s
     );
-
+    
   ALU : ALU_ALUSrc
     port map (
-      A_i => OS1, 
-      B_i => OS2,    
+      A_i => OS1_s,
+      B_i => OS2_s,
       Imm => imm, 
       ALUSrc => ALUSrc,
       nAdd_Sub => nAdd_Sub, 
       C_out => C_out,
-      S_i => S_i
+      S_i => S_i_s
     );
-
+    
+  OS1 <= OS1_s;
+  OS2 <= OS2_s;
+  S_i <= S_i_s;
+  
 end structural;
-s
