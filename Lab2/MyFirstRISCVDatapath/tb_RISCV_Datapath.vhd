@@ -75,7 +75,7 @@ begin
     RegWrite <= '0';
     RS1      <= (others => '0');
     RS2      <= (others => '0');
-    Rd       <- (others => '0');
+    Rd       <= (others => '0');
     imm      <= (others => '0');
     ALUSrc   <= '0';
     nAdd_Sub <= '0';
