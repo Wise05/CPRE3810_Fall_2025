@@ -14,10 +14,10 @@ architecture sim of tb_mux2t1_32bits is
   -- Component under test
   component mux2t1_32bits is
     port(
-      i_D    : in  std_logic_vector(31 downto 0);
-      i_imm  : in  std_logic_vector(31 downto 0);
+      i_D : in  std_logic_vector(31 downto 0);
+      i_imm : in  std_logic_vector(31 downto 0);
       ALUSrc : in  std_logic;
-      o_O    : out std_logic_vector(31 downto 0)
+      o_O : out std_logic_vector(31 downto 0)
     );
   end component;
 
@@ -30,17 +30,17 @@ begin
   -- DUT instantiation
   uut: mux2t1_32bits
     port map (
-      i_D    => i_D,
-      i_imm  => i_imm,
+      i_D => i_D,
+      i_imm => i_imm,
       ALUSrc => ALUSrc,
-      o_O    => o_O
+      o_O => o_O
     );
 
   -- Stimulus process
   stim_proc: process
   begin
     -- Initial values
-    i_D   <= x"AAAAAAAA";
+    i_D <= x"AAAAAAAA";
     i_imm <= x"55555555";
 
     -- Test case 1: Select i_D

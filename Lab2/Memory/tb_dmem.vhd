@@ -13,11 +13,11 @@ architecture sim of tb_dmem is
     constant gCLK_HPER : time := 5 ns;       
     constant cCLK_PER  : time := gCLK_HPER * 2;
 
-    signal clk   : std_logic := '0';
-    signal addr  : std_logic_vector(ADDR_WIDTH-1 downto 0) := (others => '0');
-    signal data  : std_logic_vector(DATA_WIDTH-1 downto 0) := (others => '0');
-    signal we    : std_logic := '0';
-    signal q     : std_logic_vector(DATA_WIDTH-1 downto 0);
+    signal clk : std_logic := '0';
+    signal addr : std_logic_vector(ADDR_WIDTH-1 downto 0) := (others => '0');
+    signal data : std_logic_vector(DATA_WIDTH-1 downto 0) := (others => '0');
+    signal we : std_logic := '0';
+    signal q : std_logic_vector(DATA_WIDTH-1 downto 0);
 
     -- storage for read values
     type mem_array_t is array (0 to 9) of std_logic_vector(DATA_WIDTH-1 downto 0);
@@ -32,11 +32,11 @@ generic
 
 	port 
 	(
-		clk		: in std_logic;
-		addr	        : in std_logic_vector((ADDR_WIDTH-1) downto 0);
-		data	        : in std_logic_vector((DATA_WIDTH-1) downto 0);
-		we		: in std_logic := '1';
-		q		: out std_logic_vector((DATA_WIDTH -1) downto 0)
+		clk : in std_logic;
+		addr : in std_logic_vector((ADDR_WIDTH-1) downto 0);
+		data : in std_logic_vector((DATA_WIDTH-1) downto 0);
+		we : in std_logic := '1';
+		q	: out std_logic_vector((DATA_WIDTH -1) downto 0)
 	);
 
 end component;
@@ -61,11 +61,11 @@ begin
             ADDR_WIDTH => ADDR_WIDTH
         )
         port map (
-            clk  => clk,
+            clk => clk,
             addr => addr,
             data => data,
-            we   => we,
-            q    => q
+            we => we,
+            q => q
         );
 
     -- Test sequence
@@ -84,9 +84,9 @@ begin
         for i in 0 to 9 loop
             addr <= std_logic_vector(to_unsigned(16#100# + i, ADDR_WIDTH));
             data <= temp_values(i);
-            we   <= '1';
+            we <= '1';
             wait until rising_edge(clk);  -- write on clock
-            we   <= '0';
+            we <= '0';
             wait for cCLK_PER;
         end loop;
 

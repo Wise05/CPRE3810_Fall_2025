@@ -124,7 +124,7 @@ begin
       -- Load immediate value into x3
       RS1 <= "00000";  -- x0
       Rd <= "00011";   -- x3
-      imm <= std_logic_vector(to_unsigned((i+1)*10, 12));  -- 10, 20, 30, 40, 50, 60, 70
+      imm <= std_logic_vector(to_unsigned((i+1)*10, 12));
       ALUSrc <= '1';
       RegWrite <= '1';
       memToReg <= '0';

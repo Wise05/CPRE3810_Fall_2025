@@ -21,11 +21,11 @@ architecture structural of ALU_ALUSrc is
   component add_sub_N is 
     generic(N : integer := 16);
     port (
-      A_i      : in  std_logic_vector(N-1 downto 0);
-      B_i      : in  std_logic_vector(N-1 downto 0);
+      A_i : in  std_logic_vector(N-1 downto 0);
+      B_i : in  std_logic_vector(N-1 downto 0);
       nAdd_Sub : in  std_logic;  -- 0 => Add, 1 => Subtract
-      S_i      : out std_logic_vector(N-1 downto 0);
-      C_out    : out std_logic
+      S_i : out std_logic_vector(N-1 downto 0);
+      C_out : out std_logic
     );
   end component;
 

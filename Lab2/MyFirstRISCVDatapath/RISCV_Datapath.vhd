@@ -26,27 +26,27 @@ architecture structural of RISCV_Datapath is
   
   component ALU_ALUSrc is
     port (
-      A_i      : in std_logic_vector(31 downto 0);
-      B_i      : in std_logic_vector(31 downto 0);
-      Imm      : in std_logic_vector(31 downto 0);
-      ALUSrc   : in std_logic;
+      A_i : in std_logic_vector(31 downto 0);
+      B_i : in std_logic_vector(31 downto 0);
+      Imm : in std_logic_vector(31 downto 0);
+      ALUSrc : in std_logic;
       nAdd_Sub : in std_logic;
-      C_out    : out std_logic;
-      S_i      : out std_logic_vector(31 downto 0)
+      C_out : out std_logic;
+      S_i : out std_logic_vector(31 downto 0)
     );
   end component;
   
   component RV32_regFile is 
     port (
-      clk      : in std_logic;
-      rst      : in std_logic;
+      clk : in std_logic;
+      rst : in std_logic;
       RegWrite : in std_logic; 
-      Rd       : in std_logic_vector(4 downto 0);
-      DATA_IN  : in std_logic_vector(31 downto 0);
-      RS1      : in std_logic_vector(4 downto 0);
-      RS2      : in std_logic_vector(4 downto 0);
-      OS1      : out std_logic_vector(31 downto 0);
-      OS2      : out std_logic_vector(31 downto 0)
+      Rd : in std_logic_vector(4 downto 0);
+      DATA_IN : in std_logic_vector(31 downto 0);
+      RS1 : in std_logic_vector(4 downto 0);
+      RS2 : in std_logic_vector(4 downto 0);
+      OS1 : out std_logic_vector(31 downto 0);
+      OS2 : out std_logic_vector(31 downto 0)
     );
   end component;
 

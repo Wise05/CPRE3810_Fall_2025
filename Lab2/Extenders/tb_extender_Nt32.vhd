@@ -12,15 +12,15 @@ architecture sim of tb_extender_Nt32 is
       N : integer := 12
     );
     port (
-      imm_in     : in  std_logic_vector(N-1 downto 0);
-      sign_ext   : in  std_logic; -- '1' = sign extend, '0' = zero extend
-      imm_out    : out std_logic_vector(31 downto 0)
+      imm_in : in  std_logic_vector(N-1 downto 0);
+      sign_ext : in  std_logic; -- '1' = sign extend, '0' = zero extend
+      imm_out : out std_logic_vector(31 downto 0)
     );
   end component;
 
-  signal imm_in   : std_logic_vector(11 downto 0);  
+  signal imm_in : std_logic_vector(11 downto 0);  
   signal sign_ext : std_logic;
-  signal imm_out  : std_logic_vector(31 downto 0);
+  signal imm_out : std_logic_vector(31 downto 0);
 
 begin
   -- Instantiate the DUT
@@ -35,7 +35,7 @@ begin
   stim_proc: process
   begin
     -- Case 1: zero extend small positive value
-    imm_in   <= "000000000101"; -- 5 decimal
+    imm_in   <= "000000000101";
     sign_ext <= '0';
     wait for 10 ns;
 

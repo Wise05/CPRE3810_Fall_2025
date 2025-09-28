@@ -8,9 +8,9 @@ generic (
 N : integer := 12
 );
 port (
-imm_in   : in  std_logic_vector(N-1 downto 0);
+imm_in : in  std_logic_vector(N-1 downto 0);
 sign_ext : in  std_logic; -- '1' = sign extend, '0' = zero extend
-imm_out  : out std_logic_vector(31 downto 0)
+imm_out : out std_logic_vector(31 downto 0)
 );
 end entity extender_Nt32;
 
