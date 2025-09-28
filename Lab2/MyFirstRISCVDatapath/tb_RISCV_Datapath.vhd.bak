@@ -71,15 +71,6 @@ begin
   -- Test sequence
   sim_proc : process
   begin
-    -- Initialize all control signals
-    RegWrite <= '0';
-    RS1      <= (others => '0');
-    RS2      <= (others => '0');
-    Rd       <- (others => '0');
-    imm      <= (others => '0');
-    ALUSrc   <= '0';
-    nAdd_Sub <= '0';
-    
     -- Reset
     rst <= '1';
     wait for 3*cCLK_PER;

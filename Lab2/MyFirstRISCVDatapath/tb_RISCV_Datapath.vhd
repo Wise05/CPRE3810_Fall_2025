@@ -71,15 +71,6 @@ begin
   -- Test sequence
   sim_proc : process
   begin
-    -- Initialize all control signals
-    RegWrite <= '0';
-    RS1      <= (others => '0');
-    RS2      <= (others => '0');
-    Rd       <= (others => '0');
-    imm      <= (others => '0');
-    ALUSrc   <= '0';
-    nAdd_Sub <= '0';
-    
     -- Reset
     rst <= '1';
     wait for 3*cCLK_PER;
@@ -87,8 +78,7 @@ begin
     wait for cCLK_PER;
 
     -- ADDI for all the needed regs
-    for i in 1 to 10 loop
-      -- Set up the instruction first
+    for i in 1 to 10 loo
       Rd       <= std_logic_vector(to_unsigned(i, 5));
       RS1      <= (others => '0');  
       RS2      <= (others => '0');
@@ -96,9 +86,7 @@ begin
       ALUSrc   <= '1';  
       nAdd_Sub <= '0'; 
       RegWrite <= '1';
-      -- Wait for signals to settle before clock edge
       wait for 1 ns;
-      -- Wait for clock edge
       wait for cCLK_PER;
     end loop;
 

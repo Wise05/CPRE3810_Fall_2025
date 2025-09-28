@@ -1,19 +1,21 @@
 m255
 K4
 z2
-Z0 !s12c _opt
+Z0 !s12c _opt1
 Z1 !s99 nomlopt
-Z2 !s12c _opt2
+Z2 !s12c _opt
 R1
-Z3 !s12c _opt1
+R2
+R1
+Z3 !s12c _opt2
 R1
 R0
 R1
 R2
 R1
-R2
+R3
 R1
-R2
+R3
 R1
 R3
 R1
@@ -35,19 +37,7 @@ R2
 R1
 R3
 R1
-R3
-R1
 R0
-R1
-R2
-R1
-R3
-R1
-R3
-R1
-R0
-R1
-R2
 R1
 R0
 R1
@@ -56,6 +46,20 @@ R1
 R3
 R1
 R0
+R1
+R0
+R1
+R2
+R1
+R3
+R1
+R2
+R1
+R3
+R1
+R0
+R1
+R2
 R1
 !s11e MIXED_VERSIONS
 13
@@ -66,10 +70,10 @@ R1
 cModel Technology
 Z4 d/home/zevang/Documents/CPRE3810_Fall_2025/Lab2
 T_opt
-!s110 1759018015
-VJkYmYROKK5_@SkdOn2FLG2
+!s110 1759018277
+VYgBX[`SZ`ZJ1@2>Sbh=4m1
 04 17 2 work tb_riscv_datapath tb 1
-=1-000ae431a4f1-68d87c1f-4fdf6-5849
+=1-000ae431a4f1-68d87d25-1f448-5a7c
 R1
 Z5 !s12f OEM100
 Z6 !s12b OEM100
@@ -79,11 +83,12 @@ Z9 o-quiet -auto_acc_if_foreign -work work
 Z10 tCvgOpt 0
 n@_opt
 Z11 OL;O;2025.1_2;82
+R4
 T_opt1
-!s110 1759016302
-VIBJ0e`i8BnnQ?WUV0WXd=2
-04 16 3 work tb_mux2t1_32bits sim 1
-=1-000ae431a4f1-68d8756e-8c643-4a1b
+!s110 1759018652
+VmhVJS?dOO?I^Ha_AnN:Nz2
+04 18 2 work tb_riscv_datapath2 tb 1
+=1-000ae431a4f1-68d87e9c-4c214-5d30
 R1
 R5
 R6
@@ -93,7 +98,6 @@ R9
 R10
 n@_opt1
 R11
-R4
 T_opt2
 !s110 1759016566
 VkoC4VX_C<3Tm8@^Oa;@_o3
@@ -1820,11 +1824,11 @@ R253
 R22
 R23
 Etb_riscv_datapath
-Z254 w1759017991
+Z254 w1759018252
 R24
 R13
 R14
-!i122 176
+!i122 177
 R4
 Z255 8/home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd
 Z256 F/home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd
@@ -1834,9 +1838,9 @@ VAQ=Jd_ZJ3J5<LTh2DSh6c0
 !s100 R^c2;i`CnOM98UHZSRf832
 R17
 32
-Z257 !s110 1759017993
+Z257 !s110 1759018262
 !i10b 1
-Z258 !s108 1759017993.000000
+Z258 !s108 1759018262.000000
 Z259 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd|
 Z260 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MyFirstRISCVDatapath/tb_RISCV_Datapath.vhd|
 !i113 0
@@ -1848,11 +1852,11 @@ R24
 R13
 R14
 DEx4 work 17 tb_riscv_datapath 0 22 AQ=Jd_ZJ3J5<LTh2DSh6c0
-!i122 176
+!i122 177
 l44
 L8 217
-VgJ_:aWQVNKDX=:<2@XGlM1
-!s100 W:4kFL8M;nEV:Xaj34VkE3
+VGBo`74oi_[hoU6g4RImAV2
+!s100 amUMQ2O=cajD`ETfHJQE_2
 R17
 32
 R257
@@ -1864,11 +1868,11 @@ R260
 R22
 R23
 Etb_riscv_datapath2
-Z261 w1758933542
+Z261 w1759018631
 R24
 R13
 R14
-!i122 125
+!i122 178
 R4
 Z262 8/home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd
 Z263 F/home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd
@@ -1878,9 +1882,9 @@ V?d6<?^`6RlF]B8e1V]hOj3
 !s100 bh3W^3DXPbKXaoZzgVk5S2
 R17
 32
-Z264 !s110 1758984679
+Z264 !s110 1759018639
 !i10b 1
-Z265 !s108 1758984679.000000
+Z265 !s108 1759018639.000000
 Z266 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd|
 Z267 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Lab2/MySecondRISC-VDatapath/tb_RISCV_Datapath2.vhd|
 !i113 0
@@ -1891,11 +1895,11 @@ R24
 R13
 R14
 DEx4 work 18 tb_riscv_datapath2 0 22 ?d6<?^`6RlF]B8e1V]hOj3
-!i122 125
+!i122 178
 l50
-L8 264
-VPfjGJ;ij=`KiTl@ZD5Yn83
-!s100 EHI>:k4]@dSSBXUkoD_z[3
+L8 284
+VgXSThJIfVJ>@7I^CNPko60
+!s100 e7Y?9<D<^EE0F9jMFNEPX2
 R17
 32
 R264

@@ -106,12 +106,14 @@ begin
     RegWrite <= '1';
     memToReg <= '0';
     memWrite <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- addi x26, x26, 256 # Load &B into x26, assuming x26 initially has 0x10010000
     RS1 <= "11010";
     Rd <= "11010";
     imm <= "100000000000";
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- lw x1, 0(x25) # Load A[0] into x1
@@ -121,12 +123,14 @@ begin
     ALUSrc <= '1';
     memToReg <= '1';
     RegWrite <= '1';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- lw x2, 4(x25) # Load A[1] into x2
     RS1 <= "11001";
     Rd <= "00010";
     imm <= "000000000100";
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- add x1, x1, x2 # x1 = x1 + x2
@@ -136,6 +140,7 @@ begin
     ALUSrc <= '0';
     nAdd_Sub <= '0';
     memToReg <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- sw x1, 0(x26) # Store x1 value into B[0]
@@ -145,6 +150,7 @@ begin
     ALUSrc <= '1';
     RegWrite <= '0';
     memWrite <= '1';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- lw x2, 8(x25) # Load A[2] into x2
@@ -155,6 +161,7 @@ begin
     RegWrite <= '1';
     memToReg <= '1';
     memWrite <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- add x1, x1, x2 # x1 = x1 + x2
@@ -163,6 +170,7 @@ begin
     Rd <= "00001";
     ALUSrc <= '0';
     memToReg <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- sw x1, 4(x26) # Store x1 value into B[1]
@@ -172,6 +180,7 @@ begin
     ALUSrc <= '1';
     RegWrite <= '0';
     memWrite <= '1';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- lw x2, 12(x25) # Load A[3] into x2
@@ -182,6 +191,7 @@ begin
     RegWrite <= '1';
     memToReg <= '1';
     memWrite <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- add x1, x1, x2 # x1 = x1 + x2  
@@ -190,6 +200,7 @@ begin
     Rd <= "00001";
     ALUSrc <= '0';
     memToReg <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- sw x1, 12(x26) # Store x1 value into B[3]
@@ -199,6 +210,7 @@ begin
     ALUSrc <= '1';
     RegWrite <= '0';
     memWrite <= '1';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- lw x2, 20(x25) # Load A[5] into x2
@@ -208,6 +220,7 @@ begin
     RegWrite <= '1';
     memToReg <= '1';
     memWrite <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- add x1, x1, x2 # x1 = x1 + x2
@@ -216,6 +229,7 @@ begin
     Rd <= "00001";
     ALUSrc <= '0';
     memToReg <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- sw x1, 16(x26) # Store x1 value into B[4]
@@ -225,6 +239,7 @@ begin
     ALUSrc <= '1';
     RegWrite <= '0';
     memWrite <= '1';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- lw x2, 24(x25) # Load A[6] into x2
@@ -234,6 +249,7 @@ begin
     RegWrite <= '1';
     memToReg <= '1';
     memWrite <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- add x1, x1, x2 # x1 = x1 + x2
@@ -242,6 +258,7 @@ begin
     Rd <= "00001";
     ALUSrc <= '0';
     memToReg <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- addi x27, x27, 512 # Load &B[64] into x27
@@ -251,6 +268,7 @@ begin
     ALUSrc <= '1';
     RegWrite <= '1';
     memToReg <= '0';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- sw x1, -4(x27) # Store x1 into B[63]
@@ -260,11 +278,13 @@ begin
     ALUSrc <= '1';
     RegWrite <= '0';
     memWrite <= '1';
+wait for 1 ns;
     wait for cCLK_PER;
     
     -- End simulation
     RegWrite <= '0';
     memWrite <= '0';
+wait for 1 ns;
     wait for 2*cCLK_PER;
     wait;
   end process;
