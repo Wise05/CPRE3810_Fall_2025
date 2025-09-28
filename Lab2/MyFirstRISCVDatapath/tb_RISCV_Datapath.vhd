@@ -71,15 +71,24 @@ begin
   -- Test sequence
   sim_proc : process
   begin
+    -- Initialize all control signals
+    RegWrite <= '0';
+    RS1      <= (others => '0');
+    RS2      <= (others => '0');
+    Rd       <- (others => '0');
+    imm      <= (others => '0');
+    ALUSrc   <= '0';
+    nAdd_Sub <= '0';
+    
     -- Reset
     rst <= '1';
-    RegWrite <= '0';
     wait for 3*cCLK_PER;
     rst <= '0';
     wait for cCLK_PER;
 
     -- ADDI for all the needed regs
     for i in 1 to 10 loop
+      -- Set up the instruction first
       Rd       <= std_logic_vector(to_unsigned(i, 5));
       RS1      <= (others => '0');  
       RS2      <= (others => '0');
@@ -87,6 +96,9 @@ begin
       ALUSrc   <= '1';  
       nAdd_Sub <= '0'; 
       RegWrite <= '1';
+      -- Wait for signals to settle before clock edge
+      wait for 1 ns;
+      -- Wait for clock edge
       wait for cCLK_PER;
     end loop;
 
@@ -97,6 +109,7 @@ begin
     ALUSrc   <= '0'; 
     nAdd_Sub <= '0';
     RegWrite <= '1';
+    wait for 1 ns; -- Allow register file outputs to settle
     wait for cCLK_PER;
 
     -- sub x12, x11, x3
@@ -105,63 +118,80 @@ begin
     RS2      <= "00011"; -- 3
     ALUSrc   <= '0';
     nAdd_Sub <= '1';
+    wait for 1 ns; -- Allow register file outputs to settle
     wait for cCLK_PER;
 
     -- add x13, x12, x4
     Rd       <= "01101";
     RS1      <= "01100";
     RS2      <= "00100";
+    ALUSrc   <= '0';
     nAdd_Sub <= '0';
+    wait for 1 ns;
     wait for cCLK_PER;
 
     -- sub x14, x13, x5
     Rd       <= "01110";
     RS1      <= "01101";
     RS2      <= "00101";
+    ALUSrc   <= '0';
     nAdd_Sub <= '1';
+    wait for 1 ns;
     wait for cCLK_PER;
 
     -- add x15, x14, x6
     Rd       <= "01111";
     RS1      <= "01110";
     RS2      <= "00110";
+    ALUSrc   <= '0';
     nAdd_Sub <= '0';
+    wait for 1 ns;
     wait for cCLK_PER;
 
     -- sub x16, x15, x7
     Rd       <= "10000";
     RS1      <= "01111";
     RS2      <= "00111";
+    ALUSrc   <= '0';
     nAdd_Sub <= '1';
+    wait for 1 ns;
     wait for cCLK_PER;
 
     -- add x17, x16, x8
     Rd       <= "10001";
     RS1      <= "10000";
     RS2      <= "01000";
+    ALUSrc   <= '0';
     nAdd_Sub <= '0';
+    wait for 1 ns;
     wait for cCLK_PER;
 
     -- sub x18, x17, x9
     Rd       <= "10010";
     RS1      <= "10001";
     RS2      <= "01001";
+    ALUSrc   <= '0';
     nAdd_Sub <= '1';
+    wait for 1 ns;
     wait for cCLK_PER;
 
     -- add x19, x18, x10
     Rd       <= "10011";
     RS1      <= "10010";
     RS2      <= "01010";
+    ALUSrc   <= '0';
     nAdd_Sub <= '0';
+    wait for 1 ns;
     wait for cCLK_PER;
 
     -- addi x20, zero, -35
     Rd       <= "10100";
     RS1      <= (others => '0');
+    RS2      <= (others => '0'); -- Not used in ADDI but set for clarity
     imm      <= std_logic_vector(to_signed(-35, 32));
     ALUSrc   <= '1';
     nAdd_Sub <= '0';
+    wait for 1 ns;
     wait for cCLK_PER;
 
     -- add x21, x19, x20
@@ -170,11 +200,25 @@ begin
     RS2      <= "10100";
     ALUSrc   <= '0';
     nAdd_Sub <= '0';
+    wait for 1 ns;
     wait for cCLK_PER;
 
+    -- Disable writes and hold final state for observation
     RegWrite <= '0';
+    wait for 2*cCLK_PER;
+    
+    -- Test reading some registers to verify they contain expected values
+    RS1 <= "10101"; -- x21, should contain -20
+    RS2 <= "10100"; -- x20, should contain -35
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    RS1 <= "01011"; -- x11, should contain 3
+    RS2 <= "01100"; -- x12, should contain 0  
+    wait for 1 ns;
+    wait for cCLK_PER;
+
     wait;
   end process;
 
 end tb;
-
