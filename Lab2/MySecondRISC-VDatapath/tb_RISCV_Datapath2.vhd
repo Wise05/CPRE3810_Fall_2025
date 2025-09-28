@@ -96,12 +96,12 @@ begin
     rst <= '0';
     wait for cCLK_PER;
     
-    -- Initialize base addresses (simplified approach using small addresses)
-    -- addi x25, x0, 64  # Base address for array A (address 64)
+    -- Initialize base addresses
+    -- addi x25, x0, 64  # Base address for array A
     RS1 <= "00000";  -- x0 (always 0)
     RS2 <= "00000";
     Rd <= "11001";   -- x25
-    imm <= "000001000000";  -- 64 in binary (12 bits)
+    imm <= "000001000000";  -- 64 in binary
     imm_sel <= '1';  -- Sign extend
     ALUSrc <= '1';   -- Use immediate
     nAdd_Sub <= '0'; -- Add
@@ -111,113 +111,225 @@ begin
     wait for 1 ns;
     wait for cCLK_PER;
     
-    -- addi x26, x0, 320  # Base address for array B (address 320 = 64 + 256)
+    -- addi x26, x0, 320  # Base address for array B (320 = 64 + 256)
     RS1 <= "00000";  -- x0
     Rd <= "11010";   -- x26
-    imm <= "101000000000";  -- 320 in 12-bit binary (truncated, use 320 mod 2048)
+    imm <= "101000000000";  -- 320 in 12-bit binary
     wait for 1 ns;
     wait for cCLK_PER;
     
-    -- addi x27, x0, 576  # Base address for B[64] (576 = 320 + 256)
-    RS1 <= "00000";  -- x0  
-    Rd <= "11011";   -- x27
-    imm <= "001001000000";  -- 576 in 12-bit binary (truncated)
-    wait for 1 ns;
-    wait for cCLK_PER;
+    -- Pre-populate memory with test data
+    -- Store test values in A[0] through A[6]
+    for i in 0 to 6 loop
+      -- Load immediate value into x3
+      RS1 <= "00000";  -- x0
+      Rd <= "00011";   -- x3
+      imm <= std_logic_vector(to_unsigned((i+1)*10, 12));  -- 10, 20, 30, 40, 50, 60, 70
+      ALUSrc <= '1';
+      RegWrite <= '1';
+      memToReg <= '0';
+      memWrite <= '0';
+      wait for 1 ns;
+      wait for cCLK_PER;
+      
+      -- Store x3 to A[i]
+      RS1 <= "11001";  -- x25 (base address)
+      RS2 <= "00011";  -- x3 (data)
+      imm <= std_logic_vector(to_unsigned(i*4, 12));  -- offset i*4
+      ALUSrc <= '1';
+      RegWrite <= '0';
+      memWrite <= '1';
+      wait for 1 ns;
+      wait for cCLK_PER;
+    end loop;
     
-    -- Pre-populate some memory locations for testing
-    -- Store test value 10 at address 64 (A[0])
-    RS1 <= "00000";  -- x0
-    Rd <= "00011";   -- x3 (temp register)
-    imm <= "000000001010";  -- 10
-    ALUSrc <= '1';
-    RegWrite <= '1';
-    memToReg <= '0';
-    wait for 1 ns;
-    wait for cCLK_PER;
-    
-    -- Store x3 to memory address 64 (A[0])
-    RS1 <= "11001";  -- x25 (base address 64)
-    RS2 <= "00011";  -- x3 (data to store)
-    imm <= "000000000000";  -- offset 0
-    ALUSrc <= '1';   -- Use immediate for address calculation
-    RegWrite <= '0';
-    memWrite <= '1';
-    wait for 1 ns;
-    wait for cCLK_PER;
-    
-    -- Store test value 20 at address 68 (A[1])
-    RS1 <= "00000";  -- x0
-    Rd <= "00011";   -- x3
-    imm <= "000000010100";  -- 20
-    ALUSrc <= '1';
-    RegWrite <= '1';
-    memToReg <= '0';
-    memWrite <= '0';
-    wait for 1 ns;
-    wait for cCLK_PER;
-    
-    -- Store x3 to memory address 68 (A[1])
-    RS1 <= "11001";  -- x25
-    RS2 <= "00011";  -- x3
-    imm <= "000000000100";  -- offset 4
-    ALUSrc <= '1';
-    RegWrite <= '0';
-    memWrite <= '1';
-    wait for 1 ns;
-    wait for cCLK_PER;
-    
-    -- Now start the actual algorithm
+    -- Now execute your original algorithm
     -- lw x1, 0(x25) # Load A[0] into x1
     RS1 <= "11001";  -- x25
-    RS2 <= "00000";  -- Don't care for load
+    RS2 <= "00000";
     Rd <= "00001";   -- x1
     imm <= "000000000000";  -- offset 0
     imm_sel <= '1';
-    ALUSrc <= '1';   -- Use immediate
+    ALUSrc <= '1';
     nAdd_Sub <= '0';
     RegWrite <= '1';
-    memToReg <= '1'; -- Write memory data to register
+    memToReg <= '1'; -- Load from memory
     memWrite <= '0';
     wait for 1 ns;
     wait for cCLK_PER;
     
     -- lw x2, 4(x25) # Load A[1] into x2
-    RS1 <= "11001";  -- x25
-    Rd <= "00010";   -- x2
-    imm <= "000000000100";  -- offset 4
+    RS1 <= "11001";
+    Rd <= "00010";
+    imm <= "000000000100";
     wait for 1 ns;
     wait for cCLK_PER;
     
     -- add x1, x1, x2 # x1 = x1 + x2
-    RS1 <= "00001";  -- x1
-    RS2 <= "00010";  -- x2
-    Rd <= "00001";   -- x1 (destination)
-    ALUSrc <= '0';   -- Use register for second operand
-    nAdd_Sub <= '0'; -- Add
-    memToReg <= '0'; -- Write ALU result to register
+    RS1 <= "00001";
+    RS2 <= "00010";
+    Rd <= "00001";
+    ALUSrc <= '0';  -- Use register
+    nAdd_Sub <= '0';
+    memToReg <= '0'; -- Use ALU result
+    RegWrite <= '1';
     wait for 1 ns;
     wait for cCLK_PER;
     
     -- sw x1, 0(x26) # Store x1 value into B[0]
-    RS1 <= "11010";  -- x26 (base address for B)
-    RS2 <= "00001";  -- x1 (data to store)
-    imm <= "000000000000";  -- offset 0
-    ALUSrc <= '1';   -- Use immediate for address
+    RS1 <= "11010";  -- x26
+    RS2 <= "00001";  -- x1
+    imm <= "000000000000";
+    ALUSrc <= '1';
     RegWrite <= '0';
     memWrite <= '1';
     wait for 1 ns;
     wait for cCLK_PER;
     
-    -- Add some verification reads
-    -- Read back what we stored
+    -- lw x2, 8(x25) # Load A[2] into x2
+    RS1 <= "11001";
+    Rd <= "00010";
+    imm <= "000000001000";
+    ALUSrc <= '1';
+    RegWrite <= '1';
+    memToReg <= '1';
+    memWrite <= '0';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- add x1, x1, x2 # x1 = x1 + x2
+    RS1 <= "00001";
+    RS2 <= "00010";
+    Rd <= "00001";
+    ALUSrc <= '0';
+    memToReg <= '0';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- sw x1, 4(x26) # Store x1 value into B[1]
+    RS1 <= "11010";
+    RS2 <= "00001";
+    imm <= "000000000100";
+    ALUSrc <= '1';
+    RegWrite <= '0';
+    memWrite <= '1';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- lw x2, 12(x25) # Load A[3] into x2
+    RS1 <= "11001";
+    Rd <= "00010";
+    imm <= "000000001100";
+    ALUSrc <= '1';
+    RegWrite <= '1';
+    memToReg <= '1';
+    memWrite <= '0';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- add x1, x1, x2 # x1 = x1 + x2  
+    RS1 <= "00001";
+    RS2 <= "00010";
+    Rd <= "00001";
+    ALUSrc <= '0';
+    memToReg <= '0';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- sw x1, 12(x26) # Store x1 value into B[3]
+    RS1 <= "11010";
+    RS2 <= "00001";
+    imm <= "000000001100";
+    ALUSrc <= '1';
+    RegWrite <= '0';
+    memWrite <= '1';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- lw x2, 20(x25) # Load A[5] into x2
+    RS1 <= "11001";
+    Rd <= "00010";
+    imm <= "000000010100";
+    RegWrite <= '1';
+    memToReg <= '1';
+    memWrite <= '0';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- add x1, x1, x2 # x1 = x1 + x2
+    RS1 <= "00001";
+    RS2 <= "00010";
+    Rd <= "00001";
+    ALUSrc <= '0';
+    memToReg <= '0';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- sw x1, 16(x26) # Store x1 value into B[4]
+    RS1 <= "11010";
+    RS2 <= "00001";
+    imm <= "000000010000";
+    ALUSrc <= '1';
+    RegWrite <= '0';
+    memWrite <= '1';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- lw x2, 24(x25) # Load A[6] into x2
+    RS1 <= "11001";
+    Rd <= "00010";
+    imm <= "000000011000";
+    RegWrite <= '1';
+    memToReg <= '1';
+    memWrite <= '0';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- add x1, x1, x2 # x1 = x1 + x2
+    RS1 <= "00001";
+    RS2 <= "00010";
+    Rd <= "00001";
+    ALUSrc <= '0';
+    memToReg <= '0';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- addi x27, x0, 576 # Load &B[64] into x27 (576 = 320 + 256)
+    RS1 <= "00000";  -- x0
+    Rd <= "11011";   -- x27
+    imm <= "001001000000";  -- 576 in 12-bit binary
+    ALUSrc <= '1';
+    RegWrite <= '1';
+    memToReg <= '0';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- sw x1, -4(x27) # Store x1 into B[63] (576-4 = 572)
+    RS1 <= "11011";
+    RS2 <= "00001";
+    imm <= "111111111100";  -- -4 in 12-bit two's complement
+    ALUSrc <= '1';
+    RegWrite <= '0';
+    memWrite <= '1';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- Verification: Read back some stored values
+    -- Read B[0]
     RS1 <= "11010";  -- x26
-    Rd <= "00100";   -- x4 (temp for verification)
+    Rd <= "00100";   -- x4 (temp)
     imm <= "000000000000";  -- offset 0
     ALUSrc <= '1';
     RegWrite <= '1';
     memToReg <= '1';
     memWrite <= '0';
+    wait for 1 ns;
+    wait for cCLK_PER;
+    
+    -- Read B[1]
+    RS1 <= "11010";  -- x26
+    Rd <= "00101";   -- x5 (temp)
+    imm <= "000000000100";  -- offset 4
     wait for 1 ns;
     wait for cCLK_PER;
     
