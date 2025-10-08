@@ -21,7 +21,7 @@ library work;
 use work.RISCV_types.all;
 
 entity RISCV_Processor is
-  generic(N : integer := DATA_WIDTH);
+  generic(N : integer := DATA_WIDTH); -- 10
   port(iCLK            : in std_logic;
        iRST            : in std_logic;
        iInstLd         : in std_logic;

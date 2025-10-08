@@ -1,0 +1,1 @@
+/usr/local/mentor/questasim/linux_x86_64/VisualizerRls/bin/viscom -nolock -quiet -jmem_size 7373088 work.ones_comp_n -quiet -auto_acc_if_foreign -work work +acc -allow_unnamed -o _opt1 -id 1-000ae431a4f1-68bc83a9-ebca7-2e06 +__betafsm
