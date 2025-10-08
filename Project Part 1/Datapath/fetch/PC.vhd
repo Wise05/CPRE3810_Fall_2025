@@ -7,8 +7,9 @@ entity PC is
     clk : in std_logic;
     rst : in std_logic;
     RegWrite: in std_logic; -- write enable
-    DATA_IN : in std_logic_vector(9 downto 0);
-    OS : out std_logic_vector(9 downto 0);
+    DATA_IN : in std_logic_vector(31 downto 0);
+    OS : out std_logic_vector(31 downto 0);
+    o_CLK : out std_logic;
   );
 end RV32_regFile;
 
@@ -24,14 +25,16 @@ architecture structural of RV32_regFile is
 
 begin
   pc_reg : dffg_N is 
-    generic map (N => 10)
+    generic map (N => 32)
     port map (
       i_CLK => clk,
       i_RST => rst,
       i_WE => RegWrite,
       DATA_IN => i_D,
       o_Q => OS
-             );
+    );
+
+    i_CLK <= o_CLK;
 
 end structural;
 
