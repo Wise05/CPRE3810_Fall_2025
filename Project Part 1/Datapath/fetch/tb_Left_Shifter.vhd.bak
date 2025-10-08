@@ -26,10 +26,10 @@ DUT: Left_Shifter
 stim: process
 begin
   i <= x"00000001";
-  wait for 10 ns;
+  wait for 10ns;
 
   i <= x"80000000";
-  wait for 10 ns;
+  wait for 10ns;
 
   wait;
 end process;

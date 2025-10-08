@@ -34,7 +34,7 @@ begin
       o_Q => OS
     );
 
-    o_CLK <= clk;
+    i_CLK <= o_CLK;
 
 end structural;
 
