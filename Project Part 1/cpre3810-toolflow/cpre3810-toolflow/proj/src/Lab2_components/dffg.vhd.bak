@@ -31,7 +31,7 @@ entity dffg is
 end dffg;
 
 architecture mixed of dffg is
-  signal s_D    : std_logic;    -- Multiplexed input to the FF
+  signal s_D    : std_logic := 0;    -- Multiplexed input to the FF
   signal s_Q    : std_logic;    -- Output of the FF
 
 begin
