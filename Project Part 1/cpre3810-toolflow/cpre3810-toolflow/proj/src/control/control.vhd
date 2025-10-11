@@ -59,8 +59,7 @@ begin
                "---";
 
   o_ResultSrc <= "01" when (i_opcode = "0000011") else
-                 "10" when (i_opcode = "1101111" or i_opcode = "1100111") else
-                 "--";
+                 "10" when (i_opcode = "1101111" or i_opcode = "1100111") else "00" when (i_opcode = "0010011" or i_opcode = "0110011" or i_opcode = "0010111") else "--";
 
   o_Mem_Write <= '1' when (i_opcode = "0100011") else
                  '0';
