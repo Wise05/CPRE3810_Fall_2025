@@ -1,0 +1,56 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vsim work.tb_control
+# vsim work.tb_control 
+# Start time: 18:36:58 on Oct 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_control(behavior)#1
+quit -si
+# unknown switch: -si
+quit -sim
+# End time: 18:37:19 on Oct 11,2025, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
+vsim work.tb_control -voptargs=+acc
+# vsim work.tb_control -voptargs="+acc" 
+# Start time: 18:37:50 on Oct 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_control(behavior)#1
+# Loading work.control(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_control/i_opcode \
+sim:/tb_control/i_funct3 \
+sim:/tb_control/i_funct7 \
+sim:/tb_control/o_ALUSRC \
+sim:/tb_control/o_ALUControl \
+sim:/tb_control/o_ImmType \
+sim:/tb_control/o_ResultSrc \
+sim:/tb_control/o_Mem_Write \
+sim:/tb_control/o_RegWrite \
+sim:/tb_control/o_imm_sel \
+sim:/tb_control/o_BranchType \
+sim:/tb_control/o_Jump
+run 3000
+# End time: 18:47:49 on Oct 11,2025, Elapsed time: 0:09:59
+# Errors: 0, Warnings: 1

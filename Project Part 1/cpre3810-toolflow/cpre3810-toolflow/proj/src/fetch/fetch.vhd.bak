@@ -108,7 +108,7 @@ begin
   );
 
   mux_jump : mux2t1_N
-    generic map (N => 32)
+    generic map (N => 32);
     port map (
       i_S => PCSrc,
       i_D0 => plus4_s,

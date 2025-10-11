@@ -2,10 +2,10 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity tb_control is
-end tb_control;
+entity control_tb is
+end control_tb;
 
-architecture behavior of tb_control is
+architecture behavior of control_tb is
 
   -- Component Declaration
   component control
