@@ -12,53 +12,22 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project Part 1/control.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 13:31:11 on Oct 08,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project Part 1/control.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity control
-# -- Compiling architecture dataflow of control
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project Part 1/control.vhd(25): near "when": syntax error
-# End time: 13:31:11 on Oct 08,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project Part 1/control.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 13:31:33 on Oct 08,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project Part 1/control.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity control
-# -- Compiling architecture dataflow of control
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project Part 1/control.vhd(25): near "when": syntax error
-# End time: 13:31:33 on Oct 08,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project Part 1/control.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 13:33:41 on Oct 08,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project Part 1/control.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity control
-# -- Compiling architecture dataflow of control
-# End time: 13:33:41 on Oct 08,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project Part 1/control.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 13:33:43 on Oct 08,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project Part 1/control.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity control
-# -- Compiling architecture dataflow of control
-# End time: 13:33:43 on Oct 08,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+vsim work.tb_left_shifter -voptargs=+acc
+# vsim work.tb_left_shifter -voptargs="+acc" 
+# Start time: 15:45:46 on Oct 08,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_left_shifter(sim)#1
+# Loading work.regfile_pkg(body)
+# Loading work.left_shifter(structural)#1
+add wave -position insertpoint  \
+sim:/tb_left_shifter/i \
+sim:/tb_left_shifter/o
+run 200
+# End time: 15:46:14 on Oct 08,2025, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 1
