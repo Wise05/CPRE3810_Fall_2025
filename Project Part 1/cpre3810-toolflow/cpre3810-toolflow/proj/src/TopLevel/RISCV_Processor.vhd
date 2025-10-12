@@ -56,6 +56,23 @@ architecture structure of RISCV_Processor is
   -- Required overflow signal -- for overflow exception detection
   signal s_Ovfl         : std_logic;  -- TODO: this signal indicates an overflow exception would have been initiated
 
+  -- SIGNALS dictionary elaboration
+  -- s_DMemWr = MemWrite
+  -- s_DMemAddr = ALU output
+  -- s_DMemData = Value read from OS2 put into memory for sw
+  -- s_DMemOut = Value taken directly from output of dmem
+
+  -- s_RegWr = RegWrite
+  -- s_RegWrAddr = Destination register bit [11:7] AKA rd
+  -- s_RegWrData = DATA_IN for register file
+
+  -- s_IMemAddr = ignore this signal do not use
+  -- s_NextInstAddr = PC output (current address to imem)
+  -- s_Inst = instruction memory output (basically the raw RISC V binary)
+
+  -- s_Halt = should be given by control and sent to testbench environment 
+  -- s_Ovfl = should be given by ALU dunno for what maybe just debugging
+
   component mem is
     generic(ADDR_WIDTH : integer;
             DATA_WIDTH : integer);
@@ -89,7 +106,7 @@ architecture structure of RISCV_Processor is
 
     component fetch is 
       port (
-        clk : in std_logic;
+    clk : in std_logic;
         rst : in std_logic;
         -- Maybe we need RegWrite for the PC, but rn it will be set to 1
         branch : in std_logic;
@@ -102,7 +119,7 @@ architecture structure of RISCV_Processor is
      );
     end component;
 
-    component extender_Nt32 is
+    component butter_extender_Nt32 is
       generic (
         N : integer := 32
       );
@@ -133,6 +150,21 @@ architecture structure of RISCV_Processor is
            o_O          : out std_logic_vector(N-1 downto 0));
     end component;
 
+    component RV32_regFile is
+      port (
+        clk : in std_logic;
+        rst : in std_logic;
+        RegWrite: in std_logic;
+        Rd: in std_logic_vector(4 downto 0);
+        DATA_IN : in std_logic_vector(31 downto 0);
+        RS1 : in std_logic_vector(4 downto 0);
+        RS2 : in std_logic_vector(4 downto 0);
+        OS1 : out std_logic_vector(31 downto 0);
+        OS2 : out std_logic_vector(31 downto 0)
+      );
+    end component;
+
+
 
 begin
 
@@ -159,27 +191,98 @@ begin
              we   => s_DMemWr,
              q    => s_DMemOut);
 
-  Control: control
-    port map (
-      i_opcode => ,
-      i_funct3 => ,
-      i_funct7 => ,
-      o_ALUSRC => ,
-      o_ALUControl => ,
-      o_ImmType => ,
-      o_ResultSrc => ,
-      o_Mem_Write => ,
-      o_RegWrite => ,
-      o_imm_sel => ,
-      o_BranchType => ,
-      o_Jump => 
-    );
-
 
   -- TODO: Ensure that s_Halt is connected to an output control signal produced from decoding the Halt instruction (Opcode: 01 0100)
   -- TODO: Ensure that s_Ovfl is connected to the overflow output of your ALU
 
   -- TODO: Implement the rest of your processor below this comment! 
 
+  Control : control
+    port map (
+      i_opcode => s_Inst(6 downto 0),
+      i_funct3 => s_Inst(14 downto 12),
+      i_funct7 => s_Inst(31 downto 25),
+      o_ALUSRC => ,
+      o_ALUControl => ,
+      o_ImmType => ,
+      o_ResultSrc => ,
+      o_Mem_Write => s_DMemWr,
+      o_RegWrite => s_RegWr,
+      o_imm_sel => ,
+      o_BranchType => ,
+      o_Jump => 
+    );
+
+  Register_File : RV32_regFile 
+    port map (
+      clk => ,
+      rst => ,
+      RegWrite => s_RegWr,
+      Rd => s_RegWrAddr,
+      DATA_IN => s_RegWrData,
+      RS1 => ,
+      RS2 => ,
+      OS1 => ,
+      OS2 => s_DMemData  
+    );
+
+  Fetch : fetch
+    port map (
+      clk => ,
+      rst => ,
+      branch => ,
+      zero_flag_ALU => ,
+      jump => ,
+      imm => ,
+      o_clk => ,
+      instr_addr => s_NextInstAddr,
+      plus4_o => 
+    );
+
+    Sign_Extend : butter_extender_Nt32 is 
+      generic map (N => 32)
+      port map (
+        imm_in => ,
+        sign_ext => ,
+        imm_type => ,
+        imm_out => ,
+      );
+
+    ALU : add_sub_N is 
+      generic map (N => 32)
+      port map (
+        A_i => ,
+        B_i => ,
+        nAdd_Sub => ,
+        S_i => s_DMemAddr,
+        C_out =>
+      );
+
+    ALU_Src_Mux : mux2t1_N
+      generic map (N => 32)
+      port map (
+        i_S => ,
+        i_D0 => s_DMemData,
+        i_D1 => ,
+        o_O => 
+      );
+      
+     AndLink_Mux : mux2t1_N
+      generic map (N => 32)
+      port map (
+        i_S => ,
+        i_D0 => s_DMemAddr,
+        i_D1 => ,
+        o_O => 
+      );     
+
+     MemtoReg_Mux : mux2t1_N
+      generic map (N => 32)
+      port map (
+        i_S => ,
+        i_D0 => ,
+        i_D1 => s_DMemOut,
+        o_O => s_RegWrData
+      );
 end structure;
 
