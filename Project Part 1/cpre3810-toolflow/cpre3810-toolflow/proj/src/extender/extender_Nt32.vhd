@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 -- Generic extender: can sign or zero-extend
-entity extender_Nt32 is
+entity butter_extender_Nt32 is
 generic (
 N : integer := 32
 );
@@ -13,9 +13,9 @@ sign_ext : in  std_logic_vector(1 downto 0); -- '01' = sign extend, '00' = zero 
 imm_type : in std_logic_vector(2 downto 0); -- '000' = I, '001' = S, '010' = SB, '011' = U, '100' = UJ
 imm_out : out std_logic_vector(31 downto 0)
 );
-end entity extender_Nt32;
+end entity butter_extender_Nt32;
 
-architecture GenerateBased of extender_Nt32 is
+architecture GenerateBased of butter_extender_Nt32 is
 signal imm_i : std_logic_vector(31 downto 0);
 signal imm_s : std_logic_vector(31 downto 0);
 signal imm_sb : std_logic_vector(31 downto 0);

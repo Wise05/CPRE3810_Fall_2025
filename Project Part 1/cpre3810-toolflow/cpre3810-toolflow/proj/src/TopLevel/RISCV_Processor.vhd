@@ -102,6 +102,36 @@ architecture structure of RISCV_Processor is
      );
     end component;
 
+    component extender_Nt32 is
+      generic (
+        N : integer := 32
+      );
+      port (
+        imm_in : in  std_logic_vector(N-1 downto 0);
+        sign_ext : in  std_logic_vector(1 downto 0); -- '01' = sign extend, '00' = zero extend,'10' = lui
+        imm_type : in std_logic_vector(2 downto 0); -- '000' = I, '001' = S, '010' = SB, '011' = U, '100' = UJ
+        imm_out : out std_logic_vector(31 downto 0)
+      );
+    end component;
+
+    component add_sub_N is
+      generic(N : integer := 16);
+      port (
+        A_i : in  std_logic_vector(N-1 downto 0);
+        B_i : in  std_logic_vector(N-1 downto 0);
+        nAdd_Sub : in  std_logic;  -- 0 => Add, 1 => Subtract
+        S_i : out std_logic_vector(N-1 downto 0);
+        C_out : out std_logic
+      );
+    end component;
+
+    component mux2t1_N is 
+      generic(N : integer := 16); -- Generic of type integer for input/output data width. Default value is 32.
+      port(i_S          : in std_logic;
+           i_D0         : in std_logic_vector(N-1 downto 0);
+           i_D1         : in std_logic_vector(N-1 downto 0);
+           o_O          : out std_logic_vector(N-1 downto 0));
+    end component;
 
 
 begin
@@ -110,7 +140,6 @@ begin
   with iInstLd select
     s_IMemAddr <= s_NextInstAddr when '0',
       iInstAddr when others;
-
 
   IMem: mem
     generic map(ADDR_WIDTH => ADDR_WIDTH,
@@ -129,6 +158,23 @@ begin
              data => s_DMemData,
              we   => s_DMemWr,
              q    => s_DMemOut);
+
+  Control: control
+    port map (
+      i_opcode => ,
+      i_funct3 => ,
+      i_funct7 => ,
+      o_ALUSRC => ,
+      o_ALUControl => ,
+      o_ImmType => ,
+      o_ResultSrc => ,
+      o_Mem_Write => ,
+      o_RegWrite => ,
+      o_imm_sel => ,
+      o_BranchType => ,
+      o_Jump => 
+    );
+
 
   -- TODO: Ensure that s_Halt is connected to an output control signal produced from decoding the Halt instruction (Opcode: 01 0100)
   -- TODO: Ensure that s_Ovfl is connected to the overflow output of your ALU
