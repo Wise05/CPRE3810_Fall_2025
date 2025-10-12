@@ -12,26 +12,46 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
+vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/control/control.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:03:57 on Oct 11,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/control/control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity control
+# -- Compiling architecture dataflow of control
+# End time: 19:03:57 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/control/control.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:04:19 on Oct 11,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/control/control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity control
+# -- Compiling architecture dataflow of control
+# End time: 19:04:19 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 vsim work.tb_control
 # vsim work.tb_control 
-# Start time: 18:36:58 on Oct 11,2025
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 19:05:28 on Oct 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading work.tb_control(behavior)#1
-quit -si
-# unknown switch: -si
 quit -sim
-# End time: 18:37:19 on Oct 11,2025, Elapsed time: 0:00:21
+# End time: 19:05:37 on Oct 11,2025, Elapsed time: 0:00:09
 # Errors: 0, Warnings: 0
 vsim work.tb_control -voptargs=+acc
 # vsim work.tb_control -voptargs="+acc" 
-# Start time: 18:37:50 on Oct 11,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Start time: 19:06:01 on Oct 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -52,5 +72,5 @@ sim:/tb_control/o_imm_sel \
 sim:/tb_control/o_BranchType \
 sim:/tb_control/o_Jump
 run 3000
-# End time: 18:47:49 on Oct 11,2025, Elapsed time: 0:09:59
-# Errors: 0, Warnings: 1
+# End time: 19:06:56 on Oct 11,2025, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
