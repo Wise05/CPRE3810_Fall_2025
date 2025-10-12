@@ -70,6 +70,40 @@ architecture structure of RISCV_Processor is
   -- TODO: You may add any additional signals or components your implementation 
   --       requires below this comment
 
+    component control is
+      port (
+        i_opcode     : in  std_logic_vector(6 downto 0);
+        i_funct3     : in  std_logic_vector(2 downto 0);
+        i_funct7     : in  std_logic_vector(6 downto 0);
+        o_ALUSRC     : out std_logic;
+        o_ALUControl : out std_logic_vector(3 downto 0);
+        o_ImmType    : out std_logic_vector(2 downto 0);
+        o_ResultSrc  : out std_logic_vector(1 downto 0);
+        o_Mem_Write  : out std_logic;
+        o_RegWrite   : out std_logic;
+        o_imm_sel    : out std_logic_vector(1 downto 0);
+        o_BranchType : out std_logic_vector(1 downto 0);
+        o_Jump       : out std_logic
+      );
+    end component;
+
+    component fetch is 
+      port (
+        clk : in std_logic;
+        rst : in std_logic;
+        -- Maybe we need RegWrite for the PC, but rn it will be set to 1
+        branch : in std_logic;
+        zero_flag_ALU : in std_logic;
+        jump : in std_logic;
+        imm : in std_logic_vector(31 downto 0); -- immediate offset
+        o_clk : out std_logic;
+        instr_addr : out std_logic_vector(31 downto 0); -- address sent to imem
+        plus4_o : out std_logic_vector(31 downto 0) -- address that gets sent to "AndLink" address
+     );
+    end component;
+
+
+
 begin
 
   -- TODO: This is required to be your final input to your instruction memory. This provides a feasible method to externally load the memory module which means that the synthesis tool must assume it knows nothing about the values stored in the instruction memory. If this is not included, much, if not all of the design is optimized out because the synthesis tool will believe the memory to be all zeros.
