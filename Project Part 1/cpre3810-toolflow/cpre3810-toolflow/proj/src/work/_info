@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e vcom 2025.1_2 2025.04, Apr  7 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src
+Eriscv_processor
+Z1 w1760387277
+Z2 DPx4 work 11 riscv_types 0 22 9ZRo?^TI;=18lLemTcVCG1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 7
+R0
+Z5 8/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd
+Z6 F/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd
+l0
+L23 1
+VX@ZjcJ6WK;`>fJbGhB>6J0
+!s100 AbfQc??>7BL50WIf1Na1i2
+Z7 OL;C;2025.1_2;82
+32
+Z8 !s110 1760387278
+!i10b 1
+Z9 !s108 1760387278.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd|
+!s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd|
+!i113 0
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+DEx4 work 15 riscv_processor 0 22 X@ZjcJ6WK;`>fJbGhB>6J0
+!i122 7
+l190
+L35 273
+V;N67KOmLlBgfJTORian>:2
+!s100 K@UlK0SUAfd>?FlDcmA`G0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd|
+!i113 0
+R11
+R12
+Priscv_types
+R3
+R4
+!i122 0
+Z14 w1760224021
+R0
+Z15 8/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/RISCV_types.vhd
+Z16 F/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/RISCV_types.vhd
+l0
+L15 13
+V9ZRo?^TI;=18lLemTcVCG1
+!s100 f4mVG5Ck>Fj94h>zoa_CF2
+R7
+32
+Z17 !s110 1760387131
+!i10b 1
+Z18 !s108 1760387131.000000
+Z19 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/RISCV_types.vhd|
+Z20 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/RISCV_types.vhd|
+!i113 0
+R11
+R12
+Bbody
+R2
+R3
+R4
+!i122 0
+l0
+L29 3
+VX^SkeN8>@VaDoQ^VIV[_T3
+!s100 GDR?4:nAbmIiboG0gc@;N2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R11
+R12

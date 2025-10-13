@@ -273,7 +273,7 @@ begin
       port map (
         A_i => s_OS1,
         B_i => s_ALU_B,
-        nAdd_Sub => s_ALUSRC, -- bit difference between add/sub
+        nAdd_Sub => s_ALUSRC(2), -- bit difference between add/sub
         S_i => s_DMemAddr,
         C_out => s_Cout -- ignored signal
       );
