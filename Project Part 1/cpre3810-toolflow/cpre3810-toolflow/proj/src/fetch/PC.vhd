@@ -9,7 +9,6 @@ entity PC is
     RegWrite: in std_logic; -- write enable
     DATA_IN : in std_logic_vector(31 downto 0);
     OS : out std_logic_vector(31 downto 0);
-    o_CLK : out std_logic
   );
 end PC;
 
@@ -33,8 +32,6 @@ begin
       i_D => DATA_IN,
       o_Q => OS
     );
-
-    o_CLK <= clk;
 
 end structural;
 

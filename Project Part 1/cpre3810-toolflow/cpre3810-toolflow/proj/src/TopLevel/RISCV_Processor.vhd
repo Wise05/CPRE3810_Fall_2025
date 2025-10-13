@@ -73,6 +73,28 @@ architecture structure of RISCV_Processor is
   -- s_Halt = should be given by control and sent to testbench environment 
   -- s_Ovfl = should be given by ALU dunno for what maybe just debugging
 
+  -- MY SIGNALS
+
+  -- control
+  signal s_ALUSRC : std_logic;
+  signal s_ALUControl : std_logic_vector(3 downto 0);  
+  signal s_ImmType    : std_logic_vector(2 downto 0);
+  signal s_ResultSrc  : std_logic_vector(1 downto 0);
+  signal s_Mem_Write  : std_logic;
+  signal s_RegWrite   : std_logic;
+  signal s_imm_sel    : std_logic_vector(1 downto 0);
+  signal s_BranchType : std_logic_vector(1 downto 0);
+  signal s_Jump : std_logic;
+
+  -- ALU
+  signal s_OS1 : std_logic_vector(31 downto 0);
+  signal s_ALU_B : std_logic_vector(31 downto 0);
+  signal s_Cout : std_logic;
+
+  signal s_extended_imm : std_logic_vector(31 downto 0);
+  signal s_andLink_imm : std_logic_vector(31 downto 0);
+  signal s_notDMem : std_logic_vector(31 downto 0);
+
   component mem is
     generic(ADDR_WIDTH : integer;
             DATA_WIDTH : integer);
@@ -113,7 +135,6 @@ architecture structure of RISCV_Processor is
         zero_flag_ALU : in std_logic;
         jump : in std_logic;
         imm : in std_logic_vector(31 downto 0); -- immediate offset
-        o_clk : out std_logic;
         instr_addr : out std_logic_vector(31 downto 0); -- address sent to imem
         plus4_o : out std_logic_vector(31 downto 0) -- address that gets sent to "AndLink" address
      );
@@ -202,85 +223,84 @@ begin
       i_opcode => s_Inst(6 downto 0),
       i_funct3 => s_Inst(14 downto 12),
       i_funct7 => s_Inst(31 downto 25),
-      o_ALUSRC => ,
-      o_ALUControl => ,
-      o_ImmType => ,
-      o_ResultSrc => ,
+      o_ALUSRC => s_ALUSRC,
+      o_ALUControl => s_ALUControl,
+      o_ImmType => s_ImmType,
+      o_ResultSrc => s_ResultSrc,
       o_Mem_Write => s_DMemWr,
       o_RegWrite => s_RegWr,
-      o_imm_sel => ,
-      o_BranchType => ,
-      o_Jump => 
+      o_imm_sel => s_imm_sel,
+      o_BranchType => s_BranchType,
+      o_Jump => s_Jump
     );
 
   Register_File : RV32_regFile 
     port map (
-      clk => ,
-      rst => ,
+      clk => iCLK,
+      rst => iRST,
       RegWrite => s_RegWr,
       Rd => s_RegWrAddr,
       DATA_IN => s_RegWrData,
-      RS1 => ,
-      RS2 => ,
-      OS1 => ,
+      RS1 => s_Inst(19 downto 15),
+      RS2 => s_Inst(24 downto 20),
+      OS1 => s_OS1,
       OS2 => s_DMemData  
     );
 
   Fetch : fetch
     port map (
-      clk => ,
-      rst => ,
-      branch => ,
-      zero_flag_ALU => ,
-      jump => ,
-      imm => ,
-      o_clk => ,
+      clk => iCLK,
+      rst => iRST,
+      branch => s_BranchType,
+      zero_flag_ALU => '0', -- hard coded for now
+      jump => s_Jump,
+      imm => s_extended_imm,
       instr_addr => s_NextInstAddr,
-      plus4_o => 
+      plus4_o => s_andLink_imm
     );
 
     Sign_Extend : butter_extender_Nt32 is 
       generic map (N => 32)
       port map (
-        imm_in => ,
-        sign_ext => ,
-        imm_type => ,
-        imm_out => ,
+        imm_in => s_Inst,
+        sign_ext => '1', -- IDK
+        imm_type => s_ImmType,
+        imm_out => s_extended_imm,
       );
 
     ALU : add_sub_N is 
       generic map (N => 32)
       port map (
-        A_i => ,
-        B_i => ,
-        nAdd_Sub => ,
+        A_i => s_OS1,
+        B_i => s_ALU_B,
+        nAdd_Sub => s_ALUSRC(2), -- bit difference between add/sub
         S_i => s_DMemAddr,
-        C_out =>
+        C_out => s_Cout -- ignored signal
       );
 
     ALU_Src_Mux : mux2t1_N
       generic map (N => 32)
       port map (
-        i_S => ,
+        i_S => s_ALUSRC,
         i_D0 => s_DMemData,
-        i_D1 => ,
-        o_O => 
+        i_D1 => s_extended_imm,
+        o_O => s_ALU_B
       );
       
      AndLink_Mux : mux2t1_N
       generic map (N => 32)
       port map (
-        i_S => ,
+        i_S => '0',
         i_D0 => s_DMemAddr,
-        i_D1 => ,
-        o_O => 
+        i_D1 => s_andLink_imm,
+        o_O => s_notDMem
       );     
 
      MemtoReg_Mux : mux2t1_N
       generic map (N => 32)
       port map (
-        i_S => ,
-        i_D0 => ,
+        i_S => '0',
+        i_D0 => s_notDMem,
         i_D1 => s_DMemOut,
         o_O => s_RegWrData
       );

@@ -11,7 +11,6 @@ entity fetch is
     zero_flag_ALU : in std_logic;
     jump : in std_logic;
     imm : in std_logic_vector(31 downto 0); -- immediate offset
-    o_clk : out std_logic;
     instr_addr : out std_logic_vector(31 downto 0); -- address sent to imem
     plus4_o : out std_logic_vector(31 downto 0) -- address that gets sent to "AndLink" address
  );
@@ -76,7 +75,6 @@ begin
     RegWrite => '1',
     DATA_IN => PC_in_s,
     OS => instr_addr_s,
-    o_CLK => o_clk
   );
 
 
