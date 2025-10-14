@@ -12,142 +12,42 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd}
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:25:26 on Oct 13,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
+# Start time: 15:54:16 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# ** Error: (vcom-11) Could not find work.riscv_types.
-# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(21): (vcom-1195) Cannot find expanded name "work.RISCV_types".
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(21): Unknown expanded name.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(23): VHDL Compiler exiting
-# End time: 15:25:26 on Oct 13,2025, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/RISCV_types.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:25:31 on Oct 13,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/RISCV_types.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package RISCV_types
-# -- Compiling package body RISCV_types
-# -- Loading package RISCV_types
-# End time: 15:25:31 on Oct 13,2025, Elapsed time: 0:00:00
+# -- Compiling entity dffg_N
+# -- Compiling architecture structural of dffg_N
+# End time: 15:54:16 on Oct 14,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd}
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:25:41 on Oct 13,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
+# Start time: 15:54:19 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RISCV_Processor
-# -- Compiling architecture structure of RISCV_Processor
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(221): Symbol "control" has already been declared in this region.
-# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(221): (vcom-1141) Identifier "Control" does not identify a component declaration.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(250): Symbol "fetch" has already been declared in this region.
-# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(250): (vcom-1141) Identifier "Fetch" does not identify a component declaration.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(262): near "is": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(271): Statement cannot be labeled.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(271): near "is": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(281): Statement cannot be labeled.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(307): VHDL Compiler exiting
-# End time: 15:25:41 on Oct 13,2025, Elapsed time: 0:00:00
-# Errors: 8, Warnings: 0
-vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:26:45 on Oct 13,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RISCV_Processor
-# -- Compiling architecture structure of RISCV_Processor
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(254): Signal "s_BranchType" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(269): near ")": syntax error
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(271): Statement cannot be labeled.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(271): near "is": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(281): Statement cannot be labeled.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(307): VHDL Compiler exiting
-# End time: 15:26:45 on Oct 13,2025, Elapsed time: 0:00:00
-# Errors: 5, Warnings: 0
-vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:27:03 on Oct 13,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RISCV_Processor
-# -- Compiling architecture structure of RISCV_Processor
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(269): near ")": syntax error
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(271): Statement cannot be labeled.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(271): near "is": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(281): Statement cannot be labeled.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(307): VHDL Compiler exiting
-# End time: 15:27:03 on Oct 13,2025, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:27:15 on Oct 13,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RISCV_Processor
-# -- Compiling architecture structure of RISCV_Processor
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(266): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(271): near "is": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(281): Statement cannot be labeled.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(307): VHDL Compiler exiting
-# End time: 15:27:15 on Oct 13,2025, Elapsed time: 0:00:00
+# ** Error: (vcom-11) Could not find work.regfile_pkg.
+# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(3): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(3): Unknown expanded name.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(5): VHDL Compiler exiting
+# End time: 15:54:19 on Oct 14,2025, Elapsed time: 0:00:00
 # Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd}
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:27:29 on Oct 13,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
+# Start time: 15:55:06 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RISCV_Processor
-# -- Compiling architecture structure of RISCV_Processor
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(271): near "is": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(281): Statement cannot be labeled.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(307): VHDL Compiler exiting
-# End time: 15:27:29 on Oct 13,2025, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:27:41 on Oct 13,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RISCV_Processor
-# -- Compiling architecture structure of RISCV_Processor
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(276): (vcom-1348) Prefix (signal "s_ALUSRC") of indexed name is not an array.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(276): Indexed name is type (error); expecting type ieee.std_logic_1164.STD_LOGIC.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd(307): VHDL Compiler exiting
-# End time: 15:27:41 on Oct 13,2025, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work {/home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:27:58 on Oct 13,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/TopLevel/RISCV_Processor.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RISCV_Processor
-# -- Compiling architecture structure of RISCV_Processor
-# End time: 15:27:58 on Oct 13,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+# -- Compiling entity RV32_regFile
+# -- Compiling architecture structural of RV32_regFile
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(21): (vcom-1136) Unknown identifier "reg_array".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(38): (vcom-1136) Unknown identifier "reg_array".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(67): Indexed name is type (error); expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(86): VHDL Compiler exiting
+# End time: 15:55:07 on Oct 14,2025, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0

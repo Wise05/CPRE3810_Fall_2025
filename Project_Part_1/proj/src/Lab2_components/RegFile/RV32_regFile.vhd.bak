@@ -1,6 +1,5 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-use work.regfile_pkg.all;
 
 entity RV32_regFile is 
   port (
@@ -17,7 +16,6 @@ entity RV32_regFile is
 end RV32_regFile;
 
 architecture structural of RV32_regFile is 
-  type reg_array is array (31 downto 0) of std_logic_vector(31 downto 0);
   signal s_Rd_decoded : std_logic_vector(31 downto 0);
   signal s_WE : std_logic_vector(31 downto 0);
   signal s_o_Q : reg_array;
