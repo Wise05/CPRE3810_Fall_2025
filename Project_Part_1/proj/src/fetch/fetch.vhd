@@ -1,6 +1,5 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-use work.regfile_pkg.all;
 
 entity fetch is 
   port (
@@ -74,11 +73,11 @@ begin
     rst => rst,
     RegWrite => '1',
     DATA_IN => PC_in_s,
-    OS => instr_addr_s,
+    OS => instr_addr_s
   );
 
 
-  plus4 : carry_adder_N
+  plus4_ofultamite_power : carry_adder_N
   generic map(N => 32)
   port map (
     A_i => instr_addr_s,

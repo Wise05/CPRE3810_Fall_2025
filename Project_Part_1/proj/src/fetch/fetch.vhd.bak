@@ -1,9 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-use work.regfile_pkg.all;
 
 entity fetch is 
-  -- inputs jump, branch, immediate (extended), zero flag
   port (
     clk : in std_logic;
     rst : in std_logic;
@@ -12,7 +10,6 @@ entity fetch is
     zero_flag_ALU : in std_logic;
     jump : in std_logic;
     imm : in std_logic_vector(31 downto 0); -- immediate offset
-    o_clk : out std_logic;
     instr_addr : out std_logic_vector(31 downto 0); -- address sent to imem
     plus4_o : out std_logic_vector(31 downto 0) -- address that gets sent to "AndLink" address
  );
@@ -76,8 +73,7 @@ begin
     rst => rst,
     RegWrite => '1',
     DATA_IN => PC_in_s,
-    OS => instr_addr_s,
-    o_CLK => o_clk
+    OS => instr_addr_s
   );
 
 
@@ -108,7 +104,7 @@ begin
   );
 
   mux_jump : mux2t1_N
-    generic map (N => 32);
+    generic map (N => 32)
     port map (
       i_S => PCSrc,
       i_D0 => plus4_s,

@@ -12,42 +12,150 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:54:16 on Oct 14,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd 
+# Start time: 16:42:10 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity dffg_N
-# -- Compiling architecture structural of dffg_N
-# End time: 15:54:16 on Oct 14,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
+# -- Compiling entity PC
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd(11): (vcom-1576) Invalid ';' before ')'.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd(11): VHDL Compiler exiting
+# End time: 16:42:10 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:54:19 on Oct 14,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd 
+# Start time: 16:42:22 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture structural of PC
+# End time: 16:42:22 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:42:25 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # ** Error: (vcom-11) Could not find work.regfile_pkg.
-# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(3): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(3): Unknown expanded name.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(5): VHDL Compiler exiting
-# End time: 15:54:19 on Oct 14,2025, Elapsed time: 0:00:00
+# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd(3): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd(3): Unknown expanded name.
+# -- Loading package NUMERIC_STD
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd(6): VHDL Compiler exiting
+# End time: 16:42:25 on Oct 14,2025, Elapsed time: 0:00:00
 # Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:55:06 on Oct 14,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd 
+# Start time: 16:43:00 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity RV32_regFile
-# -- Compiling architecture structural of RV32_regFile
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(21): (vcom-1136) Unknown identifier "reg_array".
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(38): (vcom-1136) Unknown identifier "reg_array".
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(67): Indexed name is type (error); expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd(86): VHDL Compiler exiting
-# End time: 15:55:07 on Oct 14,2025, Elapsed time: 0:00:01
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Left_Shifter
+# -- Compiling architecture structural of Left_Shifter
+# End time: 16:43:00 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:43:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.regfile_pkg.
+# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd(3): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd(3): Unknown expanded name.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd(5): VHDL Compiler exiting
+# End time: 16:43:04 on Oct 14,2025, Elapsed time: 0:00:00
 # Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:43:18 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fetch
+# -- Compiling architecture structural of fetch
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd(77): near ")": syntax error
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd(80): Statement cannot be labeled.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd(121): VHDL Compiler exiting
+# End time: 16:43:18 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:44:00 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fetch
+# -- Compiling architecture structural of fetch
+# End time: 16:44:00 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/plus4.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:44:04 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/plus4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.regfile_pkg.
+# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/plus4.vhd(3): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/plus4.vhd(3): Unknown expanded name.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/plus4.vhd(5): VHDL Compiler exiting
+# End time: 16:44:04 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/plus4.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:44:16 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/plus4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity plus4
+# -- Compiling architecture structural of plus4
+# End time: 16:44:16 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/extender/butter_extender_Nt32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:44:27 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/extender/butter_extender_Nt32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butter_extender_Nt32
+# -- Compiling architecture GenerateBased of butter_extender_Nt32
+# End time: 16:44:27 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/extender/butter_extender_Nt32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:44:29 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/extender/butter_extender_Nt32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity butter_extender_Nt32
+# -- Compiling architecture GenerateBased of butter_extender_Nt32
+# End time: 16:44:29 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/control/control.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:44:34 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/control/control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity control
+# -- Compiling architecture dataflow of control
+# End time: 16:44:34 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,5 +1,5 @@
 QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-Start time: 15:50:21 on Oct 14,2025
+Start time: 16:45:08 on Oct 14,2025
 vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd internal/testpy/tb.vhd proj/src/MIPS_types.vhd proj/src/RISCV_types.vhd proj/src/control/control.vhd proj/src/TopLevel/RISCV_Processor.vhd proj/src/TopLevel/MIPS_Processor.vhd proj/src/TopLevel/mem.vhd proj/src/fetch/PC.vhd proj/src/fetch/fetch.vhd proj/src/fetch/Left_Shifter.vhd proj/src/fetch/plus4.vhd proj/src/Lab2_components/dffg.vhd proj/src/Lab2_components/Extenders/extender_Nt32.vhd proj/src/Lab2_components/RegFile/decoder_5t32.vhd proj/src/Lab2_components/RegFile/dffg_N.vhd proj/src/Lab2_components/RegFile/mux_32t1.vhd proj/src/Lab2_components/RegFile/RV32_regFile.vhd proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd proj/src/Lab2_components/Lab1/mux2t1_N.vhd proj/src/Lab2_components/Lab1/andg2.vhd proj/src/Lab2_components/Lab1/org2.vhd proj/src/Lab2_components/Lab1/Multiplier.vhd proj/src/Lab2_components/Lab1/Adder.vhd proj/src/Lab2_components/Lab1/Reg.vhd proj/src/Lab2_components/Lab1/RegLd.vhd proj/src/Lab2_components/Lab1/invg.vhd proj/src/Lab2_components/Lab1/xorg2.vhd proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd proj/src/Lab2_components/Lab1/Adder/full_adder.vhd proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd proj/src/Lab2_components/Lab1/work/tb_mxu2t1_N.vhd proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd proj/src/extender/butter_extender_Nt32.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -16,7 +16,7 @@ vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd intern
 -- Loading package MIPS_types
 ** Warning: proj/src/RISCV_types.vhd(15): (vcom-1615) Existing package 'RISCV_types' at line 18 will be overwritten.
 -- Compiling package RISCV_types
-** Warning: proj/src/RISCV_types.vhd(29): (vcom-1615) Existing package body 'RISCV_types(body)' at line 29 will be overwritten.
+** Warning: proj/src/RISCV_types.vhd(31): (vcom-1615) Existing package body 'RISCV_types(body)' at line 31 will be overwritten.
 -- Compiling package body RISCV_types
 -- Loading package RISCV_types
 -- Loading package NUMERIC_STD
@@ -30,9 +30,74 @@ vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd intern
 -- Compiling architecture structure of MIPS_Processor
 -- Compiling entity mem
 -- Compiling architecture rtl of mem
-** Error: (vcom-11) Could not find work.regfile_pkg.
-** Error (suppressible): proj/src/fetch/PC.vhd(3): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
-** Error: proj/src/fetch/PC.vhd(3): Unknown expanded name.
-** Note: proj/src/fetch/PC.vhd(5): VHDL Compiler exiting
-End time: 15:50:21 on Oct 14,2025, Elapsed time: 0:00:00
-Errors: 3, Warnings: 2
+-- Compiling entity PC
+-- Compiling architecture structural of PC
+-- Compiling entity fetch
+-- Compiling architecture structural of fetch
+-- Compiling entity Left_Shifter
+-- Compiling architecture structural of Left_Shifter
+-- Compiling entity plus4
+-- Compiling architecture structural of plus4
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+-- Compiling entity extender_Nt32
+-- Compiling architecture GenerateBased of extender_Nt32
+-- Compiling entity decoder_5t32
+-- Compiling architecture dataflow of decoder_5t32
+-- Compiling entity dffg_N
+-- Compiling architecture structural of dffg_N
+-- Compiling package regfile_pkg
+-- Compiling package body regfile_pkg
+-- Loading package regfile_pkg
+-- Loading package regfile_pkg
+-- Compiling entity mux_32t1
+-- Compiling architecture dataflow of mux_32t1
+-- Compiling entity RV32_regFile
+-- Compiling architecture structural of RV32_regFile
+-- Compiling entity TPU_MV_Element
+-- Compiling architecture structure of TPU_MV_Element
+-- Compiling entity tb_mux2t1_N
+-- Compiling architecture mixed of tb_mux2t1_N
+-- Compiling entity mux2t1_N
+-- Compiling architecture structural of mux2t1_N
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+-- Compiling entity Multiplier
+-- Compiling architecture behavior of Multiplier
+-- Compiling entity Adder
+-- Compiling architecture behavior of Adder
+-- Compiling entity Reg
+-- Compiling architecture behavior of Reg
+-- Compiling entity RegLd
+-- Compiling architecture behavior of RegLd
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+-- Compiling entity tb_TPU_MV_Element
+-- Compiling architecture mixed of tb_TPU_MV_Element
+-- Compiling entity mux2t1
+-- Compiling architecture behavior of mux2t1
+-- Compiling entity mux2t1_dataflow
+-- Compiling architecture behavior of mux2t1_dataflow
+-- Compiling entity tb_ones_comp_N
+-- Compiling architecture mixed of tb_ones_comp_N
+-- Compiling entity ones_comp_N
+-- Compiling architecture structural of ones_comp_N
+-- Compiling entity full_adder
+-- Compiling architecture behavior of full_adder
+-- Compiling entity carry_adder_N
+-- Compiling architecture structural of carry_adder_N
+** Warning: proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd(10): (vcom-1615) Existing entity 'tb_mux2t1_N' at proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd(10) will be overwritten.
+-- Compiling entity tb_mux2t1_N
+** Warning: proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd(11): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd(15): (vcom-1615) Existing architecture 'tb_mux2t1_N(mixed)' at proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd(15) will be overwritten.
+-- Compiling architecture mixed of tb_mux2t1_N
+-- Compiling entity add_sub_N
+-- Compiling architecture structural of add_sub_N
+-- Compiling entity butter_extender_Nt32
+-- Compiling architecture GenerateBased of butter_extender_Nt32
+End time: 16:45:09 on Oct 14,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 5

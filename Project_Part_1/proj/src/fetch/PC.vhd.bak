@@ -1,6 +1,5 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-use work.regfile_pkg.all;
 
 entity PC is 
   port (
@@ -9,7 +8,6 @@ entity PC is
     RegWrite: in std_logic; -- write enable
     DATA_IN : in std_logic_vector(31 downto 0);
     OS : out std_logic_vector(31 downto 0);
-    o_CLK : out std_logic
   );
 end PC;
 
@@ -33,8 +31,6 @@ begin
       i_D => DATA_IN,
       o_Q => OS
     );
-
-    i_CLK <= o_CLK;
 
 end structural;
 

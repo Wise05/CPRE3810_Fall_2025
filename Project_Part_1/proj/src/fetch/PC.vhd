@@ -1,6 +1,5 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-use work.regfile_pkg.all;
 
 entity PC is 
   port (
@@ -8,7 +7,7 @@ entity PC is
     rst : in std_logic;
     RegWrite: in std_logic; -- write enable
     DATA_IN : in std_logic_vector(31 downto 0);
-    OS : out std_logic_vector(31 downto 0);
+    OS : out std_logic_vector(31 downto 0)
   );
 end PC;
 

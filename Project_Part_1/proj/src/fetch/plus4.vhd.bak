@@ -9,7 +9,8 @@ entity plus4 is
        );
   end plus4;
 
-architecture structural of carry_adder_N is
+architecture structural of plus4 is
+signal c : std_logic;
   component carry_adder_N is 
     generic(N : integer := 16);
     port (
@@ -29,7 +30,7 @@ begin
     B_i => x"00000004",
     C_in => '0',
     S_i => S,
-    C_out => '0'
+    C_out => c
   );
        
 end structural;
