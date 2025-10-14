@@ -1,0 +1,71 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+use work.regfile_pkg.all;  -- brings in reg_array type
+
+entity tb_mux_32t1 is
+end tb_mux_32t1;
+
+architecture sim of tb_mux_32t1 is
+  constant cCLK_PER : time := 10 ns;
+
+  -- DUT component
+  component mux_32t1 is
+    port (
+      i_32 : in  reg_array;
+      s_i  : in  std_logic_vector(4 downto 0);
+      o_1  : out std_logic_vector(31 downto 0)
+    );
+  end component;
+
+  -- signals
+  signal s_i32 : reg_array := (others => (others => '0'));
+  signal s_sel : std_logic_vector(4 downto 0) := (others => '0');
+  signal s_out : std_logic_vector(31 downto 0);
+
+begin
+  -- DUT instantiation
+  DUT : mux_32t1
+    port map (
+      i_32 => s_i32,
+      s_i  => s_sel,
+      o_1  => s_out
+    );
+
+  -- Test process
+  P_TB : process
+  begin
+    -- Test case 1: Select register 0
+    s_i32(0) <= x"00000001";
+    s_sel    <= "00000";
+    wait for cCLK_PER;
+    -- Expect o_1 = 00000001
+
+    -- Test case 2: Select register 5
+    s_i32(5) <= x"AAAAAAAA";
+    s_sel    <= "00101";
+    wait for cCLK_PER;
+    -- Expect o_1 = AAAAAAAA
+
+    -- Test case 3: Select register 10
+    s_i32(10) <= x"12345678";
+    s_sel     <= "01010";
+    wait for cCLK_PER;
+    -- Expect o_1 = 12345678
+
+    -- Test case 4: Select register 15
+    s_i32(15) <= x"DEADBEEF";
+    s_sel     <= "01111";
+    wait for cCLK_PER;
+    -- Expect o_1 = DEADBEEF
+
+    -- Test case 5: Select register 31
+    s_i32(31) <= x"CAFEBABE";
+    s_sel     <= "11111";
+    wait for cCLK_PER;
+    -- Expect o_1 = CAFEBABE
+
+    wait; -- stop simulation
+  end process;
+end sim;
+
