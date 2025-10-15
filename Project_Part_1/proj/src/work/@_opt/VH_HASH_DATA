@@ -1,0 +1,161 @@
+[N
+16
+6
+6 dffg_n
+11
+20 butter_extender_nt32
+5
+10 ADDR_WIDTH
+9
+8 mux2t1_n
+8
+1 N
+14
+9 add_sub_n
+3
+3 rtl
+13
+11 ones_comp_n
+16
+9 structure
+12
+13 generatebased
+1
+70 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/work
+15
+15 riscv_processor
+4
+10 DATA_WIDTH
+10
+13 carry_adder_n
+7
+10 structural
+2
+3 mem
+]
+[G
+1
+10
+7
+1
+8
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+5
+1
+0
+10
+0
+0 0
+0
+0
+]
+[G
+1
+11
+12
+1
+8
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+2
+3
+1
+4
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+6
+7
+1
+8
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+9
+7
+1
+8
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+14
+7
+1
+8
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+15
+16
+1
+8
+1
+0
+32
+0
+0 0
+0
+0
+]
+[G
+1
+13
+7
+1
+8
+1
+0
+32
+0
+0 0
+0
+0
+]

@@ -305,4 +305,3 @@ begin
         o_O => s_RegWrData
       );
 end structure;
-

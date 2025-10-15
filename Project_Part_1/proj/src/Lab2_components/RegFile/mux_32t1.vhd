@@ -1,17 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
+use work.RISCV_types.all;
 
-package regfile_pkg is
-  type reg_array is array (31 downto 0) of std_logic_vector(31 downto 0);
-end package;
-
-package body regfile_pkg is
-end package body;
-
-
-library IEEE;
-use IEEE.std_logic_1164.all;
-use work.regfile_pkg.all;
 entity mux_32t1 is 
   port (
     i_32 : in reg_array;                 
