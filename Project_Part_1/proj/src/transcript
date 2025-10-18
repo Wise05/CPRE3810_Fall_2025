@@ -12,107 +12,30 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:30:11 on Oct 15,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Loading package regfile_pkg
-# -- Compiling entity mux_32t1
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd(11): (vcom-1078) Identifier "reg_array" is not directly visible.
-#    Potentially visible declarations are:
-#         work.RISCV_types.reg_array at /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/RISCV_types.vhd(27) (type declaration)
-#         work.regfile_pkg.reg_array at /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux_32t1.vhd(5) (type declaration)
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd(15): VHDL Compiler exiting
-# End time: 15:30:11 on Oct 15,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:31:02 on Oct 15,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Loading package regfile_pkg
-# -- Compiling entity mux_32t1
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd(11): (vcom-1078) Identifier "reg_array" is not directly visible.
-#    Potentially visible declarations are:
-#         work.RISCV_types.reg_array at /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/RISCV_types.vhd(27) (type declaration)
-#         work.regfile_pkg.reg_array at /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux_32t1.vhd(5) (type declaration)
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd(15): VHDL Compiler exiting
-# End time: 15:31:02 on Oct 15,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/RISCV_types.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:31:16 on Oct 15,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/RISCV_types.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package RISCV_types
-# -- Compiling package body RISCV_types
-# -- Loading package RISCV_types
-# End time: 15:31:17 on Oct 15,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:31:35 on Oct 15,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Loading package regfile_pkg
-# -- Compiling entity mux_32t1
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd(11): (vcom-1078) Identifier "reg_array" is not directly visible.
-#    Potentially visible declarations are:
-#         work.RISCV_types.reg_array at /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/RISCV_types.vhd(27) (type declaration)
-#         work.regfile_pkg.reg_array at /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux_32t1.vhd(5) (type declaration)
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd(15): VHDL Compiler exiting
-# End time: 15:31:36 on Oct 15,2025, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:31:42 on Oct 15,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RV32_regFile
-# -- Compiling architecture structural of RV32_regFile
-# End time: 15:31:42 on Oct 15,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:31:49 on Oct 15,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Loading package regfile_pkg
-# -- Compiling entity mux_32t1
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd(11): (vcom-1078) Identifier "reg_array" is not directly visible.
-#    Potentially visible declarations are:
-#         work.RISCV_types.reg_array at /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/RISCV_types.vhd(27) (type declaration)
-#         work.regfile_pkg.reg_array at /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux_32t1.vhd(5) (type declaration)
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd(15): VHDL Compiler exiting
-# End time: 15:31:49 on Oct 15,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:32:48 on Oct 15,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity mux_32t1
-# -- Compiling architecture dataflow of mux_32t1
-# End time: 15:32:49 on Oct 15,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
+# ** Error: (vish-7) Failed to open info file "/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/containers/sim_container_0/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vish-7) Failed to open info file "/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/containers/sim_container_0/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+add wave -position insertpoint  \
+vsim:/tb/CLK \
+vsim:/tb/reset \
+vsim:/tb/reset_done \
+vsim:/tb/alu_out
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/IMem/data
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/DMem/data
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/ALU/A_i \
+vsim:/tb/MyRiscv/ALU/B_i \
+vsim:/tb/MyRiscv/ALU/nAdd_Sub \
+vsim:/tb/MyRiscv/ALU/S_i \
+vsim:/tb/MyRiscv/ALU/C_out \
+vsim:/tb/MyRiscv/ALU/B_inverted \
+vsim:/tb/MyRiscv/ALU/B_muxed
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/Sign_Extend/imm_in
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/Sign_Extend/imm_out
+# ** Error: (vish-7) Failed to open info file "/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/containers/sim_container_0/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)

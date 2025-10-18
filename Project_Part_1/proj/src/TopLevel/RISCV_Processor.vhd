@@ -273,15 +273,17 @@ begin
       port map (
         A_i => s_OS1,
         B_i => s_ALU_B,
-        nAdd_Sub => s_ALUSRC, -- bit difference between add/sub
+        nAdd_Sub => '0', -- change to ALU_Control
         S_i => s_DMemAddr,
         C_out => s_Cout -- ignored signal
       );
 
+oALUOut <= s_DMemAddr;
+
     ALU_Src_Mux : mux2t1_N
       generic map (N => 32)
       port map (
-        i_S => s_ALUSRC,
+        i_S => '1',-- change to s_ALUSRC
         i_D0 => s_DMemData,
         i_D1 => s_extended_imm,
         o_O => s_ALU_B
@@ -304,4 +306,6 @@ begin
         i_D1 => s_DMemOut,
         o_O => s_RegWrData
       );
+
+s_RegWrAddr <= s_Inst(11 downto 7);
 end structure;

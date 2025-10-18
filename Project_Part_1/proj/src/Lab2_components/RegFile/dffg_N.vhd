@@ -1,41 +1,30 @@
--- Zevan Gustafson
--- dffg_N
--- N bit register file
-
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity dffg_N is 
-  generic(N : integer := 32);
+entity dffg is
   port(
-    i_CLK : in  std_logic;
-    i_RST : in  std_logic;
-    i_WE : in  std_logic;
-    i_D : in  std_logic_vector(N-1 downto 0);
-    o_Q : out std_logic_vector(N-1 downto 0)
+    i_CLK : in std_logic;
+    i_RST : in std_logic;
+    i_WE  : in std_logic;
+    i_D   : in std_logic;
+    o_Q   : out std_logic
   );
 end entity;
 
-architecture structural of dffg_N is
-  component dffg
-    port(
-      i_CLK : in std_logic;
-      i_RST : in std_logic;
-      i_WE : in std_logic;
-      i_D : in std_logic;
-      o_Q : out std_logic
-    );
-  end component;
+architecture behavioral of dffg is
+  signal r_Q : std_logic := '0';  
 begin
-  gen_regs : for i in 0 to N-1 generate
-    bit_ff: dffg
-      port map (
-        i_CLK => i_CLK,
-        i_RST => i_RST,
-        i_WE => i_WE,
-        i_D => i_D(i),
-        o_Q => o_Q(i)
-      );
-  end generate;
+  process(i_CLK, i_RST)
+  begin
+    if i_RST = '1' then
+      r_Q <= '0'; 
+    elsif rising_edge(i_CLK) then
+      if i_WE = '1' then
+        r_Q <= i_D;
+      end if;
+    end if;
+  end process;
+
+  o_Q <= r_Q;
 end architecture;
 
