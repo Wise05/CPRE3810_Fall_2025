@@ -1,0 +1,40 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vsim work.tb_butter_extender -voptargs=+acc
+# vsim work.tb_butter_extender -voptargs="+acc" 
+# Start time: 18:52:54 on Oct 18,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_butter_extender.vhd(30): (vopt-3473) Component instance "DUT : butter_extender_Nt32" is not bound.
+#         Region: /tb_butter_extender
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_butter_extender(testbench)#1
+# ** Warning: (vsim-3473) Component instance "DUT : butter_extender_Nt32" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_butter_extender File: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_butter_extender.vhd
+add wave -position insertpoint  \
+sim:/tb_butter_extender/imm_in \
+sim:/tb_butter_extender/sign_ext \
+sim:/tb_butter_extender/imm_type \
+sim:/tb_butter_extender/imm_out \
+sim:/tb_butter_extender/test_num
+run 500
+# ** Note: Testbench completed successfully!
+#    Time: 150 ns  Iteration: 0  Instance: /tb_butter_extender
+# End time: 18:58:58 on Oct 18,2025, Elapsed time: 0:06:04
+# Errors: 0, Warnings: 3
