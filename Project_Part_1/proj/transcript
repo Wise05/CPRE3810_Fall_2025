@@ -12,13 +12,3 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/extender/butter_extender_Nt32.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 19:25:20 on Oct 18,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/extender/butter_extender_Nt32.vhd 
-# -- Loading package STANDARD
-# -- Compiling architecture GenerateBased of butter_extender_Nt32
-# ** Error: (vcom-11) Could not find work.butter_extender_nt32.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/extender/butter_extender_Nt32.vhd(1): VHDL Compiler exiting
-# End time: 19:25:20 on Oct 18,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
