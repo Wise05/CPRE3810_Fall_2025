@@ -21,25 +21,14 @@ begin
   -- Determine sign extension bit
   sign_bit <= imm_in(31) when sign_ext = "01" else '0';
 
-  -- I-type: bits [31:20]
-  imm_i <= (19 downto 0 => sign_bit) & imm_in(31 downto 20);
+  -- Immediate formats
+  imm_i  <= (31 downto 12 => sign_bit) & imm_in(31 downto 20);
+  imm_s  <= (31 downto 12 => sign_bit) & imm_in(31 downto 25) & imm_in(11 downto 7);
+  imm_sb <= (31 downto 13 => sign_bit) & imm_in(31) & imm_in(7) & imm_in(30 downto 25) & imm_in(11 downto 8) & '0';
+  imm_u  <= imm_in(31 downto 12) & x"000";  -- upper immediate, lower 12 bits zero
+  imm_uj <= (31 downto 21 => sign_bit) & imm_in(31) & imm_in(19 downto 12) & imm_in(20) & imm_in(30 downto 21) & '0';
 
-  -- S-type: bits [31:25] & [11:7]
-  imm_s <= (19 downto 0 => sign_bit) & imm_in(31 downto 25) & imm_in(11 downto 7);
-
-  -- SB-type: branch offset
-  imm_sb <= (18 downto 0 => sign_bit) & imm_in(31) & imm_in(7) &
-             imm_in(30 downto 25) & imm_in(11 downto 8) & '0';
-
-  -- U-type: upper immediate
-  imm_u <= imm_in(31 downto 12) & (11 downto 0 => '0');
-
-  -- UJ-type: jump offset
-  imm_uj <= (10 downto 0 => sign_bit) & imm_in(31) &
-             imm_in(19 downto 12) & imm_in(20) &
-             imm_in(30 downto 21) & '0';
-
-  -- Select immediate
+  -- Select immediate format
   with imm_type select
     imm_sel <= imm_i           when "000",
                imm_s           when "001",
@@ -48,6 +37,7 @@ begin
                imm_uj          when "100",
                (others => '0') when others;
 
-  -- Handle LUI mode (if used)
+  -- Output selection (handle LUI separately)
   imm_out <= imm_u when sign_ext = "10" else imm_sel;
 end GenerateBased;
+
