@@ -93,7 +93,7 @@ begin
   o_Jump <= '1' when (i_opcode = "1101111" or i_opcode = "1100111") else
             '0';
 
-o_halt <= '1' when (i_opcode = "0101100") else '0';
+o_halt <= '1' when (i_opcode = "1110011") else '0';
 
 end dataflow;
 

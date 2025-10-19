@@ -399,7 +399,7 @@ R62
 R20
 R21
 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
-Z72 w1760828554
+w1760828554
 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
 Eextender_nt32
 R30
@@ -408,19 +408,19 @@ R11
 R12
 !i122 29
 R2
-Z73 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd
-Z74 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd
+Z72 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd
+Z73 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd
 l0
 L6 1
 VVDBf::TbH0SjW3NMR@Afc1
 !s100 <WY:1=A=dGT<Yz7K6XFaj1
 R15
 33
-Z75 !s110 1760834921
+Z74 !s110 1760834921
 !i10b 1
-Z76 !s108 1760834921.000000
-Z77 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
-Z78 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
+Z75 !s108 1760834921.000000
+Z76 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
+Z77 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
 !i113 0
 R20
 R21
@@ -436,37 +436,37 @@ V[U0F69coG=D=DBno=ISl01
 !s100 CcQVREGK1CO;3CC@3aTPI2
 R15
 33
-R75
+R74
 !i10b 1
+R75
 R76
 R77
-R78
 !i113 0
 R20
 R21
 Eextender_nt32_tb
-Z79 w1760828619
+Z78 w1760828619
 R22
 R11
 R12
 !i122 5
 R2
-Z80 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_extender_Nt32.vhd
-Z81 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_extender_Nt32.vhd
+Z79 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_extender_Nt32.vhd
+Z80 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_extender_Nt32.vhd
 l0
 L5 1
 Vi^ZG>c^7_8U;[a4;g6Fn;0
 !s100 D;_?4[Z<U=5X[86eBdzGj1
 R15
 32
-Z82 !s110 1760833845
+Z81 !s110 1760833845
 !i10b 1
-Z83 !s108 1760833845.000000
-Z84 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_extender_Nt32.vhd|
-Z85 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_extender_Nt32.vhd|
+Z82 !s108 1760833845.000000
+Z83 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_extender_Nt32.vhd|
+Z84 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_extender_Nt32.vhd|
 !i113 0
 R20
-Z86 tExplicit 1 CvgOpt 0
+Z85 tExplicit 1 CvgOpt 0
 Abehavior
 R22
 R11
@@ -479,22 +479,22 @@ V5n9FY47I_Dn@2GN0cmQRi2
 !s100 ?m=97Jl[O@P2P;6DTb0D83
 R15
 32
-R82
+R81
 !i10b 1
+R82
 R83
 R84
-R85
 !i113 0
 R20
-R86
+R85
 Efetch
-Z87 w1760559609
+Z86 w1760559609
 R11
 R12
 !i122 39
 R2
-Z88 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd
-Z89 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd
+Z87 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd
+Z88 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd
 l0
 L4 1
 V:3NLN2Yd3P]HeB_hbF0oK0
@@ -504,8 +504,8 @@ R15
 R48
 !i10b 1
 R49
-Z90 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd|
-Z91 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd|
+Z89 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd|
+Z90 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/fetch.vhd|
 !i113 0
 R20
 R21
@@ -523,8 +523,8 @@ R15
 R48
 !i10b 1
 R49
+R89
 R90
-R91
 !i113 0
 R20
 R21
@@ -535,19 +535,19 @@ R11
 R12
 !i122 15
 R2
-Z92 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-Z93 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
+Z91 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
+Z92 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
 l0
 L9 1
 V6Y1JDQWZSPGYgY5<@kP]j2
 !s100 mo[n2]EW6g`C>XbLWK1_z1
 R15
 33
-Z94 !s110 1760834836
+Z93 !s110 1760834836
 !i10b 1
-Z95 !s108 1760834836.000000
-Z96 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|
-Z97 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|
+Z94 !s108 1760834836.000000
+Z95 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|
+Z96 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|
 !i113 0
 R20
 R21
@@ -563,11 +563,11 @@ Vag9f0A[]El92IE]h1_>l;2
 !s100 a]Y2dGOeV[koFPz<_lnOK0
 R15
 33
-R94
+R93
 !i10b 1
+R94
 R95
 R96
-R97
 !i113 0
 R20
 R21
@@ -577,19 +577,19 @@ R11
 R12
 !i122 22
 R2
-Z98 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/invg.vhd
-Z99 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/invg.vhd
+Z97 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/invg.vhd
+Z98 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/invg.vhd
 l0
 R33
 VzJhOLc0g_4RfSF]IXa;:73
 !s100 _XK?_^5z0Rm1<k12?;5R?2
 R15
 33
-Z100 !s110 1760834901
+Z99 !s110 1760834901
 !i10b 1
-Z101 !s108 1760834901.000000
-Z102 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/invg.vhd|
-Z103 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/invg.vhd|
+Z100 !s108 1760834901.000000
+Z101 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/invg.vhd|
+Z102 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/invg.vhd|
 !i113 0
 R20
 R21
@@ -604,11 +604,11 @@ VT@AA60h>IXVJ?D^`RRiZk1
 !s100 bk7I76o8e1LURdoZEQb8H0
 R15
 33
-R100
+R99
 !i10b 1
+R100
 R101
 R102
-R103
 !i113 0
 R20
 R21
@@ -619,8 +619,8 @@ R11
 R12
 !i122 40
 R2
-Z104 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd
-Z105 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd
+Z103 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd
+Z104 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd
 l0
 L5 1
 VL2Db1[1IQd0ZmUb:ONB;L3
@@ -630,8 +630,8 @@ R15
 R48
 !i10b 1
 R49
-Z106 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd|
-Z107 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd|
+Z105 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd|
+Z106 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/Left_Shifter.vhd|
 !i113 0
 R20
 R21
@@ -650,8 +650,8 @@ R15
 R48
 !i10b 1
 R49
+R105
 R106
-R107
 !i113 0
 R20
 R21
@@ -662,19 +662,19 @@ R11
 R12
 !i122 23
 R2
-Z108 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd
-Z109 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd
+Z107 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd
+Z108 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd
 l0
 R25
 VQZQz[19A0G@R7Zk3i4J2N3
 !s100 7X@Jko]<<Vj_GlPXZCnEf3
 R15
 33
-R100
+R99
 !i10b 1
-R101
-Z110 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd|
-Z111 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd|
+R100
+Z109 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd|
+Z110 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd|
 !i113 0
 R20
 R21
@@ -690,11 +690,11 @@ VcALVPaD=z:AC?Rc=UV1zA2
 !s100 NZ_1jPD9^a_Gc254BDF0C1
 R15
 33
-R100
+R99
 !i10b 1
-R101
+R100
+R109
 R110
-R111
 !i113 0
 R20
 R21
@@ -705,19 +705,19 @@ R11
 R12
 !i122 17
 R2
-Z112 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
-Z113 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
+Z111 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
+Z112 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
 l0
 L11 1
 VPkKgX[1^3CFPcC?n`P4N`0
 !s100 7i2P_V8V?m733gNoJHTB61
 R15
 33
-Z114 !s110 1760834858
+Z113 !s110 1760834858
 !i10b 1
-Z115 !s108 1760834857.000000
-Z116 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|
-Z117 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|
+Z114 !s108 1760834857.000000
+Z115 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|
+Z116 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|
 !i113 0
 R20
 R21
@@ -733,11 +733,11 @@ Voi[W]AmC8=BW>YDaMU`RE1
 !s100 8MeOIDC^;7@QLnl=8QG3T3
 R15
 33
-R114
+R113
 !i10b 1
+R114
 R115
 R116
-R117
 !i113 0
 R20
 R21
@@ -747,8 +747,8 @@ R11
 R12
 !i122 41
 R2
-Z118 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux2t1_N.vhd
-Z119 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux2t1_N.vhd
+Z117 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux2t1_N.vhd
+Z118 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux2t1_N.vhd
 l0
 L21 1
 VX=8caLddO;GBDIdffNOz`3
@@ -758,8 +758,8 @@ R15
 R48
 !i10b 1
 R49
-Z120 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux2t1_N.vhd|
-Z121 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux2t1_N.vhd|
+Z119 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux2t1_N.vhd|
+Z120 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/mux2t1_N.vhd|
 !i113 0
 R20
 R21
@@ -777,8 +777,8 @@ R15
 R48
 !i10b 1
 R49
+R119
 R120
-R121
 !i113 0
 R20
 R21
@@ -788,19 +788,19 @@ R11
 R12
 !i122 19
 R2
-Z122 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
-Z123 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+Z121 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+Z122 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
 l0
 L8 1
 VHlnD6o8Z:PTN@1eNQfUzQ1
 !s100 ?S_OC`;]2A6198NA7jK953
 R15
 33
-Z124 !s110 1760834869
+Z123 !s110 1760834869
 !i10b 1
-Z125 !s108 1760834869.000000
-Z126 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|
-Z127 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|
+Z124 !s108 1760834869.000000
+Z125 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|
+Z126 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|
 !i113 0
 R20
 R21
@@ -815,11 +815,11 @@ V]ZkakV?jYbCDo^L>BYLj?2
 !s100 O6VFDA4V1^eg?eP>zU^nM2
 R15
 33
-R124
+R123
 !i10b 1
+R124
 R125
 R126
-R127
 !i113 0
 R20
 R21
@@ -829,19 +829,19 @@ R11
 R12
 !i122 25
 R2
-Z128 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/org2.vhd
-Z129 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/org2.vhd
+Z127 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/org2.vhd
+Z128 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/org2.vhd
 l0
 R33
 V0FzB9ATDX9TV=M:n@=VB83
 !s100 bGQ1F9eW^Q17OoL9h4g7z2
 R15
 33
-R100
+R99
 !i10b 1
-R101
-Z130 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/org2.vhd|
-Z131 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/org2.vhd|
+R100
+Z129 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/org2.vhd|
+Z130 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/org2.vhd|
 !i113 0
 R20
 R21
@@ -856,11 +856,11 @@ V0JC>N7cRXc=9bni@>dg7o3
 !s100 h5_AzR3TdRA0a_K=dQ>mI2
 R15
 33
-R100
+R99
 !i10b 1
-R101
+R100
+R129
 R130
-R131
 !i113 0
 R20
 R21
@@ -870,8 +870,8 @@ R11
 R12
 !i122 42
 R2
-Z132 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd
-Z133 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd
+Z131 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd
+Z132 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd
 l0
 L4 1
 VZ5bT[i811cJHH7lhD?mRR2
@@ -881,8 +881,8 @@ R15
 R48
 !i10b 1
 R49
-Z134 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd|
-Z135 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd|
+Z133 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd|
+Z134 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/fetch/PC.vhd|
 !i113 0
 R20
 R21
@@ -900,8 +900,8 @@ R15
 R48
 !i10b 1
 R49
+R133
 R134
-R135
 !i113 0
 R20
 R21
@@ -911,19 +911,19 @@ R11
 R12
 !i122 26
 R2
-Z136 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Reg.vhd
-Z137 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Reg.vhd
+Z135 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Reg.vhd
+Z136 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Reg.vhd
 l0
 R33
 V`PX^3h8TjOoe:BSO9PXbo0
 !s100 [YR2K8dfC;91mFlo`2lkO2
 R15
 33
-R100
+R99
 !i10b 1
-R101
-Z138 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Reg.vhd|
-Z139 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Reg.vhd|
+R100
+Z137 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Reg.vhd|
+Z138 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/Reg.vhd|
 !i113 0
 R20
 R21
@@ -938,11 +938,11 @@ VW]PYjc?1E[F?b0T?m:Xa]1
 !s100 nf[`4S9cGXRcE4GX;@:6^1
 R15
 33
-R100
+R99
 !i10b 1
-R101
+R100
+R137
 R138
-R139
 !i113 0
 R20
 R21
@@ -952,19 +952,19 @@ R11
 R12
 !i122 27
 R2
-Z140 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/RegLd.vhd
-Z141 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/RegLd.vhd
+Z139 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/RegLd.vhd
+Z140 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/RegLd.vhd
 l0
 R33
 VIOdN@HA1O9ghc_C>a1oiT3
 !s100 ikPXW34H>Yig3olobSE7c2
 R15
 33
-R100
+R99
 !i10b 1
-R101
-Z142 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/RegLd.vhd|
-Z143 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/RegLd.vhd|
+R100
+Z141 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/RegLd.vhd|
+Z142 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/Lab2_components/Lab1/RegLd.vhd|
 !i113 0
 R20
 R21
@@ -979,20 +979,20 @@ VXMG4Uj12V?[=H;NC9BfP`2
 !s100 IC8af?T7V5V4Kal8D0chZ1
 R15
 33
-R100
+R99
 !i10b 1
-R101
+R100
+R141
 R142
-R143
 !i113 0
 R20
 R21
 Eriscv_processor
-R72
+Z143 w1760837531
 Z144 DPx4 work 11 riscv_types 0 22 IS=_@C_zo1X4[c7`?03GW0
 R11
 R12
-!i122 45
+!i122 49
 R2
 Z145 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/TopLevel/RISCV_Processor.vhd
 Z146 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/TopLevel/RISCV_Processor.vhd
@@ -1002,9 +1002,9 @@ V3dOCFPSU=DaWUNCHab0kc2
 !s100 AbfQc??>7BL50WIf1Na1i2
 R15
 33
-Z147 !s110 1760836109
+Z147 !s110 1760838033
 !i10b 1
-Z148 !s108 1760836109.000000
+Z148 !s108 1760838033.000000
 Z149 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/TopLevel/RISCV_Processor.vhd|
 Z150 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/TopLevel/RISCV_Processor.vhd|
 !i113 0
@@ -1015,11 +1015,11 @@ R144
 R11
 R12
 Z151 DEx4 work 15 riscv_processor 0 22 3dOCFPSU=DaWUNCHab0kc2
-!i122 45
-l190
-Z152 L35 277
-Z153 VHV[DKC68Z1ZMfM6j_CA]I1
-Z154 !s100 7f3_XoHHE^RfXaOLoQH720
+!i122 49
+l193
+Z152 L35 283
+Z153 Vg`KPP=z[ZF2iDLCi1Wg0]0
+Z154 !s100 A>3G?H@[5oSmf_XYm16fZ3
 R15
 33
 R147
