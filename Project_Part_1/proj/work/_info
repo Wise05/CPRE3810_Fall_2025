@@ -42,46 +42,90 @@ o-quiet -auto_acc_if_foreign -work work +acc
 R7
 n@_opt1
 R8
-Etb_butter_extender
-Z9 w1760831418
+R1
+Econtrol
+Z9 w1760557800
 Z10 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z12 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 0
+!i122 2
 R1
-Z13 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_butter_extender.vhd
-Z14 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_butter_extender.vhd
+Z13 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/control/control.vhd
+Z14 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/control/control.vhd
 l0
 L5 1
-V^fggRa93Jd>IR7gaM6lFR2
-!s100 Ahg4;>kh:SjFPc7ARAm:>0
+VW?o:aG^PoN`hG2cmE0MER1
+!s100 OJ7EASg1<Ubz@gV0863dN1
 Z15 OL;C;2025.1_2;82
 32
-Z16 !s110 1760831524
+Z16 !s110 1760832681
 !i10b 1
-Z17 !s108 1760831524.000000
-Z18 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_butter_extender.vhd|
-Z19 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_butter_extender.vhd|
+Z17 !s108 1760832681.000000
+Z18 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/control/control.vhd|
+!s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/control/control.vhd|
 !i113 0
-Z20 o-work work
-Z21 tExplicit 1 CvgOpt 0
-Atestbench
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Adataflow
 R10
 R11
 R12
-DEx4 work 18 tb_butter_extender 0 22 ^fggRa93Jd>IR7gaM6lFR2
-!i122 0
-l29
-L8 145
-VXjOoMQ4=iaWDnLFz36GI[0
-!s100 o9f?ATBV1EUU<_>6H90Ri0
+DEx4 work 7 control 0 22 W?o:aG^PoN`hG2cmE0MER1
+!i122 2
+l23
+L22 69
+V8e4`LMcU5aV`z71mK_J]i0
+!s100 A5^MW;_85R1f:S5jkJ8NT0
 R15
 32
 R16
 !i10b 1
 R17
 R18
-R19
+Z21 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/control/control.vhd|
 !i113 0
+R19
 R20
-R21
+Etb_butter_extender
+Z22 w1760831418
+R10
+R11
+R12
+!i122 1
+R1
+Z23 8/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_butter_extender.vhd
+Z24 F/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_butter_extender.vhd
+l0
+L5 1
+V^fggRa93Jd>IR7gaM6lFR2
+!s100 Ahg4;>kh:SjFPc7ARAm:>0
+R15
+32
+Z25 !s110 1760832655
+!i10b 1
+Z26 !s108 1760832655.000000
+Z27 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_butter_extender.vhd|
+Z28 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/test/tb_butter_extender.vhd|
+!i113 0
+R19
+R20
+Atestbench
+R10
+R11
+R12
+DEx4 work 18 tb_butter_extender 0 22 ^fggRa93Jd>IR7gaM6lFR2
+!i122 1
+l29
+L8 145
+VXjOoMQ4=iaWDnLFz36GI[0
+!s100 o9f?ATBV1EUU<_>6H90Ri0
+R15
+32
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R19
+R20
