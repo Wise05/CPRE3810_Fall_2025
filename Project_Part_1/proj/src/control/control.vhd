@@ -15,6 +15,8 @@ entity control is
     o_RegWrite   : out std_logic;
     o_imm_sel    : out std_logic_vector(1 downto 0);
     o_BranchType : out std_logic_vector(1 downto 0);
+    o_MemtoReg     : out std_logic;
+    o_halt     : out std_logic;
     o_Jump       : out std_logic
   );
 end control;
@@ -85,8 +87,14 @@ begin
                   "11" when (i_opcode = "1100011" and i_funct3 = "101") else
                   "--";
 
+ o_MemtoReg <= '1' when (i_opcode = "0000011") else '0';
+
+
   o_Jump <= '1' when (i_opcode = "1101111" or i_opcode = "1100111") else
             '0';
+
+o_halt <= '1' when (i_opcode = "0101100") else '0';
+
 end dataflow;
 
 
