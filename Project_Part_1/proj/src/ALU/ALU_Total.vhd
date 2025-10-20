@@ -29,7 +29,8 @@ architecture structural of ALU_Total is
       B_i : in  std_logic_vector(N-1 downto 0);
       nAdd_Sub : in  std_logic;  -- 0 => Add, 1 => Subtract
       S_i : out std_logic_vector(N-1 downto 0);
-      C_out : out std_logic
+      C_out : out std_logic;
+      Overflow_out : out std_logic
     );
   end component;
 
@@ -80,5 +81,4 @@ begin
   s_XOR <= A xor B;
 
  
->>>>>>> e448a2c (lskjdkfjkdjfkdjkfj)
 end structural;
