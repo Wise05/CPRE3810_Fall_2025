@@ -33,7 +33,7 @@ begin
                
  dir <= '0' when (ALU_control = "0111") else '1';
 
- ext_bit <= data_in(31) when shift_type = '1' else '0';
+ext_bit <= data_in(31) when shift_type = '1' else '0';
 
 gen_input_reverse: for i in 0 to 31 generate
 begin
