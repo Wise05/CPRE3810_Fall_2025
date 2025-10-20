@@ -14,10 +14,11 @@ entity control is
     o_Mem_Write  : out std_logic;
     o_RegWrite   : out std_logic;
     o_imm_sel    : out std_logic_vector(1 downto 0);
-    o_BranchType : out std_logic_vector(1 downto 0);
+    o_BranchType : out std_logic_vector(2 downto 0);
     o_MemtoReg     : out std_logic;
     o_halt     : out std_logic;
-    o_Jump       : out std_logic
+    o_Jump       : out std_logic;
+    o_Link       : out std_logic
   );
 end control;
 
@@ -81,19 +82,24 @@ begin
                "10" when (i_opcode = "0110111" or i_opcode = "0010111") else
                "--";
 
-  o_BranchType <= "00" when (i_opcode = "1100011" and i_funct3 = "000") else
-                  "01" when (i_opcode = "1100011" and i_funct3 = "001") else
-                  "10" when (i_opcode = "1100011" and i_funct3 = "100") else
-                  "11" when (i_opcode = "1100011" and i_funct3 = "101") else
-                  "--";
+  o_BranchType <= "000" when (i_opcode = "1100011" and i_funct3 = "000") else
+                  "001" when (i_opcode = "1100011" and i_funct3 = "001") else
+                  "010" when (i_opcode = "1100011" and i_funct3 = "100") else
+                  "011" when (i_opcode = "1100011" and i_funct3 = "101") else
+                  "100" when (i_opcode = "1100011" and i_funct3 = "110") else
+                  "101" when (i_opcode = "1100011" and i_funct3 = "111") else
+                  "---";
 
- o_MemtoReg <= '1' when (i_opcode = "0000011") else '0';
+  o_MemtoReg <= '1' when (i_opcode = "0000011") else '0';
 
 
   o_Jump <= '1' when (i_opcode = "1101111" or i_opcode = "1100111") else
             '0';
+            
+  o_Link <= '1' when (i_opcode = "1101111" or i_opcode = "1100111") else
+            '0';
 
-o_halt <= '1' when (i_opcode = "1110011") else '0';
+  o_halt <= '1' when (i_opcode = "1110011") else '0';
 
 end dataflow;
 
