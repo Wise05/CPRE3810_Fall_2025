@@ -12,15 +12,57 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/TopLevel/RISCV_Processor.vhd
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/ALU_Total.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 20:40:33 on Oct 18,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/TopLevel/RISCV_Processor.vhd 
+# Start time: 14:33:46 on Oct 20,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/ALU_Total.vhd 
+# -- Loading package STANDARD
+# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/ALU_Total.vhd(77): (vcom-1491) Empty source files.
+# End time: 14:33:46 on Oct 20,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/ALU_Total.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:35:01 on Oct 20,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/ALU_Total.vhd 
+# -- Loading package STANDARD
+# -- Compiling entity ALU_Total
+# -- Compiling architecture structural of ALU_Total
+# End time: 14:35:01 on Oct 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/mux_16t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:35:07 on Oct 20,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/mux_16t1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RISCV_Processor
-# -- Compiling architecture structure of RISCV_Processor
-# End time: 20:40:33 on Oct 18,2025, Elapsed time: 0:00:00
+# -- Compiling entity mux_16t1
+# -- Compiling architecture Behavioral of mux_16t1
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/mux_16t1.vhd(32): (vcom-1136) Unknown identifier "s_i".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/mux_16t1.vhd(48): (vcom-1136) Unknown identifier "in1155".
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/mux_16t1.vhd(50): VHDL Compiler exiting
+# End time: 14:35:07 on Oct 20,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/mux_16t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:36:14 on Oct 20,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/ALU/mux_16t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_16t1
+# -- Compiling architecture Behavioral of mux_16t1
+# End time: 14:36:14 on Oct 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/barrel_shifter/barrel_shifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 14:37:05 on Oct 20,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Project_Part_1/proj/src/barrel_shifter/barrel_shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity barrel_shifter
+# -- Compiling architecture structural of barrel_shifter
+# End time: 14:37:05 on Oct 20,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
