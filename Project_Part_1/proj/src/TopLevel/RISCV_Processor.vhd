@@ -83,7 +83,7 @@ architecture structure of RISCV_Processor is
   signal s_Mem_Write  : std_logic;
   signal s_RegWrite   : std_logic;
   signal s_imm_sel    : std_logic_vector(1 downto 0);
-  signal s_BranchType : std_logic_vector(1 downto 0);
+  signal s_BranchType : std_logic_vector(2 downto 0);
   signal s_MemtoReg     :  std_logic;
   signal s_Jump : std_logic;
   signal s_Link : std_logic;
@@ -91,7 +91,7 @@ architecture structure of RISCV_Processor is
   -- ALU
   signal s_OS1 : std_logic_vector(31 downto 0);
   signal s_ALU_B : std_logic_vector(31 downto 0);
-  signal s_Zero
+  signal s_Zero : std_logic;
 
   signal s_extended_imm : std_logic_vector(31 downto 0);
   signal s_andLink_imm : std_logic_vector(31 downto 0);
@@ -278,12 +278,13 @@ begin
 
     ALU : ALU_Total
       port map (
-        A => s_OS1,
-        B => s_ALU_B,
-        ALU_Control => s_ALUControl,
-        S => s_DMemAddr,
-        zero => s_Zero,
-        overflow => s_Ovfl
+         A => s_OS1,
+    	B => s_ALU_B,
+    	ALU_Control => s_ALUControl,
+    	Branch_Control => s_BranchType,
+    	S => s_DMemAddr,
+    	zero => s_Zero,
+    	overflow => s_Ovfl
       );
 
     oALUOut <= s_DMemAddr;

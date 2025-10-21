@@ -70,7 +70,7 @@ begin
       o_O => B_muxed
     );
 
-  ADDER : carry_adder_N_over
+  ADDER : carry_adder_N
     generic map(N => N)
     port map(
       A_i => A_i,

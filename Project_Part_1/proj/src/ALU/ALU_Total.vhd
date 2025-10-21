@@ -106,6 +106,8 @@ begin
     port map (
       Difference => s_AddSub,
       Branch_Control => Branch_Control,
+	C_out => s_C,
+      Overflow => s_Overflw,
       Zero => zero
     );
 
@@ -132,7 +134,7 @@ begin
       y => S
     );
 
-    overflow_out <= s_Overflw;
+    overflow <= s_Overflw;
     
 
 end structural;
