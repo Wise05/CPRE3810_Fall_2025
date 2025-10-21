@@ -1,5 +1,5 @@
 library IEEE;
-use IEEE.stad_logic_1164.all;
+use IEEE.std_logic_1164.all;
 
 entity ALU_Total is 
   port (
@@ -9,7 +9,7 @@ entity ALU_Total is
     Branch_Control : in std_logic_vector(2 downto 0);
     S : out std_logic_vector(31 downto 0);
     zero : out std_logic;
-    overflow : out std_logic;
+    overflow : out std_logic
   );
 end ALU_Total;
 
@@ -20,9 +20,10 @@ architecture structural of ALU_Total is
 
   signal s_AND, s_OR, s_XOR : std_logic_vector(31 downto 0);
   signal s_AddSub : std_logic_vector(31 downto 0);
+  signal s_C, s_Overflw : std_logic;
   signal s_BarrelShifted : std_logic_vector(31 downto 0);
 
-  component add_sub_N is 
+  component AddSub_overflow is 
     generic(N : integer := 16);
     port (
       A_i : in  std_logic_vector(N-1 downto 0);
@@ -71,14 +72,67 @@ architecture structural of ALU_Total is
     port (
       Difference : in std_logic_vector(31 downto 0);
       Branch_Control : in std_logic_vector(2 downto 0);
-      Zero : out std_logic;
-     );
-      end component;
+      C_out : in std_logic;
+      Overflow : in std_logic;
+      Zero : out std_logic
+    );
+  end component;
 
 begin 
   s_AND <= A and B;
   s_OR <= A or B;
   s_XOR <= A xor B;
 
- 
+  adder : AddSub_overflow 
+    generic map (N => 32)
+    port map (
+      A_i => A,
+      B_i => B,
+      nAdd_Sub => ALU_Control(2),
+      S_i => s_AddSub,
+      C_out => s_C,
+      Overflow_out => s_Overflw 
+    );
+    
+  shifty_time : BarrelShifter 
+    port map (
+      data_in => A,
+      shift_amt => B(4 downto 0),
+      ALU_Control => ALU_Control,
+      result => s_BarrelShifted
+    );
+
+  branch : BranchController 
+    port map (
+      Difference => s_AddSub,
+      Branch_Control => Branch_Control,
+      Zero => zero
+    );
+
+  big_mux : mux_16t1
+    generic map (WIDTH => 32)
+    port map (
+      sel => ALU_Control,
+      in0 => s_AND,
+      in1 => s_OR,
+      in2 => s_AddSub,
+      in3 => s_XOR,
+      in4 => s_BarrelShifted,
+      in5 => s_BarrelShifted,
+      in6 => s_AddSub,
+      in7 => s_BarrelShifted,
+      in8 => s_BarrelShifted,
+      in9 => s_BarrelShifted,
+      in10 => s_BarrelShifted,
+      in11 => x"00000000",
+      in12 => x"00000000",
+      in13 => x"00000000",
+      in14 => x"00000000",
+      in15 => x"00000000",
+      y => S
+    );
+
+    overflow_out <= s_Overflw;
+    
+
 end structural;

@@ -86,15 +86,17 @@ architecture structure of RISCV_Processor is
   signal s_BranchType : std_logic_vector(1 downto 0);
   signal s_MemtoReg     :  std_logic;
   signal s_Jump : std_logic;
+  signal s_Link : std_logic;
 
   -- ALU
   signal s_OS1 : std_logic_vector(31 downto 0);
   signal s_ALU_B : std_logic_vector(31 downto 0);
-  signal s_Cout : std_logic;
+  signal s_Zero
 
   signal s_extended_imm : std_logic_vector(31 downto 0);
   signal s_andLink_imm : std_logic_vector(31 downto 0);
   signal s_notDMem : std_logic_vector(31 downto 0);
+
 
   component mem is
     generic(ADDR_WIDTH : integer;
@@ -122,10 +124,11 @@ architecture structure of RISCV_Processor is
         o_Mem_Write  : out std_logic;
         o_RegWrite   : out std_logic;
         o_imm_sel    : out std_logic_vector(1 downto 0);
-        o_BranchType : out std_logic_vector(1 downto 0);
-   o_MemtoReg     : out std_logic;
-    o_halt     : out std_logic;
-        o_Jump       : out std_logic
+        o_BranchType : out std_logic_vector(2 downto 0);
+        o_MemtoReg     : out std_logic;
+        o_halt     : out std_logic;
+        o_Jump       : out std_logic;
+        o_Link       : out std_logic
       );
     end component;
 
@@ -155,14 +158,15 @@ architecture structure of RISCV_Processor is
       );
     end component;
 
-    component add_sub_N is
-      generic(N : integer := 16);
+    component ALU_Total is
       port (
-        A_i : in  std_logic_vector(N-1 downto 0);
-        B_i : in  std_logic_vector(N-1 downto 0);
-        nAdd_Sub : in  std_logic;  -- 0 => Add, 1 => Subtract
-        S_i : out std_logic_vector(N-1 downto 0);
-        C_out : out std_logic
+        A : in std_logic_vector(31 downto 0);
+        B : in std_logic_vector(31 downto 0);
+        ALU_Control : in std_logic_vector(3 downto 0);
+        Branch_Control : in std_logic_vector(2 downto 0);
+        S : out std_logic_vector(31 downto 0);
+        zero : out std_logic;
+        overflow : out std_logic
       );
     end component;
 
@@ -187,8 +191,6 @@ architecture structure of RISCV_Processor is
         OS2 : out std_logic_vector(31 downto 0)
       );
     end component;
-
-
 
 begin
 
@@ -234,9 +236,10 @@ begin
       o_RegWrite => s_RegWr,
       o_imm_sel => s_imm_sel,
       o_BranchType => s_BranchType,
-	o_MemtoReg => s_MemtoReg,
-    o_halt  => s_Halt,
-      o_Jump => s_Jump
+      o_MemtoReg => s_MemtoReg,
+      o_halt  => s_Halt,
+      o_Jump => s_Jump,
+      o_Link => s_Link
     );
 
   Register_File : RV32_regFile 
@@ -257,7 +260,7 @@ begin
       clk => iCLK,
       rst => iRST,
       branch => s_BranchType(0),
-      zero_flag_ALU => '0', -- hard coded for now
+      zero_flag_ALU => s_Zero,
       jump => s_Jump,
       imm => s_extended_imm,
       instr_addr => s_NextInstAddr,
@@ -273,22 +276,22 @@ begin
         imm_out => s_extended_imm
       );
 
-    ALU : add_sub_N 
-      generic map (N => 32)
+    ALU : ALU_Total
       port map (
-        A_i => s_OS1,
-        B_i => s_ALU_B,
-        nAdd_Sub => '0', -- change to ALU_Control
-        S_i => s_DMemAddr,
-        C_out => s_Cout -- ignored signal
+        A => s_OS1,
+        B => s_ALU_B,
+        ALU_Control => s_ALUControl,
+        S => s_DMemAddr,
+        zero => s_Zero,
+        overflow => s_Ovfl
       );
 
-oALUOut <= s_DMemAddr;
+    oALUOut <= s_DMemAddr;
 
     ALU_Src_Mux : mux2t1_N
       generic map (N => 32)
       port map (
-        i_S => '1',-- change to s_ALUSRC
+        i_S => s_ALUSRC,
         i_D0 => s_DMemData,
         i_D1 => s_extended_imm,
         o_O => s_ALU_B
@@ -297,7 +300,7 @@ oALUOut <= s_DMemAddr;
      AndLink_Mux : mux2t1_N
       generic map (N => 32)
       port map (
-        i_S => '0',
+        i_S => s_Link,
         i_D0 => s_DMemAddr,
         i_D1 => s_andLink_imm,
         o_O => s_notDMem
@@ -313,5 +316,4 @@ oALUOut <= s_DMemAddr;
       );
 
 s_RegWrAddr <= s_Inst(11 downto 7);
-s_Ovfl <= '0';
 end structure;
