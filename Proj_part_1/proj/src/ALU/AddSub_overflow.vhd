@@ -21,6 +21,7 @@ architecture structural of AddSub_overflow is
   signal B_inverted : std_logic_vector(N-1 downto 0);
   signal B_muxed : std_logic_vector(N-1 downto 0);
   signal C_Nsub1_s : std_logic;
+  signal C_out_s : std_logic;
 
   component ones_comp_N is
     generic (N : integer := 16);
@@ -70,7 +71,7 @@ begin
       o_O => B_muxed
     );
 
-  ADDER : carry_adder_N
+  ADDER : carry_adder_N_over
     generic map(N => N)
     port map(
       A_i => A_i,
@@ -78,9 +79,9 @@ begin
       C_in => nAdd_Sub,
       S_i => S_i,
       C_Nsub1 => C_Nsub1_s,
-      C_N => C_out
+      C_N => C_out_s
     );
 
-    Overflow_out <= C_Nsub1_s xor C_out;
+    Overflow_out <= C_Nsub1_s xor C_out_s;
 end structural;
 
