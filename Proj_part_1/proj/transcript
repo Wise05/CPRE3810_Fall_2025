@@ -17,20 +17,10 @@ vsim:/tb/CLK
 add wave -position insertpoint  \
 vsim:/tb/alu_out
 add wave -position insertpoint  \
-vsim:/tb/MyRiscv/ALU/zero
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/AndLink_Mux/i_S
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/AndLink_Mux/o_O
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/mind_control/o_Link
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/AndLink_Mux/i_D1
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/MemtoReg_Mux/o_O
-add wave -position insertpoint  \
 vsim:/tb/MyRiscv/Register_File/DATA_IN
 add wave -position insertpoint  \
 vsim:/tb/MyRiscv/Register_File/RegWrite
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/mind_control/o_Link
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/Register_File/DATA_IN
