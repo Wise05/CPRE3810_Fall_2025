@@ -68,7 +68,7 @@ architecture structural of ALU_Total is
   );
   end component;
 
-  component BranchController is
+  component Branch is
     port (
       Difference : in std_logic_vector(31 downto 0);
       Branch_Control : in std_logic_vector(2 downto 0);
@@ -102,7 +102,7 @@ begin
       result => s_BarrelShifted
     );
 
-  branch : BranchController 
+  branch_time : Branch
     port map (
       Difference => s_AddSub,
       Branch_Control => Branch_Control,

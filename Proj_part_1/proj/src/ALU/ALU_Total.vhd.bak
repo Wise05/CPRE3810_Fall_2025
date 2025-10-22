@@ -106,6 +106,8 @@ begin
     port map (
       Difference => s_AddSub,
       Branch_Control => Branch_Control,
+	C_out => s_C,
+      Overflow => s_Overflw,
       Zero => zero
     );
 
