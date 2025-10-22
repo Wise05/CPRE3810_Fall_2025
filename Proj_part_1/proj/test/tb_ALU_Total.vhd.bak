@@ -37,7 +37,7 @@ signal s_A : std_logic_vector(31 downto 0) := (others => '0');
 begin
 
   DUT: ALU_Total
-  port map(clk => s_CLK,
+  port map(
     	   A => s_A,
     	   B => s_B,
     	   ALU_Control => s_ALU_Control,
@@ -125,7 +125,7 @@ begin
     wait for cCLK_PER; 
 
 --10 Blt
-    s_A <= "00000000000000000000000000000002";
+    s_A <= "00000000000000000000000000000010";
     s_B <= "00000000000000000000000000000001";
     s_ALU_Control <= "0110";
     s_Branch_Control <= "010";

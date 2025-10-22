@@ -12,279 +12,305 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vlib work
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd}
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:16:47 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# ** Error: (vcom-11) Could not find work.regfile_pkg.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(4): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(4): Unknown expanded name.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(6): VHDL Compiler exiting
-# End time: 15:16:48 on Oct 21,2025, Elapsed time: 0:00:01
-# Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:17:13 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
+# Start time: 15:25:55 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity tb_ALU_Total
 # -- Compiling architecture behavior of tb_ALU_Total
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(25): (vcom-1576) Invalid ';' before ')'.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(26): VHDL Compiler exiting
-# End time: 15:17:13 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:17:30 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(40): (vcom-1136) Unknown identifier "s_CLK".
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(40): (vcom-1484) Unknown formal identifier "clk".
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(53): Illegal target for signal assignment.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(53): (vcom-1136) Unknown identifier "s_CLK".
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(55): Illegal target for signal assignment.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(55): (vcom-1136) Unknown identifier "s_CLK".
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(63): Illegal target for signal assignment.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(63): (vcom-1136) Unknown identifier "s_RST".
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(65): Illegal target for signal assignment.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(65): (vcom-1136) Unknown identifier "s_RST".
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(70): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(71): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(73): near "<": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(72): (vcom-1272) Length of expected is 4; length of actual is 16.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(79): VHDL Compiler exiting
-# End time: 15:17:31 on Oct 21,2025, Elapsed time: 0:00:01
-# Errors: 14, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:19:14 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(40): (vcom-1136) Unknown identifier "s_CLK".
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(53): Illegal target for signal assignment.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(53): (vcom-1136) Unknown identifier "s_CLK".
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(55): Illegal target for signal assignment.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(55): (vcom-1136) Unknown identifier "s_CLK".
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(62): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(63): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(65): near "<": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(66): Illegal concurrent statement.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(68): Illegal concurrent statement.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(69): near "process": (vcom-1576) expecting ';'.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(69): VHDL Compiler exiting
-# End time: 15:19:14 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 11, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:19:55 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(62): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(63): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(65): near "<": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(66): Illegal concurrent statement.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(68): Illegal concurrent statement.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(69): near "process": (vcom-1576) expecting ';'.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(69): VHDL Compiler exiting
-# End time: 15:19:55 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:21:58 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(65): near "<": (vcom-1576) expecting == or '+' or '-' or '&'.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(66): Illegal concurrent statement.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(68): Illegal concurrent statement.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(69): near "process": (vcom-1576) expecting ';'.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(69): VHDL Compiler exiting
-# End time: 15:21:58 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:22:31 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(66): Illegal concurrent statement.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(68): Illegal concurrent statement.
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(69): near "process": (vcom-1576) expecting ';'.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(69): VHDL Compiler exiting
-# End time: 15:22:31 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:24:16 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(65): (vcom-1272) Length of expected is 32; length of actual is 29.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(66): (vcom-1272) Length of expected is 32; length of actual is 29.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(67): (vcom-1272) Length of expected is 4; length of actual is 16.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(68): (vcom-1272) Length of expected is 3; length of actual is 12.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(74): VHDL Compiler exiting
-# End time: 15:24:16 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:24:58 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(65): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(66): (vcom-1272) Length of expected is 32; length of actual is 29.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(67): (vcom-1272) Length of expected is 4; length of actual is 16.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(68): (vcom-1272) Length of expected is 3; length of actual is 12.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(74): VHDL Compiler exiting
-# End time: 15:24:58 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:25:26 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(67): (vcom-1272) Length of expected is 4; length of actual is 16.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(68): (vcom-1272) Length of expected is 3; length of actual is 12.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(74): VHDL Compiler exiting
-# End time: 15:25:26 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:25:58 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# End time: 15:25:58 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:37:29 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# ** Error: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(128): String literal has a character '2' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(137): VHDL Compiler exiting
-# End time: 15:37:29 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:37:58 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# End time: 15:37:58 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:38:29 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# End time: 15:38:29 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:38:29 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# End time: 15:38:29 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/src/ALU/ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:38:40 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/src/ALU/ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Compiling entity ALU_Total
-# -- Compiling architecture structural of ALU_Total
-# End time: 15:38:40 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/src/ALU/mux_16t1.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:38:40 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/src/ALU/mux_16t1.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity mux_16t1
-# -- Compiling architecture Behavioral of mux_16t1
-# End time: 15:38:40 on Oct 21,2025, Elapsed time: 0:00:00
+# End time: 15:25:55 on Oct 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.tb_alu_total -voptargs=+acc
 # vsim work.tb_alu_total -voptargs="+acc" 
-# Start time: 15:38:50 on Oct 21,2025
+# Start time: 15:26:09 on Oct 22,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test/tb_ALU_Total.vhd(39): (vopt-1270) Bad default binding for component instance "DUT: ALU_Total".
+# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd(39): (vopt-1270) Bad default binding for component instance "DUT: ALU_Total".
 #  (Component port "overflow" is not on the entity "work.ALU_Total".)
 #  (Entity is selected because it is in the same library as the design unit that contains the component.)
 # Optimization failed
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
 # Error loading design
-# End time: 15:38:51 on Oct 21,2025, Elapsed time: 0:00:01
+# End time: 15:26:09 on Oct 22,2025, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 1
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:29:00 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_ALU_Total
+# -- Compiling architecture behavior of tb_ALU_Total
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd(48): (vcom-1035) Formal port "clk" has OPEN or no actual associated with it.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd(137): VHDL Compiler exiting
+# End time: 15:29:00 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:30:24 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_ALU_Total
+# -- Compiling architecture behavior of tb_ALU_Total
+# End time: 15:30:24 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_alu_total
+# vsim -voptargs="+acc" work.tb_alu_total 
+# Start time: 15:30:34 on Oct 22,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd(39): (vopt-1270) Bad default binding for component instance "DUT: ALU_Total".
+#  (Component port "overflow" is not on the entity "work.ALU_Total".)
+#  (Entity is selected because it is in the same library as the design unit that contains the component.)
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# Error loading design
+# End time: 15:30:34 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Modified modelsim.ini
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:33:26 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_ALU_Total
+# -- Compiling architecture behavior of tb_ALU_Total
+# End time: 15:33:26 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:33:36 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AddSub_overflow
+# -- Compiling architecture structural of AddSub_overflow
+# End time: 15:33:36 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:33:36 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_Total
+# -- Compiling architecture structural of ALU_Total
+# End time: 15:33:36 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/Branch.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:33:36 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/Branch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Branch
+# -- Compiling architecture structural of Branch
+# End time: 15:33:36 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:33:36 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity carry_adder_N_over
+# -- Compiling architecture structural of carry_adder_N_over
+# End time: 15:33:36 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/mux_16t1.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 15:33:36 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/mux_16t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_16t1
+# -- Compiling architecture Behavioral of mux_16t1
+# End time: 15:33:36 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_alu_total
+# vsim -voptargs="+acc" work.tb_alu_total 
+# Start time: 15:33:45 on Oct 22,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd(58): (vopt-3473) Component instance "INV_B : ones_comp_N" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd(65): (vopt-3473) Component instance "B_SELECT : mux2t1_N" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(0)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(1)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(2)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(3)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(4)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(5)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(6)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(7)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(8)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(9)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(10)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(11)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(12)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(13)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(14)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(15)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(16)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(17)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(18)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(19)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(20)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(21)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(22)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(23)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(24)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(25)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(26)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(27)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(28)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(29)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(30)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
+#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(31)
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd(97): (vopt-3473) Component instance "shifty_time : barrel_shifter" is not bound.
+#         Region: /tb_ALU_Total/DUT
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=36.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_alu_total(behavior)#1
+# Loading work.alu_total(structural)#1
+# Loading work.addsub_overflow(structural)#1
+# ** Warning: (vsim-3473) Component instance "INV_B : ones_comp_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_alu_total/DUT/adder File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd
+# ** Warning: (vsim-3473) Component instance "B_SELECT : mux2t1_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_alu_total/DUT/adder File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd
+# Loading work.carry_adder_n_over(structural)#1
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(0) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(1) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(2) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(3) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(4) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(5) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(6) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(7) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(8) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(9) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(10) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(11) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(12) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(13) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(14) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(15) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(16) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(17) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(18) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(19) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(20) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(21) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(22) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(23) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(24) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(25) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(26) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(27) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(28) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(29) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(30) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
+#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(31) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+# ** Warning: (vsim-3473) Component instance "shifty_time : barrel_shifter" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_alu_total/DUT File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd
+# Loading work.branch(structural)#1
+# Loading work.mux_16t1(behavioral)#1
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_alu_total/DUT/adder/ADDER/S_i(31), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_alu_total/DUT/s_AddSub(31).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_alu_total/DUT/adder/ADDER/S_i(30 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_alu_total/DUT/s_AddSub(30 downto 0).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_alu_total/DUT/adder/S_i(31), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_alu_total/DUT/s_AddSub(31).
+# ** Warning: (vsim-8684) No drivers exist on out port /tb_alu_total/DUT/adder/S_i(30 downto 0), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /tb_alu_total/DUT/s_AddSub(30 downto 0).
+# ** Warning: (vsim-8683) Uninitialized out port /tb_alu_total/DUT/adder/C_out has no driver.
+# This port will contribute value (U) to the signal network.

@@ -14,7 +14,7 @@ architecture behavior of tb_ALU_Total is
 
 
   component ALU_Total
-     port ( clk : in std_logic;
+     port ( 
     	A : in std_logic_vector(31 downto 0);
      	B : in std_logic_vector(31 downto 0);
      	ALU_Control : in std_logic_vector(3 downto 0);
@@ -37,7 +37,7 @@ signal s_A : std_logic_vector(31 downto 0) := (others => '0');
 begin
 
   DUT: ALU_Total
-  port map(clk => s_CLK,
+  port map(
     	   A => s_A,
     	   B => s_B,
     	   ALU_Control => s_ALU_Control,
