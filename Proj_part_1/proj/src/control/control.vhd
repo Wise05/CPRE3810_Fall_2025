@@ -27,7 +27,6 @@ begin
   o_ALUSRC <= '1' when (i_opcode = "0010011" or
                         i_opcode = "0110111" or
                         i_opcode = "0000011" or
-                        i_opcode = "1100011" or
                         i_opcode = "1101111" or
                         i_opcode = "1100111" or
                         i_opcode = "0010111") else '0';
