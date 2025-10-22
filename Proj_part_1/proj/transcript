@@ -12,32 +12,9 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:13:11 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity ALU_Total
-# -- Compiling architecture structural of ALU_Total
-# End time: 15:13:11 on Oct 22,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:13:37 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# End time: 15:13:38 on Oct 22,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
 vsim work.tb_alu_total
 # vsim work.tb_alu_total 
-# Start time: 15:13:48 on Oct 22,2025
+# Start time: 15:28:38 on Oct 22,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd(39): (vopt-1270) Bad default binding for component instance "DUT: ALU_Total".
 #  (Component port "clk" is not on the entity "work.ALU_Total".)
@@ -45,5 +22,5 @@ vsim work.tb_alu_total
 # Optimization failed
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
 # Error loading design
-# End time: 15:13:49 on Oct 22,2025, Elapsed time: 0:00:01
+# End time: 15:28:38 on Oct 22,2025, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
