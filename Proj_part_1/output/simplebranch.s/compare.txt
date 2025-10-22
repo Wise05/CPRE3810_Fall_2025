@@ -1,14 +1,14 @@
 Oh no...
 
-Cycle: 4
+Cycle: 5
 RARS instruction number: 5	Instruction: jal x1,20
 Expected:	Register Write to Reg: 0x01 Val: 0x0040001C
-Got     :	Register Write to Reg: 0x08 Val: 0xFFFFFFFF
+Got     :	Register Write to Reg: 0x12 Val: 0x00000123
 Incorrect write
 
 Cycle: na
-RARS instruction number: 8	Instruction: ori x19,x0,291
-Expected:	Register Write to Reg: 0x13 Val: 0x00000123
+RARS instruction number: 6	Instruction: ori x18,x0,291
+Expected:	Register Write to Reg: 0x12 Val: 0x00000123
 Got     :	Execution stopped
 Student execution ended prematurely
 

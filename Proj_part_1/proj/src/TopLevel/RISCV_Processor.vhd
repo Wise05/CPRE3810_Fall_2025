@@ -87,6 +87,7 @@ architecture structure of RISCV_Processor is
   signal s_MemtoReg     :  std_logic;
   signal s_Jump : std_logic;
   signal s_Link : std_logic;
+  signal s_Branch : std_logic;
 
   -- ALU
   signal s_OS1 : std_logic_vector(31 downto 0);
@@ -128,7 +129,8 @@ architecture structure of RISCV_Processor is
         o_MemtoReg     : out std_logic;
         o_halt     : out std_logic;
         o_Jump       : out std_logic;
-        o_Link       : out std_logic
+        o_Link       : out std_logic;
+	o_Branch  : out std_logic
       );
     end component;
 
@@ -239,7 +241,8 @@ begin
       o_MemtoReg => s_MemtoReg,
       o_halt  => s_Halt,
       o_Jump => s_Jump,
-      o_Link => s_Link
+      o_Link => s_Link,
+	o_Branch => s_Branch
     );
 
   Register_File : RV32_regFile 
@@ -259,7 +262,7 @@ begin
     port map (
       clk => iCLK,
       rst => iRST,
-      branch => s_BranchType(0),
+      branch => s_Branch,
       zero_flag_ALU => s_Zero,
       jump => s_Jump,
       imm => s_extended_imm,
