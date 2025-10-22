@@ -59,7 +59,7 @@ architecture structural of ALU_Total is
     );
   end component;
 
-  component BarrelShifter is 
+  component barrel_shifter is 
    port (
     data_in     : in  std_logic_vector(31 downto 0);
     shift_amt    : in  std_logic_vector(4 downto 0);
@@ -94,7 +94,7 @@ begin
       Overflow_out => s_Overflw 
     );
     
-  shifty_time : BarrelShifter 
+  shifty_time : barrel_shifter 
     port map (
       data_in => A,
       shift_amt => B(4 downto 0),
@@ -102,7 +102,7 @@ begin
       result => s_BarrelShifted
     );
 
-  branch_time : Branch
+  branch_time : Branch 
     port map (
       Difference => s_AddSub,
       Branch_Control => Branch_Control,
