@@ -12,864 +12,106 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd
+quit -sim
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 19:42:13 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd 
+# Start time: 09:37:05 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# ** Error: (vcom-11) Could not find work.regfile_pkg.
-# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd(4): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd(4): Unknown expanded name.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd(6): VHDL Compiler exiting
-# End time: 19:42:13 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_Left_Shifter.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 19:42:24 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_Left_Shifter.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_Left_Shifter
-# -- Compiling architecture sim of tb_Left_Shifter
-# End time: 19:42:24 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_extender_Nt32.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 19:42:26 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_extender_Nt32.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity extender_Nt32_tb
-# -- Compiling architecture behavior of extender_Nt32_tb
-# End time: 19:42:26 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_butter_extender.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 19:42:28 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_butter_extender.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_butter_extender
-# -- Compiling architecture testbench of tb_butter_extender
-# End time: 19:42:28 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 19:42:31 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# End time: 19:42:31 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 19:42:36 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# ** Error: (vcom-11) Could not find work.regfile_pkg.
-# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd(4): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd(4): Unknown expanded name.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd(6): VHDL Compiler exiting
-# End time: 19:42:36 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 19:46:42 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_fetch
-# -- Compiling architecture behavior of tb_fetch
-# End time: 19:46:42 on Oct 21,2025, Elapsed time: 0:00:00
+# -- Compiling entity dffg
+# -- Compiling architecture behavioral of dffg
+# End time: 09:37:05 on Oct 22,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.tb_fetch
 # vsim work.tb_fetch 
-# Start time: 19:47:03 on Oct 21,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd(44): (vopt-1270) Bad default binding for component instance "DUT: fetch".
-#  (Component port "o_clk" is not on the entity "work.fetch".)
-#  (Entity is selected because it is in the same library as the design unit that contains the component.)
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
-# Error loading design
-# End time: 19:47:03 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# Modified modelsim.ini
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 19:47:44 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_fetch
-# -- Compiling architecture behavior of tb_fetch
-# End time: 19:47:44 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.tb_fetch
-# vsim work.tb_fetch 
-# Start time: 19:48:02 on Oct 21,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Error (suppressible): /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd(44): (vopt-1270) Bad default binding for component instance "DUT: fetch".
-#  (Component port "o_clk" is not on the entity "work.fetch".)
-#  (Entity is selected because it is in the same library as the design unit that contains the component.)
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
-# Error loading design
-# End time: 19:48:02 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 19:49:06 on Oct 21,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_fetch
-# -- Compiling architecture behavior of tb_fetch
-# End time: 19:49:06 on Oct 21,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.tb_fetch
-# vsim work.tb_fetch 
-# Start time: 19:50:42 on Oct 21,2025
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 09:37:22 on Oct 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd(25): (vopt-3473) Component instance "pc_reg : dffg_N" is not bound.
 #         Region: /tb_fetch/DUT/pc_reg
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(0)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(0)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(1)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(1)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(2)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(2)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(3)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(3)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(4)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(4)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(5)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(5)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(6)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(6)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(7)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(7)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(8)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(8)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(9)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(9)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(10)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(10)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(11)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(11)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(12)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(12)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(13)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(13)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(14)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(14)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(15)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(15)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(16)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(16)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(17)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(17)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(18)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(18)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(19)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(19)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(20)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(20)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(21)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(21)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(22)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(22)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(23)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(23)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(24)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(24)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(25)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(25)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(26)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(26)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(27)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(27)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(28)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(28)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(29)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(29)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(30)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(30)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(31)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(31)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(0)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(0)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(1)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(1)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(2)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(2)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(3)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(3)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(4)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(4)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(5)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(5)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(6)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(6)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(7)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(7)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(8)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(8)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(9)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(9)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(10)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(10)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(11)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(11)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(12)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(12)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(13)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(13)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(14)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(14)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(15)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(15)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(16)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(16)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(17)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(17)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(18)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(18)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(19)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(19)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(20)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(20)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(21)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(21)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(22)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(22)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(23)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(23)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(24)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(24)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(25)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(25)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(26)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(26)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(27)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(27)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(28)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(28)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(29)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(29)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(30)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(30)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(41): (vopt-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(31)/full_adderI
-# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd(51): (vopt-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#         Region: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(31)/full_adderI
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=129.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading work.tb_fetch(behavior)#1
-# Loading work.fetch(structural)#1
 # ** Warning: (vsim-3473) Component instance "pc_reg : dffg_N" is not bound.
 #    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd
 # Loading work.carry_adder_n(structural)#1
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(0)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(0)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(1)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(1)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(2)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(2)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(3)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(3)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(4)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(4)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(5)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(5)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(6)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(6)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(7)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(7)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(8)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(8)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(9)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(9)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(10)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(10)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(11)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(11)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(12)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(12)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(13)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(13)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(14)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(14)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(15)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(15)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(16)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(16)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(17)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(17)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(18)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(18)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(19)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(19)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(20)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(20)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(21)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(21)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(22)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(22)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(23)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(23)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(24)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(24)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(25)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(25)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(26)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(26)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(27)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(27)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(28)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(28)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(29)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(29)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(30)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(30)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(31)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(31)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(0)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(0)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(1)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(1)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(2)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(2)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(3)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(3)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(4)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(4)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(5)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(5)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(6)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(6)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(7)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(7)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(8)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(8)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(9)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(9)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(10)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(10)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(11)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(11)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(12)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(12)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(13)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(13)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(14)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(14)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(15)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(15)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(16)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(16)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(17)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(17)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(18)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(18)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(19)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(19)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(20)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(20)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(21)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(21)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(22)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(22)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(23)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(23)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(24)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(24)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(25)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(25)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(26)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(26)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(27)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(27)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(28)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(28)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(29)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(29)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(30)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(30)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(31)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(31)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
 # Loading work.mux2t1_n(structural)#1
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(31), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(31).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(30), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(30).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(29), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(29).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(28), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(28).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(27), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(27).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(26), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(26).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(25), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(25).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(24), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(24).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(23), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(23).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(22), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(22).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(21), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(21).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(20), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(20).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(19), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(19).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(18), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(18).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(17), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(17).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(16), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(16).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(15), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(15).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(14), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(14).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(13), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(13).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(12), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(12).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(11), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(11).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(10), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(10).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(9), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(9).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(8), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(8).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(7), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(7).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(6), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(6).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(5), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(5).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(4), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(4).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(3), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(3).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(2), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(2).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(1), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(1).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(0), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(0).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(31), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(31).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(30), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(30).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(29), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(29).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(28), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(28).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(27), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(27).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(26), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(26).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(25), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(25).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(24), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(24).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(23), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(23).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(22), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(22).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(21), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(21).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(20), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(20).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(19), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(19).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(18), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(18).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(17), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(17).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(16), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(16).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(15), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(15).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(14), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(14).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(13), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(13).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(12), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(12).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(11), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(11).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(10), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(10).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(9), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(9).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(8), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(8).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(7), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(7).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(6), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(6).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(5), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(5).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(4), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(4).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(3), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(3).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(2), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(2).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(1), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(1).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(0), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(0).
+add wave -position insertpoint  \
+sim:/tb_fetch/s_CLK \
+sim:/tb_fetch/s_RST \
+sim:/tb_fetch/s_branch \
+sim:/tb_fetch/s_zero_flag_ALU \
+sim:/tb_fetch/s_jump \
+sim:/tb_fetch/s_imm \
+sim:/tb_fetch/s_instr_addr \
+sim:/tb_fetch/s_plus4_o \
+sim:/tb_fetch/cCLK_PER
+run 500
+quit -sim
+# End time: 09:38:13 on Oct 22,2025, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:39:16 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fetch
+# -- Compiling architecture structural of fetch
+# End time: 09:39:16 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/Left_Shifter.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:39:16 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/Left_Shifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Left_Shifter
+# -- Compiling architecture structural of Left_Shifter
+# End time: 09:39:16 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:39:16 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# End time: 09:39:16 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:39:16 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture structural of PC
+# End time: 09:39:16 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_fetch
+# vsim work.tb_fetch 
+# Start time: 09:39:43 on Oct 22,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_fetch(behavior)#1
+# ** Warning: (vsim-3473) Component instance "pc_reg : dffg_N" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd
+# Loading work.carry_adder_n(structural)#1
+# Loading work.mux2t1_n(structural)#1
 add wave -position insertpoint  \
 sim:/tb_fetch/gCLK_HPER \
 sim:/tb_fetch/N \
@@ -884,473 +126,304 @@ sim:/tb_fetch/s_plus4_o \
 sim:/tb_fetch/cCLK_PER
 run 500
 quit -sim
-# End time: 19:51:57 on Oct 21,2025, Elapsed time: 0:01:15
-# Errors: 0, Warnings: 322
-vsim work.tb_fetch
-# vsim work.tb_fetch 
-# Start time: 19:52:31 on Oct 21,2025
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_fetch(behavior)#1
-# Loading work.fetch(structural)#1
-# ** Warning: (vsim-3473) Component instance "pc_reg : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd
-# Loading work.carry_adder_n(structural)#1
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(0)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(0)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(1)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(1)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(2)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(2)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(3)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(3)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(4)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(4)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(5)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(5)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(6)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(6)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(7)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(7)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(8)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(8)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(9)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(9)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(10)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(10)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(11)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(11)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(12)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(12)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(13)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(13)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(14)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(14)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(15)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(15)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(16)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(16)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(17)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(17)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(18)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(18)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(19)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(19)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(20)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(20)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(21)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(21)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(22)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(22)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(23)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(23)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(24)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(24)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(25)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(25)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(26)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(26)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(27)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(27)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(28)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(28)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(29)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(29)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(30)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(30)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(31)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/plus4_ofultamite_power/G_NBit_Carry_Adder(31)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(0)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(0)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(1)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(1)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(2)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(2)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(3)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(3)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(4)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(4)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(5)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(5)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(6)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(6)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(7)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(7)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(8)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(8)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(9)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(9)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(10)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(10)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(11)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(11)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(12)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(12)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(13)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(13)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(14)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(14)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(15)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(15)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(16)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(16)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(17)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(17)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(18)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(18)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(19)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(19)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(20)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(20)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(21)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(21)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(22)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(22)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(23)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(23)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(24)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(24)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(25)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(25)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(26)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(26)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(27)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(27)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(28)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(28)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(29)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(29)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(30)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(30)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate1 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(31)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# ** Warning: (vsim-3473) Component instance "xor_gate2 : xorg2" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_fetch/DUT/pc_plus_offset/G_NBit_Carry_Adder(31)/full_adderI File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-# Loading work.mux2t1_n(structural)#1
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(31), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(31).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(30), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(30).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(29), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(29).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(28), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(28).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(27), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(27).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(26), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(26).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(25), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(25).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(24), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(24).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(23), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(23).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(22), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(22).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(21), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(21).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(20), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(20).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(19), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(19).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(18), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(18).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(17), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(17).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(16), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(16).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(15), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(15).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(14), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(14).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(13), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(13).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(12), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(12).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(11), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(11).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(10), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(10).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(9), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(9).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(8), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(8).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(7), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(7).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(6), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(6).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(5), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(5).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(4), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(4).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(3), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(3).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(2), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(2).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(1), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(1).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/plus4_ofultamite_power/S_i(0), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/plus4_s(0).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(31), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(31).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(30), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(30).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(29), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(29).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(28), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(28).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(27), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(27).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(26), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(26).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(25), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(25).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(24), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(24).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(23), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(23).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(22), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(22).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(21), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(21).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(20), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(20).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(19), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(19).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(18), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(18).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(17), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(17).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(16), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(16).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(15), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(15).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(14), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(14).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(13), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(13).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(12), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(12).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(11), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(11).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(10), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(10).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(9), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(9).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(8), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(8).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(7), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(7).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(6), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(6).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(5), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(5).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(4), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(4).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(3), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(3).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(2), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(2).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(1), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(1).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_fetch/DUT/pc_plus_offset/S_i(0), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_fetch/DUT/PC_offset_s(0).
-add wave -position insertpoint  \
-sim:/tb_fetch/s_instr_addr
-run 500
-quit -sim
-# End time: 19:55:04 on Oct 21,2025, Elapsed time: 0:02:33
-# Errors: 0, Warnings: 193
+# End time: 09:40:17 on Oct 22,2025, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:31 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity carry_adder_N
+# -- Compiling architecture structural of carry_adder_N
+# End time: 09:40:31 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:34 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 09:40:34 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:37 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# End time: 09:40:37 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:45 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# End time: 09:40:45 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/mux2t1_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:45 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/mux2t1_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/mux2t1_N.vhd(21): (vcom-1615) Existing entity 'mux2t1_N' at /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd(21) will be overwritten.
+# -- Compiling entity mux2t1_N
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/mux2t1_N.vhd(30): (vcom-1615) Existing architecture 'mux2t1_N(structural)' at /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd(30) will be overwritten.
+# -- Compiling architecture structural of mux2t1_N
+# End time: 09:40:45 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:45 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# End time: 09:40:45 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:45 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# End time: 09:40:45 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:45 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# End time: 09:40:45 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:49 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# End time: 09:40:50 on Oct 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:50 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# End time: 09:40:50 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:50 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# End time: 09:40:50 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:40:55 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ones_comp_N
+# -- Compiling architecture structural of ones_comp_N
+# End time: 09:40:55 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:10 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ones_comp_N
+# -- Compiling architecture structural of ones_comp_N
+# End time: 09:42:10 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:16 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux2t1
+# -- Compiling architecture behavior of mux2t1
+# End time: 09:42:16 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:31 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extender_Nt32
+# -- Compiling architecture GenerateBased of extender_Nt32
+# End time: 09:42:31 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:41 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# End time: 09:42:41 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:41 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture behavioral of dffg
+# End time: 09:42:42 on Oct 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:42 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package RISCV_types
+# -- Compiling entity mux_32t1
+# -- Compiling architecture dataflow of mux_32t1
+# End time: 09:42:42 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:42 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package RISCV_types
+# -- Compiling entity RV32_regFile
+# -- Compiling architecture structural of RV32_regFile
+# End time: 09:42:42 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:45 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd(23): (vcom-1615) Existing entity 'dffg' at /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd(4) will be overwritten.
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 09:42:45 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:52 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 09:42:52 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:53 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 09:42:53 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:57 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decoder_5t32
+# -- Compiling architecture dataflow of decoder_5t32
+# End time: 09:42:57 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:57 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd(4): (vcom-1615) Existing entity 'dffg' at /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd(23) will be overwritten.
+# -- Compiling entity dffg
+# -- Compiling architecture behavioral of dffg
+# End time: 09:42:57 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:57 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package RISCV_types
+# -- Compiling entity mux_32t1
+# -- Compiling architecture dataflow of mux_32t1
+# End time: 09:42:57 on Oct 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 09:42:57 on Oct 22,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package RISCV_types
+# -- Compiling entity RV32_regFile
+# -- Compiling architecture structural of RV32_regFile
+# End time: 09:42:58 on Oct 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

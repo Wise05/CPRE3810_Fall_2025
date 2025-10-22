@@ -76,7 +76,7 @@ begin
   );
 
 
-  plus4_ofultamite_power : carry_adder_N
+  plus4_of_ultamite_power : carry_adder_N
   generic map(N => 32)
   port map (
     A_i => instr_addr_s,

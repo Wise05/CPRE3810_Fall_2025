@@ -34,8 +34,7 @@ architecture structural of fetch is
       rst : in std_logic;
       RegWrite: in std_logic; -- write enable
       DATA_IN : in std_logic_vector(31 downto 0);
-      OS : out std_logic_vector(31 downto 0);
-      o_CLK : out std_logic
+      OS : out std_logic_vector(31 downto 0)
     );
   end component;
 

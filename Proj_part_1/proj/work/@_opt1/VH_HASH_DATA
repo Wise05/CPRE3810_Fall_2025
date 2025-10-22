@@ -1,28 +1,26 @@
 [N
-8
-6
+7
+5
 8 tb_fetch
-2
-8 mux2t1_n
 4
 1 N
-7
+6
 8 behavior
 1
 63 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/work
-5
+2
 13 carry_adder_n
 3
 10 structural
-8
+7
 9 gCLK_HPER
 ]
 [G
 1
+5
 6
-7
 1
-8
+7
 0
 0
 0
@@ -41,25 +39,11 @@
 ]
 [G
 1
-6
-7
-1
-4
-0
-0
-32
-0
-0 0
-0
-0
-]
-[G
-1
 5
-3
+6
 1
 4
-1
+0
 0
 32
 0
