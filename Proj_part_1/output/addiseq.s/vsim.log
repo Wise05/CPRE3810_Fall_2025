@@ -3,78 +3,14 @@ Reading pref.tcl
 # 2025.1_2
 
 # vsim -postsimdataflow -debugdb -c -voptargs=""+acc"" tb -do "modelsim_framework.do" -gOUTPUT_TRACE=ms.trace 
-# Start time: 19:40:34 on Oct 21,2025
+# Start time: 10:30:48 on Oct 22,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vsim-8611) Generating debug db.
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(1)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(2)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(3)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(4)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(5)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(6)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(7)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(8)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(9)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(10)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(11)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(12)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(13)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(14)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(15)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(16)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(17)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(18)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(19)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(20)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(21)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(22)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(23)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(24)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(25)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(26)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(27)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(28)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(29)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(30)/normal_reg
-# ** Warning: ../../proj/src/Lab2_components/RegFile/RV32_regFile.vhd(61): (vopt-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Register_File/gen_regs(31)/normal_reg
-# ** Warning: ../../proj/src/fetch/PC.vhd(25): (vopt-3473) Component instance "pc_reg : dffg_N" is not bound.
-#         Region: /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg
 # ** Warning: ../../proj/src/ALU/ALU_Total.vhd(97): (vopt-3473) Component instance "shifty_time : BarrelShifter" is not bound.
 #         Region: /tb/MyRiscv/ALU
 # ** Note: (vopt-4301) Memory core inferred for signal 'ram' width=32, depth=1024, type=RAM at location proj/src/TopLevel/mem.vhd:35
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=34.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
 # //  Questa Sim-64
 # //  Version 2025.1_2 linux_x86_64 Apr  7 2025
 # //
@@ -102,73 +38,10 @@ Reading pref.tcl
 # Loading work.control(dataflow)#1
 # Loading work.rv32_regfile(structural)#1
 # Loading work.decoder_5t32(dataflow)#1
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(1)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(2)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(3)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(4)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(5)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(6)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(7)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(8)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(9)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(10)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(11)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(12)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(13)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(14)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(15)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(16)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(17)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(18)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(19)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(20)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(21)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(22)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(23)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(24)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(25)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(26)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(27)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(28)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(29)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(30)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-# ** Warning: (vsim-3473) Component instance "dffg_32I : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb/MyRiscv/Register_File/gen_regs(31)/normal_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
+# Loading work.dffg_n(behavioral)#1
 # Loading work.mux_32t1(dataflow)#1
 # Loading work.fetch(structural)#1
 # Loading work.pc(structural)#1
-# ** Warning: (vsim-3473) Component instance "pc_reg : dffg_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd
 # Loading work.carry_adder_n(structural)#1
 # Loading work.full_adder(behavior)#1
 # Loading work.xorg2(dataflow)#1
@@ -187,102 +60,6 @@ Reading pref.tcl
 #    Time: 0 ns  Iteration: 0  Instance: /tb/MyRiscv/ALU File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd
 # Loading work.branch(structural)#1
 # Loading work.mux_16t1(behavioral)#1
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(31), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(31).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(30), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(30).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(29), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(29).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(28), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(28).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(27), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(27).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(26), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(26).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(25), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(25).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(24), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(24).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(23), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(23).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(22), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(22).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(21), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(21).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(20), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(20).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(19), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(19).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(18), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(18).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(17), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(17).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(16), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(16).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(15), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(15).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(14), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(14).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(13), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(13).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(12), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(12).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(11), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(11).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(10), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(10).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(9), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(9).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(8), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(8).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(7), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(7).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(6), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(6).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(5), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(5).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(4), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(4).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(3), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(3).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(2), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(2).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(1), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(1).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb/MyRiscv/Fetch_of_ultamite_power/pc_reg/OS(0), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s(0).
 # ** Warning: (vsim-8683) Uninitialized out port /tb/MyRiscv/ALU/adder/C_out has no driver.
 # This port will contribute value (U) to the signal network.
 # ** Note: (vsim-8900) Creating design debug database vsim.dbg.
@@ -294,6 +71,14 @@ Reading pref.tcl
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ns  Iteration: 3  Instance: /tb/MyRiscv/DMem
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 11  Instance: /tb/MyRiscv/DMem
-# End time: 19:40:36 on Oct 21,2025, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 104
+#    Time: 0 ns  Iteration: 5  Instance: /tb/MyRiscv/IMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 9  Instance: /tb/MyRiscv/DMem
+# ** Note: Data structure takes 50780912 bytes of memory
+#          Process time 0.04 seconds
+#          stop
+#    Time: 240 ns  Iteration: 1  Instance: /tb
+# Break in Process P_DUMP_STATE at /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/internal/testpy/tb.vhd line 150
+# Stopped at /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/internal/testpy/tb.vhd line 150
+# End time: 10:30:49 on Oct 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 9

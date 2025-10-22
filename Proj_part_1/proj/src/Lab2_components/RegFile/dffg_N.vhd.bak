@@ -1,11 +1,7 @@
--- Zevan Gustafson
--- dffg
--- 1-bit D Flip-Flop with enable and reset
-
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity dffg is
+entity dffg_N is
   port(
     i_CLK : in std_logic;
     i_RST : in std_logic;
@@ -15,7 +11,7 @@ entity dffg is
   );
 end entity;
 
-architecture behavioral of dffg is
+architecture behavioral of dffg_N is
   signal r_Q : std_logic := '0';  
 begin
   process(i_CLK, i_RST)

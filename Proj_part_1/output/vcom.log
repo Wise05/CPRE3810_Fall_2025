@@ -1,6 +1,6 @@
 QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-Start time: 19:00:07 on Oct 21,2025
-vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd internal/testpy/tb.vhd proj/src/RISCV_types.vhd proj/src/ALU/Branch.vhd proj/src/ALU/mux_16t1.vhd proj/src/ALU/carry_adder_N_over.vhd proj/src/ALU/AddSub_overflow.vhd proj/src/ALU/ALU_Total.vhd proj/src/extender/butter_extender_Nt32.vhd proj/src/fetch/PC.vhd proj/src/fetch/mux2t1_N.vhd proj/src/fetch/Left_Shifter.vhd proj/src/fetch/fetch.vhd proj/src/fetch/carry_adder_N.vhd proj/src/fetch/tb_fetch.vhd proj/src/barrel_shifter/barrel_shifter.vhd proj/src/Lab2_components/dffg.vhd proj/src/Lab2_components/Extenders/extender_Nt32.vhd proj/src/Lab2_components/Lab1/mux2t1_N.vhd proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd proj/src/Lab2_components/Lab1/invg.vhd proj/src/Lab2_components/Lab1/andg2.vhd proj/src/Lab2_components/Lab1/RegLd.vhd proj/src/Lab2_components/Lab1/Adder.vhd proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd proj/src/Lab2_components/Lab1/Reg.vhd proj/src/Lab2_components/Lab1/xorg2.vhd proj/src/Lab2_components/Lab1/Multiplier.vhd proj/src/Lab2_components/Lab1/org2.vhd proj/src/Lab2_components/Lab1/Adder/full_adder.vhd proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd proj/src/Lab2_components/Lab1/work/tb_mxu2t1_N.vhd proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd proj/src/Lab2_components/RegFile/decoder_5t32.vhd proj/src/Lab2_components/RegFile/RV32_regFile.vhd proj/src/Lab2_components/RegFile/mux_32t1.vhd proj/src/Lab2_components/RegFile/dffg_N.vhd proj/src/control/control.vhd proj/src/TopLevel/RISCV_Processor.vhd proj/src/TopLevel/mem.vhd 
+Start time: 10:28:54 on Oct 22,2025
+vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd internal/testpy/tb.vhd proj/src/RISCV_types.vhd proj/src/ALU/Branch.vhd proj/src/ALU/mux_16t1.vhd proj/src/ALU/carry_adder_N_over.vhd proj/src/ALU/AddSub_overflow.vhd proj/src/ALU/ALU_Total.vhd proj/src/extender/butter_extender_Nt32.vhd proj/src/fetch/PC.vhd proj/src/fetch/mux2t1_N.vhd proj/src/fetch/Left_Shifter.vhd proj/src/fetch/fetch.vhd proj/src/barrel_shifter/barrel_shifter.vhd proj/src/Lab2_components/dffg.vhd proj/src/Lab2_components/Extenders/extender_Nt32.vhd proj/src/Lab2_components/Lab1/mux2t1_N.vhd proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd proj/src/Lab2_components/Lab1/invg.vhd proj/src/Lab2_components/Lab1/andg2.vhd proj/src/Lab2_components/Lab1/RegLd.vhd proj/src/Lab2_components/Lab1/Adder.vhd proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd proj/src/Lab2_components/Lab1/Reg.vhd proj/src/Lab2_components/Lab1/xorg2.vhd proj/src/Lab2_components/Lab1/Multiplier.vhd proj/src/Lab2_components/Lab1/org2.vhd proj/src/Lab2_components/Lab1/Adder/full_adder.vhd proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd proj/src/Lab2_components/RegFile/decoder_5t32.vhd proj/src/Lab2_components/RegFile/RV32_regFile.vhd proj/src/Lab2_components/RegFile/mux_32t1.vhd proj/src/Lab2_components/RegFile/dffg_N.vhd proj/src/control/control.vhd proj/src/TopLevel/RISCV_Processor.vhd proj/src/TopLevel/mem.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -31,17 +31,9 @@ vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd intern
 -- Compiling architecture GenerateBased of butter_extender_Nt32
 -- Compiling entity PC
 -- Compiling architecture structural of PC
--- Compiling entity mux2t1_N
--- Compiling architecture structural of mux2t1_N
--- Compiling entity Left_Shifter
--- Compiling architecture structural of Left_Shifter
--- Compiling entity fetch
--- Compiling architecture structural of fetch
--- Compiling entity carry_adder_N
--- Compiling architecture structural of carry_adder_N
-** Error: (vcom-11) Could not find work.regfile_pkg.
-** Error (suppressible): proj/src/fetch/tb_fetch.vhd(4): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
-** Error: proj/src/fetch/tb_fetch.vhd(4): Unknown expanded name.
-** Note: proj/src/fetch/tb_fetch.vhd(6): VHDL Compiler exiting
-End time: 19:00:07 on Oct 21,2025, Elapsed time: 0:00:00
+** Error: (vcom-11) Could not find work.dffg_n.
+** Error (suppressible): proj/src/fetch/PC.vhd(25): (vcom-1195) Cannot find expanded name "work.dffg_N".
+** Error: proj/src/fetch/PC.vhd(25): Unknown expanded name.
+** Note: proj/src/fetch/PC.vhd(35): VHDL Compiler exiting
+End time: 10:28:54 on Oct 22,2025, Elapsed time: 0:00:00
 Errors: 3, Warnings: 2

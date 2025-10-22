@@ -7,7 +7,7 @@ entity PC is
     rst : in std_logic;
     RegWrite: in std_logic; -- write enable
     DATA_IN : in std_logic_vector(31 downto 0);
-    OS : out std_logic_vector(31 downto 0);
+    OS : out std_logic_vector(31 downto 0)
   );
 end PC;
 
@@ -22,7 +22,7 @@ architecture structural of PC is
   end component;
 
 begin
-  pc_reg : dffg_N 
+  pc_reg : entity work.dffg_N 
     generic map (N => 32)
     port map (
       i_CLK => clk,

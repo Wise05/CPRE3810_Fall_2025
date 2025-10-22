@@ -1,1 +1,1 @@
-internal/boilerplate_riscv/addiseq.s
+internal/boilerplate_riscv/simplebranch.s
