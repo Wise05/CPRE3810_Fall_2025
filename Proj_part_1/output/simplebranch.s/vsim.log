@@ -3,14 +3,12 @@ Reading pref.tcl
 # 2025.1_2
 
 # vsim -postsimdataflow -debugdb -c -voptargs=""+acc"" tb -do "modelsim_framework.do" -gOUTPUT_TRACE=ms.trace 
-# Start time: 14:51:32 on Oct 22,2025
+# Start time: 15:43:47 on Oct 22,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vsim-8611) Generating debug db.
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Warning: ../../proj/src/ALU/ALU_Total.vhd(97): (vopt-3473) Component instance "shifty_time : BarrelShifter" is not bound.
-#         Region: /tb/MyRiscv/ALU
 # ** Note: (vopt-4301) Memory core inferred for signal 'ram' width=32, depth=1024, type=RAM at location proj/src/TopLevel/mem.vhd:35
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # //  Questa Sim-64
 # //  Version 2025.1_2 linux_x86_64 Apr  7 2025
 # //
@@ -56,8 +54,7 @@ Reading pref.tcl
 # Loading work.addsub_overflow(structural)#1
 # Loading work.ones_comp_n(structural)#1
 # Loading work.carry_adder_n_over(structural)#1
-# ** Warning: (vsim-3473) Component instance "shifty_time : BarrelShifter" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb/MyRiscv/ALU File: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd
+# Loading work.barrel_shifter(structural)#1
 # Loading work.branch(structural)#1
 # Loading work.mux_16t1(behavioral)#1
 # ** Warning: (vsim-8683) Uninitialized out port /tb/MyRiscv/ALU/adder/C_out has no driver.
@@ -72,5 +69,5 @@ Reading pref.tcl
 #    Time: 0 ns  Iteration: 3  Instance: /tb/MyRiscv/DMem
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ns  Iteration: 5  Instance: /tb/MyRiscv/IMem
-# End time: 14:51:33 on Oct 22,2025, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 8
+# End time: 15:43:48 on Oct 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 6
