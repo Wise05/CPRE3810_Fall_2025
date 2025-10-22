@@ -18,7 +18,8 @@ entity control is
     o_MemtoReg     : out std_logic;
     o_halt     : out std_logic;
     o_Jump       : out std_logic;
-    o_Link       : out std_logic
+    o_Link       : out std_logic;
+    o_Branch  : out std_logic
   );
 end control;
 
@@ -99,6 +100,8 @@ begin
             '0';
 
   o_halt <= '1' when (i_opcode = "1110011") else '0';
+  
+  o_Branch <= '1' when (i_opcode = "1100011") else '0';
 
 end dataflow;
 
