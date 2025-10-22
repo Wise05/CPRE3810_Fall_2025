@@ -11,5 +11,6 @@ end Left_Shifter;
 
 architecture structural of Left_Shifter is
 begin
-  o <= std_logic_vector(shift_left(unsigned(i), 1));
+  -- o <= std_logic_vector(shift_left(unsigned(i), 1));
+o <= i;
 end structural;
