@@ -314,3 +314,5 @@ vsim -voptargs=+acc work.tb_alu_total
 # the VHDL standard as the initial values come from the base signal /tb_alu_total/DUT/s_AddSub(30 downto 0).
 # ** Warning: (vsim-8683) Uninitialized out port /tb_alu_total/DUT/adder/C_out has no driver.
 # This port will contribute value (U) to the signal network.
+# End time: 17:03:37 on Oct 22,2025, Elapsed time: 1:29:52
+# Errors: 0, Warnings: 76

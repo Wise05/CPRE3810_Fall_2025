@@ -1,1 +1,1 @@
-internal/boilerplate_riscv/simplebranch.s
+proj/riscv/grendel.s

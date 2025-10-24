@@ -12,25 +12,22 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
+add wave sim:/vsim/*
+# Unrecognized dataset prefix: sim
+add wave sim:/vsim.wlf/*
+# Unrecognized dataset prefix: sim
 add wave -position insertpoint  \
-vsim:/tb/CLK
-add wave -position insertpoint  \
-vsim:/tb/alu_out
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/ALU/zero
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/AndLink_Mux/i_S
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/AndLink_Mux/o_O
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/mind_control/o_Link
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/AndLink_Mux/i_D1
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/MemtoReg_Mux/o_O
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/Register_File/DATA_IN
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/Register_File/RegWrite
+vsim:/tb_alu_total/gCLK_HPER \
+vsim:/tb_alu_total/N \
+vsim:/tb_alu_total/s_A \
+vsim:/tb_alu_total/s_B \
+vsim:/tb_alu_total/s_ALU_Control \
+vsim:/tb_alu_total/s_Branch_Control \
+vsim:/tb_alu_total/s_S \
+vsim:/tb_alu_total/s_zero \
+vsim:/tb_alu_total/s_overflow \
+vsim:/tb_alu_total/cCLK_PER
+# Error opening /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd
+# Path name '/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd' doesn't exist.
+# Error opening /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd
+# Path name '/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd' doesn't exist.
