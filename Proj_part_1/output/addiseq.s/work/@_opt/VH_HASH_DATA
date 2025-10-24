@@ -66,13 +66,9 @@
 10 DATA_WIDTH
 11
 13 carry_adder_n
-<<<<<<< HEAD
-14
-=======
 1
 85 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/containers/sim_container_0/work
 16
->>>>>>> 061bb59 (we know the problem)
 8 mux_16t1
 10
 10 structural
@@ -86,64 +82,6 @@
 11 RESET_VALUE
 37
 9 iInstAddr
-1
-76 /home/shanen/CPRE 3810 Project 1/Proj_part_1/containers/sim_container_0/work
-]
-[G
-1
-2
-3
-1
-4
-1
-0
-32
-0
-0 0
-0
-0
-]
-[G
-1
-9
-10
-1
-8
-1
-0
-32
-0
-0 0
-0
-0
-]
-[G
-1
-32
-33
-1
-8
-1
-0
-32
-0
-0 0
-0
-0
-]
-[G
-1
-30
-10
-1
-8
-1
-0
-32
-0
-0 0
-0
-0
 ]
 [G
 1
@@ -362,65 +300,59 @@
 0
 0
 ]
-[P
+[G
 1
-14
-7
-16
-17
+2
+3
 1
+4
+1
+0
+32
+0
+0 0
 0
 0
 ]
-[P
+[G
 1
-14
-7
-18
-19
+9
+10
 1
+8
+1
+0
+32
+0
+0 0
 0
 0
 ]
-[P
+[G
 1
-<<<<<<< HEAD
-14
-7
-20
-17
-=======
 34
 35
->>>>>>> 061bb59 (we know the problem)
 1
+8
+1
+0
+32
+0
+0 0
 0
 0
 ]
-[P
+[G
 1
-<<<<<<< HEAD
-14
-7
-21
-17
-=======
 32
 10
 1
 8
->>>>>>> 061bb59 (we know the problem)
 1
 0
+32
 0
-]
-[P
-1
-14
-7
-22
-17
-1
+0 0
 0
 0
 ]
@@ -464,8 +396,6 @@
 0
 0
 ]
-<<<<<<< HEAD
-=======
 [P
 1
 16
@@ -536,4 +466,3 @@
 0
 0
 ]
->>>>>>> 061bb59 (we know the problem)
