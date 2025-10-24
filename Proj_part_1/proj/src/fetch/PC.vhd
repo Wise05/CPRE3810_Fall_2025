@@ -13,7 +13,8 @@ end PC;
 
 architecture structural of PC is 
   component dffg_N is 
-    generic(N : integer := 32);
+    generic(N : integer := 32
+           RESET_VALUE : std_logic_vector(31 downto 0) := (others => '0'));
     port(i_CLK : in std_logic;
          i_RST: in std_logic;
          i_WE: in std_logic;
@@ -23,7 +24,8 @@ architecture structural of PC is
 
 begin
   pc_reg : dffg_N 
-    generic map (N => 32)
+    generic map (N => 32
+                RESET_VALUE => x"00400000")
     port map (
       i_CLK => clk,
       i_RST => rst,
