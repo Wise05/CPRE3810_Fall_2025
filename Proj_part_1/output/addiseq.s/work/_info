@@ -12,10 +12,17 @@ Z0 !s99 nomlopt
 cModel Technology
 Z1 d/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1
 T_opt
+<<<<<<< HEAD
 !s110 1761177890
 V;OEh[OVWIhMP;nBjYeWd`2
 04 2 5 work tb mixed 1
 =1-000ae431a4f1-68f97122-77169-6053
+=======
+!s110 1761314262
+V0XZ5XMg566k@3HXC<T`k81
+04 2 5 work tb mixed 1
+=1-000ae431a4f1-68fb85d5-c4a4e-1f65
+>>>>>>> 061bb59 (we know the problem)
 R0
 !s12f OEM100
 !s12b OEM100
@@ -29,21 +36,36 @@ Eadd_sub_n
 Z2 w1761149700
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+<<<<<<< HEAD
 !i122 20
 Z5 d/home/shanen/CPRE 3810 Project 1/Proj_part_1
 Z6 8proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd
 Z7 Fproj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd
+=======
+!i122 29
+R1
+Z5 8proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd
+Z6 Fproj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L7 1
 V=06ML:RTF5cLU`3T^n^za1
 !s100 n4dRbZTT^mWhOUYa6EoeG1
 Z8 OL;C;2025.1_2;82
 33
+<<<<<<< HEAD
 Z9 !s110 1761177888
 !i10b 1
 Z10 !s108 1761177888.000000
 Z11 !s90 -2008|-work|internal/ModelSimContainer/work|proj/src/RISCV_types.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/Branch.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/fetch.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/control/control.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/TopLevel/mem.vhd|
 Z12 !s107 proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/control/control.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/carry_adder_N_over.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
+=======
+Z8 !s110 1761314259
+!i10b 1
+Z9 !s108 1761314259.000000
+Z10 !s90 -2008|-work|internal/ModelSimContainer/work|proj/src/RISCV_types.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/dffg_N_reset.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/fetch.vhd|proj/src/control/control.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/TopLevel/mem.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
+Z11 !s107 proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/control/control.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/dffg_N_reset.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/PC.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
+>>>>>>> 061bb59 (we know the problem)
 !i113 0
 Z13 o-2008 -work internal/ModelSimContainer/work
 Z14 tExplicit 1 CvgOpt 0
@@ -51,7 +73,11 @@ Astructural
 R3
 R4
 DEx4 work 9 add_sub_n 0 22 =06ML:RTF5cLU`3T^n^za1
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l52
 L18 63
 VmEe2ZKF5TD87jgdLCHf9m3
@@ -71,10 +97,17 @@ R2
 Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z16 8proj/src/Lab2_components/Lab1/Adder.vhd
 Z17 Fproj/src/Lab2_components/Lab1/Adder.vhd
+=======
+!i122 29
+R1
+Z15 8proj/src/Lab2_components/Lab1/Adder.vhd
+Z16 Fproj/src/Lab2_components/Lab1/Adder.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 Z18 L26 1
 Vn:be1:3KY_Y_]=CA9zL:40
@@ -94,7 +127,11 @@ R15
 R3
 R4
 DEx4 work 5 adder 0 22 n:be1:3KY_Y_]=CA9zL:40
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l40
 L39 11
 VONnnJ3NaCzC5I7CTUadX;0
@@ -113,10 +150,17 @@ Eaddsub_overflow
 Z19 w1761149699
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z20 8proj/src/ALU/AddSub_overflow.vhd
 Z21 Fproj/src/ALU/AddSub_overflow.vhd
+=======
+!i122 29
+R1
+Z18 8proj/src/ALU/AddSub_overflow.vhd
+Z19 Fproj/src/ALU/AddSub_overflow.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L7 1
 VB0`7cWAD3a>HT2933e;Sa1
@@ -135,7 +179,11 @@ Astructural
 R3
 R4
 DEx4 work 15 addsub_overflow 0 22 B0`7cWAD3a>HT2933e;Sa1
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l56
 L19 68
 Vk20FfTPcb28<1@:@LJB@Q3
@@ -154,10 +202,17 @@ Ealu_total
 R19
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z22 8proj/src/ALU/ALU_Total.vhd
 Z23 Fproj/src/ALU/ALU_Total.vhd
+=======
+!i122 29
+R1
+Z21 8proj/src/ALU/ALU_Total.vhd
+Z22 Fproj/src/ALU/ALU_Total.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L4 1
 VFkSVB709FAQ<Aege4iEE@0
@@ -176,7 +231,11 @@ Astructural
 R3
 R4
 DEx4 work 9 alu_total 0 22 FkSVB709FAQ<Aege4iEE@0
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l81
 L16 125
 VdR;i@c?7fdhn87jNWQeaI1
@@ -195,10 +254,17 @@ Eandg2
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z24 8proj/src/Lab2_components/Lab1/andg2.vhd
 Z25 Fproj/src/Lab2_components/Lab1/andg2.vhd
+=======
+!i122 29
+R1
+Z23 8proj/src/Lab2_components/Lab1/andg2.vhd
+Z24 Fproj/src/Lab2_components/Lab1/andg2.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 Z26 L23 1
 Vzkd6DAMQeJ>Gdbz_JED5>0
@@ -217,7 +283,11 @@ Adataflow
 R3
 R4
 DEx4 work 5 andg2 0 22 zkd6DAMQeJ>Gdbz_JED5>0
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l32
 Z27 L31 6
 ViHL2DEfeDAgY8?F@RAnWH0
@@ -231,20 +301,37 @@ R11
 R12
 !i113 0
 R13
+<<<<<<< HEAD
+=======
+Ebarrel_shifter
+Z27 w1761182860
+>>>>>>> 061bb59 (we know the problem)
 R14
 Ebarrel_shifter
 R2
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
+=======
+!i122 29
+R1
+>>>>>>> 061bb59 (we know the problem)
 Z28 8proj/src/barrel_shifter/barrel_shifter.vhd
 Z29 Fproj/src/barrel_shifter/barrel_shifter.vhd
 l0
 L5 1
+<<<<<<< HEAD
 Vz2H5fzzSR6:N]jI4AEkT@1
 !s100 DjTgO0hg5Ime7AKfQi[nO1
+=======
+V<0H]T2hI:<kQQFz2b4WDf0
+!s100 @3jO<i:]oX1Q>Z<kl_S4R0
+R7
+33
+>>>>>>> 061bb59 (we know the problem)
 R8
 33
 R9
@@ -259,12 +346,23 @@ Astructural
 R15
 R3
 R4
+<<<<<<< HEAD
 DEx4 work 14 barrel_shifter 0 22 z2H5fzzSR6:N]jI4AEkT@1
 !i122 20
 l32
 L16 136
 VR@F3<z9ooOe29Iaf;]cI91
 !s100 5DiihR>zWF5f3jl4X?H@=2
+=======
+DEx4 work 14 barrel_shifter 0 22 <0H]T2hI:<kQQFz2b4WDf0
+!i122 29
+l31
+L14 101
+VmFCT_OG3@F>5]1E<0H;o]3
+!s100 8_8b2SHV]n:R7CCRba8fX2
+R7
+33
+>>>>>>> 061bb59 (we know the problem)
 R8
 33
 R9
@@ -279,8 +377,13 @@ Ebranch
 R19
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
+=======
+!i122 29
+R1
+>>>>>>> 061bb59 (we know the problem)
 Z30 8proj/src/ALU/Branch.vhd
 Z31 Fproj/src/ALU/Branch.vhd
 l0
@@ -301,7 +404,11 @@ Astructural
 R3
 R4
 DEx4 work 6 branch 0 22 0haULIHEHM=]TD<935[L<0
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l19
 L14 40
 VFOH@UEh^f@lzIXQB_P7^>0
@@ -321,8 +428,13 @@ R2
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
+=======
+!i122 29
+R1
+>>>>>>> 061bb59 (we know the problem)
 Z32 8proj/src/extender/butter_extender_Nt32.vhd
 Z33 Fproj/src/extender/butter_extender_Nt32.vhd
 l0
@@ -344,7 +456,11 @@ R15
 R3
 R4
 DEx4 work 20 butter_extender_nt32 0 22 RZN;T[_b4fL]b[cg?EOe<1
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l20
 L17 37
 VjYMoQ@H68:gWa6E7LMM_z1
@@ -363,8 +479,13 @@ Ecarry_adder_n
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
+=======
+!i122 29
+R1
+>>>>>>> 061bb59 (we know the problem)
 Z34 8proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
 Z35 Fproj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
 l0
@@ -385,7 +506,11 @@ Astructural
 R3
 R4
 DEx4 work 13 carry_adder_n 0 22 UWjo3g4eQ^P9XDY5nei=d2
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l30
 L16 32
 VGEOclAWP<lf0XFa<8cHiH0
@@ -404,8 +529,13 @@ Ecarry_adder_n_over
 R19
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
+=======
+!i122 29
+R1
+>>>>>>> 061bb59 (we know the problem)
 Z36 8proj/src/ALU/carry_adder_N_over.vhd
 Z37 Fproj/src/ALU/carry_adder_N_over.vhd
 l0
@@ -426,7 +556,11 @@ Astructural
 R3
 R4
 DEx4 work 18 carry_adder_n_over 0 22 ]V[Q4<E7cZkWf_z_DY?^J2
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l31
 L17 33
 VnIIXco`1dCg>9P=8^6NXK2
@@ -440,20 +574,35 @@ R11
 R12
 !i113 0
 R13
+<<<<<<< HEAD
+=======
+Econtrol
+Z38 w1761169822
+>>>>>>> 061bb59 (we know the problem)
 R14
 Econtrol
 Z38 w1761169779
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
+=======
+!i122 29
+R1
+>>>>>>> 061bb59 (we know the problem)
 Z39 8proj/src/control/control.vhd
 Z40 Fproj/src/control/control.vhd
 l0
 L5 1
 VK?95Dc@DiFMh^3;3UYP>Q3
 !s100 gZGo8;46g5RL=g0XCP`^g1
+<<<<<<< HEAD
+=======
+R7
+33
+>>>>>>> 061bb59 (we know the problem)
 R8
 33
 R9
@@ -469,11 +618,20 @@ R15
 R3
 R4
 DEx4 work 7 control 0 22 K?95Dc@DiFMh^3;3UYP>Q3
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l27
 L26 83
 VHc>b5Ff4bzVQ__:87<@j_0
 !s100 ^?Gg3zBFV;ODD6>=R041[1
+<<<<<<< HEAD
+=======
+R7
+33
+>>>>>>> 061bb59 (we know the problem)
 R8
 33
 R9
@@ -488,8 +646,13 @@ Edecoder_5t32
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
+=======
+!i122 29
+R1
+>>>>>>> 061bb59 (we know the problem)
 Z41 8proj/src/Lab2_components/RegFile/decoder_5t32.vhd
 Z42 Fproj/src/Lab2_components/RegFile/decoder_5t32.vhd
 l0
@@ -510,7 +673,11 @@ Adataflow
 R3
 R4
 DEx4 work 12 decoder_5t32 0 22 1XjBPTK;9GD>`LcmSo2S82
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l10
 L9 38
 Vhog?MC2SMm^FR>AmM72j;1
@@ -529,8 +696,13 @@ Edffg
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
+=======
+!i122 29
+R1
+>>>>>>> 061bb59 (we know the problem)
 Z43 8proj/src/Lab2_components/dffg.vhd
 Z44 Fproj/src/Lab2_components/dffg.vhd
 l0
@@ -551,7 +723,11 @@ Amixed
 R3
 R4
 DEx4 work 4 dffg 0 22 >PZ[eHl^ZDc^T627=nThL3
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l37
 L33 29
 VKI^@FPEc]eSB[32H4XI822
@@ -584,7 +760,10 @@ R8
 !s107 proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/control/control.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/work/tb_mxu2t1_N.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/fetch/carry_adder_N.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/PC.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/Branch.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
 !i113 0
 R13
+<<<<<<< HEAD
 R14
+=======
+>>>>>>> 061bb59 (we know the problem)
 Z46 Fproj/src/Lab2_components/RegFile/dffg_N.vhd
 Z47 8proj/src/Lab2_components/RegFile/dffg_N.vhd
 w1761089778
@@ -593,8 +772,13 @@ Edffg_n
 Z48 w1761161234
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
+=======
+!i122 29
+R1
+>>>>>>> 061bb59 (we know the problem)
 R47
 R46
 l0
@@ -615,7 +799,11 @@ Abehavioral
 R3
 R4
 DEx4 work 6 dffg_n 0 22 bgZNNzzGGAjTSWoRR]h=V0
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l17
 L15 16
 Vc`U0]DzbBP5?_C6OK1P8A0
@@ -629,22 +817,80 @@ R11
 R12
 !i113 0
 R13
+<<<<<<< HEAD
 R14
+=======
+Edffg_n_reset
+Z48 w1761314104
+R3
+R4
+!i122 29
+R1
+Z49 8proj/src/fetch/dffg_N_reset.vhd
+Z50 Fproj/src/fetch/dffg_N_reset.vhd
+l0
+L4 1
+V:nf:1fBL;_BB2NAcCNOFo3
+!s100 Y?9]NAfIY^;MR?QOP05Ek1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 12 dffg_n_reset 0 22 :nf:1fBL;_BB2NAcCNOFo3
+!i122 29
+l19
+L18 13
+V=M@?ha77087Uel64R1[Ok2
+!s100 [6k7oT1bPFb6S0]^@6VzL0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+>>>>>>> 061bb59 (we know the problem)
 Eextender_nt32
 R2
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z49 8proj/src/Lab2_components/Extenders/extender_Nt32.vhd
 Z50 Fproj/src/Lab2_components/Extenders/extender_Nt32.vhd
+=======
+!i122 29
+R1
+Z51 8proj/src/Lab2_components/Extenders/extender_Nt32.vhd
+Z52 Fproj/src/Lab2_components/Extenders/extender_Nt32.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L6 1
 VXoOe;XWh<kfQkIJ7>A`Tc1
 !s100 <WY:1=A=dGT<Yz7K6XFaj1
+<<<<<<< HEAD
 R8
 33
+=======
+R7
+33
+Z53 !s110 1761314260
+!i10b 1
+>>>>>>> 061bb59 (we know the problem)
 R9
 !i10b 1
 R10
@@ -658,13 +904,24 @@ R15
 R3
 R4
 DEx4 work 13 extender_nt32 0 22 XoOe;XWh<kfQkIJ7>A`Tc1
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l18
 L17 10
 V^nBC15KQlSX5=2:<I@XG^2
 !s100 CcQVREGK1CO;3CC@3aTPI2
+<<<<<<< HEAD
 R8
 33
+=======
+R7
+33
+R53
+!i10b 1
+>>>>>>> 061bb59 (we know the problem)
 R9
 !i10b 1
 R10
@@ -677,10 +934,17 @@ Efetch
 R48
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z51 8proj/src/fetch/fetch.vhd
 Z52 Fproj/src/fetch/fetch.vhd
+=======
+!i122 29
+R1
+Z54 8proj/src/fetch/fetch.vhd
+Z55 Fproj/src/fetch/fetch.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L4 1
 V][Ihc[z>2DYI]4C:Z^]hD1
@@ -699,7 +963,11 @@ Astructural
 R3
 R4
 DEx4 work 5 fetch 0 22 ][Ihc[z>2DYI]4C:Z^]hD1
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l68
 L18 103
 VDkYPJndJ<^NW@`51mkXP43
@@ -719,10 +987,17 @@ R2
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z53 8proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
 Z54 Fproj/src/Lab2_components/Lab1/Adder/full_adder.vhd
+=======
+!i122 29
+R1
+Z56 8proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
+Z57 Fproj/src/Lab2_components/Lab1/Adder/full_adder.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L9 1
 V1dkX?[23=3P=AO[c_FEoT3
@@ -742,7 +1017,11 @@ R15
 R3
 R4
 DEx4 work 10 full_adder 0 22 1dkX?[23=3P=AO[c_FEoT3
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l39
 L17 50
 V2Bka[QLDRz40W;855hLW22
@@ -761,10 +1040,17 @@ Einvg
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z55 8proj/src/Lab2_components/Lab1/invg.vhd
 Z56 Fproj/src/Lab2_components/Lab1/invg.vhd
+=======
+!i122 29
+R1
+Z58 8proj/src/Lab2_components/Lab1/invg.vhd
+Z59 Fproj/src/Lab2_components/Lab1/invg.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 R26
 VEIV8[cYGC3d^KTkcGjzd81
@@ -783,7 +1069,11 @@ Adataflow
 R3
 R4
 DEx4 work 4 invg 0 22 EIV8[cYGC3d^KTkcGjzd81
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l31
 L30 6
 VgCOFGMYmXN`?<=SMTD_mC1
@@ -797,16 +1087,28 @@ R11
 R12
 !i113 0
 R13
+<<<<<<< HEAD
+=======
+Eleft_shifter
+R38
+>>>>>>> 061bb59 (we know the problem)
 R14
 Eleft_shifter
 Z57 w1761169905
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z58 8proj/src/fetch/Left_Shifter.vhd
 Z59 Fproj/src/fetch/Left_Shifter.vhd
+=======
+!i122 29
+R1
+Z60 8proj/src/fetch/Left_Shifter.vhd
+Z61 Fproj/src/fetch/Left_Shifter.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L5 1
 VL3bFngUDg_Sikf[OJ5PB:1
@@ -826,7 +1128,11 @@ R15
 R3
 R4
 DEx4 work 12 left_shifter 0 22 L3bFngUDg_Sikf[OJ5PB:1
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l13
 L12 5
 Vl7B>KF4CG51?OenaLiPdz0
@@ -846,10 +1152,17 @@ R2
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z60 8proj/src/TopLevel/mem.vhd
 Z61 Fproj/src/TopLevel/mem.vhd
+=======
+!i122 29
+R1
+Z62 8proj/src/TopLevel/mem.vhd
+Z63 Fproj/src/TopLevel/mem.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L8 1
 V`DCP5]PX0@1FzLJ]HFPC51
@@ -869,7 +1182,11 @@ R15
 R3
 R4
 DEx4 work 3 mem 0 22 `DCP5]PX0@1FzLJ]HFPC51
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l37
 L27 24
 V7=z6;Jh7Kho4J>IEcD31I0
@@ -889,10 +1206,17 @@ R2
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z62 8proj/src/Lab2_components/Lab1/Multiplier.vhd
 Z63 Fproj/src/Lab2_components/Lab1/Multiplier.vhd
+=======
+!i122 29
+R1
+Z64 8proj/src/Lab2_components/Lab1/Multiplier.vhd
+Z65 Fproj/src/Lab2_components/Lab1/Multiplier.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 R18
 VQ9IG6[2ldN9fcdeUA;f202
@@ -912,7 +1236,11 @@ R15
 R3
 R4
 DEx4 work 10 multiplier 0 22 Q9IG6[2ldN9fcdeUA;f202
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l38
 L37 11
 VFko]AXU_b>oVLGOPco;[P0
@@ -932,16 +1260,30 @@ R2
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z64 8proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
 Z65 Fproj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
+=======
+!i122 29
+R1
+Z66 8proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
+Z67 Fproj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L11 1
 Vc[Y4PJ_5lU^ekZlTnhQOk3
 !s100 7i2P_V8V?m733gNoJHTB61
+<<<<<<< HEAD
 R8
 33
+=======
+R7
+33
+R53
+!i10b 1
+>>>>>>> 061bb59 (we know the problem)
 R9
 !i10b 1
 R10
@@ -955,13 +1297,24 @@ R15
 R3
 R4
 DEx4 work 6 mux2t1 0 22 c[Y4PJ_5lU^ekZlTnhQOk3
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l40
 L19 43
 VROH3;8R1YdYcJ`3fYfFT10
 !s100 8MeOIDC^;7@QLnl=8QG3T3
+<<<<<<< HEAD
 R8
 33
+=======
+R7
+33
+R53
+!i10b 1
+>>>>>>> 061bb59 (we know the problem)
 R9
 !i10b 1
 R10
@@ -975,6 +1328,7 @@ R2
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z66 8proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd
@@ -985,6 +1339,20 @@ Vj_bcRfj6WN;YSdfVgV?=A2
 !s100 4FnjKe=]2;>WbcLOZOO8h1
 R8
 33
+=======
+!i122 29
+R1
+Z68 8proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd
+Z69 Fproj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd
+l0
+Z70 L10 1
+Vj_bcRfj6WN;YSdfVgV?=A2
+!s100 4FnjKe=]2;>WbcLOZOO8h1
+R7
+33
+R53
+!i10b 1
+>>>>>>> 061bb59 (we know the problem)
 R9
 !i10b 1
 R10
@@ -998,13 +1366,24 @@ R15
 R3
 R4
 DEx4 work 15 mux2t1_dataflow 0 22 j_bcRfj6WN;YSdfVgV?=A2
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l18
 L17 8
 V:Ed3bUa5G96@j7Kkb_D9N3
 !s100 Q6^F^J7_NmY]jnbjcWGfG3
+<<<<<<< HEAD
 R8
 33
+=======
+R7
+33
+R53
+!i10b 1
+>>>>>>> 061bb59 (we know the problem)
 R9
 !i10b 1
 R10
@@ -1017,10 +1396,17 @@ Emux2t1_n
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z69 8proj/src/Lab2_components/Lab1/mux2t1_N.vhd
 Z70 Fproj/src/Lab2_components/Lab1/mux2t1_N.vhd
+=======
+!i122 29
+R1
+Z71 8proj/src/Lab2_components/Lab1/mux2t1_N.vhd
+Z72 Fproj/src/Lab2_components/Lab1/mux2t1_N.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L21 1
 VMc8Ce^FfKH3^@e0]>U@4a1
@@ -1039,9 +1425,15 @@ Astructural
 R3
 R4
 DEx4 work 8 mux2t1_n 0 22 Mc8Ce^FfKH3^@e0]>U@4a1
+<<<<<<< HEAD
 !i122 20
 l39
 Z71 L30 21
+=======
+!i122 29
+l39
+Z73 L30 21
+>>>>>>> 061bb59 (we know the problem)
 VZN9<A@:Ed@c7fc;5^P2=91
 !s100 W>5MMWO2LBg`K8[P>h>Ye1
 R8
@@ -1058,10 +1450,17 @@ Emux_16t1
 R19
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z72 8proj/src/ALU/mux_16t1.vhd
 Z73 Fproj/src/ALU/mux_16t1.vhd
+=======
+!i122 29
+R1
+Z74 8proj/src/ALU/mux_16t1.vhd
+Z75 Fproj/src/ALU/mux_16t1.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L4 1
 VV0>hRSF1?R@eOK;Mg[EY<0
@@ -1080,9 +1479,15 @@ Abehavioral
 R3
 R4
 DEx4 work 8 mux_16t1 0 22 V0>hRSF1?R@eOK;Mg[EY<0
+<<<<<<< HEAD
 !i122 20
 l31
 R71
+=======
+!i122 29
+l31
+R73
+>>>>>>> 061bb59 (we know the problem)
 VJ4@IlndD?ITL8l=6ZhmCi2
 !s100 Gh5jmfP>l0ePAJP29khNC2
 R8
@@ -1097,6 +1502,7 @@ R13
 R14
 Emux_32t1
 R2
+<<<<<<< HEAD
 Z74 DPx4 work 11 riscv_types 0 22 ?mcI`^eBWi3[0ZK^PS;F_3
 R3
 R4
@@ -1104,6 +1510,15 @@ R4
 R5
 Z75 8proj/src/Lab2_components/RegFile/mux_32t1.vhd
 Z76 Fproj/src/Lab2_components/RegFile/mux_32t1.vhd
+=======
+Z76 DPx4 work 11 riscv_types 0 22 ?mcI`^eBWi3[0ZK^PS;F_3
+R3
+R4
+!i122 29
+R1
+Z77 8proj/src/Lab2_components/RegFile/mux_32t1.vhd
+Z78 Fproj/src/Lab2_components/RegFile/mux_32t1.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L5 1
 Vf5XOzA@`4H:35O4Y2_5Qe2
@@ -1119,11 +1534,19 @@ R12
 R13
 R14
 Adataflow
+<<<<<<< HEAD
 R74
 R3
 R4
 DEx4 work 8 mux_32t1 0 22 f5XOzA@`4H:35O4Y2_5Qe2
 !i122 20
+=======
+R76
+R3
+R4
+DEx4 work 8 mux_32t1 0 22 f5XOzA@`4H:35O4Y2_5Qe2
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l15
 L14 37
 VZ`N5<1DRC55QOifF126_]0
@@ -1142,10 +1565,17 @@ Eones_comp_n
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z77 8proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
 Z78 Fproj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+=======
+!i122 29
+R1
+Z79 8proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+Z80 Fproj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L8 1
 V9RWm3=OK8n?0_m>9eg8Fa0
@@ -1164,7 +1594,11 @@ Astructural
 R3
 R4
 DEx4 work 11 ones_comp_n 0 22 9RWm3=OK8n?0_m>9eg8Fa0
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l21
 R45
 V2@PnYe9jFOchFZ1o@0m;?0
@@ -1183,10 +1617,17 @@ Eorg2
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z79 8proj/src/Lab2_components/Lab1/org2.vhd
 Z80 Fproj/src/Lab2_components/Lab1/org2.vhd
+=======
+!i122 29
+R1
+Z81 8proj/src/Lab2_components/Lab1/org2.vhd
+Z82 Fproj/src/Lab2_components/Lab1/org2.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 R26
 V?NH`3h?82EVlQHGfZGfFO0
@@ -1205,7 +1646,11 @@ Adataflow
 R3
 R4
 DEx4 work 4 org2 0 22 ?NH`3h?82EVlQHGfZGfFO0
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l32
 R27
 V<Wo>dNlmZ7b3Bf:M>4HRk1
@@ -1221,13 +1666,20 @@ R12
 R13
 R14
 Epc
-R2
+Z83 w1761314115
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z81 8proj/src/fetch/PC.vhd
 Z82 Fproj/src/fetch/PC.vhd
+=======
+!i122 29
+R1
+Z84 8proj/src/fetch/PC.vhd
+Z85 Fproj/src/fetch/PC.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L4 1
 VzK:kMGaHLRb4oV89N]<6g0
@@ -1246,11 +1698,21 @@ Astructural
 R3
 R4
 DEx4 work 2 pc 0 22 zK:kMGaHLRb4oV89N]<6g0
+<<<<<<< HEAD
 !i122 20
 l24
 L14 22
 VCkcO4K@kK2gN=V=30OXT:3
 !s100 X`5Un1d48<2<1<j7Ng2k02
+=======
+!i122 29
+l25
+L14 24
+VhW1N2>CiPi1mY8PObG@bX1
+!s100 L@56IZVM=HViZ@4n<cz<b2
+R7
+33
+>>>>>>> 061bb59 (we know the problem)
 R8
 33
 R9
@@ -1265,10 +1727,17 @@ Ereg
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z83 8proj/src/Lab2_components/Lab1/Reg.vhd
 Z84 Fproj/src/Lab2_components/Lab1/Reg.vhd
+=======
+!i122 29
+R1
+Z86 8proj/src/Lab2_components/Lab1/Reg.vhd
+Z87 Fproj/src/Lab2_components/Lab1/Reg.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 R26
 VRABXBgcTUnjMRY82[TkEQ1
@@ -1287,7 +1756,11 @@ Abehavior
 R3
 R4
 DEx4 work 3 reg 0 22 RABXBgcTUnjMRY82[TkEQ1
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l34
 L33 11
 VDaPzli88CAL[_?A^LOOM43
@@ -1306,10 +1779,17 @@ Eregld
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z85 8proj/src/Lab2_components/Lab1/RegLd.vhd
 Z86 Fproj/src/Lab2_components/Lab1/RegLd.vhd
+=======
+!i122 29
+R1
+Z88 8proj/src/Lab2_components/Lab1/RegLd.vhd
+Z89 Fproj/src/Lab2_components/Lab1/RegLd.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 R26
 Va1=dk1XW>Y6KcLgnIm0jd0
@@ -1328,7 +1808,11 @@ Abehavior
 R3
 R4
 DEx4 work 5 regld 0 22 a1=dk1XW>Y6KcLgnIm0jd0
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l37
 L34 19
 V6Pc<2@QbZ5bYl<JR^z7D^2
@@ -1344,6 +1828,7 @@ R12
 R13
 R14
 Eriscv_processor
+<<<<<<< HEAD
 R57
 R74
 R3
@@ -1352,6 +1837,16 @@ R4
 R5
 Z87 8proj/src/TopLevel/RISCV_Processor.vhd
 Z88 Fproj/src/TopLevel/RISCV_Processor.vhd
+=======
+Z90 w1761169866
+R76
+R3
+R4
+!i122 29
+R1
+Z91 8proj/src/TopLevel/RISCV_Processor.vhd
+Z92 Fproj/src/TopLevel/RISCV_Processor.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 R26
 V[]I_QYZQBDAB4L5mULTE@3
@@ -1367,15 +1862,28 @@ R12
 R13
 R14
 Astructure
+<<<<<<< HEAD
 R74
 R3
 R4
 DEx4 work 15 riscv_processor 0 22 []I_QYZQBDAB4L5mULTE@3
 !i122 20
+=======
+R76
+R3
+R4
+DEx4 work 15 riscv_processor 0 22 []I_QYZQBDAB4L5mULTE@3
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l197
 L35 289
 V7^P]2JznkFLbW_EC3L2lz1
 !s100 dD_3Ack8>Y4@GH17TmjbV3
+<<<<<<< HEAD
+=======
+R7
+33
+>>>>>>> 061bb59 (we know the problem)
 R8
 33
 R9
@@ -1389,11 +1897,19 @@ R14
 Priscv_types
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R2
 R5
 Z89 8proj/src/RISCV_types.vhd
 Z90 Fproj/src/RISCV_types.vhd
+=======
+!i122 29
+R2
+R1
+Z93 8proj/src/RISCV_types.vhd
+Z94 Fproj/src/RISCV_types.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L15 15
 V?mcI`^eBWi3[0ZK^PS;F_3
@@ -1409,10 +1925,17 @@ R12
 R13
 R14
 Bbody
+<<<<<<< HEAD
 R74
 R3
 R4
 !i122 20
+=======
+R76
+R3
+R4
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l0
 L31 3
 VfYG:<Y8E]VlFBFbZM@WTT2
@@ -1429,6 +1952,7 @@ R13
 R14
 Erv32_regfile
 R2
+<<<<<<< HEAD
 R74
 R3
 R4
@@ -1436,6 +1960,15 @@ R4
 R5
 Z91 8proj/src/Lab2_components/RegFile/RV32_regFile.vhd
 Z92 Fproj/src/Lab2_components/RegFile/RV32_regFile.vhd
+=======
+R76
+R3
+R4
+!i122 29
+R1
+Z95 8proj/src/Lab2_components/RegFile/RV32_regFile.vhd
+Z96 Fproj/src/Lab2_components/RegFile/RV32_regFile.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 L5 1
 Vh57[AK`JKUDNY7^2hZ`ZJ2
@@ -1451,11 +1984,19 @@ R12
 R13
 R14
 Astructural
+<<<<<<< HEAD
 R74
 R3
 R4
 DEx4 work 12 rv32_regfile 0 22 h57[AK`JKUDNY7^2hZ`ZJ2
 !i122 20
+=======
+R76
+R3
+R4
+DEx4 work 12 rv32_regfile 0 22 h57[AK`JKUDNY7^2hZ`ZJ2
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l44
 L19 69
 VeaD47zC=06OHEP;X>Y2SO1
@@ -1471,6 +2012,7 @@ R12
 R13
 R14
 Etb
+<<<<<<< HEAD
 R19
 Z93 DPx3 std 3 env 0 22 g[fj8WJKOa<0Y`zWY3UD70
 Z94 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
@@ -1482,6 +2024,19 @@ Z95 8internal/testpy/tb.vhd
 Z96 Finternal/testpy/tb.vhd
 l0
 Z97 L24 1
+=======
+Z97 w1761150523
+Z98 DPx3 std 3 env 0 22 g[fj8WJKOa<0Y`zWY3UD70
+Z99 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R3
+R4
+!i122 29
+R1
+Z100 8internal/testpy/tb.vhd
+Z101 Finternal/testpy/tb.vhd
+l0
+Z102 L24 1
+>>>>>>> 061bb59 (we know the problem)
 VVnzHcnmWmi<jE?5a3XOiF3
 !s100 ;QHYbWb3iZ[[A?fo=9D=X3
 R8
@@ -1495,12 +2050,21 @@ R12
 R13
 R14
 Amixed
+<<<<<<< HEAD
 R93
 R94
 R3
 R4
 DEx4 work 2 tb 0 22 VnzHcnmWmi<jE?5a3XOiF3
 !i122 20
+=======
+R98
+R99
+R3
+R4
+DEx4 work 2 tb 0 22 VnzHcnmWmi<jE?5a3XOiF3
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l56
 L31 127
 V5[oF0n<T4Z>Xdce12QbYh2
@@ -1517,6 +2081,7 @@ R13
 R14
 Etb_mux2t1_n
 R2
+<<<<<<< HEAD
 R94
 R3
 R4
@@ -1526,6 +2091,17 @@ Z98 8proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd
 Z99 Fproj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd
 l0
 R68
+=======
+R99
+R3
+R4
+!i122 29
+R1
+Z103 8proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd
+Z104 Fproj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd
+l0
+R70
+>>>>>>> 061bb59 (we know the problem)
 VjF3VbZYM44;o::?efhBlz0
 !s100 ;^d4@dnThQVY2bbi:diP60
 R8
@@ -1539,11 +2115,19 @@ R12
 R13
 R14
 Amixed
+<<<<<<< HEAD
 R94
 R3
 R4
 DEx4 work 11 tb_mux2t1_n 0 22 jF3VbZYM44;o::?efhBlz0
 !i122 20
+=======
+R99
+R3
+R4
+DEx4 work 11 tb_mux2t1_n 0 22 jF3VbZYM44;o::?efhBlz0
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l30
 L15 46
 VH2W@eBDLLOJdG_CCzaYz@3
@@ -1560,6 +2144,7 @@ R13
 R14
 Etb_ones_comp_n
 R2
+<<<<<<< HEAD
 R94
 R3
 R4
@@ -1569,6 +2154,17 @@ Z100 8proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd
 Z101 Fproj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd
 l0
 R68
+=======
+R99
+R3
+R4
+!i122 29
+R1
+Z105 8proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd
+Z106 Fproj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd
+l0
+R70
+>>>>>>> 061bb59 (we know the problem)
 VRQe0;l56R<]JYUB^0V8Em1
 !s100 c00FL>M4:eF^5]i5eG1TQ3
 R8
@@ -1582,11 +2178,19 @@ R12
 R13
 R14
 Amixed
+<<<<<<< HEAD
 R94
 R3
 R4
 DEx4 work 14 tb_ones_comp_n 0 22 RQe0;l56R<]JYUB^0V8Em1
 !i122 20
+=======
+R99
+R3
+R4
+DEx4 work 14 tb_ones_comp_n 0 22 RQe0;l56R<]JYUB^0V8Em1
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l26
 L15 41
 VHOobmc504Ko:z1XT];K2F0
@@ -1603,6 +2207,7 @@ R13
 R14
 Etb_tpu_mv_element
 R2
+<<<<<<< HEAD
 R94
 R3
 R4
@@ -1610,6 +2215,15 @@ R4
 R5
 Z102 8proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd
 Z103 Fproj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd
+=======
+R99
+R3
+R4
+!i122 29
+R1
+Z107 8proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd
+Z108 Fproj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 R26
 VPi@KW=C9;5CEX>1fg`XKK1
@@ -1625,11 +2239,19 @@ R12
 R13
 R14
 Amixed
+<<<<<<< HEAD
 R94
 R3
 R4
 DEx4 work 17 tb_tpu_mv_element 0 22 Pi@KW=C9;5CEX>1fg`XKK1
 !i122 20
+=======
+R99
+R3
+R4
+DEx4 work 17 tb_tpu_mv_element 0 22 Pi@KW=C9;5CEX>1fg`XKK1
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l59
 L28 158
 VJ57=6lb2Z`E:@0LEAa2j;2
@@ -1649,12 +2271,21 @@ R2
 R15
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z104 8proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd
 Z105 Fproj/src/Lab2_components/Lab1/TPU_MV_Element.vhd
 l0
 R97
+=======
+!i122 29
+R1
+Z109 8proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd
+Z110 Fproj/src/Lab2_components/Lab1/TPU_MV_Element.vhd
+l0
+R102
+>>>>>>> 061bb59 (we know the problem)
 VzIb1dPZhmO6DTR=3jYZ0h2
 !s100 Oan5[g6PEML;U2o>_dSN00
 R8
@@ -1672,7 +2303,11 @@ R15
 R3
 R4
 DEx4 work 14 tpu_mv_element 0 22 zIb1dPZhmO6DTR=3jYZ0h2
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l85
 L38 104
 VVgBamoQ40<coS_N7H9?J?2
@@ -1691,10 +2326,17 @@ Exorg2
 R2
 R3
 R4
+<<<<<<< HEAD
 !i122 20
 R5
 Z106 8proj/src/Lab2_components/Lab1/xorg2.vhd
 Z107 Fproj/src/Lab2_components/Lab1/xorg2.vhd
+=======
+!i122 29
+R1
+Z111 8proj/src/Lab2_components/Lab1/xorg2.vhd
+Z112 Fproj/src/Lab2_components/Lab1/xorg2.vhd
+>>>>>>> 061bb59 (we know the problem)
 l0
 R26
 V5Q>VWC4f7j5KH:`2lLMTR0
@@ -1713,7 +2355,11 @@ Adataflow
 R3
 R4
 DEx4 work 5 xorg2 0 22 5Q>VWC4f7j5KH:`2lLMTR0
+<<<<<<< HEAD
 !i122 20
+=======
+!i122 29
+>>>>>>> 061bb59 (we know the problem)
 l32
 R27
 VfMT1QQS6a=jd=[j:an4<c2

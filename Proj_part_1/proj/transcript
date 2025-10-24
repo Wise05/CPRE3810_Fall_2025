@@ -18,6 +18,7 @@ add wave sim:/vsim.wlf/*
 # Unrecognized dataset prefix: sim
 add wave -position insertpoint  \
 <<<<<<< HEAD
+<<<<<<< HEAD
 vsim:/tb_alu_total/gCLK_HPER \
 vsim:/tb_alu_total/N \
 vsim:/tb_alu_total/s_A \
@@ -35,13 +36,19 @@ vsim:/tb_alu_total/cCLK_PER
 =======
 vsim:/tb/CLK
 add wave -position insertpoint  \
+=======
+>>>>>>> 061bb59 (we know the problem)
 vsim:/tb/alu_out
 add wave -position insertpoint  \
-vsim:/tb/MyRiscv/Register_File/DATA_IN
+vsim:/tb/CLK
 add wave -position insertpoint  \
-vsim:/tb/MyRiscv/Register_File/RegWrite
+vsim:/tb/MyRiscv/Fetch_of_ultamite_power/instr_addr_s
 add wave -position insertpoint  \
+<<<<<<< HEAD
 vsim:/tb/MyRiscv/mind_control/o_Link
 add wave -position insertpoint  \
 vsim:/tb/MyRiscv/Register_File/DATA_IN
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+=======
+vsim:/tb/MyRiscv/Sign_Extend/imm_out
+>>>>>>> 061bb59 (we know the problem)

@@ -3,7 +3,7 @@ Reading pref.tcl
 # 2025.1_2
 
 # vsim -postsimdataflow -debugdb -c -voptargs=""+acc"" tb -do "modelsim_framework.do" -gOUTPUT_TRACE=ms.trace 
-# Start time: 20:29:20 on Oct 22,2025
+# Start time: 08:57:56 on Oct 24,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vsim-8611) Generating debug db.
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
@@ -40,6 +40,7 @@ Reading pref.tcl
 # Loading work.mux_32t1(dataflow)#1
 # Loading work.fetch(structural)#1
 # Loading work.pc(structural)#1
+# Loading work.dffg_n_reset(behavioral)#1
 # Loading work.carry_adder_n(structural)#1
 # Loading work.full_adder(behavior)#1
 # Loading work.xorg2(dataflow)#1
@@ -67,7 +68,5 @@ Reading pref.tcl
 #    Time: 0 ns  Iteration: 0  Instance: /tb/MyRiscv/IMem
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ns  Iteration: 3  Instance: /tb/MyRiscv/DMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ns  Iteration: 5  Instance: /tb/MyRiscv/IMem
-# End time: 20:29:23 on Oct 22,2025, Elapsed time: 0:00:03
-# Errors: 0, Warnings: 6
+# End time: 08:57:58 on Oct 24,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 5
