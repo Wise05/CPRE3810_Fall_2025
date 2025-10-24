@@ -77,13 +77,25 @@ begin
                           i_opcode = "0010111") else
                 '0';
 
-  o_imm_sel <= "01" when (i_opcode = "0010011" or
-                          i_opcode = "0000011" or
-                          i_opcode = "1100011" or
-                          i_opcode = "1101111" or
-                          i_opcode = "1100111") else
-               "10" when (i_opcode = "0110111" or i_opcode = "0010111") else
-               "--";
+  o_imm_sel <= "01" when (
+    (i_opcode = "0010011" and i_funct3 = "000") or
+    (i_opcode = "0010011" and i_funct3 = "010") or
+    (i_opcode = "0010011" and i_funct3 = "011") or
+    (i_opcode = "0000011") or
+    (i_opcode = "0100011") or
+    (i_opcode = "0110011" and i_funct3 = "000") or
+    (i_opcode = "1100011" and i_funct3 = "000") or
+    (i_opcode = "1100011" and i_funct3 = "001") or
+    (i_opcode = "1100011" and i_funct3 = "100") or
+    (i_opcode = "1100011" and i_funct3 = "101") or
+    (i_opcode = "1101111") or
+    (i_opcode = "1100111")
+) else
+"10" when (
+    i_opcode = "0110111" or
+    i_opcode = "0010111"
+) else
+"00";
 
   o_BranchType <= "000" when (i_opcode = "1100011" and i_funct3 = "000") else
                   "001" when (i_opcode = "1100011" and i_funct3 = "001") else
