@@ -12,66 +12,14 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 09:57:26 on Oct 24,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity control
-# -- Compiling architecture dataflow of control
-# End time: 09:57:26 on Oct 24,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 09:57:34 on Oct 24,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity fetch
-# -- Compiling architecture structural of fetch
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd(112): Signal "PC_jump_s" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd(120): (vcom-1136) Unknown identifier "reg".
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd(119): Signal "PC_jump_s" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd(130): VHDL Compiler exiting
-# End time: 09:57:34 on Oct 24,2025, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 10:00:48 on Oct 24,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity fetch
-# -- Compiling architecture structural of fetch
-# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd(120): (vcom-1136) Unknown identifier "reg".
-# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd(130): VHDL Compiler exiting
-# End time: 10:00:48 on Oct 24,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 10:02:05 on Oct 24,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity fetch
-# -- Compiling architecture structural of fetch
-# End time: 10:02:05 on Oct 24,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 10:06:24 on Oct 24,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RISCV_Processor
-# -- Compiling architecture structure of RISCV_Processor
-# End time: 10:06:24 on Oct 24,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+add wave -position insertpoint  \
+vsim:/tb/alu_out
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/IMem/q
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/Sign_Extend/imm_in
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/Sign_Extend/imm_out
+# ** Error: (vish-7) Failed to open info file "/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/containers/sim_container_0/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+quit -sim
