@@ -17,6 +17,7 @@ add wave sim:/vsim/*
 add wave sim:/vsim.wlf/*
 # Unrecognized dataset prefix: sim
 add wave -position insertpoint  \
+<<<<<<< HEAD
 vsim:/tb_alu_total/gCLK_HPER \
 vsim:/tb_alu_total/N \
 vsim:/tb_alu_total/s_A \
@@ -31,3 +32,16 @@ vsim:/tb_alu_total/cCLK_PER
 # Path name '/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd' doesn't exist.
 # Error opening /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd
 # Path name '/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd' doesn't exist.
+=======
+vsim:/tb/CLK
+add wave -position insertpoint  \
+vsim:/tb/alu_out
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/Register_File/DATA_IN
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/Register_File/RegWrite
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/mind_control/o_Link
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/Register_File/DATA_IN
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
