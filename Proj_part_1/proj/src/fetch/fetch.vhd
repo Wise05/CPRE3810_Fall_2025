@@ -5,11 +5,12 @@ entity fetch is
   port (
     clk : in std_logic;
     rst : in std_logic;
-    -- Maybe we need RegWrite for the PC, but rn it will be set to 1
     branch : in std_logic;
     zero_flag_ALU : in std_logic;
     jump : in std_logic;
     imm : in std_logic_vector(31 downto 0); -- immediate offset
+    PCReg : in std_logic;
+    reg_in : in std_logic_vector(31 downto 0);
     instr_addr : out std_logic_vector(31 downto 0); -- address sent to imem
     plus4_o : out std_logic_vector(31 downto 0) -- address that gets sent to "AndLink" address
  );
@@ -23,6 +24,7 @@ architecture structural of fetch is
   signal PC_offset_s : std_logic_vector(31 downto 0);
   signal PCSrc : std_logic;
   signal branch_and_zero : std_logic;
+  signal PC_jump_s : std_logic_vector(31 downto 0);
 
   -- signals to make compiler happy, but we don't care about
   signal plus4_cOut_s : std_logic;
@@ -108,7 +110,16 @@ begin
       i_S => PCSrc,
       i_D0 => plus4_s,
       i_D1 => PC_offset_s,
-      o_O => PC_in_s
+      o_O => PC_jump_s
+  );
+
+  mux_PCReg : mux2t1_N
+	generic map (N => 32)
+	port map (
+	  i_S => PCReg,
+	  i_D0 => PC_jump_s,
+	  i_D1 => reg_in,
+	  o_O => PC_in_s
   );
 
   branch_and_zero <= branch and zero_flag_ALU;

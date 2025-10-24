@@ -88,6 +88,7 @@ architecture structure of RISCV_Processor is
   signal s_Jump : std_logic;
   signal s_Link : std_logic;
   signal s_Branch : std_logic;
+  signal s_PCReg : std_logic;
 
   -- ALU
   signal s_OS1 : std_logic_vector(31 downto 0);
@@ -130,7 +131,8 @@ architecture structure of RISCV_Processor is
         o_halt     : out std_logic;
         o_Jump       : out std_logic;
         o_Link       : out std_logic;
-	o_Branch  : out std_logic
+	o_Branch  : out std_logic;
+	o_PCReg : out std_logic
       );
     end component;
 
@@ -143,6 +145,8 @@ architecture structure of RISCV_Processor is
         zero_flag_ALU : in std_logic;
         jump : in std_logic;
         imm : in std_logic_vector(31 downto 0); -- immediate offset
+	PCReg : in std_logic;
+	reg_in : in std_logic_vector(31 downto 0);
         instr_addr : out std_logic_vector(31 downto 0); -- address sent to imem
         plus4_o : out std_logic_vector(31 downto 0) -- address that gets sent to "AndLink" address
      );
@@ -241,8 +245,9 @@ begin
       o_MemtoReg => s_MemtoReg,
       o_halt  => s_Halt,
       o_Jump => s_Jump,
-      o_Link => s_Link,
-	o_Branch => s_Branch
+      o_Link => s_Link,	
+      o_Branch => s_Branch,
+      o_PCReg => s_PCReg
     );
 
   Register_File : RV32_regFile 
@@ -266,6 +271,8 @@ begin
       zero_flag_ALU => s_Zero,
       jump => s_Jump,
       imm => s_extended_imm,
+      PCReg => s_PCReg,
+      reg_in => s_OS1,
       instr_addr => s_NextInstAddr,
       plus4_o => s_andLink_imm
     );
