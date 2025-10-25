@@ -281,7 +281,7 @@ begin
       generic map (N => 32)
       port map (
         imm_in => s_Inst,
-        sign_ext => "01", -- IDK
+        sign_ext => s_imm_sel,
         imm_type => s_ImmType,
         imm_out => s_extended_imm
       );
