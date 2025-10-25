@@ -20,6 +20,7 @@ entity control is
     o_Jump       : out std_logic;
     o_Link       : out std_logic;
     o_Branch  : out std_logic;
+    o_auipcSrc  : out std_logic;
     o_PCReg : out std_logic
   );
 end control;
@@ -119,6 +120,8 @@ begin
   o_Branch <= '1' when (i_opcode = "1100011") else '0';
   
   o_PCReg <= '1' when (i_opcode = "1100111") else '0';
+  
+  o_auipcSrc <= '1' when (i_opcode = "0010111") else '0';
 
 end dataflow;
 
