@@ -60,10 +60,10 @@ begin
                   "0010" when (i_opcode = "1101111" or i_opcode = "1100111" or i_opcode = "0010111") else
                   "----";
 
-  o_ImmType <= "000" when (i_opcode = "0010011") else
+  o_ImmType <= "000" when (i_opcode = "0010011 or i_opcode = "0000011") else
                "010" when (i_opcode = "1100011") else
                "100" when (i_opcode = "1101111") else
-	       "001" when (i_opcode = "0100011" or i_opcode = "00000011") else 
+	       "001" when (i_opcode = "0100011") else 
                "---";
 
   o_ResultSrc <= "01" when (i_opcode = "0000011") else

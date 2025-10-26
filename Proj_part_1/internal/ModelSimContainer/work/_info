@@ -722,18 +722,24 @@ Z143 8proj/src/fetch/Left_Shifter.vhd
 Z144 Fproj/src/fetch/Left_Shifter.vhd
 R0
 <<<<<<< HEAD
+R0
+<<<<<<< HEAD
 Z145 w1761169905
 Z146 8proj/src/Lab2_components/Lab1/Adder.vhd
-R17
-R18
-!i122 25
-R6
-R143
-R144
 R5
+R145
+R146
+R0
+<<<<<<< HEAD
 Z147 w1761169822
 R5
 Z148 8proj/src/control/control.vhd
+R5
+R147
+R5
+R148
+R0
+<<<<<<< HEAD
 R0
 <<<<<<< HEAD
 R0
@@ -749,20 +755,42 @@ R149
 !i122 25
 R5
 R149
-!i122 30
+R5
+R149
+!i122 25
+l31
+R150
+R151
+R152
+R5
+R149
+!i122 25
+R5
+R149
 R0
 <<<<<<< HEAD
 R0
 <<<<<<< HEAD
 R6
+R0
+<<<<<<< HEAD
 Z153 8proj/src/Lab2_components/Lab1/invg.vhd
 Z154 Fproj/src/Lab2_components/Lab1/invg.vhd
 R5
 R0
 R153
 R154
+R5
+R153
+R154
+R5
+R0
+R153
+R154
 <<<<<<< HEAD
 !i122 25
+R0
+<<<<<<< HEAD
 R0
 <<<<<<< HEAD
 Z155 DEx4 work 10 full_adder 0 22 1dkX?[23=3P=AO[c_FEoT3
@@ -776,20 +804,42 @@ R155
 !i122 25
 R5
 R155
-!i122 30
+R5
+R155
+!i122 25
+l39
+R156
+R157
+R158
+R5
+R155
+!i122 25
+R5
+R155
 R0
 <<<<<<< HEAD
 R0
 <<<<<<< HEAD
 R6
+R0
+<<<<<<< HEAD
 Z159 8proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
 Z160 Fproj/src/Lab2_components/Lab1/Adder/full_adder.vhd
 R5
 R0
 R159
 R160
+R5
+R159
+R160
+R5
+R0
+R159
+R160
 <<<<<<< HEAD
 !i122 25
+R0
+<<<<<<< HEAD
 R0
 <<<<<<< HEAD
 R0
@@ -805,7 +855,18 @@ R161
 !i122 25
 R5
 R161
-!i122 30
+R5
+R161
+!i122 25
+l68
+R162
+R163
+R164
+R5
+R161
+!i122 25
+R5
+R161
 R0
 <<<<<<< HEAD
 R0
@@ -820,14 +881,25 @@ R60
 R0
 <<<<<<< HEAD
 R6
+R0
+<<<<<<< HEAD
 Z165 8proj/src/fetch/fetch.vhd
 Z166 Fproj/src/fetch/fetch.vhd
 R5
 R0
 R165
 R166
+R5
+R165
+R166
+R5
+R0
+R165
+R166
 <<<<<<< HEAD
 !i122 25
+R0
+<<<<<<< HEAD
 R0
 <<<<<<< HEAD
 Z167 DEx4 work 13 extender_nt32 0 22 XoOe;XWh<kfQkIJ7>A`Tc1
@@ -841,20 +913,42 @@ R167
 !i122 25
 R5
 R167
-!i122 30
+R5
+R167
+!i122 25
+l18
+R168
+R169
+R170
+R5
+R167
+!i122 25
+R5
+R167
 R0
 <<<<<<< HEAD
 R0
 <<<<<<< HEAD
 R6
+R0
+<<<<<<< HEAD
 Z171 8proj/src/Lab2_components/Extenders/extender_Nt32.vhd
 Z172 Fproj/src/Lab2_components/Extenders/extender_Nt32.vhd
 R5
 R0
 R171
 R172
+R5
+R171
+R172
+R5
+R0
+R171
+R172
 <<<<<<< HEAD
 !i122 25
+R0
+<<<<<<< HEAD
 R0
 <<<<<<< HEAD
 Z173 DEx4 work 9 add_sub_n 0 22 =06ML:RTF5cLU`3T^n^za1
@@ -872,7 +966,22 @@ R174
 !i122 25
 R5
 R174
-!i122 30
+R5
+R173
+R5
+R0
+<<<<<<< HEAD
+R174
+!i122 25
+l17
+R175
+R176
+R177
+R5
+R174
+!i122 25
+R5
+R174
 R0
 <<<<<<< HEAD
 R0
@@ -881,16 +990,24 @@ R95
 R0
 <<<<<<< HEAD
 R6
+R0
+<<<<<<< HEAD
 Z178 8proj/src/Lab2_components/RegFile/dffg_N.vhd
-R95
 R5
-R5
-!i122 30
+R178
 R0
 <<<<<<< HEAD
 !i122 25
 R0
 <<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R174
+R95
+R178
+R5
+R95
+R5
 R173
 R95
 R178
@@ -902,6 +1019,14 @@ R0
 R0
 <<<<<<< HEAD
 Z179 L14 16
+R5
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R179
 R5
 R179
 R0
@@ -919,20 +1044,42 @@ R180
 !i122 25
 R5
 R180
-!i122 30
+R5
+R180
+!i122 25
+l37
+R181
+R182
+R183
+R5
+R180
+!i122 25
+R5
+R180
 R0
 <<<<<<< HEAD
 R0
 <<<<<<< HEAD
 R6
+R0
+<<<<<<< HEAD
 Z184 8proj/src/Lab2_components/dffg.vhd
 Z185 Fproj/src/Lab2_components/dffg.vhd
 R5
 R0
 R184
 R185
+R5
+R184
+R185
+R5
+R0
+R184
+R185
 <<<<<<< HEAD
 !i122 25
+R0
+<<<<<<< HEAD
 R0
 <<<<<<< HEAD
 Z186 DEx4 work 12 decoder_5t32 0 22 1XjBPTK;9GD>`LcmSo2S82
@@ -946,20 +1093,42 @@ R186
 !i122 25
 R5
 R186
-!i122 30
+R5
+R186
+!i122 25
+l10
+R187
+R188
+R189
+R5
+R186
+!i122 25
+R5
+R186
 R0
 <<<<<<< HEAD
 R0
 <<<<<<< HEAD
 R6
+R0
+<<<<<<< HEAD
 Z190 8proj/src/Lab2_components/RegFile/decoder_5t32.vhd
 Z191 Fproj/src/Lab2_components/RegFile/decoder_5t32.vhd
 R5
 R0
 R190
 R191
+R5
+R190
+R191
+R5
+R0
+R190
+R191
 <<<<<<< HEAD
 !i122 25
+R0
+<<<<<<< HEAD
 R0
 <<<<<<< HEAD
 Z192 DEx4 work 7 control 0 22 K?95Dc@DiFMh^3;3UYP>Q3
@@ -973,7 +1142,18 @@ R192
 !i122 25
 R5
 R192
-!i122 30
+R5
+R192
+!i122 25
+l27
+R193
+R194
+R195
+R5
+R192
+!i122 25
+R5
+R192
 R0
 <<<<<<< HEAD
 R0
@@ -987,16 +1167,30 @@ R60
 !i10b 1
 R0
 <<<<<<< HEAD
-R148
+R0
+<<<<<<< HEAD
+R149
 Z196 Fproj/src/control/control.vhd
 R0
 <<<<<<< HEAD
-w1761169779
+Z197 w1761169779
+R147
+R5
+R148
+R196
+R0
+<<<<<<< HEAD
+R197
 R146
-R17
-R18
-!i122 25
-R6
+R0
+<<<<<<< HEAD
+R149
+R196
+R5
+R148
+R5
+R148
+R5
 R148
 R196
 R5
@@ -1012,59 +1206,124 @@ R58
 33
 R0
 <<<<<<< HEAD
-Z197 DEx4 work 18 carry_adder_n_over 0 22 ]V[Q4<E7cZkWf_z_DY?^J2
+Z198 DEx4 work 18 carry_adder_n_over 0 22 ]V[Q4<E7cZkWf_z_DY?^J2
 R5
-R197
-R0
-<<<<<<< HEAD
-R0
-<<<<<<< HEAD
-R6
-Z198 8proj/src/ALU/carry_adder_N_over.vhd
-Z199 Fproj/src/ALU/carry_adder_N_over.vhd
-R5
-R0
 R198
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R5
+R58
+33
+R0
+<<<<<<< HEAD
+R198
+R5
+R198
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R6
+Z199 8proj/src/ALU/carry_adder_N_over.vhd
+Z200 Fproj/src/ALU/carry_adder_N_over.vhd
+R5
+R0
 R199
-<<<<<<< HEAD
-!i122 25
-R0
-<<<<<<< HEAD
-R5
-R58
-33
-R0
-<<<<<<< HEAD
-Z200 DEx4 work 13 carry_adder_n 0 22 UWjo3g4eQ^P9XDY5nei=d2
-R5
 R200
+<<<<<<< HEAD
+!i122 25
 R0
 <<<<<<< HEAD
-R0
-<<<<<<< HEAD
-R6
-Z201 8proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
-Z202 Fproj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
 R5
+R58
+33
 R0
+<<<<<<< HEAD
+Z201 DEx4 work 13 carry_adder_n 0 22 UWjo3g4eQ^P9XDY5nei=d2
+R5
 R201
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R6
+Z202 8proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
+Z203 Fproj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
+R5
+R0
 R202
-<<<<<<< HEAD
-!i122 25
-R0
-<<<<<<< HEAD
-R59
-33
-R5
-R58
-33
-R60
-!i10b 1
-R0
-<<<<<<< HEAD
-Z203 DEx4 work 20 butter_extender_nt32 0 22 RZN;T[_b4fL]b[cg?EOe<1
-R5
 R203
+<<<<<<< HEAD
+!i122 25
+R5
+R6
+R199
+R200
+R5
+R0
+R199
+R200
+<<<<<<< HEAD
+!i122 25
+R0
+<<<<<<< HEAD
+R5
+R58
+33
+R0
+<<<<<<< HEAD
+R201
+R5
+R201
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R6
+R202
+R203
+R5
+R0
+R202
+R203
+<<<<<<< HEAD
+!i122 25
+R0
+<<<<<<< HEAD
+R59
+33
+R5
+R58
+33
+R60
+!i10b 1
+R0
+<<<<<<< HEAD
+Z204 DEx4 work 20 butter_extender_nt32 0 22 RZN;T[_b4fL]b[cg?EOe<1
+R5
+R204
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R59
+33
+R5
+R58
+33
+R60
+!i10b 1
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R204
+R5
+R204
 R0
 <<<<<<< HEAD
 R0
@@ -1079,12 +1338,20 @@ R60
 R0
 <<<<<<< HEAD
 R6
-Z204 8proj/src/extender/butter_extender_Nt32.vhd
-Z205 Fproj/src/extender/butter_extender_Nt32.vhd
+Z205 8proj/src/extender/butter_extender_Nt32.vhd
+Z206 Fproj/src/extender/butter_extender_Nt32.vhd
 R5
 R0
-R204
 R205
+R206
+R5
+R6
+R205
+R206
+R5
+R0
+R205
+R206
 <<<<<<< HEAD
 !i122 25
 R0
@@ -1094,20 +1361,35 @@ R58
 33
 R0
 <<<<<<< HEAD
-Z206 DEx4 work 6 branch 0 22 0haULIHEHM=]TD<935[L<0
+R0
+<<<<<<< HEAD
+Z207 DEx4 work 6 branch 0 22 0haULIHEHM=]TD<935[L<0
 R5
-R206
+R207
+R5
+R207
+R5
+R207
 R0
 <<<<<<< HEAD
 R0
 <<<<<<< HEAD
 R6
-Z207 8proj/src/ALU/Branch.vhd
-Z208 Fproj/src/ALU/Branch.vhd
+R0
+<<<<<<< HEAD
+Z208 8proj/src/ALU/Branch.vhd
+Z209 Fproj/src/ALU/Branch.vhd
 R5
 R0
-R207
 R208
+R209
+R5
+R208
+R209
+R5
+R0
+R208
+R209
 <<<<<<< HEAD
 !i122 25
 R0
@@ -1117,15 +1399,15 @@ R0
 R60
 !i122 25
 l31
-Z209 L14 101
-Z210 VmFCT_OG3@F>5]1E<0H;o]3
-Z211 !s100 8_8b2SHV]n:R7CCRba8fX2
+R0
+<<<<<<< HEAD
+Z210 L14 101
+Z211 VmFCT_OG3@F>5]1E<0H;o]3
+Z212 !s100 8_8b2SHV]n:R7CCRba8fX2
 R5
-R60
-!i122 25
-R5
-R60
-!i122 30
+R210
+R211
+R212
 R0
 <<<<<<< HEAD
 R0
@@ -1136,6 +1418,7 @@ R5
 R58
 33
 R0
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z212 w1761179874
 R146
@@ -1151,29 +1434,62 @@ Z215 !s100 Ba8eJRmlI_C2I[`80[Ofb2
 R17
 R18
 !i122 30
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
-R213
-R214
 <<<<<<< HEAD
+Z213 w1761179874
+R147
+R5
+R213
+R146
 R0
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z216 DEx4 work 5 andg2 0 22 zkd6DAMQeJ>Gdbz_JED5>0
 R5
 R216
+=======
+Z214 8proj/src/barrel_shifter/barrel_shifter.vhd
+Z215 Fproj/src/barrel_shifter/barrel_shifter.vhd
+R5
+Z216 w1761182860
+Z217 !s100 Ba8eJRmlI_C2I[`80[Ofb2
+R5
+R214
+R215
+R5
+R216
+R217
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
+R0
+<<<<<<< HEAD
+R216
+R217
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+Z218 DEx4 work 5 andg2 0 22 zkd6DAMQeJ>Gdbz_JED5>0
+R5
+R218
 R0
 <<<<<<< HEAD
 R6
+<<<<<<< HEAD
 Z217 8proj/src/Lab2_components/Lab1/andg2.vhd
 Z218 Fproj/src/Lab2_components/Lab1/andg2.vhd
+=======
+Z219 8proj/src/Lab2_components/Lab1/andg2.vhd
+Z220 Fproj/src/Lab2_components/Lab1/andg2.vhd
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R5
-R5
-!i122 30
+R214
+R215
 R0
 <<<<<<< HEAD
-!i122 25
 R0
 <<<<<<< HEAD
-R0
 <<<<<<< HEAD
 Z219 DEx4 work 9 alu_total 0 22 FkSVB709FAQ<Aege4iEE@0
 R5
@@ -1188,22 +1504,48 @@ R5
 !i122 30
 R0
 <<<<<<< HEAD
+=======
+R218
+R5
+R218
+R0
+<<<<<<< HEAD
+R6
+R219
+R220
+R0
+<<<<<<< HEAD
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 !i122 25
 R0
 <<<<<<< HEAD
 R0
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z222 DEx4 work 15 addsub_overflow 0 22 B0`7cWAD3a>HT2933e;Sa1
 R5
 R222
+=======
+R0
+<<<<<<< HEAD
+Z221 DEx4 work 9 alu_total 0 22 FkSVB709FAQ<Aege4iEE@0
+R5
+R221
 R0
 <<<<<<< HEAD
 R6
-Z223 8proj/src/ALU/AddSub_overflow.vhd
-R43
+Z222 8proj/src/ALU/ALU_Total.vhd
+Z223 Fproj/src/ALU/ALU_Total.vhd
 R5
+R221
 R5
-!i122 30
+R221
+R0
+<<<<<<< HEAD
+R6
+R222
+R223
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
 <<<<<<< HEAD
 !i122 25
@@ -1211,17 +1553,28 @@ R0
 <<<<<<< HEAD
 R0
 <<<<<<< HEAD
-Z224 DEx4 work 5 adder 0 22 n:be1:3KY_Y_]=CA9zL:40
+R0
+<<<<<<< HEAD
+Z224 DEx4 work 15 addsub_overflow 0 22 B0`7cWAD3a>HT2933e;Sa1
 R5
 R224
 R0
 <<<<<<< HEAD
 R6
-R146
-Z225 Fproj/src/Lab2_components/Lab1/Adder.vhd
+<<<<<<< HEAD
+Z223 8proj/src/ALU/AddSub_overflow.vhd
+R43
+=======
+Z225 8proj/src/ALU/AddSub_overflow.vhd
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R5
+R224
 R5
-!i122 30
+R224
+R0
+<<<<<<< HEAD
+R6
+R225
 R0
 <<<<<<< HEAD
 !i122 25
@@ -1229,6 +1582,51 @@ R0
 <<<<<<< HEAD
 R0
 <<<<<<< HEAD
+<<<<<<< HEAD
+Z224 DEx4 work 5 adder 0 22 n:be1:3KY_Y_]=CA9zL:40
+R5
+R224
+=======
+R0
+<<<<<<< HEAD
+Z226 DEx4 work 5 adder 0 22 n:be1:3KY_Y_]=CA9zL:40
+R5
+R226
+R0
+<<<<<<< HEAD
+R6
+R147
+Z227 Fproj/src/Lab2_components/Lab1/Adder.vhd
+R5
+R226
+R5
+R226
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
+R0
+<<<<<<< HEAD
+R6
+R146
+<<<<<<< HEAD
+Z225 Fproj/src/Lab2_components/Lab1/Adder.vhd
+R5
+R5
+!i122 30
+=======
+R227
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
+R0
+<<<<<<< HEAD
+!i122 25
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R0
+<<<<<<< HEAD
+R174
+R5
+R174
+R5
 R173
 R5
 R173
@@ -1238,18 +1636,35 @@ R0
 !i10b 1
 !s108 1761179991.000000
 !s90 -2008|-work|internal/ModelSimContainer/work|proj/src/RISCV_types.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/Branch.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/fetch.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/control/control.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/TopLevel/mem.vhd|
+<<<<<<< HEAD
 Z226 !s107 proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/control/control.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/carry_adder_N_over.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
+=======
+R0
+<<<<<<< HEAD
+Z228 !s107 proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/control/control.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/carry_adder_N_over.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R5
-!s110 1761182958
-!i10b 1
-!s108 1761182958.000000
-!s90 -2008|-work|internal/ModelSimContainer/work|proj/src/RISCV_types.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/fetch.vhd|proj/src/control/control.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/TopLevel/mem.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
-!s107 proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/control/control.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/PC.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
+R228
 R0
 <<<<<<< HEAD
 R0
+<<<<<<< HEAD
 <<<<<<< HEAD
 Z227 d/home/shanen/CPRE 3810 Project 1/Proj_part_1
+=======
+R0
+<<<<<<< HEAD
+Z229 d/home/shanen/CPRE 3810 Project 1/Proj_part_1
+R6
+R58
+R5
+R5
+!i122 30
+<<<<<<< HEAD
+!i122 25
+R5
+R229
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R6
 R58
 R5
@@ -1258,9 +1673,670 @@ R5
 <<<<<<< HEAD
 !i122 25
 R0
+<<<<<<< HEAD
+Z230 !s108 1761314274.000000
+!i10b 1
+Z231 !s90 -2008|-work|internal/ModelSimContainer/work|proj/src/RISCV_types.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/dffg_N_reset.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/fetch.vhd|proj/src/control/control.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/TopLevel/mem.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
+Z232 !s107 proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/control/control.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/dffg_N_reset.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/PC.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
+R231
+!i113 0
+Z233 o-2008 -work internal/ModelSimContainer/work
+R174
+R0
+<<<<<<< HEAD
+R185
+R186
+R0
+<<<<<<< HEAD
+R191
+R192
+R0
+<<<<<<< HEAD
+R209
+R210
+R5
+R208
+R209
+R0
+<<<<<<< HEAD
+Z234 V<0H]T2hI:<kQQFz2b4WDf0
+Z235 !s100 @3jO<i:]oX1Q>Z<kl_S4R0
+R5
+R234
+R235
+R0
+<<<<<<< HEAD
+Z236 L23 1
+Z237 Vzkd6DAMQeJ>Gdbz_JED5>0
+Z238 !s100 YT?bGzEmcFo:DlnoC^B4_0
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R5
+R236
+R237
+R238
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+<<<<<<< HEAD
+Z239 VFkSVB709FAQ<Aege4iEE@0
+Z240 !s100 d`EC9LzIM@6QYHF[en4_41
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R5
+R239
+R240
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+<<<<<<< HEAD
+Z241 VB0`7cWAD3a>HT2933e;Sa1
+Z242 !s100 SS74<lS]NkiKf`HT]SK7H1
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R5
+R241
+R242
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+<<<<<<< HEAD
+Z243 L26 1
+Z244 Vn:be1:3KY_Y_]=CA9zL:40
+Z245 !s100 D7GUTT<S>Ij<;bm;`5=Z12
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Abehavior
+R147
+R5
+R243
+R244
+R245
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+Abehavior
+R146
+<<<<<<< HEAD
+R230
+R231
+R232
+R5
+R230
+R231
+R232
+R0
+<<<<<<< HEAD
+Z246 V=06ML:RTF5cLU`3T^n^za1
+Z247 !s100 n4dRbZTT^mWhOUYa6EoeG1
+Z248 OL;C;2025.1_2;82
+R5
+R246
+R247
+R248
+R0
+<<<<<<< HEAD
+R220
+R5
+R218
+R0
+<<<<<<< HEAD
+R220
+Z249 V5Q>VWC4f7j5KH:`2lLMTR0
+Z250 !s100 [hI[mXFH4_j16U;>U1Lfn2
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Adataflow
+R17
+R18
+<<<<<<< HEAD
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R5
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+Adataflow
+R17
+R18
+<<<<<<< HEAD
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+<<<<<<< HEAD
+R220
+Z251 V[]I_QYZQBDAB4L5mULTE@3
+Z252 !s100 AbfQc??>7BL50WIf1Na1i2
+R5
+R218
+R251
+R252
+R0
+<<<<<<< HEAD
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R5
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+<<<<<<< HEAD
+R5
+33
+R0
+<<<<<<< HEAD
+R5
+Z253 VV0>hRSF1?R@eOK;Mg[EY<0
+Z254 !s100 c_TJcoiZVJX?gi9=gDDbC3
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+Abehavioral
+R17
+R18
+<<<<<<< HEAD
+R169
+R170
+R171
+R5
+R168
+R169
+R170
+R0
+<<<<<<< HEAD
+Z255 VXoOe;XWh<kfQkIJ7>A`Tc1
+Z256 !s100 <WY:1=A=dGT<Yz7K6XFaj1
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Ageneratebased
+R147
+R5
+R255
+R256
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+Ageneratebased
+R146
+<<<<<<< HEAD
+R176
+R177
+R178
+R58
+33
+R0
+<<<<<<< HEAD
+R220
+Z257 V>PZ[eHl^ZDc^T627=nThL3
+Z258 !s100 T4gcXQGMCgKJbn8XhBM;b0
+R5
+R218
+R257
+R258
+R0
+<<<<<<< HEAD
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R5
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+<<<<<<< HEAD
+R188
+R189
+R190
+R5
+R187
+R188
+R189
+R0
+<<<<<<< HEAD
+Z259 V1XjBPTK;9GD>`LcmSo2S82
+Z260 !s100 PV5_7Q_]Lo[HF^B=<`f]W0
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Adataflow
+R17
+R18
+<<<<<<< HEAD
+R219
+R5
+R217
+R0
+<<<<<<< HEAD
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+<<<<<<< HEAD
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructural
+R17
+R18
+<<<<<<< HEAD
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructural
+R17
+R18
+<<<<<<< HEAD
+Z261 L16 131
+Z262 V:MDeTG9`I[H>;jRloLR?92
+Z263 !s100 Xbj<d_F<A?1FDg9>Qh4cM2
+!i113 0
+R233
+Z264 tExplicit 1 CvgOpt 0
+R0
+Astructural
+R17
+R18
+R208
+!i122 75
+l19
+Z265 L14 40
+Z266 VFOH@UEh^f@lzIXQB_P7^>0
+Z267 !s100 Gn3E7cdR_>@A=g1?iJ]BZ2
+Z268 VzIb1dPZhmO6DTR=3jYZ0h2
+R5
+R264
+R231
+R232
+!i113 0
+R230
+Z269 !s100 z]F]Ulo_Tema=Q<>RNE;Q0
+Astructural
+R17
+R18
+R207
+!i122 75
+l19
+Z270 !s100 bGFMh]Ol1KIAXe4UM?WLT0
+Z271 VRZN;T[_b4fL]b[cg?EOe<1
+Z272 !s100 NgldS5b8oiK3zBI?W49`H0
+R248
+<<<<<<< HEAD
+R261
+R262
+R263
+!i113 0
+R233
+R264
+R5
+R264
+R231
+R232
+!i113 0
+R230
+R269
+R0
+<<<<<<< HEAD
+Z273 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R17
+R18
+!i122 75
+R232
+R206
+R207
+l0
+L5 1
+R271
+R272
+R268
+33
+Z274 !s110 1761503794
+!i10b 1
+R261
+R262
+R263
+!i113 0
+R233
+R264
+R0
+Ageneratebased
+R273
+R17
+R18
+R205
+!i122 75
+l20
+Z275 L17 37
+Z276 VjYMoQ@H68:gWa6E7LMM_z1
+R270
+R268
+33
+R274
+!i10b 1
+R261
+R262
+R263
+!i113 0
+R233
+R264
+<<<<<<< HEAD
+R261
+R262
+R263
+!i113 0
+R233
+R264
+R0
+Amixed
+R16
+R17
+R18
+R26
+!i122 75
+l26
+R27
+R28
+R29
+R268
+R5
+R264
+R231
+R232
+!i113 0
+R230
+R269
+Ageneratebased
+Z277 w1761149700
+R17
+R18
+R204
+!i122 75
+l20
+Z278 !s100 k:J4SW]iQzEaM^<7iU1c`0
+Z279 VUWjo3g4eQ^P9XDY5nei=d2
+Z280 !s100 Cj80ooNV=gH6SNgQohMnm3
+R248
+<<<<<<< HEAD
+R261
+R262
+R263
+!i113 0
+R233
+R264
+R0
+<<<<<<< HEAD
+R232
+R24
+R25
+l0
+R239
+Z281 !s100 c00FL>M4:eF^5]i5eG1TQ3
+Z282 VjF3VbZYM44;o::?efhBlz0
+R268
+R5
+R0
+R24
+R25
+l0
+R236
+Z283 VPi@KW=C9;5CEX>1fg`XKK1
+Z284 !s100 iW4^lQB<8A7Yh@;;4m:f]2
+R248
+<<<<<<< HEAD
+R261
+R262
+R263
+!i113 0
+R233
+R264
+R5
+R264
+R231
+R232
+!i113 0
+R230
+R269
+R0
+<<<<<<< HEAD
+R268
+R5
+R248
+R0
+<<<<<<< HEAD
+R261
+R262
+R263
+!i113 0
+R233
+R264
+R5
+R264
+R231
+R232
+!i113 0
+R230
+R269
+R0
+<<<<<<< HEAD
+Z285 w1761503022
+R17
+R18
+!i122 75
+R232
+R5
+R17
+R18
+!i122 75
+R0
+<<<<<<< HEAD
+R284
+Z286 VRQe0;l56R<]JYUB^0V8Em1
+R268
+R5
+R268
+Z287 !s100 Oan5[g6PEML;U2o>_dSN00
+R248
+R0
+<<<<<<< HEAD
+R261
+R262
+R263
+!i113 0
+R233
+R264
+R0
+Astructure
+R285
+R5
+R264
+R231
+R232
+!i113 0
+R230
+R269
+Astructure
+R277
+<<<<<<< HEAD
+R268
+R5
+R248
+R0
+<<<<<<< HEAD
+R261
+R262
+R263
+!i113 0
+R233
+R264
+R0
+<<<<<<< HEAD
+R268
+R5
+R248
+R0
+<<<<<<< HEAD
+R261
+R262
+R263
+!i113 0
+R233
+R264
+R5
+R264
+R231
+R232
+!i113 0
+R230
+R269
+R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 Z228 !s108 1761314274.000000
 !i10b 1
 Z229 !s90 -2008|-work|internal/ModelSimContainer/work|proj/src/RISCV_types.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/dffg_N_reset.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/fetch.vhd|proj/src/control/control.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/TopLevel/mem.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
@@ -1268,6 +2344,15 @@ Z230 !s107 proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_co
 R226
 !i113 0
 Z231 o-2008 -work internal/ModelSimContainer/work
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1279,6 +2364,7 @@ R8
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1286,6 +2372,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1295,6 +2390,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1302,6 +2398,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1312,6 +2417,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1319,6 +2425,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1328,6 +2443,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1335,6 +2451,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1349,14 +2474,24 @@ R60
 !i10b 1
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+<<<<<<< HEAD
 Z232 VVnzHcnmWmi<jE?5a3XOiF3
 Z233 !s100 ;QHYbWb3iZ[[A?fo=9D=X3
+=======
+Z288 VVnzHcnmWmi<jE?5a3XOiF3
+Z289 !s100 ;QHYbWb3iZ[[A?fo=9D=X3
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R59
 33
 R5
 R13
+<<<<<<< HEAD
 R232
 R233
+=======
+R288
+R289
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R58
 33
 R60
@@ -1365,6 +2500,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1372,6 +2508,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1403,6 +2548,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1410,6 +2556,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1420,6 +2575,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1427,6 +2583,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1438,6 +2603,7 @@ R76
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1445,6 +2611,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1460,9 +2635,15 @@ R5
 R83
 !i122 30
 l25
+<<<<<<< HEAD
 Z234 L14 24
 Z235 VhW1N2>CiPi1mY8PObG@bX1
 Z236 !s100 L@56IZVM=HViZ@4n<cz<b2
+=======
+Z290 L14 24
+Z291 VhW1N2>CiPi1mY8PObG@bX1
+Z292 !s100 L@56IZVM=HViZ@4n<cz<b2
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R58
 33
 R60
@@ -1477,6 +2658,7 @@ R88
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1484,6 +2666,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1495,6 +2686,7 @@ R93
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1502,6 +2694,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1513,6 +2714,7 @@ R52
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1520,6 +2722,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1530,6 +2741,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1537,6 +2749,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1548,6 +2769,7 @@ R109
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1555,6 +2777,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1566,6 +2797,7 @@ R115
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1573,6 +2805,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1582,6 +2823,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1589,6 +2831,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1600,6 +2851,7 @@ R127
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1607,6 +2859,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1618,6 +2879,7 @@ R133
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1625,6 +2887,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1648,6 +2919,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1655,6 +2927,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1666,6 +2947,7 @@ R154
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1673,6 +2955,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1697,6 +2988,7 @@ R166
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1704,6 +2996,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1715,6 +3016,7 @@ R172
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1722,6 +3024,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R233
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R5
@@ -1738,6 +3049,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1746,22 +3058,518 @@ R226
 !i113 0
 R231
 R173
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
-Abehavioral
-R17
-R18
-DEx4 work 4 dffg 0 22 dobBEB>892X>bNig6WRa12
-!i122 5
-l16
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R5
 !i122 30
 R0
+R7
+R8
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R34
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R24
+R25
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R114
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R114
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R5
+R60
+!i10b 1
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R288
+R289
+R59
+33
+R5
+R13
+R288
+R289
+R58
+33
+R60
+!i10b 1
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R53
+R54
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R5
+R55
+R56
+R57
+R58
+33
+R60
+!i10b 1
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R52
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R61
+R62
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R67
+R68
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R75
+R76
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R81
+R82
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R5
+R83
+!i122 30
+l25
+R290
+R291
+R292
+R58
+33
+R60
+!i10b 1
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R87
+R88
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R92
+R93
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R98
+R52
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R103
+R104
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R106
+R109
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R114
+R115
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R30
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R126
+R127
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R132
+R133
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R138
+R139
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R5
+R60
+!i10b 1
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R143
+R144
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R154
+R155
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R160
+R161
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R5
+R60
+!i10b 1
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R166
+R167
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R172
+R173
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R95
+R179
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R180
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R5
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R5
 R184
 R185
+R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1769,17 +3577,25 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R5
 !i122 30
 R0
-R190
-R191
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -1787,6 +3603,76 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+R149
+R198
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+!i122 25
+R5
+R199
+!i122 30
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R200
+R201
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+!i122 25
+R5
+R202
+!i122 30
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R203
+R204
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+!i122 25
+R5
+R205
+!i122 30
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
+R206
+R207
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+!i122 25
+R5
+R208
+R5
+R190
+R191
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
@@ -1797,51 +3683,48 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 !i122 25
 R5
-R197
-!i122 30
-R0
->>>>>>> 0387bc5b0db0143683b66682454f901665a19552
-R5
-!i122 30
-R0
 R198
+!i122 30
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
 R199
->>>>>>> 0387bc5b0db0143683b66682454f901665a19552
-!i122 25
-R5
 R200
-!i122 30
-R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+!i122 25
 R5
-!i122 30
-R0
 R201
+!i122 30
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
 R202
->>>>>>> 0387bc5b0db0143683b66682454f901665a19552
-!i122 25
-R5
 R203
-!i122 30
-R0
->>>>>>> 0387bc5b0db0143683b66682454f901665a19552
-R5
-!i122 30
-R0
-R204
-R205
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 !i122 25
 R5
-R206
+R204
 !i122 30
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R5
 !i122 30
 R0
+R205
+R206
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+!i122 25
+R5
 R207
-R208
+R0
+>>>>>>> 0387bc5b0db0143683b66682454f901665a19552
+R5
+!i122 30
+R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 R59
 33
@@ -1859,8 +3742,11 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 l0
 L5 1
+<<<<<<< HEAD
 Z237 V<0H]T2hI:<kQQFz2b4WDf0
 Z238 !s100 @3jO<i:]oX1Q>Z<kl_S4R0
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 !i122 25
@@ -1869,6 +3755,7 @@ R5
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 l0
+<<<<<<< HEAD
 Z239 L23 1
 Z240 Vzkd6DAMQeJ>Gdbz_JED5>0
 Z241 !s100 YT?bGzEmcFo:DlnoC^B4_0
@@ -1882,10 +3769,9 @@ R226
 !i113 0
 R231
 R173
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
-Adataflow
-R17
-R18
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 !i122 25
 R5
@@ -1894,6 +3780,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 l0
 L4 1
+<<<<<<< HEAD
 Z242 VFkSVB709FAQ<Aege4iEE@0
 Z243 !s100 d`EC9LzIM@6QYHF[en4_41
 R59
@@ -1906,10 +3793,9 @@ R226
 !i113 0
 R231
 R173
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
-Astructural
-R17
-R18
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 !i122 25
 R5
@@ -1918,6 +3804,7 @@ R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 l0
 L7 1
+<<<<<<< HEAD
 Z244 VB0`7cWAD3a>HT2933e;Sa1
 Z245 !s100 SS74<lS]NkiKf`HT]SK7H1
 R59
@@ -1930,10 +3817,9 @@ R226
 !i113 0
 R231
 R173
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
-Astructural
-R17
-R18
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 !i122 25
 R5
@@ -1941,6 +3827,7 @@ R5
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 l0
+<<<<<<< HEAD
 Z246 L26 1
 Z247 Vn:be1:3KY_Y_]=CA9zL:40
 Z248 !s100 D7GUTT<S>Ij<;bm;`5=Z12
@@ -1954,11 +3841,9 @@ R226
 !i113 0
 R231
 R173
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
-Abehavior
-R146
-R17
-R18
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 !i122 25
 R5
@@ -1968,13 +3853,17 @@ R0
 R5
 R59
 !i10b 1
+<<<<<<< HEAD
 R228
 R229
 R230
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
 >>>>>>> 0387bc5b0db0143683b66682454f901665a19552
 l0
 L7 1
+<<<<<<< HEAD
 Z249 V=06ML:RTF5cLU`3T^n^za1
 Z250 !s100 n4dRbZTT^mWhOUYa6EoeG1
 Z251 OL;C;2025.1_2;82
@@ -2003,10 +3892,15 @@ R226
 !i113 0
 R231
 R173
+=======
 R0
-Adataflow
-R17
-R18
+>>>>>>> 061bb59 (we know the problem)
+l32
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
+R0
 >>>>>>> 061bb59 (we know the problem)
 l85
 R10
@@ -2016,6 +3910,7 @@ R58
 33
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 Z254 VzIb1dPZhmO6DTR=3jYZ0h2
 Z255 !s100 Oan5[g6PEML;U2o>_dSN00
 R59
@@ -2027,6 +3922,139 @@ R230
 R226
 !i113 0
 R231
+=======
+R268
+R287
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructure
+R147
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R0
+R14
+R15
+l0
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+R19
+!i122 30
+l59
+R20
+R21
+R22
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+R220
+R283
+R284
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Amixed
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+!i122 30
+R0
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+R26
+!i122 30
+l26
+R27
+R28
+R29
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+R286
+R281
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Amixed
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+!i122 30
+R0
+R31
+R32
+l0
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+R33
+!i122 30
+l30
+R34
+R35
+R36
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+R282
+Z293 !s100 ;^d4@dnThQVY2bbi:diP60
+R5
+R218
+R249
+R250
+R0
+>>>>>>> 061bb59 (we know the problem)
+l85
+R10
+R11
+R12
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+R268
+R287
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Astructure
@@ -2052,6 +4080,7 @@ R58
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 R216
 Z256 VPi@KW=C9;5CEX>1fg`XKK1
 Z257 !s100 iW4^lQB<8A7Yh@;;4m:f]2
@@ -2064,6 +4093,20 @@ R230
 R226
 !i113 0
 R231
+=======
+R218
+R283
+R284
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Amixed
@@ -2085,6 +4128,7 @@ R58
 33
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 Z258 VRQe0;l56R<]JYUB^0V8Em1
 Z259 !s100 c00FL>M4:eF^5]i5eG1TQ3
 R59
@@ -2096,6 +4140,19 @@ R230
 R226
 !i113 0
 R231
+=======
+R286
+R281
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Amixed
@@ -2120,6 +4177,7 @@ R58
 33
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 Z260 VjF3VbZYM44;o::?efhBlz0
 Z261 !s100 ;^d4@dnThQVY2bbi:diP60
 R59
@@ -2131,9 +4189,21 @@ R230
 R226
 !i113 0
 R231
+=======
+R282
+R293
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
-Amixed
 >>>>>>> 061bb59 (we know the problem)
 R17
 R18
@@ -2143,6 +4213,7 @@ R23
 R37
 l0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -2150,6 +4221,118 @@ R230
 R226
 !i113 0
 R231
+=======
+R0
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+R38
+!i122 30
+l56
+R39
+R40
+R41
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Amixed
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+!i122 30
+R0
+R44
+R45
+l0
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+R48
+!i122 30
+l44
+R49
+R50
+R51
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L5 1
+Z294 Vh57[AK`JKUDNY7^2hZ`ZJ2
+Z295 !s100 i72LfS_P4To@7gGe@F]2e0
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructural
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+!i122 30
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+!i122 30
+l0
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Bbody
+>>>>>>> 061bb59 (we know the problem)
+l0
+Z296 L15 15
+Z297 V?mcI`^eBWi3[0ZK^PS;F_3
+Z298 !s100 U1Nl?U;g4O5j_H<N9G71M2
+R0
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+R5
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 061bb59 (we know the problem)
@@ -2165,6 +4348,7 @@ R58
 33
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -2172,6 +4356,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Amixed
@@ -2198,6 +4391,7 @@ R0
 >>>>>>> 061bb59 (we know the problem)
 l0
 L5 1
+<<<<<<< HEAD
 Z262 Vh57[AK`JKUDNY7^2hZ`ZJ2
 Z263 !s100 i72LfS_P4To@7gGe@F]2e0
 R59
@@ -2209,6 +4403,19 @@ R230
 R226
 !i113 0
 R231
+=======
+R294
+R295
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Astructural
@@ -2218,6 +4425,7 @@ R18
 !i122 30
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -2225,6 +4433,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 061bb59 (we know the problem)
@@ -2234,6 +4451,7 @@ R18
 l0
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -2241,29 +4459,37 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Bbody
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 Z264 L15 15
 Z265 V?mcI`^eBWi3[0ZK^PS;F_3
 Z266 !s100 U1Nl?U;g4O5j_H<N9G71M2
+=======
+R296
+R297
+R298
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
 >>>>>>> 061bb59 (we know the problem)
 R17
 R18
-R63
-!i122 30
-l197
-R64
-R65
-R66
-R58
-33
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 R216
 Z267 V[]I_QYZQBDAB4L5mULTE@3
 Z268 !s100 AbfQc??>7BL50WIf1Na1i2
@@ -2277,8 +4503,9 @@ R226
 !i113 0
 R231
 R173
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
-Astructure
 >>>>>>> 061bb59 (we know the problem)
 R17
 R18
@@ -2290,10 +4517,10 @@ R72
 R73
 R74
 R58
-33
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 R216
 Z269 Va1=dk1XW>Y6KcLgnIm0jd0
 Z270 !s100 ikPXW34H>Yig3olobSE7c2
@@ -2306,6 +4533,20 @@ R230
 R226
 !i113 0
 R231
+=======
+R218
+Z299 Va1=dk1XW>Y6KcLgnIm0jd0
+Z300 !s100 ikPXW34H>Yig3olobSE7c2
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Abehavior
@@ -2321,6 +4562,7 @@ R58
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 R216
 Z271 VRABXBgcTUnjMRY82[TkEQ1
 Z272 !s100 [YR2K8dfC;91mFlo`2lkO2
@@ -2333,12 +4575,27 @@ R230
 R226
 !i113 0
 R231
+=======
+R218
+Z301 VRABXBgcTUnjMRY82[TkEQ1
+Z302 !s100 [YR2K8dfC;91mFlo`2lkO2
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Abehavior
 R17
 R18
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -2356,6 +4613,25 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Astructural
@@ -2364,12 +4640,21 @@ R18
 >>>>>>> 061bb59 (we know the problem)
 l0
 L4 1
+<<<<<<< HEAD
 Z273 VzK:kMGaHLRb4oV89N]<6g0
 Z274 !s100 =j2gLOVA:RfXG;Ho2JNL23
 R0
 >>>>>>> 061bb59 (we know the problem)
 l32
 R216
+=======
+Z303 VzK:kMGaHLRb4oV89N]<6g0
+Z304 !s100 =j2gLOVA:RfXG;Ho2JNL23
+R0
+>>>>>>> 061bb59 (we know the problem)
+l32
+R218
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R90
 R91
 R58
@@ -2377,6 +4662,7 @@ R58
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 R216
 Z275 V?NH`3h?82EVlQHGfZGfFO0
 Z276 !s100 bGQ1F9eW^Q17OoL9h4g7z2
@@ -2389,6 +4675,20 @@ R230
 R226
 !i113 0
 R231
+=======
+R218
+Z305 V?NH`3h?82EVlQHGfZGfFO0
+Z306 !s100 bGQ1F9eW^Q17OoL9h4g7z2
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Adataflow
@@ -2405,6 +4705,7 @@ R0
 >>>>>>> 061bb59 (we know the problem)
 l0
 L8 1
+<<<<<<< HEAD
 Z277 V9RWm3=OK8n?0_m>9eg8Fa0
 Z278 !s100 ?S_OC`;]2A6198NA7jK953
 R59
@@ -2416,6 +4717,19 @@ R230
 R226
 !i113 0
 R231
+=======
+Z307 V9RWm3=OK8n?0_m>9eg8Fa0
+Z308 !s100 ?S_OC`;]2A6198NA7jK953
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Astructural
@@ -2436,6 +4750,7 @@ R0
 >>>>>>> 061bb59 (we know the problem)
 l0
 L5 1
+<<<<<<< HEAD
 Z279 Vf5XOzA@`4H:35O4Y2_5Qe2
 Z280 !s100 [hl;CKVAR>ZUbK7Ka9HW60
 R59
@@ -2447,7 +4762,190 @@ R230
 R226
 !i113 0
 R231
+=======
+Z309 Vf5XOzA@`4H:35O4Y2_5Qe2
+Z310 !s100 [hl;CKVAR>ZUbK7Ka9HW60
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
+R0
+Adataflow
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+!i122 30
+R0
+>>>>>>> 061bb59 (we know the problem)
+l31
+R105
+R107
+R108
+R58
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+R220
+R299
+R300
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Abehavior
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l34
+R78
+R79
+R80
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+R220
+R301
+R302
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Abehavior
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructural
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l0
+L4 1
+R303
+R304
+R0
+>>>>>>> 061bb59 (we know the problem)
+l32
+R220
+R90
+R91
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+R220
+R305
+R306
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Adataflow
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l21
+R95
+R96
+R97
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L8 1
+R307
+R308
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructural
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R17
+R18
+R99
+!i122 30
+l15
+R100
+R101
+R102
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L5 1
+R309
+R310
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
 R0
 Adataflow
 >>>>>>> 061bb59 (we know the problem)
@@ -2466,6 +4964,7 @@ R0
 >>>>>>> 061bb59 (we know the problem)
 l0
 L4 1
+<<<<<<< HEAD
 Z281 VV0>hRSF1?R@eOK;Mg[EY<0
 Z282 !s100 c_TJcoiZVJX?gi9=gDDbC3
 R59
@@ -2478,6 +4977,20 @@ R226
 !i113 0
 R231
 R173
+=======
+R253
+R254
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
 Abehavioral
 R17
@@ -2492,6 +5005,7 @@ R58
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 Z283 L21 1
 Z284 VMc8Ce^FfKH3^@e0]>U@4a1
 Z285 !s100 a8b75l9QH119Si`4JcQ1J0
@@ -2504,6 +5018,296 @@ R230
 R226
 !i113 0
 R231
+=======
+Z311 L21 1
+Z312 VMc8Ce^FfKH3^@e0]>U@4a1
+Z313 !s100 a8b75l9QH119Si`4JcQ1J0
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructural
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l18
+R117
+R118
+R119
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+Z314 Vj_bcRfj6WN;YSdfVgV?=A2
+Z315 !s100 4FnjKe=]2;>WbcLOZOO8h1
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Abehavior
+R147
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R0
+R120
+R121
+l0
+>>>>>>> 061bb59 (we know the problem)
+l40
+R123
+R124
+R125
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+Z316 L11 1
+Z317 Vc[Y4PJ_5lU^ekZlTnhQOk3
+Z318 !s100 7i2P_V8V?m733gNoJHTB61
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Abehavior
+R147
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l38
+R129
+R130
+R131
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+R228
+Z319 VQ9IG6[2ldN9fcdeUA;f202
+Z320 !s100 7X@Jko]<<Vj_GlPXZCnEf3
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Abehavior
+R147
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l37
+R135
+R136
+R137
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L8 1
+Z321 V`DCP5]PX0@1FzLJ]HFPC51
+Z322 !s100 fRlcaiTJZJ1H;nZh;8=LI3
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Artl
+R147
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+l13
+R140
+R141
+R142
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructural
+R147
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l0
+L5 1
+Z323 VL3bFngUDg_Sikf[OJ5PB:1
+Z324 !s100 ]2hc2?YOg[G>0d?CJK7`W3
+R0
+>>>>>>> 061bb59 (we know the problem)
+R219
+R17
+R18
+!i122 30
+R0
+>>>>>>> 061bb59 (we know the problem)
+l31
+R151
+R152
+R153
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+R220
+Z325 VEIV8[cYGC3d^KTkcGjzd81
+Z326 !s100 _XK?_^5z0Rm1<k12?;5R?2
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Adataflow
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l39
+R157
+R158
+R159
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L9 1
+Z327 V1dkX?[23=3P=AO[c_FEoT3
+Z328 !s100 mo[n2]EW6g`C>XbLWK1_z1
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Abehavior
+R147
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+l68
+R163
+R164
+R165
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructural
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l0
+L4 1
+R0
+>>>>>>> 061bb59 (we know the problem)
+l39
+R111
+R112
+R113
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+R311
+R312
+R313
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Astructural
@@ -2518,6 +5322,7 @@ R58
 33
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 Z286 Vj_bcRfj6WN;YSdfVgV?=A2
 Z287 !s100 4FnjKe=]2;>WbcLOZOO8h1
 R59
@@ -2529,6 +5334,19 @@ R230
 R226
 !i113 0
 R231
+=======
+R314
+R315
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Abehavior
@@ -2550,6 +5368,7 @@ R58
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 Z288 L11 1
 Z289 Vc[Y4PJ_5lU^ekZlTnhQOk3
 Z290 !s100 7i2P_V8V?m733gNoJHTB61
@@ -2562,6 +5381,20 @@ R230
 R226
 !i113 0
 R231
+=======
+R316
+R317
+R318
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Abehavior
@@ -2578,6 +5411,7 @@ R58
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 R224
 Z291 VQ9IG6[2ldN9fcdeUA;f202
 Z292 !s100 7X@Jko]<<Vj_GlPXZCnEf3
@@ -2590,6 +5424,20 @@ R230
 R226
 !i113 0
 R231
+=======
+R226
+R319
+R320
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Abehavior
@@ -2607,6 +5455,7 @@ R0
 >>>>>>> 061bb59 (we know the problem)
 l0
 L8 1
+<<<<<<< HEAD
 Z293 V`DCP5]PX0@1FzLJ]HFPC51
 Z294 !s100 fRlcaiTJZJ1H;nZh;8=LI3
 R59
@@ -2618,6 +5467,19 @@ R230
 R226
 !i113 0
 R231
+=======
+R321
+R322
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Artl
@@ -2625,6 +5487,7 @@ R146
 R17
 R18
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -2632,6 +5495,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 061bb59 (we know the problem)
@@ -2643,6 +5515,7 @@ R58
 33
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -2650,6 +5523,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Astructural
@@ -2659,11 +5541,19 @@ R18
 >>>>>>> 061bb59 (we know the problem)
 l0
 L5 1
+<<<<<<< HEAD
 Z295 VL3bFngUDg_Sikf[OJ5PB:1
 Z296 !s100 ]2hc2?YOg[G>0d?CJK7`W3
 R0
 >>>>>>> 061bb59 (we know the problem)
 R215
+=======
+R323
+R324
+R0
+>>>>>>> 061bb59 (we know the problem)
+R217
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R17
 R18
 !i122 30
@@ -2678,6 +5568,7 @@ R58
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 R216
 Z297 VEIV8[cYGC3d^KTkcGjzd81
 Z298 !s100 _XK?_^5z0Rm1<k12?;5R?2
@@ -2690,6 +5581,20 @@ R230
 R226
 !i113 0
 R231
+=======
+R218
+R325
+R326
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Adataflow
@@ -2706,6 +5611,7 @@ R0
 >>>>>>> 061bb59 (we know the problem)
 l0
 L9 1
+<<<<<<< HEAD
 Z299 V1dkX?[23=3P=AO[c_FEoT3
 Z300 !s100 mo[n2]EW6g`C>XbLWK1_z1
 R59
@@ -2717,6 +5623,19 @@ R230
 R226
 !i113 0
 R231
+=======
+R327
+R328
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Abehavior
@@ -2724,6 +5643,7 @@ R146
 R17
 R18
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -2731,6 +5651,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 >>>>>>> 061bb59 (we know the problem)
@@ -2742,6 +5671,7 @@ R58
 33
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -2749,6 +5679,15 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Astructural
@@ -2757,20 +5696,14 @@ R18
 >>>>>>> 061bb59 (we know the problem)
 l0
 L4 1
-V][Ihc[z>2DYI]4C:Z^]hD1
-!s100 =0eC=k0ZJEYQ96Lgz;7fk2
 R0
 >>>>>>> 061bb59 (we know the problem)
 l18
-R168
-R169
-R170
-R58
-33
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
 L6 1
+<<<<<<< HEAD
 Z301 VXoOe;XWh<kfQkIJ7>A`Tc1
 Z302 !s100 <WY:1=A=dGT<Yz7K6XFaj1
 R59
@@ -2783,15 +5716,59 @@ R226
 !i113 0
 R231
 R173
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
-Ageneratebased
-R146
-R17
-R18
 >>>>>>> 061bb59 (we know the problem)
 R0
 >>>>>>> 061bb59 (we know the problem)
 l17
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L4 1
+Z329 VbgZNNzzGGAjTSWoRR]h=V0
+Z330 !s100 8RK<]INEE8nVOYoW298G53
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Abehavioral
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R0
+R179
+R95
+>>>>>>> 061bb59 (we know the problem)
+Z331 w1761089778
+R0
+>>>>>>> 061bb59 (we know the problem)
+Z332 VEj3UPO2oEY96Cgcg;kI[23
+Z333 !s100 o@gc_JD1W@hFdbQ=J2U^o3
+R59
+33
+Z334 !s110 1761093632
+!i10b 1
+Z335 !s108 1761093632.000000
+Z336 !s90 -2008|-work|internal/ModelSimContainer/work|proj/src/RISCV_types.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/carry_adder_N.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/work/tb_mxu2t1_N.vhd|proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/control/control.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/TopLevel/mem.vhd|
+Z337 !s107 proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/control/control.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/work/tb_mxu2t1_N.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/fetch/carry_adder_N.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/PC.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/Branch.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
+!i113 0
+R233
+R0
+>>>>>>> 061bb59 (we know the problem)
+l37
+R182
+R183
+R184
+R5
 R175
 R176
 R177
@@ -2801,6 +5778,7 @@ R0
 >>>>>>> 061bb59 (we know the problem)
 l0
 L4 1
+<<<<<<< HEAD
 Z303 VbgZNNzzGGAjTSWoRR]h=V0
 Z304 !s100 8RK<]INEE8nVOYoW298G53
 R59
@@ -2812,6 +5790,19 @@ R230
 R226
 !i113 0
 R231
+=======
+R329
+R330
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Abehavioral
@@ -2822,31 +5813,34 @@ R0
 R178
 R95
 >>>>>>> 061bb59 (we know the problem)
-w1761089778
+R331
 R0
 >>>>>>> 061bb59 (we know the problem)
-VEj3UPO2oEY96Cgcg;kI[23
-!s100 o@gc_JD1W@hFdbQ=J2U^o3
+R332
+R333
 R59
 33
-!s110 1761093632
+R334
 !i10b 1
-!s108 1761093632.000000
-!s90 -2008|-work|internal/ModelSimContainer/work|proj/src/RISCV_types.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/carry_adder_N.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/work/tb_mxu2t1_N.vhd|proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/control/control.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/TopLevel/mem.vhd|
-!s107 proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/control/control.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/work/tb_mxu2t1_N.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/fetch/carry_adder_N.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/PC.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/Branch.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
+R335
+R336
+R337
 !i113 0
+<<<<<<< HEAD
 R231
+=======
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
 >>>>>>> 061bb59 (we know the problem)
 l37
 R181
 R182
 R183
-R58
-33
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
+<<<<<<< HEAD
 R216
 Z305 V>PZ[eHl^ZDc^T627=nThL3
 Z306 !s100 T4gcXQGMCgKJbn8XhBM;b0
@@ -2860,21 +5854,16 @@ R226
 !i113 0
 R231
 R173
+=======
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R0
-Amixed
-R17
-R18
 >>>>>>> 061bb59 (we know the problem)
 l10
-R187
-R188
-R189
-R58
-33
 R0
 >>>>>>> 061bb59 (we know the problem)
 l0
 L4 1
+<<<<<<< HEAD
 Z307 V1XjBPTK;9GD>`LcmSo2S82
 Z308 !s100 PV5_7Q_]Lo[HF^B=<`f]W0
 R59
@@ -2886,8 +5875,42 @@ R230
 R226
 !i113 0
 R231
-R173
+=======
 R0
+>>>>>>> 061bb59 (we know the problem)
+l27
+R194
+R195
+R196
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Adataflow
+R147
+R5
+R259
+R260
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
+R173
 Adataflow
 R17
 R18
@@ -2900,6 +5923,7 @@ R58
 33
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R228
 !i10b 1
 R229
@@ -2907,12 +5931,19 @@ R230
 R226
 !i113 0
 R231
+=======
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R173
 R0
 Adataflow
 R146
-R17
-R18
 >>>>>>> 061bb59 (we know the problem)
 l0
 L5 1
@@ -2920,11 +5951,668 @@ VK?95Dc@DiFMh^3;3UYP>Q3
 !s100 gZGo8;46g5RL=g0XCP`^g1
 R0
 >>>>>>> 061bb59 (we know the problem)
+<<<<<<< HEAD
 R215
+=======
+R0
+>>>>>>> 061bb59 (we know the problem)
+R59
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+l31
+Z338 L17 33
+Z339 VnIIXco`1dCg>9P=8^6NXK2
+Z340 !s100 6eWZ8ff9PNfDF61WC?H_53
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L7 1
+Z341 V]V[Q4<E7cZkWf_z_DY?^J2
+Z342 !s100 eale@:2B:Tfbe4gn`z4CS0
+R59
+R5
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+l31
+R338
+R339
+R340
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L7 1
+R341
+R342
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+Astructural
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+l30
+Z343 L16 32
+Z344 VGEOclAWP<lf0XFa<8cHiH0
+R278
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L7 1
+R279
+R280
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+Astructural
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+l20
+R275
+R276
+R270
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+Ageneratebased
+R146
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l0
+L5 1
+R271
+R272
+R0
+>>>>>>> 061bb59 (we know the problem)
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+l19
+R265
+R266
+R267
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L4 1
+Z345 V0haULIHEHM=]TD<935[L<0
+Z346 !s100 @N[2l9<A>DHCVHD>8o_Wn1
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+Astructural
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+l31
+R210
+R211
+R212
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+Astructural
+R146
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l32
+R2
+Z347 ViHL2DEfeDAgY8?F@RAnWH0
+Z348 !s100 I`@Z@UBObS]<7m8bPgKUS1
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+R0
+R219
+R220
+>>>>>>> 061bb59 (we know the problem)
+l81
+Z349 L16 125
+Z350 VdR;i@c?7fdhn87jNWQeaI1
+Z351 !s100 Hhe[8^<ba]CcA3I@khRe^0
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+R0
+R222
+R223
+>>>>>>> 061bb59 (we know the problem)
+l56
+Z352 L19 68
+Z353 Vk20FfTPcb28<1@:@LJB@Q3
+Z354 !s100 QD6;TDP]6f2WMKj_lAWH;0
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+R0
+R225
+R43
+>>>>>>> 061bb59 (we know the problem)
+l40
+Z355 L39 11
+Z356 VONnnJ3NaCzC5I7CTUadX;0
+R269
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+R0
+R146
+R227
+>>>>>>> 061bb59 (we know the problem)
+l52
+Z357 L18 63
+Z358 VmEe2ZKF5TD87jgdLCHf9m3
+R217
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R228
+!i113 0
+R230
+R173
+R0
+>>>>>>> 061bb59 (we know the problem)
+!i113 0
+R230
+R264
+R0
+Astructural
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R0
+R6
+R58
+>>>>>>> 061bb59 (we know the problem)
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+l30
+R343
+R344
+R278
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L7 1
+R279
+R280
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructural
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+l20
+R275
+R276
+R270
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Ageneratebased
+R147
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l0
+L5 1
+R271
+R272
+R0
+>>>>>>> 061bb59 (we know the problem)
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+l19
+R265
+R266
+R267
+R0
+>>>>>>> 061bb59 (we know the problem)
+l0
+L4 1
+R345
+R346
+R59
+R5
+Z359 !s108 1761503046.000000
+R231
+R232
+!i113 0
+R230
+R264
+R0
+Astructural
+R17
+R18
+R224
+!i122 75
+l56
+R346
+R353
+R354
+R248
+33
+!s110 1761503046
+!i10b 1
+R359
+R231
+R232
+!i113 0
+R230
+R264
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+l31
+R211
+R212
+R214
+R58
+33
+R0
+>>>>>>> 061bb59 (we know the problem)
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+Astructural
+R147
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+l32
+R2
+R347
+R348
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+R0
+R221
+R222
+>>>>>>> 061bb59 (we know the problem)
+l81
+R349
+R350
+R351
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+R0
+R224
+R225
+>>>>>>> 061bb59 (we know the problem)
+l56
+R352
+R353
+R354
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+R0
+R227
+R43
+>>>>>>> 061bb59 (we know the problem)
+l40
+R355
+R356
+R269
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+R0
+R147
+R230
+>>>>>>> 061bb59 (we know the problem)
+l52
+R357
+R358
+R219
+R59
+33
+R230
+!i10b 1
+R231
+R232
+R231
+!i113 0
+R233
+R174
+R0
+>>>>>>> 061bb59 (we know the problem)
+!i113 0
+R233
+R264
+R0
+Astructural
+R17
+R18
+>>>>>>> 061bb59 (we know the problem)
+R0
+R6
+R58
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R17
+R18
+!i122 25
+R6
+R143
+R144
+R5
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R95
+R5
+R5
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R179
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R17
+R18
+!i122 25
+R6
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R5
+R60
+!i122 25
+R5
+R60
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R17
+R18
+!i122 25
+R6
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R17
 R18
 !i122 30
 R0
+<<<<<<< HEAD
 >>>>>>> 061bb59 (we know the problem)
 R59
 33
@@ -3179,9 +6867,97 @@ R226
 !i113 0
 R231
 R173
+=======
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R5
+R5
+!i122 30
 R0
->>>>>>> 061bb59 (we know the problem)
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R5
+R5
+!i122 30
 R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R43
+R5
+R5
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R5
+R5
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R5
+!s110 1761182958
+!i10b 1
+!s108 1761182958.000000
+!s90 -2008|-work|internal/ModelSimContainer/work|proj/src/RISCV_types.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/fetch.vhd|proj/src/control/control.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/TopLevel/mem.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
+!s107 proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/control/control.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/PC.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+Abehavioral
+R17
+R18
+DEx4 work 4 dffg 0 22 dobBEB>892X>bNig6WRa12
+!i122 5
+l16
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+Adataflow
+R17
+R18
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+Astructural
+R17
+R18
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+Astructural
+R17
+R18
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R17
+R18
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R3
+R4
+R58
+33
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R59
+33
+R230
+!i10b 1
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+<<<<<<< HEAD
 R146
 R225
 >>>>>>> 061bb59 (we know the problem)
@@ -4699,11 +8475,59 @@ R344
 !i113 0
 R231
 R339
+=======
 Amixed
-R42
-R16
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R63
+!i122 30
+l197
+R64
+R65
+R66
+R58
+33
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R59
+33
+R230
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+Astructure
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+V][Ihc[z>2DYI]4C:Z^]hD1
+!s100 =0eC=k0ZJEYQ96Lgz;7fk2
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R58
+33
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
 R17
 R18
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R58
+33
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R59
+33
+R230
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
+Amixed
+R17
+R18
+<<<<<<< HEAD
 R38
 !i122 77
 l56
@@ -4829,6 +8653,66 @@ R344
 !i113 0
 R231
 R339
+=======
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R58
+33
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R17
+R18
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R17
+R18
+!i122 30
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R230
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R230
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R274
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R274
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R274
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R274
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R16
+R17
+R18
+!i122 75
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R274
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 Amixed
 R16
 R17
@@ -4839,6 +8723,7 @@ l59
 R20
 R21
 R22
+<<<<<<< HEAD
 R251
 33
 R341
@@ -4856,10 +8741,21 @@ R17
 R18
 !i122 77
 R227
+=======
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R274
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R14
 R15
 l0
 R13
+<<<<<<< HEAD
 R254
 R255
 R251
@@ -4874,6 +8770,15 @@ R231
 R339
 Astructure
 R345
+=======
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R274
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 R17
 R18
 R9
@@ -4882,6 +8787,7 @@ l85
 R10
 R11
 R12
+<<<<<<< HEAD
 R251
 33
 R341
@@ -4914,6 +8820,16 @@ R344
 !i113 0
 R231
 R339
+=======
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R274
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e
 Adataflow
 R17
 R18
@@ -4923,6 +8839,7 @@ l32
 R2
 R3
 R4
+<<<<<<< HEAD
 R251
 33
 R341
@@ -4933,3 +8850,3368 @@ R344
 !i113 0
 R231
 R339
+=======
+>>>>>>> 9c190bd (merge conflict will prob happen)
+33
+R274
+!i10b 1
+R0
+>>>>>>> 9c190bd (merge conflict will prob happen)
+R0
+Eadd_sub_n
+Z360 w1761150524
+R17
+R18
+!i122 83
+R0
+R6
+R58
+l0
+L7 1
+R246
+R247
+R248
+33
+Z361 !s110 1761506864
+!i10b 1
+Z362 !s108 1761506864.000000
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R173
+!i122 83
+l52
+R357
+R358
+R217
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Eadd_sub_n
+R360
+R17
+R18
+!i122 82
+R0
+R6
+R58
+l0
+L7 1
+R246
+R247
+R248
+33
+Z363 !s110 1761506633
+!i10b 1
+Z364 !s108 1761506633.000000
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R173
+!i122 82
+l52
+R357
+R358
+R217
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Eadder
+R360
+R273
+R17
+R18
+!i122 83
+R0
+R146
+R227
+l0
+R243
+R244
+R245
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R273
+R17
+R18
+R226
+!i122 83
+l40
+R355
+R356
+R269
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Eadder
+R360
+R273
+R17
+R18
+!i122 82
+R0
+R146
+R227
+l0
+R243
+R244
+R245
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R273
+R17
+R18
+R226
+!i122 82
+l40
+R355
+R356
+R269
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Eaddsub_overflow
+R360
+R17
+R18
+!i122 83
+R0
+R225
+R43
+l0
+L7 1
+R241
+R242
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R224
+!i122 83
+l56
+R352
+R353
+R354
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Eaddsub_overflow
+R360
+R17
+R18
+!i122 82
+R0
+R225
+R43
+l0
+L7 1
+R241
+R242
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R224
+!i122 82
+l56
+R352
+R353
+R354
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Ealu_total
+Z365 w1761506578
+R17
+R18
+!i122 83
+R0
+R222
+R223
+l0
+L4 1
+R239
+R240
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R221
+!i122 83
+l84
+Z366 L16 136
+Z367 V1<n74joId<zlQd0P=6Uhd2
+Z368 !s100 cW=5c=XLPz0Vmh4^8002;1
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Ealu_total
+R365
+R17
+R18
+!i122 82
+R0
+R222
+R223
+l0
+L4 1
+R239
+R240
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R221
+!i122 82
+l84
+R366
+R367
+R368
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Eandg2
+R360
+R17
+R18
+!i122 83
+R0
+R219
+R220
+l0
+R236
+R237
+R238
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R17
+R18
+R218
+!i122 83
+l32
+R2
+R347
+R348
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Eandg2
+R360
+R17
+R18
+!i122 82
+R0
+R219
+R220
+l0
+R236
+R237
+R238
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R17
+R18
+R218
+!i122 82
+l32
+R2
+R347
+R348
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Ebarrel_shifter
+R216
+R273
+R17
+R18
+!i122 83
+R0
+R214
+R215
+l0
+L5 1
+R234
+R235
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R273
+R17
+R18
+R60
+!i122 83
+l31
+R210
+R211
+R212
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Ebarrel_shifter
+R216
+R273
+R17
+R18
+!i122 82
+R0
+R214
+R215
+l0
+L5 1
+R234
+R235
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R273
+R17
+R18
+R60
+!i122 82
+l31
+R210
+R211
+R212
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Ebranch
+R360
+R17
+R18
+!i122 83
+R0
+R208
+R209
+l0
+L4 1
+R345
+R346
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R207
+!i122 83
+l19
+R265
+R266
+R267
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Ebranch
+R360
+R17
+R18
+!i122 82
+R0
+R208
+R209
+l0
+L4 1
+R345
+R346
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R207
+!i122 82
+l19
+R265
+R266
+R267
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Ebutter_extender_nt32
+R360
+R273
+R17
+R18
+!i122 83
+R0
+R205
+R206
+l0
+L5 1
+R271
+R272
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Ageneratebased
+R273
+R17
+R18
+R204
+!i122 83
+l20
+R275
+R276
+R270
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Ecarry_adder_n
+R360
+R17
+R18
+!i122 83
+R0
+R202
+R203
+l0
+L7 1
+R279
+R280
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R201
+!i122 83
+l30
+R343
+R344
+R278
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Ecarry_adder_n
+R360
+R17
+R18
+!i122 82
+R0
+R202
+R203
+l0
+L7 1
+R279
+R280
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R201
+!i122 82
+l30
+R343
+R344
+R278
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Ecarry_adder_n_over
+R360
+R17
+R18
+!i122 83
+R0
+R199
+R200
+l0
+L7 1
+R341
+R342
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R198
+!i122 83
+l31
+R338
+R339
+R340
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Ecarry_adder_n_over
+R360
+R17
+R18
+!i122 82
+R0
+R199
+R200
+l0
+L7 1
+R341
+R342
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R198
+!i122 82
+l31
+R338
+R339
+R340
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Econtrol
+R285
+R273
+R17
+R18
+!i122 83
+R0
+R148
+R196
+l0
+L5 1
+Z369 V93g]lk6^oZJLoHMbEYgWW2
+Z370 !s100 5ZdgFAGFPhMT6_Gf=?TMO2
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R273
+R17
+R18
+Z371 DEx4 work 7 control 0 22 93g]lk6^oZJLoHMbEYgWW2
+!i122 83
+l29
+Z372 L28 105
+Z373 VMRBo6>gKTk9M:F4:B4KN^0
+Z374 !s100 IcmBa<jIS`z;Fd<DWJ7C31
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Econtrol
+R285
+R273
+R17
+R18
+!i122 82
+R0
+R148
+R196
+l0
+L5 1
+R369
+R370
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R273
+R17
+R18
+R371
+!i122 82
+l29
+R372
+R373
+R374
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Edecoder_5t32
+R360
+R17
+R18
+!i122 83
+R0
+R190
+R191
+l0
+L4 1
+R259
+R260
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R17
+R18
+R186
+!i122 83
+l10
+R187
+R188
+R189
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Edecoder_5t32
+R360
+R17
+R18
+!i122 82
+R0
+R190
+R191
+l0
+L4 1
+R259
+R260
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R17
+R18
+R186
+!i122 82
+l10
+R187
+R188
+R189
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Edffg
+R360
+R17
+R18
+!i122 83
+R0
+R184
+R185
+l0
+R236
+R257
+R258
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Amixed
+R17
+R18
+R180
+!i122 83
+l37
+R181
+R182
+R183
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Edffg
+R360
+R17
+R18
+!i122 82
+R0
+R184
+R185
+l0
+R236
+R257
+R258
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Amixed
+R17
+R18
+R180
+!i122 82
+l37
+R181
+R182
+R183
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Edffg_n
+R360
+R17
+R18
+!i122 83
+R0
+R178
+R95
+l0
+L4 1
+R329
+R330
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Abehavioral
+R17
+R18
+R174
+!i122 83
+l17
+R175
+R176
+R177
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Edffg_n
+R360
+R17
+R18
+!i122 82
+R0
+R178
+R95
+l0
+L4 1
+R329
+R330
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Abehavioral
+R17
+R18
+R174
+!i122 82
+l17
+R175
+R176
+R177
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Edffg_n_reset
+Z375 w1761315997
+R17
+R18
+!i122 83
+R0
+Z376 8proj/src/fetch/dffg_N_reset.vhd
+Z377 Fproj/src/fetch/dffg_N_reset.vhd
+l0
+L4 1
+Z378 V:nf:1fBL;_BB2NAcCNOFo3
+Z379 !s100 Y?9]NAfIY^;MR?QOP05Ek1
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Abehavioral
+R17
+R18
+Z380 DEx4 work 12 dffg_n_reset 0 22 :nf:1fBL;_BB2NAcCNOFo3
+!i122 83
+l19
+Z381 L18 13
+Z382 V=M@?ha77087Uel64R1[Ok2
+Z383 !s100 [6k7oT1bPFb6S0]^@6VzL0
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Edffg_n_reset
+R375
+R17
+R18
+!i122 82
+R0
+R376
+R377
+l0
+L4 1
+R378
+R379
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Abehavioral
+R17
+R18
+R380
+!i122 82
+l19
+R381
+R382
+R383
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Eextender_nt32
+R360
+R273
+R17
+R18
+!i122 83
+R0
+R171
+R172
+l0
+L6 1
+R255
+R256
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Ageneratebased
+R273
+R17
+R18
+R167
+!i122 83
+l18
+R168
+R169
+R170
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Eextender_nt32
+R360
+R273
+R17
+R18
+!i122 82
+R0
+R171
+R172
+l0
+L6 1
+R255
+R256
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Ageneratebased
+R273
+R17
+R18
+R167
+!i122 82
+l18
+R168
+R169
+R170
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Efetch
+Z384 w1761318123
+R17
+R18
+!i122 83
+R0
+R165
+R166
+l0
+L4 1
+Z385 Vk6[KLnTQ_Y?iCRQ4`SjNm0
+Z386 !s100 AFGCBY;B765db[^EA=1ON0
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+Z387 DEx4 work 5 fetch 0 22 k6[KLnTQ_Y?iCRQ4`SjNm0
+!i122 83
+l70
+Z388 L19 113
+Z389 VmVkkS^cK1k=JS4O<GogU[1
+Z390 !s100 HNNDDOMC:F:JMzKFD`[P53
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Efetch
+R384
+R17
+R18
+!i122 82
+R0
+R165
+R166
+l0
+L4 1
+R385
+R386
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R387
+!i122 82
+l70
+R388
+R389
+R390
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Efull_adder
+R360
+R273
+R17
+R18
+!i122 83
+R0
+R159
+R160
+l0
+L9 1
+R327
+R328
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R273
+R17
+R18
+R155
+!i122 83
+l39
+R156
+R157
+R158
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Efull_adder
+R360
+R273
+R17
+R18
+!i122 82
+R0
+R159
+R160
+l0
+L9 1
+R327
+R328
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R273
+R17
+R18
+R155
+!i122 82
+l39
+R156
+R157
+R158
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Einvg
+R360
+R17
+R18
+!i122 83
+R0
+R153
+R154
+l0
+R236
+R325
+R326
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R17
+R18
+R149
+!i122 83
+l31
+R150
+R151
+R152
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Einvg
+R360
+R17
+R18
+!i122 82
+R0
+R153
+R154
+l0
+R236
+R325
+R326
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R17
+R18
+R149
+!i122 82
+l31
+R150
+R151
+R152
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Eleft_shifter
+R147
+R273
+R17
+R18
+!i122 83
+R0
+R143
+R144
+l0
+L5 1
+R323
+R324
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R273
+R17
+R18
+R69
+!i122 83
+l13
+R140
+R141
+R142
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Eleft_shifter
+R147
+R273
+R17
+R18
+!i122 82
+R0
+R143
+R144
+l0
+L5 1
+R323
+R324
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R273
+R17
+R18
+R69
+!i122 82
+l13
+R140
+R141
+R142
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Emem
+R360
+R273
+R17
+R18
+!i122 83
+R0
+R138
+R139
+l0
+L8 1
+R321
+R322
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Artl
+R273
+R17
+R18
+R134
+!i122 83
+l37
+R135
+R136
+R137
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Emem
+R360
+R273
+R17
+R18
+!i122 82
+R0
+R138
+R139
+l0
+L8 1
+R321
+R322
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Artl
+R273
+R17
+R18
+R134
+!i122 82
+l37
+R135
+R136
+R137
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Emultiplier
+R360
+R273
+R17
+R18
+!i122 83
+R0
+R132
+R133
+l0
+R243
+R319
+R320
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R273
+R17
+R18
+R128
+!i122 83
+l38
+R129
+R130
+R131
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Emultiplier
+R360
+R273
+R17
+R18
+!i122 82
+R0
+R132
+R133
+l0
+R243
+R319
+R320
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R273
+R17
+R18
+R128
+!i122 82
+l38
+R129
+R130
+R131
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Emux2t1
+R360
+R273
+R17
+R18
+!i122 83
+R0
+R126
+R127
+l0
+R316
+R317
+R318
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R273
+R17
+R18
+R122
+!i122 83
+l40
+R123
+R124
+R125
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Emux2t1
+R360
+R273
+R17
+R18
+!i122 82
+R0
+R126
+R127
+l0
+R316
+R317
+R318
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R273
+R17
+R18
+R122
+!i122 82
+l40
+R123
+R124
+R125
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Emux2t1_dataflow
+R360
+R273
+R17
+R18
+!i122 83
+R0
+R120
+R121
+l0
+R30
+R314
+R315
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R273
+R17
+R18
+R116
+!i122 83
+l18
+R117
+R118
+R119
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Emux2t1_dataflow
+R360
+R273
+R17
+R18
+!i122 82
+R0
+R120
+R121
+l0
+R30
+R314
+R315
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R273
+R17
+R18
+R116
+!i122 82
+l18
+R117
+R118
+R119
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Emux2t1_n
+R360
+R17
+R18
+!i122 83
+R0
+R114
+R115
+l0
+R311
+R312
+R313
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R110
+!i122 83
+l39
+R111
+R112
+R113
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Emux2t1_n
+R360
+R17
+R18
+!i122 82
+R0
+R114
+R115
+l0
+R311
+R312
+R313
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R110
+!i122 82
+l39
+R111
+R112
+R113
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Emux_16t1
+R360
+R17
+R18
+!i122 83
+R0
+R106
+R109
+l0
+L4 1
+R253
+R254
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Abehavioral
+R17
+R18
+R105
+!i122 83
+l31
+R111
+R107
+R108
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Emux_16t1
+R360
+R17
+R18
+!i122 82
+R0
+R106
+R109
+l0
+L4 1
+R253
+R254
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Abehavioral
+R17
+R18
+R105
+!i122 82
+l31
+R111
+R107
+R108
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Emux_32t1
+R360
+R47
+R17
+R18
+!i122 83
+R0
+R103
+R104
+l0
+L5 1
+R309
+R310
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R47
+R17
+R18
+R99
+!i122 83
+l15
+R100
+R101
+R102
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Emux_32t1
+R360
+R47
+R17
+R18
+!i122 82
+R0
+R103
+R104
+l0
+L5 1
+R309
+R310
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R47
+R17
+R18
+R99
+!i122 82
+l15
+R100
+R101
+R102
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Eones_comp_n
+R360
+R17
+R18
+!i122 83
+R0
+R98
+R52
+l0
+L8 1
+R307
+R308
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R94
+!i122 83
+l21
+R179
+R96
+R97
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Eones_comp_n
+R360
+R17
+R18
+!i122 82
+R0
+R98
+R52
+l0
+L8 1
+R307
+R308
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R94
+!i122 82
+l21
+R179
+R96
+R97
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Eorg2
+R360
+R17
+R18
+!i122 83
+R0
+R92
+R93
+l0
+R236
+R305
+R306
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R17
+R18
+R89
+!i122 83
+l32
+R2
+R90
+R91
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Eorg2
+R360
+R17
+R18
+!i122 82
+R0
+R92
+R93
+l0
+R236
+R305
+R306
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R17
+R18
+R89
+!i122 82
+l32
+R2
+R90
+R91
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Epc
+R375
+R17
+R18
+!i122 83
+R0
+R87
+R88
+l0
+L4 1
+R303
+R304
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R83
+!i122 83
+l25
+R290
+R291
+R292
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Epc
+R375
+R17
+R18
+!i122 82
+R0
+R87
+R88
+l0
+L4 1
+R303
+R304
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R17
+R18
+R83
+!i122 82
+l25
+R290
+R291
+R292
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Ereg
+R360
+R17
+R18
+!i122 83
+R0
+R81
+R82
+l0
+R236
+R301
+R302
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R17
+R18
+R77
+!i122 83
+l34
+R78
+R79
+R80
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Ereg
+R360
+R17
+R18
+!i122 82
+R0
+R81
+R82
+l0
+R236
+R301
+R302
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R17
+R18
+R77
+!i122 82
+l34
+R78
+R79
+R80
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Eregld
+R360
+R17
+R18
+!i122 83
+R0
+R75
+R76
+l0
+R236
+R299
+R300
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R17
+R18
+R71
+!i122 83
+l37
+R72
+R73
+R74
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Eregld
+R360
+R17
+R18
+!i122 82
+R0
+R75
+R76
+l0
+R236
+R299
+R300
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Abehavior
+R17
+R18
+R71
+!i122 82
+l37
+R72
+R73
+R74
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Eriscv_processor
+Z391 w1761444822
+R47
+R17
+R18
+!i122 83
+R0
+R67
+R68
+l0
+R236
+R251
+R252
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructure
+R47
+R17
+R18
+R63
+!i122 83
+l206
+Z392 L35 311
+Z393 Va9j9<IN97fFYfzz4MJoSm0
+Z394 !s100 ;YdNCaCIZTXKWk6YR]f4D0
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Eriscv_processor
+R391
+R47
+R17
+R18
+!i122 82
+R0
+R67
+R68
+l0
+R236
+R251
+R252
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructure
+R47
+R17
+R18
+R63
+!i122 82
+l206
+R392
+R393
+R394
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Priscv_types
+R17
+R18
+!i122 83
+R360
+R0
+R61
+R62
+l0
+R296
+R297
+R298
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Bbody
+R47
+R17
+R18
+!i122 83
+l0
+R55
+R56
+R57
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Priscv_types
+R17
+R18
+!i122 82
+R360
+R0
+R61
+R62
+l0
+R296
+R297
+R298
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Bbody
+R47
+R17
+R18
+!i122 82
+l0
+R55
+R56
+R57
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Erv32_regfile
+R360
+R47
+R17
+R18
+!i122 83
+R0
+R53
+R54
+l0
+L5 1
+R294
+R295
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R47
+R17
+R18
+R48
+!i122 83
+l44
+R49
+R50
+R51
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Erv32_regfile
+R360
+R47
+R17
+R18
+!i122 82
+R0
+R53
+R54
+l0
+L5 1
+R294
+R295
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Astructural
+R47
+R17
+R18
+R48
+!i122 82
+l44
+R49
+R50
+R51
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Etb
+R46
+R42
+R16
+R17
+R18
+!i122 83
+R0
+R44
+R45
+l0
+R13
+R288
+R289
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Amixed
+R42
+R16
+R17
+R18
+R38
+!i122 83
+l56
+R39
+R40
+R41
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Etb
+R46
+R42
+R16
+R17
+R18
+!i122 82
+R0
+R44
+R45
+l0
+R13
+R288
+R289
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Amixed
+R42
+R16
+R17
+R18
+R38
+!i122 82
+l56
+R39
+R40
+R41
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Etb_mux2t1_n
+R360
+R16
+R17
+R18
+!i122 83
+R0
+R23
+R37
+l0
+R30
+R282
+R293
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Amixed
+R16
+R17
+R18
+R33
+!i122 83
+l30
+R34
+R35
+R36
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Etb_mux2t1_n
+R360
+R16
+R17
+R18
+!i122 82
+R0
+R23
+R37
+l0
+R30
+R282
+R293
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Amixed
+R16
+R17
+R18
+R33
+!i122 82
+l30
+R34
+R35
+R36
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Etb_ones_comp_n
+R360
+R16
+R17
+R18
+!i122 83
+R0
+R31
+R32
+l0
+R30
+R286
+R281
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Amixed
+R16
+R17
+R18
+R26
+!i122 83
+l26
+R27
+R28
+R29
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Etb_ones_comp_n
+R360
+R16
+R17
+R18
+!i122 82
+R0
+R31
+R32
+l0
+R30
+R286
+R281
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Amixed
+R16
+R17
+R18
+R26
+!i122 82
+l26
+R27
+R28
+R29
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Etb_tpu_mv_element
+R360
+R16
+R17
+R18
+!i122 83
+R0
+R24
+R25
+l0
+R236
+R283
+R284
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Amixed
+R16
+R17
+R18
+R19
+!i122 83
+l59
+R20
+R21
+R22
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Etb_tpu_mv_element
+R360
+R16
+R17
+R18
+!i122 82
+R0
+R24
+R25
+l0
+R236
+R283
+R284
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Amixed
+R16
+R17
+R18
+R19
+!i122 82
+l59
+R20
+R21
+R22
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Etpu_mv_element
+R360
+R273
+R17
+R18
+!i122 83
+R0
+R14
+R15
+l0
+R13
+R268
+R287
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Astructure
+R273
+R17
+R18
+R9
+!i122 83
+l85
+R10
+R11
+R12
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Exorg2
+R360
+R17
+R18
+!i122 83
+R0
+R7
+R8
+l0
+R236
+R249
+R250
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R17
+R18
+R1
+!i122 83
+l32
+R2
+R3
+R4
+R248
+33
+R361
+!i10b 1
+R362
+R231
+R232
+!i113 0
+R233
+R264
+Exorg2
+R360
+R17
+R18
+!i122 82
+R0
+R7
+R8
+l0
+R236
+R249
+R250
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+Adataflow
+R17
+R18
+R1
+!i122 82
+l32
+R2
+R3
+R4
+R248
+33
+R363
+!i10b 1
+R364
+R231
+R232
+!i113 0
+R233
+R264
+>>>>>>> 383c99ee22d2e0077694afd9a1c98119919b5c0e

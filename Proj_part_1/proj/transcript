@@ -12,30 +12,3 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-add wave -position insertpoint  \
-vsim:/tb/CLK \
-vsim:/tb/reset \
-vsim:/tb/reset_done \
-vsim:/tb/alu_out
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/DMem/q
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/DMem/addr
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/ALU/A
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/ALU/B
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/Sign_Extend/imm_out
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/Sign_Extend/imm_in
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/mind_control/o_ImmType
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/mind_control/o_imm_sel
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/mind_control/o_Mem_Write
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/mind_control/o_RegWrite
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/mind_control/o_MemtoReg
