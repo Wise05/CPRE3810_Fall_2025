@@ -30,7 +30,7 @@ signal shift_amt_int : std_logic_vector(4 downto 0);
 
 begin
   shift_type <= '1' when (ALU_control = "0111") else '0';
-  dir        <= '1' when (ALU_control = "0001" or ALU_control = "0010") else '0';
+  dir        <= '1' when (ALU_control = "0001" or ALU_control = "0010" or ALU_control = "0100") else '0';
   shift_amt_int <= "01100" when (ALU_control = "0010") else shift_amt;
   ext_bit <= data_in(31) when shift_type = '1' else '0';
 
