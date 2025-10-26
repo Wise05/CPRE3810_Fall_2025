@@ -491,11 +491,11 @@ R83
 R22
 R23
 Econtrol
-Z84 w1761494242
+Z84 w1761503022
 R24
 R13
 R14
-!i122 205
+!i122 207
 R4
 Z85 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd
 Z86 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd
@@ -505,9 +505,9 @@ Va]T0S0ib3]?YHZ]E]KC5k1
 !s100 5ZdgFAGFPhMT6_Gf=?TMO2
 R17
 33
-Z87 !s110 1761494253
+Z87 !s110 1761503025
 !i10b 1
-Z88 !s108 1761494253.000000
+Z88 !s108 1761503025.000000
 Z89 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd|
 Z90 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd|
 !i113 0
@@ -518,11 +518,11 @@ R24
 R13
 R14
 Z91 DEx4 work 7 control 0 22 a]T0S0ib3]?YHZ]E]KC5k1
-!i122 205
+!i122 207
 l29
 Z92 L28 105
-V2@od`PJFPW^Eab39Cf8Xz2
-!s100 jU`m[Rh0zfO5?VXG4P0Rc0
+VL11hR_lIgDMnm;nfPB5Ah2
+!s100 IcmBa<jIS`z;Fd<DWJ7C31
 R17
 33
 R87
