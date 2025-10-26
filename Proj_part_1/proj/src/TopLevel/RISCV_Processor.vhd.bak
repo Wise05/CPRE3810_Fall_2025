@@ -90,6 +90,7 @@ architecture structure of RISCV_Processor is
   signal s_Branch : std_logic;
   signal s_PCReg : std_logic;
 
+
   -- ALU
   signal s_OS1 : std_logic_vector(31 downto 0);
   signal s_ALU_B : std_logic_vector(31 downto 0);
@@ -98,6 +99,8 @@ architecture structure of RISCV_Processor is
   signal s_extended_imm : std_logic_vector(31 downto 0);
   signal s_andLink_imm : std_logic_vector(31 downto 0);
   signal s_notDMem : std_logic_vector(31 downto 0);
+
+  signal s_extender_in : std_logic_vector(31 downto 0);
 
 
   component mem is
@@ -145,6 +148,8 @@ architecture structure of RISCV_Processor is
         zero_flag_ALU : in std_logic;
         jump : in std_logic;
         imm : in std_logic_vector(31 downto 0); -- immediate offset
+	PCReg : in std_logic;
+	reg_in : in std_logic_vector(31 downto 0);
         instr_addr : out std_logic_vector(31 downto 0); -- address sent to imem
         plus4_o : out std_logic_vector(31 downto 0) -- address that gets sent to "AndLink" address
      );
@@ -269,16 +274,17 @@ begin
       zero_flag_ALU => s_Zero,
       jump => s_Jump,
       imm => s_extended_imm,
+      PCReg => s_PCReg,
+      reg_in => s_OS1,
       instr_addr => s_NextInstAddr,
-      plus4_o => s_andLink_imm,
-      PCReg => s_PCReg
+      plus4_o => s_andLink_imm
     );
 
     Sign_Extend : butter_extender_Nt32
       generic map (N => 32)
       port map (
-        imm_in => s_Inst,
-        sign_ext => "01", -- IDK
+        imm_in => s_extender_in,
+        sign_ext => s_imm_sel,
         imm_type => s_ImmType,
         imm_out => s_extended_imm
       );
@@ -321,6 +327,15 @@ begin
         i_D0 => s_notDMem,
         i_D1 => s_DMemOut,
         o_O => s_RegWrData
+      );
+
+     AuiPC_Mux : mux2
+      generic map (N => 32)
+      port map (
+        i_S => s_PCReg,
+        i_D0 => s_Inst,
+        i_D1 => s_NextInstAddr,
+        o_O => s_extender_in
       );
 
 s_RegWrAddr <= s_Inst(11 downto 7);

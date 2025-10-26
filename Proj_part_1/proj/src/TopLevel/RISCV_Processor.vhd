@@ -90,6 +90,7 @@ architecture structure of RISCV_Processor is
   signal s_Branch : std_logic;
   signal s_PCReg : std_logic;
 
+
   -- ALU
   signal s_OS1 : std_logic_vector(31 downto 0);
   signal s_ALU_B : std_logic_vector(31 downto 0);
@@ -98,6 +99,8 @@ architecture structure of RISCV_Processor is
   signal s_extended_imm : std_logic_vector(31 downto 0);
   signal s_andLink_imm : std_logic_vector(31 downto 0);
   signal s_notDMem : std_logic_vector(31 downto 0);
+
+  signal s_extender_in : std_logic_vector(31 downto 0);
 
 
   component mem is
@@ -280,7 +283,7 @@ begin
     Sign_Extend : butter_extender_Nt32
       generic map (N => 32)
       port map (
-        imm_in => s_Inst,
+        imm_in => s_extender_in,
         sign_ext => s_imm_sel,
         imm_type => s_ImmType,
         imm_out => s_extended_imm
@@ -324,6 +327,15 @@ begin
         i_D0 => s_notDMem,
         i_D1 => s_DMemOut,
         o_O => s_RegWrData
+      );
+
+     AuiPC_Mux : mux2t1_N
+      generic map (N => 32)
+      port map (
+        i_S => s_PCReg,
+        i_D0 => s_Inst,
+        i_D1 => s_NextInstAddr,
+        o_O => s_extender_in
       );
 
 s_RegWrAddr <= s_Inst(11 downto 7);

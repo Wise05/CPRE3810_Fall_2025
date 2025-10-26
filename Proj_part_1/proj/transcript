@@ -12,15 +12,14 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 17:05:12 on Oct 25,2025
-# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package RISCV_types
-# -- Compiling entity RISCV_Processor
-# -- Compiling architecture structure of RISCV_Processor
-# End time: 17:05:12 on Oct 25,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/AuiPC_Mux/i_S \
+vsim:/tb/MyRiscv/AuiPC_Mux/i_D0 \
+vsim:/tb/MyRiscv/AuiPC_Mux/i_D1 \
+vsim:/tb/MyRiscv/AuiPC_Mux/o_O
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/mind_control/o_PCReg
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/Sign_Extend/imm_in
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/IMem/q
