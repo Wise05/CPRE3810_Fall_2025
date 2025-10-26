@@ -115,7 +115,7 @@ begin
 
 zero <= s_zero;
 
-s_setLessThan <= x"00000001" when (s_zero = '0') else x"00000000";
+s_setLessThan <= x"00000001" when (s_zero = '1') else x"00000000";
 
   big_mux : mux_16t1
     generic map (WIDTH => 32)
