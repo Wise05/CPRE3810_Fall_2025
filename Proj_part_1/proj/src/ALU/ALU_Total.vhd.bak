@@ -20,6 +20,7 @@ architecture structural of ALU_Total is
 
   signal s_AND, s_OR, s_XOR : std_logic_vector(31 downto 0);
   signal s_AddSub : std_logic_vector(31 downto 0);
+  signal s_controlAdder : std_logic;
   signal s_C, s_Overflw : std_logic;
   signal s_BarrelShifted : std_logic_vector(31 downto 0);
   signal s_zero : std_logic;
@@ -85,12 +86,16 @@ begin
   s_OR <= A or B;
   s_XOR <= A xor B;
 
+  s_controlAdder <= '1' when (ALU_Control = "0110" or 
+				ALU_Control = "1000" or 
+				ALU_Control = "1001" );
+
   adder : AddSub_overflow 
     generic map (N => 32)
     port map (
       A_i => A,
       B_i => B,
-      nAdd_Sub => ALU_Control(2),
+      nAdd_Sub => s_controlAdder,
       S_i => s_AddSub,
       C_out => s_C,
       Overflow_out => s_Overflw 
@@ -115,7 +120,7 @@ begin
 
 zero <= s_zero;
 
-s_setLessThan <= x"00000001" when (s_zero = '0') else '0';
+s_setLessThan <= x"00000001" when (s_zero = '1') else x"00000000";
 
   big_mux : mux_16t1
     generic map (WIDTH => 32)
