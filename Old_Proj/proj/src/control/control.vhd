@@ -1,0 +1,106 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity control is
+  port (
+    i_opcode     : in  std_logic_vector(6 downto 0);
+    i_funct3     : in  std_logic_vector(2 downto 0);
+    i_funct7     : in  std_logic_vector(6 downto 0);
+    o_ALUSRC     : out std_logic;
+    o_ALUControl : out std_logic_vector(3 downto 0);
+    o_ImmType    : out std_logic_vector(2 downto 0);
+    o_ResultSrc  : out std_logic_vector(1 downto 0);
+    o_Mem_Write  : out std_logic;
+    o_RegWrite   : out std_logic;
+    o_imm_sel    : out std_logic_vector(1 downto 0);
+    o_BranchType : out std_logic_vector(2 downto 0);
+    o_MemtoReg     : out std_logic;
+    o_halt     : out std_logic;
+    o_Jump       : out std_logic;
+    o_Link       : out std_logic
+  );
+end control;
+
+architecture dataflow of control is
+begin
+  o_ALUSRC <= '1' when (i_opcode = "0010011" or
+                        i_opcode = "0110111" or
+                        i_opcode = "0000011" or
+                        i_opcode = "1100011" or
+                        i_opcode = "1101111" or
+                        i_opcode = "1100111" or
+                        i_opcode = "0010111") else '0';
+
+  o_ALUControl <= "0010" when (i_opcode = "0010011" and i_funct3 = "000") else
+                  "0000" when (i_opcode = "0010011" and i_funct3 = "111") else
+                  "0011" when (i_opcode = "0010011" and i_funct3 = "100") else
+                  "0001" when (i_opcode = "0010011" and i_funct3 = "110") else
+                  "1000" when (i_opcode = "0010011" and i_funct3 = "010") else
+                  "1001" when (i_opcode = "0010011" and i_funct3 = "011") else
+                  "0100" when (i_opcode = "0010011" and i_funct3 = "001" and i_funct7 = "0000000") else
+                  "0101" when (i_opcode = "0010011" and i_funct3 = "101" and i_funct7 = "0000000") else
+                  "0111" when (i_opcode = "0010011" and i_funct3 = "101" and i_funct7 = "0100000") else
+                  "0010" when (i_opcode = "0110011" and i_funct3 = "000" and i_funct7 = "0000000") else
+                  "0000" when (i_opcode = "0110011" and i_funct3 = "111" and i_funct7 = "0000000") else
+                  "0011" when (i_opcode = "0110011" and i_funct3 = "100") else
+                  "0001" when (i_opcode = "0110011" and i_funct3 = "110") else
+                  "1000" when (i_opcode = "0110011" and i_funct3 = "010" and i_funct7 = "0000000") else
+                  "0100" when (i_opcode = "0110011" and i_funct3 = "001" and i_funct7 = "0000000") else
+                  "0101" when (i_opcode = "0110011" and i_funct3 = "101" and i_funct7 = "0000000") else
+                  "0111" when (i_opcode = "0110011" and i_funct3 = "101" and i_funct7 = "0100000") else
+                  "0110" when (i_opcode = "0110011" and i_funct3 = "000" and i_funct7 = "0100000") else
+                  "0001" when (i_opcode = "0110111") else
+                  "0010" when (i_opcode = "0000011") else
+                  "0110" when (i_opcode = "1100011") else
+                  "0010" when (i_opcode = "1101111" or i_opcode = "1100111" or i_opcode = "0010111") else
+                  "----";
+
+  o_ImmType <= "000" when (i_opcode = "0010011") else
+               "010" when (i_opcode = "1100011") else
+               "100" when (i_opcode = "1101111") else
+               "---";
+
+  o_ResultSrc <= "01" when (i_opcode = "0000011") else
+                 "10" when (i_opcode = "1101111" or i_opcode = "1100111") else "00" when (i_opcode = "0010011" or i_opcode = "0110011" or i_opcode = "0010111") else "--";
+
+  o_Mem_Write <= '1' when (i_opcode = "0100011") else
+                 '0';
+
+  o_RegWrite <= '1' when (i_opcode = "0010011" or
+                          i_opcode = "0110011" or
+                          i_opcode = "0110111" or
+                          i_opcode = "0000011" or
+                          i_opcode = "0010111") else
+                '0';
+
+  o_imm_sel <= "01" when (i_opcode = "0010011" or
+                          i_opcode = "0000011" or
+                          i_opcode = "1100011" or
+                          i_opcode = "1101111" or
+                          i_opcode = "1100111") else
+               "10" when (i_opcode = "0110111" or i_opcode = "0010111") else
+               "--";
+
+  o_BranchType <= "000" when (i_opcode = "1100011" and i_funct3 = "000") else
+                  "001" when (i_opcode = "1100011" and i_funct3 = "001") else
+                  "010" when (i_opcode = "1100011" and i_funct3 = "100") else
+                  "011" when (i_opcode = "1100011" and i_funct3 = "101") else
+                  "100" when (i_opcode = "1100011" and i_funct3 = "110") else
+                  "101" when (i_opcode = "1100011" and i_funct3 = "111") else
+                  "---";
+
+  o_MemtoReg <= '1' when (i_opcode = "0000011") else '0';
+
+
+  o_Jump <= '1' when (i_opcode = "1101111" or i_opcode = "1100111") else
+            '0';
+            
+  o_Link <= '1' when (i_opcode = "1101111" or i_opcode = "1100111") else
+            '0';
+
+  o_halt <= '1' when (i_opcode = "1110011") else '0';
+
+end dataflow;
+
+

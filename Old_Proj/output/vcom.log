@@ -1,0 +1,38 @@
+QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+Start time: 16:39:56 on Oct 14,2025
+vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd internal/testpy/tb.vhd proj/src/MIPS_types.vhd proj/src/RISCV_types.vhd proj/src/control/control.vhd proj/src/TopLevel/RISCV_Processor.vhd proj/src/TopLevel/MIPS_Processor.vhd proj/src/TopLevel/mem.vhd proj/src/fetch/PC.vhd proj/src/fetch/fetch.vhd proj/src/fetch/Left_Shifter.vhd proj/src/fetch/plus4.vhd proj/src/Lab2_components/dffg.vhd proj/src/Lab2_components/Extenders/extender_Nt32.vhd proj/src/Lab2_components/RegFile/decoder_5t32.vhd proj/src/Lab2_components/RegFile/dffg_N.vhd proj/src/Lab2_components/RegFile/mux_32t1.vhd proj/src/Lab2_components/RegFile/RV32_regFile.vhd proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd proj/src/Lab2_components/Lab1/mux2t1_N.vhd proj/src/Lab2_components/Lab1/andg2.vhd proj/src/Lab2_components/Lab1/org2.vhd proj/src/Lab2_components/Lab1/Multiplier.vhd proj/src/Lab2_components/Lab1/Adder.vhd proj/src/Lab2_components/Lab1/Reg.vhd proj/src/Lab2_components/Lab1/RegLd.vhd proj/src/Lab2_components/Lab1/invg.vhd proj/src/Lab2_components/Lab1/xorg2.vhd proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd proj/src/Lab2_components/Lab1/Adder/full_adder.vhd proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd proj/src/Lab2_components/Lab1/work/tb_mxu2t1_N.vhd proj/src/Lab2_components/Lab1/work/tb_mux2t1_N.vhd proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd proj/src/extender/butter_extender_Nt32.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package RISCV_types
+-- Compiling package body RISCV_types
+-- Loading package RISCV_types
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+** Warning: proj/src/RISCV_types.vhd(15): (vcom-1615) Existing package 'RISCV_types' at line 18 will be overwritten.
+-- Compiling package RISCV_types
+** Warning: proj/src/RISCV_types.vhd(31): (vcom-1615) Existing package body 'RISCV_types(body)' at line 31 will be overwritten.
+-- Compiling package body RISCV_types
+-- Loading package RISCV_types
+-- Loading package NUMERIC_STD
+-- Compiling entity control
+-- Compiling architecture dataflow of control
+-- Loading package RISCV_types
+-- Compiling entity RISCV_Processor
+-- Compiling architecture structure of RISCV_Processor
+-- Loading package MIPS_types
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+** Error: (vcom-11) Could not find work.regfile_pkg.
+** Error (suppressible): proj/src/fetch/PC.vhd(3): (vcom-1195) Cannot find expanded name "work.regfile_pkg".
+** Error: proj/src/fetch/PC.vhd(3): Unknown expanded name.
+** Note: proj/src/fetch/PC.vhd(5): VHDL Compiler exiting
+End time: 16:39:56 on Oct 14,2025, Elapsed time: 0:00:00
+Errors: 3, Warnings: 2

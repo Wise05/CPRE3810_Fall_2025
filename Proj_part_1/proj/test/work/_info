@@ -1,0 +1,275 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/shanen/CPRE 3810 Project 1/Project_Part_1/proj/test
+T_opt
+!s110 1761165225
+VI0n;BE0K_3O0NiQD>4b7o2
+04 12 8 work tb_alu_total behavior 1
+=1-000ae431a4f1-68f93fa9-974ac-11db5
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0
+n@_opt
+OL;O;2025.1_2;82
+Eaddsub_overflow
+Z1 w1761149699
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 20
+Z4 d/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test
+Z5 8/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd
+Z6 F/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd
+l0
+L7 1
+V1=WAOBMHS;:gI^nl]P1B:0
+!s100 SS74<lS]NkiKf`HT]SK7H1
+Z7 OL;C;2025.1_2;82
+33
+Z8 !s110 1761165216
+!i10b 1
+Z9 !s108 1761165216.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd|
+Z11 !s107 /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd|
+!i113 0
+Z12 o-work work
+Z13 tExplicit 1 NoCoverage 1 CvgOpt 0
+Astructural
+R2
+R3
+DEx4 work 15 addsub_overflow 0 22 1=WAOBMHS;:gI^nl]P1B:0
+!i122 20
+l56
+L19 68
+V`XQHCdOehCUY;NAcZYYQG0
+!s100 QD6;TDP]6f2WMKj_lAWH;0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Ealu_total
+R1
+R2
+R3
+!i122 21
+R4
+Z14 8/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd
+Z15 F/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd
+l0
+L4 1
+VnE:Ezbg4P`7W^gSfmzhYU0
+!s100 d`EC9LzIM@6QYHF[en4_41
+R7
+33
+R8
+!i10b 1
+R9
+Z16 !s90 -reportprogress|300|-work|work|/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd|
+Z17 !s107 /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd|
+!i113 0
+R12
+R13
+Astructural
+R2
+R3
+DEx4 work 9 alu_total 0 22 nE:Ezbg4P`7W^gSfmzhYU0
+!i122 21
+l81
+L16 125
+VVz@:Mj4kNfzolzS^i]haC0
+!s100 Hhe[8^<ba]CcA3I@khRe^0
+R7
+33
+R8
+!i10b 1
+R9
+R16
+R17
+!i113 0
+R12
+R13
+Ebranch
+R1
+R2
+R3
+!i122 22
+R4
+Z18 8/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/Branch.vhd
+Z19 F/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/Branch.vhd
+l0
+L4 1
+VRh;<R2?6CJX9?f@M2X6T@3
+!s100 @N[2l9<A>DHCVHD>8o_Wn1
+R7
+33
+R8
+!i10b 1
+R9
+Z20 !s90 -reportprogress|300|-work|work|/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/Branch.vhd|
+Z21 !s107 /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/Branch.vhd|
+!i113 0
+R12
+R13
+Astructural
+R2
+R3
+DEx4 work 6 branch 0 22 Rh;<R2?6CJX9?f@M2X6T@3
+!i122 22
+l19
+L14 40
+V;h6I=0gfag6ZiPAYERIB?1
+!s100 Gn3E7cdR_>@A=g1?iJ]BZ2
+R7
+33
+R8
+!i10b 1
+R9
+R20
+R21
+!i113 0
+R12
+R13
+Ecarry_adder_n_over
+R1
+R2
+R3
+!i122 23
+R4
+Z22 8/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+Z23 F/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+l0
+L7 1
+V;UUd0?[4ahhGMFY28b<^B1
+!s100 eale@:2B:Tfbe4gn`z4CS0
+R7
+33
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd|
+Z25 !s107 /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd|
+!i113 0
+R12
+R13
+Astructural
+R2
+R3
+DEx4 work 18 carry_adder_n_over 0 22 ;UUd0?[4ahhGMFY28b<^B1
+!i122 23
+l31
+L17 33
+Vn:7T6HeUaQV6<`ZThSI4F2
+!s100 6eWZ8ff9PNfDF61WC?H_53
+R7
+33
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 0
+R12
+R13
+Emux_16t1
+R1
+R2
+R3
+!i122 24
+R4
+Z26 8/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/mux_16t1.vhd
+Z27 F/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/mux_16t1.vhd
+l0
+L4 1
+VinCR<me?nYYGO97Lk56T:0
+!s100 c_TJcoiZVJX?gi9=gDDbC3
+R7
+33
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-work|work|/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/mux_16t1.vhd|
+Z29 !s107 /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/mux_16t1.vhd|
+!i113 0
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 8 mux_16t1 0 22 inCR<me?nYYGO97Lk56T:0
+!i122 24
+l31
+L30 21
+V2if1Fb4C>FOzRTF^Dn:L53
+!s100 Gh5jmfP>l0ePAJP29khNC2
+R7
+33
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 0
+R12
+R13
+Etb_alu_total
+Z30 w1761165019
+Z31 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 19
+R4
+Z32 8/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd
+Z33 F/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd
+l0
+L5 1
+VUHcLZM=V4Io@5HT`:e=6h3
+!s100 AcF5SH^c2zX9z0I1nBfTA2
+R7
+33
+Z34 !s110 1761165206
+!i10b 1
+Z35 !s108 1761165206.000000
+Z36 !s90 -reportprogress|300|-work|work|/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd|
+Z37 !s107 /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd|
+!i113 0
+R12
+R13
+Abehavior
+R31
+R2
+R3
+DEx4 work 12 tb_alu_total 0 22 UHcLZM=V4Io@5HT`:e=6h3
+!i122 19
+l37
+L10 128
+VECE=a``c5a3QflKd8N5zB2
+!s100 AVXz3nSIhd^hBi4KYBmkV0
+R7
+33
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 0
+R12
+R13

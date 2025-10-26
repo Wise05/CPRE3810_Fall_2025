@@ -1,0 +1,57 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Load canceled
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/fetch/tb_fetch.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:19:12 on Oct 14,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Project Part 1/cpre3810-toolflow/cpre3810-toolflow/proj/src/fetch/tb_fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package regfile_pkg
+# -- Compiling entity tb_fetch
+# -- Compiling architecture behavior of tb_fetch
+# End time: 18:19:12 on Oct 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_fetch -voptargs=+acc
+# vsim work.tb_fetch -voptargs="+acc" 
+# Start time: 18:19:28 on Oct 14,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.regfile_pkg(body)
+# Loading work.tb_fetch(behavior)#1
+# Loading work.fetch(structural)#1
+# Loading work.pc(structural)#1
+# Loading work.dffg_n(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.carry_adder_n(structural)#1
+# Loading work.full_adder(behavior)#1
+# Loading work.xorg2(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+# Loading work.left_shifter(structural)#1
+# Loading work.mux2t1_n(structural)#1
+# Loading work.mux2t1(behavior)#1
+# Loading work.invg(dataflow)#1
+add wave sim:/tb_tpu_fetch/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_tpu_fetch/*'.
+add wave sim:/tb_fetch/*
+run 1000
