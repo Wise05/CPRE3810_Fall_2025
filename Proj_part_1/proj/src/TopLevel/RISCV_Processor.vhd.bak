@@ -89,6 +89,7 @@ architecture structure of RISCV_Processor is
   signal s_Link : std_logic;
   signal s_Branch : std_logic;
   signal s_PCReg : std_logic;
+  signal s_auipcSrc : std_logic;
 
 
   -- ALU
@@ -135,6 +136,7 @@ architecture structure of RISCV_Processor is
         o_Jump       : out std_logic;
         o_Link       : out std_logic;
 	o_Branch  : out std_logic;
+	o_auipcSrc  : out std_logic;
 	o_PCReg : out std_logic
       );
     end component;
@@ -250,6 +252,7 @@ begin
       o_Jump => s_Jump,
       o_Link => s_Link,	
       o_Branch => s_Branch,
+	o_auipcSrc => s_auipcSrc,
       o_PCReg => s_PCReg
     );
 
@@ -329,10 +332,10 @@ begin
         o_O => s_RegWrData
       );
 
-     AuiPC_Mux : mux2
+     AuiPC_Mux : mux2t1_N
       generic map (N => 32)
       port map (
-        i_S => s_PCReg,
+        i_S => s_auipcSrc,
         i_D0 => s_Inst,
         i_D1 => s_NextInstAddr,
         o_O => s_extender_in

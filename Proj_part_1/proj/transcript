@@ -13,13 +13,17 @@
 # // and may not be used in any way not expressly authorized by SISW.
 # //
 add wave -position insertpoint  \
-vsim:/tb/MyRiscv/AuiPC_Mux/i_S \
-vsim:/tb/MyRiscv/AuiPC_Mux/i_D0 \
-vsim:/tb/MyRiscv/AuiPC_Mux/i_D1 \
-vsim:/tb/MyRiscv/AuiPC_Mux/o_O
+vsim:/tb/CLK \
+vsim:/tb/reset \
+vsim:/tb/reset_done \
+vsim:/tb/alu_out
 add wave -position insertpoint  \
-vsim:/tb/MyRiscv/mind_control/o_PCReg
+vsim:/tb/MyRiscv/ALU/A
 add wave -position insertpoint  \
-vsim:/tb/MyRiscv/Sign_Extend/imm_in
+vsim:/tb/MyRiscv/ALU/B
 add wave -position insertpoint  \
-vsim:/tb/MyRiscv/IMem/q
+vsim:/tb/MyRiscv/ALU/S
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/ALU/s_AddSub
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/mind_control/o_ALUControl

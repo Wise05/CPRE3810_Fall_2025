@@ -89,6 +89,7 @@ architecture structure of RISCV_Processor is
   signal s_Link : std_logic;
   signal s_Branch : std_logic;
   signal s_PCReg : std_logic;
+  signal s_auipcSrc : std_logic;
 
 
   -- ALU
@@ -100,7 +101,7 @@ architecture structure of RISCV_Processor is
   signal s_andLink_imm : std_logic_vector(31 downto 0);
   signal s_notDMem : std_logic_vector(31 downto 0);
 
-  signal s_extender_in : std_logic_vector(31 downto 0);
+  signal s_ALU_A : std_logic_vector(31 downto 0);
 
 
   component mem is
@@ -135,6 +136,7 @@ architecture structure of RISCV_Processor is
         o_Jump       : out std_logic;
         o_Link       : out std_logic;
 	o_Branch  : out std_logic;
+	o_auipcSrc  : out std_logic;
 	o_PCReg : out std_logic
       );
     end component;
@@ -250,6 +252,7 @@ begin
       o_Jump => s_Jump,
       o_Link => s_Link,	
       o_Branch => s_Branch,
+	o_auipcSrc => s_auipcSrc,
       o_PCReg => s_PCReg
     );
 
@@ -283,7 +286,7 @@ begin
     Sign_Extend : butter_extender_Nt32
       generic map (N => 32)
       port map (
-        imm_in => s_extender_in,
+        imm_in => s_Inst,
         sign_ext => s_imm_sel,
         imm_type => s_ImmType,
         imm_out => s_extended_imm
@@ -291,7 +294,7 @@ begin
 
     ALU : ALU_Total
       port map (
-         A => s_OS1,
+         A => s_ALU_A,
     	B => s_ALU_B,
     	ALU_Control => s_ALUControl,
     	Branch_Control => s_BranchType,
@@ -332,10 +335,10 @@ begin
      AuiPC_Mux : mux2t1_N
       generic map (N => 32)
       port map (
-        i_S => s_PCReg,
-        i_D0 => s_Inst,
+        i_S => s_auipcSrc,
+        i_D0 => s_OS1,
         i_D1 => s_NextInstAddr,
-        o_O => s_extender_in
+        o_O => s_ALU_A
       );
 
 s_RegWrAddr <= s_Inst(11 downto 7);
