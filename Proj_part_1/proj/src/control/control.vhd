@@ -63,7 +63,7 @@ begin
   o_ImmType <= "000" when (i_opcode = "0010011") else
                "010" when (i_opcode = "1100011") else
                "100" when (i_opcode = "1101111") else
-	       "001" when (i_opcode = "0100011") else 
+	       "001" when (i_opcode = "0100011" or i_opcode = "0000011") else 
                "---";
 
   o_ResultSrc <= "01" when (i_opcode = "0000011") else
@@ -104,8 +104,11 @@ begin
   o_BranchType <= "000" when (i_opcode = "1100011" and i_funct3 = "000") else
                   "001" when (i_opcode = "1100011" and i_funct3 = "001") else
                   "010" when (i_opcode = "1100011" and i_funct3 = "100") else
+		  "010" when (i_opcode = "0110011" and i_funct3 = "010") else 
+		  "010" when (i_opcode = "0010011" and i_funct3 = "010") else
                   "011" when (i_opcode = "1100011" and i_funct3 = "101") else
                   "100" when (i_opcode = "1100011" and i_funct3 = "110") else
+		  "100" when (i_opcode = "0010011" and i_funct3 = "011") else
                   "101" when (i_opcode = "1100011" and i_funct3 = "111") else
                   "---";
 

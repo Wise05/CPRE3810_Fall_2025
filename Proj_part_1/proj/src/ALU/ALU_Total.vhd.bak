@@ -22,6 +22,8 @@ architecture structural of ALU_Total is
   signal s_AddSub : std_logic_vector(31 downto 0);
   signal s_C, s_Overflw : std_logic;
   signal s_BarrelShifted : std_logic_vector(31 downto 0);
+  signal s_zero : std_logic;
+  signal s_setLessThan : std_logic_vector(31 downto 0);
 
   component AddSub_overflow is 
     generic(N : integer := 16);
@@ -59,7 +61,7 @@ architecture structural of ALU_Total is
     );
   end component;
 
-  component BarrelShifter is 
+  component barrel_shifter is 
    port (
     data_in     : in  std_logic_vector(31 downto 0);
     shift_amt    : in  std_logic_vector(4 downto 0);
@@ -68,7 +70,7 @@ architecture structural of ALU_Total is
   );
   end component;
 
-  component BranchController is
+  component Branch is
     port (
       Difference : in std_logic_vector(31 downto 0);
       Branch_Control : in std_logic_vector(2 downto 0);
@@ -94,7 +96,7 @@ begin
       Overflow_out => s_Overflw 
     );
     
-  shifty_time : BarrelShifter 
+  shifty_time : barrel_shifter 
     port map (
       data_in => A,
       shift_amt => B(4 downto 0),
@@ -102,14 +104,18 @@ begin
       result => s_BarrelShifted
     );
 
-  branch : BranchController 
+  branch_time : Branch 
     port map (
       Difference => s_AddSub,
       Branch_Control => Branch_Control,
 	C_out => s_C,
       Overflow => s_Overflw,
-      Zero => zero
+      Zero => s_zero
     );
+
+zero <= s_zero;
+
+s_setLessThan <= x"00000001" when (s_zero = '0') else '0';
 
   big_mux : mux_16t1
     generic map (WIDTH => 32)
@@ -123,7 +129,7 @@ begin
       in5 => s_BarrelShifted,
       in6 => s_AddSub,
       in7 => s_BarrelShifted,
-      in8 => s_BarrelShifted,
+      in8 => s_setLessThan,
       in9 => s_BarrelShifted,
       in10 => s_BarrelShifted,
       in11 => x"00000000",

@@ -22,6 +22,8 @@ architecture structural of ALU_Total is
   signal s_AddSub : std_logic_vector(31 downto 0);
   signal s_C, s_Overflw : std_logic;
   signal s_BarrelShifted : std_logic_vector(31 downto 0);
+  signal s_zero : std_logic;
+  signal s_setLessThan : std_logic_vector(31 downto 0);
 
   component AddSub_overflow is 
     generic(N : integer := 16);
@@ -108,8 +110,12 @@ begin
       Branch_Control => Branch_Control,
 	C_out => s_C,
       Overflow => s_Overflw,
-      Zero => zero
+      Zero => s_zero
     );
+
+zero <= s_zero;
+
+s_setLessThan <= x"00000001" when (s_zero = '0') else x"00000000";
 
   big_mux : mux_16t1
     generic map (WIDTH => 32)
@@ -123,7 +129,7 @@ begin
       in5 => s_BarrelShifted,
       in6 => s_AddSub,
       in7 => s_BarrelShifted,
-      in8 => s_BarrelShifted,
+      in8 => s_setLessThan,
       in9 => s_BarrelShifted,
       in10 => s_BarrelShifted,
       in11 => x"00000000",
