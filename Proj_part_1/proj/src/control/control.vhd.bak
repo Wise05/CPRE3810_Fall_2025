@@ -53,14 +53,14 @@ begin
                   "0101" when (i_opcode = "0110011" and i_funct3 = "101" and i_funct7 = "0000000") else
                   "0111" when (i_opcode = "0110011" and i_funct3 = "101" and i_funct7 = "0100000") else
                   "0110" when (i_opcode = "0110011" and i_funct3 = "000" and i_funct7 = "0100000") else
-                  "0001" when (i_opcode = "0110111") else
                   "0010" when (i_opcode = "0000011") else
 		  "0010" when (i_opcode = "0100011") else
                   "0110" when (i_opcode = "1100011") else
                   "0010" when (i_opcode = "1101111" or i_opcode = "1100111" or i_opcode = "0010111") else
+		  "1011" when (i_opcode = "0110111") else
                   "----";
 
-  o_ImmType <= "000" when (i_opcode = "0010011 or i_opcode = "0000011") else
+  o_ImmType <= "000" when (i_opcode = "0010011" or i_opcode = "0000011") else
                "010" when (i_opcode = "1100011") else
                "100" when (i_opcode = "1101111") else
 	       "001" when (i_opcode = "0100011") else 
@@ -78,8 +78,7 @@ begin
                           i_opcode = "0000011" or
                           i_opcode = "1101111" or
                           i_opcode = "1100111" or
-                          i_opcode = "0010111") else
-                '0';
+                          i_opcode = "0010111" ) else '0';
 
   o_imm_sel <= "01" when (
     (i_opcode = "0010011" and i_funct3 = "000") or

@@ -7,6 +7,7 @@ entity control is
     i_opcode     : in  std_logic_vector(6 downto 0);
     i_funct3     : in  std_logic_vector(2 downto 0);
     i_funct7     : in  std_logic_vector(6 downto 0);
+    i_imm	 : in std_logic_vector(11 downto 0);
     o_ALUSRC     : out std_logic;
     o_ALUControl : out std_logic_vector(3 downto 0);
     o_ImmType    : out std_logic_vector(2 downto 0);
@@ -53,11 +54,11 @@ begin
                   "0101" when (i_opcode = "0110011" and i_funct3 = "101" and i_funct7 = "0000000") else
                   "0111" when (i_opcode = "0110011" and i_funct3 = "101" and i_funct7 = "0100000") else
                   "0110" when (i_opcode = "0110011" and i_funct3 = "000" and i_funct7 = "0100000") else
-                  "0001" when (i_opcode = "0110111") else
                   "0010" when (i_opcode = "0000011") else
 		  "0010" when (i_opcode = "0100011") else
                   "0110" when (i_opcode = "1100011") else
                   "0010" when (i_opcode = "1101111" or i_opcode = "1100111" or i_opcode = "0010111") else
+		  "1011" when (i_opcode = "0110111") else
                   "----";
 
   o_ImmType <= "000" when (i_opcode = "0010011" or i_opcode = "0000011") else
@@ -78,8 +79,7 @@ begin
                           i_opcode = "0000011" or
                           i_opcode = "1101111" or
                           i_opcode = "1100111" or
-                          i_opcode = "0010111") else
-                '0';
+                          i_opcode = "0010111" ) else '0';
 
   o_imm_sel <= "01" when (
     (i_opcode = "0010011" and i_funct3 = "000") or
@@ -121,7 +121,7 @@ begin
   o_Link <= '1' when (i_opcode = "1101111" or i_opcode = "1100111") else
             '0';
 
-  o_halt <= '1' when (i_opcode = "1110011") else '0';
+  o_halt <= '1' when (i_opcode = "1110011" and i_imm = "000100000101") else '0';
   
   o_Branch <= '1' when (i_opcode = "1100011") else '0';
   

@@ -101,7 +101,7 @@ architecture structure of RISCV_Processor is
   signal s_andLink_imm : std_logic_vector(31 downto 0);
   signal s_notDMem : std_logic_vector(31 downto 0);
 
-  signal s_extender_in : std_logic_vector(31 downto 0);
+  signal s_ALU_A : std_logic_vector(31 downto 0);
 
 
   component mem is
@@ -123,6 +123,7 @@ architecture structure of RISCV_Processor is
         i_opcode     : in  std_logic_vector(6 downto 0);
         i_funct3     : in  std_logic_vector(2 downto 0);
         i_funct7     : in  std_logic_vector(6 downto 0);
+	i_imm	     : in std_logic_vector(11 downto 0);
         o_ALUSRC     : out std_logic;
         o_ALUControl : out std_logic_vector(3 downto 0);
         o_ImmType    : out std_logic_vector(2 downto 0);
@@ -239,6 +240,7 @@ begin
       i_opcode => s_Inst(6 downto 0),
       i_funct3 => s_Inst(14 downto 12),
       i_funct7 => s_Inst(31 downto 25),
+      i_imm => s_Inst(31 downto 19),
       o_ALUSRC => s_ALUSRC,
       o_ALUControl => s_ALUControl,
       o_ImmType => s_ImmType,
@@ -286,7 +288,7 @@ begin
     Sign_Extend : butter_extender_Nt32
       generic map (N => 32)
       port map (
-        imm_in => s_extender_in,
+        imm_in => s_Inst,
         sign_ext => s_imm_sel,
         imm_type => s_ImmType,
         imm_out => s_extended_imm
@@ -294,7 +296,7 @@ begin
 
     ALU : ALU_Total
       port map (
-         A => s_OS1,
+         A => s_ALU_A,
     	B => s_ALU_B,
     	ALU_Control => s_ALUControl,
     	Branch_Control => s_BranchType,
@@ -336,9 +338,9 @@ begin
       generic map (N => 32)
       port map (
         i_S => s_auipcSrc,
-        i_D0 => s_Inst,
+        i_D0 => s_OS1,
         i_D1 => s_NextInstAddr,
-        o_O => s_extender_in
+        o_O => s_ALU_A
       );
 
 s_RegWrAddr <= s_Inst(11 downto 7);

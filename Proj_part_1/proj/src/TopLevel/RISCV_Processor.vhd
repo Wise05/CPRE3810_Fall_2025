@@ -123,6 +123,7 @@ architecture structure of RISCV_Processor is
         i_opcode     : in  std_logic_vector(6 downto 0);
         i_funct3     : in  std_logic_vector(2 downto 0);
         i_funct7     : in  std_logic_vector(6 downto 0);
+	i_imm	     : in std_logic_vector(11 downto 0);
         o_ALUSRC     : out std_logic;
         o_ALUControl : out std_logic_vector(3 downto 0);
         o_ImmType    : out std_logic_vector(2 downto 0);
@@ -239,6 +240,7 @@ begin
       i_opcode => s_Inst(6 downto 0),
       i_funct3 => s_Inst(14 downto 12),
       i_funct7 => s_Inst(31 downto 25),
+      i_imm => s_Inst(31 downto 20),
       o_ALUSRC => s_ALUSRC,
       o_ALUControl => s_ALUControl,
       o_ImmType => s_ImmType,

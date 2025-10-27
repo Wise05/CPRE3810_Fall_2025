@@ -88,7 +88,7 @@ begin
 
   s_controlAdder <= '1' when (ALU_Control = "0110" or 
 				ALU_Control = "1000" or 
-				ALU_Control = "1001" );
+				ALU_Control = "1001" ) else '0';
 
   adder : AddSub_overflow 
     generic map (N => 32)
