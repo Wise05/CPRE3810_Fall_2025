@@ -3,12 +3,10 @@
 # Recursive Merge Sort implemented using only allowed RV32I
 # instructions. Works in RARS.
 ############################################################
-
 .data
 array:  .word 9, 3, 7, 1, 8, 2, 6, 4
 n:      .word 8
 temp:   .space 32           # temporary buffer (8 words * 4B)
-
 newline: .asciiz "\n"
 
 .text
@@ -21,11 +19,8 @@ main:
     la   x10, array          # x10 = base address of array
     lw   x11, n              # x11 = number of elements
     addi x12, x0, 0          # left index = 0
-
-    # call mergesort(array, left=0, right=n-1)
-    addi x13, x11, -1
+    addi x13, x11, -1        # right index = n-1
     jal  x1, mergesort
-
     # Program finished — halt
     wfi
 
@@ -38,45 +33,49 @@ main:
 #   merge(left, mid, right)
 ############################################################
 mergesort:
-    addi x2, x2, -24          # stack frame
-    sw   x1, 20(x2)
-    sw   x10, 16(x2)
-    sw   x12, 12(x2)
-    sw   x13, 8(x2)
-
-    blt  x12, x13, do_split
-    j    end_mergesort
-
-do_split:
-    add  x14, x12, x13        # mid calc
-    srli x14, x14, 1          # divide by 2
-
-    # mergesort(left, mid)
-    addi x13, x14, 0
+    addi x2, x2, -28          # stack frame (7 slots * 4 bytes)
+    sw   x1, 24(x2)           # save return address
+    sw   x10, 20(x2)          # save base
+    sw   x12, 16(x2)          # save left
+    sw   x13, 12(x2)          # save right
+    sw   x14, 8(x2)           # save x14 (will hold mid)
+    
+    # Check if left < right
+    bge  x12, x13, end_mergesort
+    
+    # Calculate mid = (left + right) / 2
+    add  x14, x12, x13
+    srli x14, x14, 1
+    sw   x14, 8(x2)           # save mid value
+    
+    # First recursive call: mergesort(base, left, mid)
+    addi x13, x14, 0          # right = mid
     jal  x1, mergesort
-
-    # restore base and registers after return
-    lw   x10, 16(x2)
-    lw   x12, 12(x2)
-    lw   x13, 8(x2)
-
-    # mergesort(mid+1, right)
-    addi x12, x14, 1
+    
+    # Restore all registers
+    lw   x10, 20(x2)          # restore base
+    lw   x12, 16(x2)          # restore left
+    lw   x13, 12(x2)          # restore right
+    lw   x14, 8(x2)           # restore mid
+    
+    # Second recursive call: mergesort(base, mid+1, right)
+    addi x12, x14, 1          # left = mid + 1
     jal  x1, mergesort
-
-    # restore
-    lw   x10, 16(x2)
-    lw   x12, 12(x2)
-    lw   x13, 8(x2)
-
-    # merge(left, mid, right)
-    addi x11, x14, 0
+    
+    # Restore all registers again
+    lw   x10, 20(x2)          # restore base
+    lw   x12, 16(x2)          # restore left
+    lw   x13, 12(x2)          # restore right
+    lw   x14, 8(x2)           # restore mid
+    
+    # Call merge(base, left, mid, right)
+    addi x11, x14, 0          # x11 = mid for merge
     jal  x1, merge
 
 end_mergesort:
-    lw   x1, 20(x2)
-    addi x2, x2, 24
-    jalr x0, 0(x1)
+    lw   x1, 24(x2)           # restore return address
+    addi x2, x2, 28           # deallocate stack
+    jalr x0, 0(x1)            # return
 
 ############################################################
 # merge(base=x10, left=x12, mid=x11, right=x13)
@@ -89,26 +88,27 @@ merge:
     sw   x11, 36(x2)
     sw   x12, 32(x2)
     sw   x13, 28(x2)
-
-    la   x14, temp          # temp array base
-    addi x15, x12, 0        # i = left
-    addi x16, x11, 1        # j = mid+1
-    addi x17, x12, 0        # k = left (for temp)
+    
+    la   x14, temp            # temp array base
+    addi x15, x12, 0          # i = left
+    addi x16, x11, 1          # j = mid+1
+    addi x17, x12, 0          # k = left (index for temp)
 
 merge_loop:
-    bgt  x15, x11, right_side   # if i > mid
-    bgt  x16, x13, left_side    # if j > right
-
+    blt  x11, x15, right_side # if mid < i, copy right side
+    blt  x13, x16, left_side  # if right < j, copy left side
+    
     # load A[i]
     slli x18, x15, 2
     add  x19, x10, x18
     lw   x20, 0(x19)
-
+    
     # load A[j]
     slli x21, x16, 2
     add  x22, x10, x21
     lw   x23, 0(x22)
-
+    
+    # Compare and take smaller
     blt  x20, x23, take_left
     j    take_right
 
@@ -128,8 +128,8 @@ take_right:
     addi x17, x17, 1
     j    merge_loop
 
-left_side:                    # Copy remaining left side
-    bgt  x15, x11, copy_done
+left_side:
+    blt  x11, x15, copy_done
     slli x18, x15, 2
     add  x19, x10, x18
     lw   x20, 0(x19)
@@ -140,8 +140,8 @@ left_side:                    # Copy remaining left side
     addi x17, x17, 1
     j    left_side
 
-right_side:                   # Copy remaining right side
-    bgt  x16, x13, copy_done
+right_side:
+    blt  x13, x16, copy_done
     slli x21, x16, 2
     add  x22, x10, x21
     lw   x23, 0(x22)
@@ -153,17 +153,16 @@ right_side:                   # Copy remaining right side
     j    right_side
 
 copy_done:
-    # copy back from temp to array
+    # Copy back from temp to array
     addi x17, x12, 0          # k = left
+
 copyback_loop:
-    bgt  x17, x13, merge_exit
+    blt  x13, x17, merge_exit
     slli x24, x17, 2
     add  x25, x14, x24
     lw   x26, 0(x25)
-
     add  x27, x10, x24
     sw   x26, 0(x27)
-
     addi x17, x17, 1
     j    copyback_loop
 
@@ -171,4 +170,3 @@ merge_exit:
     lw   x1, 44(x2)
     addi x2, x2, 48
     jalr x0, 0(x1)
-
