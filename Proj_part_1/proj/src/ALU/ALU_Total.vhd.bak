@@ -17,6 +17,7 @@ architecture structural of ALU_Total is
   -- 0000 AND, 0001 OR, 0011 XOR
   -- 0010 ADD, 0110 SUB 
   -- 0100 SLL, 0101 SRL, 0111 SRA, 1000 SLT
+  -- 1011 LUI
 
   signal s_AND, s_OR, s_XOR : std_logic_vector(31 downto 0);
   signal s_AddSub : std_logic_vector(31 downto 0);
@@ -137,7 +138,7 @@ s_setLessThan <= x"00000001" when (s_zero = '1') else x"00000000";
       in8 => s_setLessThan,
       in9 => s_BarrelShifted,
       in10 => s_BarrelShifted,
-      in11 => x"00000000",
+      in11 => B,
       in12 => x"00000000",
       in13 => x"00000000",
       in14 => x"00000000",

@@ -1,0 +1,38 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity load_handler is 
+  port (
+    DMEM_in : in std_logic_vector(31 downto 0);
+    load_control : in std_logic_vector(2 downto 0); -- 000: lw, 001: 1b, 010: lh, 011: lbu, 100: lhu
+    DMEM_out : out std_logic_vector(31 downto 0)
+  );
+end load_handler;
+
+architecture structural of load_handler is 
+
+signal s_lb, s_lh, s_lbu, s_lhu : std_logic_vector(31 downto 0);
+signal sign_bit_byte, sign_bit_half : std_logic;
+
+begin
+
+sign_bit_byte <= DMEM_in(7);
+s_lbu <= (DMEM_in(7 downto 0)) & (31 downto 8 => '1') when sign_bit_byte = '1' else (DMEM_in(7 downto 0)) & (31 downto 8 => '0');
+
+sign_bit_half <= DMEM_in(15);
+s_lbu <= (DMEM_in(15 downto 0)) & (31 downto 16 => '1') when sign_bit_byte = '1' else (DMEM_in(15 downto 0)) & (31 downto 16 => '0');
+
+s_lbu <= (DMEM_in(7 downto 0)) & (31 downto 8 => '0');
+
+s_lhu <= (DMEM_in(15 downto 0)) & (31 downto 16 => '0');
+
+
+with load_control select
+DMEM_out <= DMEM_in when "000",
+	s_lb when "001",
+	s_lh when "010",
+	s_lbu when "011",
+	s_lhu when "100"
+	x"00000000" when others;
+
+end structural;

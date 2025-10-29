@@ -12,6 +12,7 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
+<<<<<<< HEAD
 vsim work.tb_left_shifter -voptargs=+acc
 # vsim work.tb_left_shifter -voptargs="+acc" 
 # Start time: 14:28:37 on Oct 29,2025
@@ -27,3 +28,97 @@ vsim work.tb_left_shifter -voptargs=+acc
 add wave sim:/tb_Left_Shifter/*
 run 1000
 # Causality operation skipped due to absence of debug database file
+=======
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:19:37 on Oct 29,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity load_handler
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(9): (vcom-1576) Invalid ';' before ')'.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(9): VHDL Compiler exiting
+# End time: 16:19:37 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:19:59 on Oct 29,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity load_handler
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(10): Labels do not match: 'load_handler' and 'ALU_Total'.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(10): VHDL Compiler exiting
+# End time: 16:19:59 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:19:59 on Oct 29,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity load_handler
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(10): Labels do not match: 'load_handler' and 'ALU_Total'.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(10): VHDL Compiler exiting
+# End time: 16:19:59 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:20:12 on Oct 29,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity load_handler
+# -- Compiling architecture structural of load_handler
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(19): (vcom-1136) Unknown identifier "DMEM".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(20): Enumeration literal 'F' is type std.STANDARD.CHARACTER; expecting type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(22): (vcom-1136) Unknown identifier "DMEM".
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(23): Enumeration literal 'F' is type std.STANDARD.CHARACTER; expecting type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(36): near "00000000": (vcom-1576) expecting ';' or ','.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(38): VHDL Compiler exiting
+# End time: 16:20:12 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:20:33 on Oct 29,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity load_handler
+# -- Compiling architecture structural of load_handler
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(20): Enumeration literal 'F' is type std.STANDARD.CHARACTER; expecting type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(23): Enumeration literal 'F' is type std.STANDARD.CHARACTER; expecting type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(36): near "00000000": (vcom-1576) expecting ';' or ','.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(38): VHDL Compiler exiting
+# End time: 16:20:33 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:21:04 on Oct 29,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity load_handler
+# -- Compiling architecture structural of load_handler
+# ** Error: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(36): near "00000000": (vcom-1576) expecting ';' or ','.
+# ** Note: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd(38): VHDL Compiler exiting
+# End time: 16:21:04 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 16:21:16 on Oct 29,2025
+# vcom -reportprogress 300 -work work /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity load_handler
+# -- Compiling architecture structural of load_handler
+# End time: 16:21:16 on Oct 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+>>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)

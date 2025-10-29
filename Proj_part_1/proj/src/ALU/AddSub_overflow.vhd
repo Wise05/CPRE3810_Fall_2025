@@ -83,5 +83,6 @@ begin
     );
 
     Overflow_out <= C_Nsub1_s xor C_out_s;
+    C_out <= C_out_s;
 end structural;
 
