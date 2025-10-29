@@ -63,7 +63,7 @@ begin
       o_imm_sel    => o_imm_sel,
       o_BranchType => o_BranchType,
       o_Jump       => o_Jump,
-      i_imm => '0'
+      i_imm => i_imm
     );
 
   -- Stimulus process

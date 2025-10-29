@@ -4,11 +4,11 @@ use IEEE.numeric_std.all;
 
 entity tb_fetch is
   generic(gCLK_HPER   : time := 50 ns;
-          N : integer := 32);
+      	N : integer := 32);
 end tb_fetch;
 
 architecture behavior of tb_fetch is
-  
+ 
   -- Calculate the clock period as twice the half-period
   constant cCLK_PER  : time := gCLK_HPER * 2;
 
@@ -17,12 +17,12 @@ architecture behavior of tb_fetch is
   port (
     clk : in std_logic;
     rst : in std_logic;
-    -- Maybe we need RegWrite for the PC, but rn it will be set to 1
     branch : in std_logic;
     zero_flag_ALU : in std_logic;
     jump : in std_logic;
     imm : in std_logic_vector(31 downto 0); -- immediate offset
-    o_clk : out std_logic;
+    PCReg : in std_logic;
+    reg_in : in std_logic_vector(31 downto 0);
     instr_addr : out std_logic_vector(31 downto 0); -- address sent to imem
     plus4_o : out std_logic_vector(31 downto 0) -- address that gets sent to "AndLink" address
 );
@@ -35,33 +35,33 @@ architecture behavior of tb_fetch is
   signal s_zero_flag_ALU : std_logic := '0';
   signal s_jump : std_logic := '0';
   signal s_imm : std_logic_vector(31 downto 0) := (others => '0');
-  signal s_o_clk : std_logic := '0';
   signal s_instr_addr : std_logic_vector(31 downto 0) := (others => '0');
   signal s_plus4_o : std_logic_vector(31 downto 0) := (others => '0');
+  signal s_PCReg :  std_logic := '0';
+  signal s_reg_in:  std_logic_vector(31 downto 0) := (others => '0');
 
 begin
 
   DUT: fetch
   port map(clk => s_CLK,
-    	   rst => s_RST,
-    	   branch => s_branch,
-    	   zero_flag_ALU => s_zero_flag_ALU,
-   	   jump => s_jump,
-    	   imm => s_imm,
-    	   o_clk => s_o_clk,
-    	   instr_addr => s_instr_addr,
-    	   plus4_o => s_plus4_o
+       	rst => s_RST,
+       	branch => s_branch,
+       	zero_flag_ALU => s_zero_flag_ALU,
+      	jump => s_jump,
+       	imm => s_imm,
+       	instr_addr => s_instr_addr,
+       	plus4_o => s_plus4_o
 );
-	
+    
 
   P_CLK: process
   begin
-    s_CLK <= '0';
-    wait for gCLK_HPER;
-    s_CLK <= '1';
-    wait for gCLK_HPER;
+	s_CLK <= '0';
+	wait for gCLK_HPER;
+	s_CLK <= '1';
+	wait for gCLK_HPER;
   end process;
-  
+ 
   -- Testbench process  
   P_TB: process
   begin
@@ -71,20 +71,44 @@ begin
   s_RST <= '0';
 
 --1 Addi
-    s_branch <= '0';
-    s_jump <= '0';
-    s_imm <= x"00000111";
-    s_zero_flag_ALU <= '0';
-    wait for cCLK_PER; 
+	s_branch <= '0';
+	s_jump <= '0';
+	s_imm <= x"00000111";
+	s_zero_flag_ALU <= '0';
+	wait for cCLK_PER;
 
 --2 Add
-    s_branch <= '0';
-    s_jump <= '1';
-    s_imm <= (others => '0');
-    s_zero_flag_ALU <= '0';
-    wait for cCLK_PER; 
+	s_branch <= '0';
+	s_jump <= '1';
+	s_imm <= (others => '0');
+	s_zero_flag_ALU <= '0';
+	wait for cCLK_PER;
 
-    wait;
+--3 BEQ taken
+	s_branch <= '1';
+	s_jump <= '0';
+	s_zero_flag_ALU <= '1';
+	s_imm <= x"00000010";
+	wait for cCLK_PER;
+
+--4 BEQ not taken
+	s_branch <= '1';
+	s_jump <= '0';
+	s_zero_flag_ALU <= '0';
+	s_imm <= x"00000010";
+	wait for cCLK_PER;
+
+--5 JAL (jump and link)
+	s_branch <= '0';
+	s_jump <= '1';
+	s_zero_flag_ALU <= '0';
+	s_imm <= x"00000040";
+	wait for cCLK_PER;
+
+	wait;
   end process;
-  
+ 
 end behavior;
+
+
+
