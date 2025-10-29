@@ -22,7 +22,8 @@ entity control is
     o_Link       : out std_logic;
     o_Branch  : out std_logic;
     o_auipcSrc  : out std_logic;
-    o_PCReg : out std_logic
+    o_PCReg : out std_logic;
+    o_load : out std_logic_vector(2 downto 0) -- 000: lw, 001: lb, 010: lh, 011: lbu, 100: lhu
   );
 end control;
 
@@ -128,6 +129,12 @@ begin
   o_PCReg <= '1' when (i_opcode = "1100111") else '0';
   
   o_auipcSrc <= '1' when (i_opcode = "0010111") else '0';
+  
+  o_load <= "000" when (i_opcode = "0000011" and i_funct3 = "010") else
+               "001" when (i_opcode = "0000011" and i_funct3 = "000") else 
+               "010" when (i_opcode = "0000011" and i_funct3 = "001") else
+               "011" when (i_opcode = "0000011" and i_funct3 = "100") else
+	       "100" when (i_opcode = "0000011" and i_funct3 = "101"); 
 
 end dataflow;
 
