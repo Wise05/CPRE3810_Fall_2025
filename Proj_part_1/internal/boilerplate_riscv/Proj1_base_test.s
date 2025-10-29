@@ -29,9 +29,9 @@ main:
 ############################################################
     andi  x11, x9, 0x0F        # x11 = 15 & 15
     and   x12, x11, x9         # x12 = 15
-    ori   x13, x0, 0xF0F       # x13 = 0xF0F
+    ori   x13, x0, 0xF       # x13 = 0xF
     or    x14, x13, x12        # OR operation
-    xori  x15, x14, 0xAAAA     # XORI immediate
+    xori  x15, x14, 0xA     # XORI immediate
     xor   x16, x15, x14        # XOR reg
 
 ############################################################
@@ -40,7 +40,7 @@ main:
     addi  x17, x0, -1
     slt   x18, x7, x8          # x18 = 1 (since 5 < 10)
     slti  x19, x7, 10          # x19 = 1
-    sltiu x20, x17, 0xFFFF     # unsigned compare
+    sltiu x20, x17, 0xFF     # unsigned compare
 
 ############################################################
 # SLL / SLLI / SRL / SRLI / SRA / SRAI
