@@ -6,7 +6,6 @@ bytearr:.byte 0x12, 0x34, 0x56, 0x78
 halfarr:.half 0x1111, 0x2222
 
 .text
-.globl main
 
 main:
 
@@ -29,9 +28,15 @@ main:
 ############################################################
     andi  x11, x9, 0x0F        # x11 = 15 & 15
     and   x12, x11, x9         # x12 = 15
+<<<<<<< HEAD
     ori   x13, x0, 0xF       # x13 = 0xF
     or    x14, x13, x12        # OR operation
     xori  x15, x14, 0xA     # XORI immediate
+=======
+    ori   x13, x0, 0xF       # x13 = 0xF0F
+    or    x14, x13, x12        # OR operation
+    xori  x15, x14, 0xAA     # XORI immediate
+>>>>>>> b7308f6 (are you happy now?)
     xor   x16, x15, x14        # XOR reg
 
 ############################################################
