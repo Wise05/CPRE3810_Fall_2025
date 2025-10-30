@@ -1,6 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-use work.regfile_pkg.all;
+use work.RISCV_types.all;
 
 entity RV32_regFile is 
   port (

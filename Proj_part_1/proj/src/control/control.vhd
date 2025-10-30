@@ -23,7 +23,7 @@ entity control is
     o_Branch  : out std_logic;
     o_auipcSrc  : out std_logic;
     o_PCReg : out std_logic;
-    o_load : out std_logic_vector(2 downto 0) -- 000: lw, 001: lb, 010: lh, 011: lbu, 100: lhu
+    o_load : out std_logic_vector(2 downto 0) -- 000: lw, 001: lb, 010: lh, 011: lbu, 100: lh
   );
 end control;
 
@@ -62,7 +62,7 @@ begin
 		  "1011" when (i_opcode = "0110111") else
                   "----";
 
-  o_ImmType <= "000" when (i_opcode = "0010011" or i_opcode = "0000011") else
+  o_ImmType <= "000" when (i_opcode = "0010011" or i_opcode = "0000011" or i_opcode = "1100111") else
                "010" when (i_opcode = "1100011") else
                "100" when (i_opcode = "1101111") else
 	       "001" when (i_opcode = "0100011") else 
@@ -93,8 +93,7 @@ begin
     (i_opcode = "1100011" and i_funct3 = "001") or
     (i_opcode = "1100011" and i_funct3 = "100") or
     (i_opcode = "1100011" and i_funct3 = "101") or
-    (i_opcode = "1101111") or
-    (i_opcode = "1100111")
+    (i_opcode = "1101111")
 ) else
 "10" when (
     i_opcode = "0110111" or

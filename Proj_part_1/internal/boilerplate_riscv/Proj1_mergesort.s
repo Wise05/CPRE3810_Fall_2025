@@ -75,7 +75,7 @@ mergesort:
 end_mergesort:
     lw   x1, 24(x2)           # restore return address
     addi x2, x2, 28           # deallocate stack
-    jalr x0, 0(x1)            # return
+    jalr x6, 0(x1)            # return (changed from x0 to x6)
 
 ############################################################
 # merge(base=x10, left=x12, mid=x11, right=x13)
@@ -169,4 +169,4 @@ copyback_loop:
 merge_exit:
     lw   x1, 44(x2)
     addi x2, x2, 48
-    jalr x0, 0(x1)
+    jalr x6, 0(x1)            # return (changed from x0 to x6)

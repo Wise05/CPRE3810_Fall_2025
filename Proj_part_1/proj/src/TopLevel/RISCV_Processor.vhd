@@ -91,6 +91,7 @@ architecture structure of RISCV_Processor is
   signal s_PCReg : std_logic;
   signal s_auipcSrc : std_logic;
   signal s_load : std_logic_vector(2 downto 0);
+  signal s_jalr : std_logic;
 
 
   -- ALU
@@ -104,6 +105,8 @@ architecture structure of RISCV_Processor is
 
   signal s_ALU_A : std_logic_vector(31 downto 0);
   signal s_DMEM_fixed : std_logic_vector(31 downto 0);
+
+signal s_RegWrite_ctrl : std_logic; 
 
 
   component mem is
@@ -258,7 +261,7 @@ begin
       o_ImmType => s_ImmType,
       o_ResultSrc => s_ResultSrc,
       o_Mem_Write => s_DMemWr,
-      o_RegWrite => s_RegWr,
+      o_RegWrite => s_RegWrite_ctrl,
       o_imm_sel => s_imm_sel,
       o_BranchType => s_BranchType,
       o_MemtoReg => s_MemtoReg,
@@ -270,6 +273,9 @@ begin
       o_PCReg => s_PCReg,
 	o_load => s_load
     );
+
+s_RegWrAddr <= s_Inst(11 downto 7);
+s_RegWr <= s_RegWrite_ctrl when s_Inst(11 downto 7) /= "00000" else '0';
 
   Register_File : RV32_regFile 
     port map (
@@ -293,7 +299,7 @@ begin
       jump => s_Jump,
       imm => s_extended_imm,
       PCReg => s_PCReg,
-      reg_in => s_OS1,
+      reg_in => s_DMEMAddr,
       instr_addr => s_NextInstAddr,
       plus4_o => s_andLink_imm
     );
@@ -364,6 +370,7 @@ DMEM_fixer : load_handler
         i_D1 => s_NextInstAddr,
         o_O => s_ALU_A
       );
+
 
 s_RegWrAddr <= s_Inst(11 downto 7);
 end structure;

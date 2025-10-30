@@ -91,6 +91,7 @@ architecture structure of RISCV_Processor is
   signal s_PCReg : std_logic;
   signal s_auipcSrc : std_logic;
   signal s_load : std_logic_vector(2 downto 0);
+  signal s_jalr : std_logic;
 
 
   -- ALU
@@ -293,7 +294,7 @@ begin
       jump => s_Jump,
       imm => s_extended_imm,
       PCReg => s_PCReg,
-      reg_in => s_OS1,
+      reg_in => s_DMEMAddr,
       instr_addr => s_NextInstAddr,
       plus4_o => s_andLink_imm
     );
@@ -324,6 +325,7 @@ DMEM_fixer : load_handler
   port map (
     DMEM_in => s_DMemOut,
     load_control => s_load,
+    offset => s_Inst(21 downto 20),
     DMEM_out => s_DMEM_fixed
   );
 
@@ -363,6 +365,7 @@ DMEM_fixer : load_handler
         i_D1 => s_NextInstAddr,
         o_O => s_ALU_A
       );
+
 
 s_RegWrAddr <= s_Inst(11 downto 7);
 end structure;
