@@ -106,7 +106,7 @@ unsigned_ge_label:
     jal   x11, jump_label       # jump and link
     addi  x12, x0, 9            # skipped
 jump_label:
-    jalr  x0, 0(x11)            # return to next instruction
+    jalr  x0, 4(x11)            # return to next instruction
 
 ############################################################
 # Final: WFI (halts processor)
