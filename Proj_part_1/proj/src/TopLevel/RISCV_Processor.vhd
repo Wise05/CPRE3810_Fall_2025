@@ -90,6 +90,7 @@ architecture structure of RISCV_Processor is
   signal s_Branch : std_logic;
   signal s_PCReg : std_logic;
   signal s_auipcSrc : std_logic;
+  signal s_load : std_logic_vector(2 downto 0);
 
 
   -- ALU
@@ -102,6 +103,7 @@ architecture structure of RISCV_Processor is
   signal s_notDMem : std_logic_vector(31 downto 0);
 
   signal s_ALU_A : std_logic_vector(31 downto 0);
+  signal s_DMEM_fixed : std_logic_vector(31 downto 0);
 
 
   component mem is
@@ -138,7 +140,8 @@ architecture structure of RISCV_Processor is
         o_Link       : out std_logic;
 	o_Branch  : out std_logic;
 	o_auipcSrc  : out std_logic;
-	o_PCReg : out std_logic
+	o_PCReg : out std_logic;
+	o_load : out std_logic_vector(2 downto 0)
       );
     end component;
 
@@ -204,6 +207,15 @@ architecture structure of RISCV_Processor is
       );
     end component;
 
+component load_handler is 
+  port (
+    DMEM_in : in std_logic_vector(31 downto 0);
+    load_control : in std_logic_vector(2 downto 0); -- 000: lw, 001: 1b, 010: lh, 011: lbu, 100: lhu
+    offset      : in  std_logic_vector(1 downto 0);
+    DMEM_out : out std_logic_vector(31 downto 0)
+  );
+end component;
+
 begin
 
   -- TODO: This is required to be your final input to your instruction memory. This provides a feasible method to externally load the memory module which means that the synthesis tool must assume it knows nothing about the values stored in the instruction memory. If this is not included, much, if not all of the design is optimized out because the synthesis tool will believe the memory to be all zeros.
@@ -255,7 +267,8 @@ begin
       o_Link => s_Link,	
       o_Branch => s_Branch,
 	o_auipcSrc => s_auipcSrc,
-      o_PCReg => s_PCReg
+      o_PCReg => s_PCReg,
+	o_load => s_load
     );
 
   Register_File : RV32_regFile 
@@ -307,6 +320,15 @@ begin
 
     oALUOut <= s_DMemAddr;
 
+DMEM_fixer : load_handler 
+  port map (
+    DMEM_in => s_DMemOut,
+    load_control => s_load,
+    offset => s_Inst(21 downto 20),
+    DMEM_out => s_DMEM_fixed
+  );
+
+
     ALU_Src_Mux : mux2t1_N
       generic map (N => 32)
       port map (
@@ -330,7 +352,7 @@ begin
       port map (
         i_S => s_MemtoReg,
         i_D0 => s_notDMem,
-        i_D1 => s_DMemOut,
+        i_D1 => s_DMEM_fixed,
         o_O => s_RegWrData
       );
 

@@ -28,15 +28,11 @@ main:
 ############################################################
     andi  x11, x9, 0x0F        # x11 = 15 & 15
     and   x12, x11, x9         # x12 = 15
-<<<<<<< HEAD
-    ori   x13, x0, 0xF       # x13 = 0xF
-    or    x14, x13, x12        # OR operation
-    xori  x15, x14, 0xA     # XORI immediate
-=======
+
     ori   x13, x0, 0xF       # x13 = 0xF0F
     or    x14, x13, x12        # OR operation
     xori  x15, x14, 0xAA     # XORI immediate
->>>>>>> b7308f6 (are you happy now?)
+
     xor   x16, x15, x14        # XOR reg
 
 ############################################################
@@ -62,7 +58,7 @@ main:
 ############################################################
     la    x27, var1
     lw    x28, 0(x27)          # word load
-    lb    x29, 0(x27)          # load byte (sign-extended)
+    lb    x29, 3(x27)          # load byte (sign-extended)
     lh    x30, 0(x27)          # load half (sign-extended)
     lbu   x31, 1(x27)          # load byte unsigned
     lhu   x1, 2(x27)           # load half unsigned
