@@ -15,7 +15,9 @@ main:
     lui     x2, 0x10010        # set up stack base (upper 20 bits)
     addi    x2, x2, -4         # stack pointer
     addi    x10, x0, 5         # argument: depth count
-    jal     x1, func1          # call first function
+    la      ra, main_ret       # set return address
+    j       func1              # call first function
+main_ret:
     wfi                        # end of program
 
 ############################################################
@@ -23,41 +25,66 @@ main:
 ############################################################
 func1:
     addi    x2, x2, -16        # push frame
-    sw      x1, 12(x2)         # save return addr
+    sw      ra, 12(x2)         # save return addr
+    sw      x10, 8(x2)         # save depth counter
+    
     addi    x11, x10, 3
     xor     x12, x11, x10
     andi    x13, x12, 0xFF
     slti    x14, x13, 100
-    beq     x14, x0, skip1
-    jal     x1, func2          # call next function
-skip1:
-    lw      x1, 12(x2)
+    bne     x14, x0, func1_call # if x14 != 0, make call
+    j       func1_skip
+    
+func1_call:
+    addi    x10, x10, -1       # decrement depth
+    addi    x6, x0, 1          # x6 = 1 for comparison
+    blt     x10, x6, func1_skip # if depth < 1, skip call
+    la      ra, func1_ret      # set return address
+    j       func2              # call next function
+func1_ret:
+    
+func1_skip:
+    lw      x10, 8(x2)         # restore depth counter
+    lw      ra, 12(x2)         # restore return addr
     addi    x2, x2, 16         # pop frame
-    jalr    x6, 0(x1)          # return (use x6 instead of x0)
+    jr      ra                 # return
 
 ############################################################
 # FUNC2
 ############################################################
 func2:
     addi    x2, x2, -16
-    sw      x1, 12(x2)
+    sw      ra, 12(x2)
+    sw      x10, 8(x2)         # save depth counter
+    
     lui     x15, 0x20000
     auipc   x16, 0x10
     sub     x17, x16, x15
     ori     x18, x17, 0x123
     slt     x19, x10, x11
     sltiu   x20, x19, 10
-    jal     x1, func3
-    lw      x1, 12(x2)
+    
+    addi    x10, x10, -1       # decrement depth
+    addi    x6, x0, 1          # x6 = 1 for comparison
+    blt     x10, x6, func2_skip # if depth < 1, skip call
+    la      ra, func2_ret      # set return address
+    j       func3
+func2_ret:
+    
+func2_skip:
+    lw      x10, 8(x2)         # restore depth counter
+    lw      ra, 12(x2)
     addi    x2, x2, 16
-    jalr    x6, 0(x1)          # return (use x6 instead of x0)
+    jr      ra                 # return
 
 ############################################################
 # FUNC3
 ############################################################
 func3:
     addi    x2, x2, -32
-    sw      x1, 28(x2)
+    sw      ra, 28(x2)
+    sw      x10, 24(x2)        # save depth counter
+    
     la      x21, valA
     lw      x22, 0(x21)
     lb      x23, 0(x21)
@@ -69,51 +96,84 @@ func3:
     srai    x29, x22, 2
     sll     x30, x23, x27
     srl     x31, x23, x28
-    sra     x7, x22, x29       # use x7 instead of x1 to avoid clobbering return addr
+    sra     x7, x22, x29
     sw      x22, 0(x21)        # store word
-    jal     x1, func4
-    lw      x1, 28(x2)
+    
+    addi    x10, x10, -1       # decrement depth
+    addi    x6, x0, 1          # x6 = 1 for comparison
+    blt     x10, x6, func3_skip # if depth < 1, skip call
+    la      ra, func3_ret      # set return address
+    j       func4
+func3_ret:
+    
+func3_skip:
+    lw      x10, 24(x2)        # restore depth counter
+    lw      ra, 28(x2)
     addi    x2, x2, 32
-    jalr    x6, 0(x1)          # return (use x6 instead of x0)
+    jr      ra                 # return
 
 ############################################################
 # FUNC4
 ############################################################
 func4:
     addi    x2, x2, -16
-    sw      x1, 12(x2)
+    sw      ra, 12(x2)
+    sw      x10, 8(x2)         # save depth counter
+    
     addi    x3, x0, 5
     addi    x4, x0, 5
     addi    x5, x0, 10
-    beq     x3, x4, equal_4
-    addi    x7, x0, 99         # changed from x6 to x7
-equal_4:
-    bne     x3, x5, notequal_4
-    addi    x7, x0, 98         # changed from x6 to x7
-notequal_4:
-    blt     x3, x5, less_4
-    addi    x8, x0, 97         # changed from x7 to x8
-less_4:
-    bge     x5, x3, greater_4
-    addi    x9, x0, 96         # changed from x8 to x9
-greater_4:
-    bltu    x3, x5, uless_4
-    addi    x28, x0, 95        # changed from x9 to x28
-uless_4:
-    bgeu    x5, x3, uge_4
-    addi    x29, x0, 94        # changed from x10 to x29
-uge_4:
-    jal     x1, func5
-    lw      x1, 12(x2)
+    bne     x3, x4, func4_ne1
+    j       func4_eq1
+func4_ne1:
+    addi    x7, x0, 99
+func4_eq1:
+    beq     x3, x5, func4_eq2
+    j       func4_ne2
+func4_eq2:
+    addi    x7, x0, 98
+func4_ne2:
+    bge     x3, x5, func4_ge1
+    j       func4_lt1
+func4_ge1:
+    addi    x8, x0, 97
+func4_lt1:
+    blt     x5, x3, func4_lt2
+    j       func4_ge2
+func4_lt2:
+    addi    x9, x0, 96
+func4_ge2:
+    bgeu    x3, x5, func4_geu
+    j       func4_ltu
+func4_geu:
+    addi    x28, x0, 95
+func4_ltu:
+    bltu    x5, x3, func4_ltuc
+    j       func4_geuc
+func4_ltuc:
+    addi    x29, x0, 94
+func4_geuc:
+    addi    x10, x10, -1       # decrement depth
+    addi    x6, x0, 1          # x6 = 1 for comparison
+    blt     x10, x6, func4_skip # if depth < 1, skip call
+    la      ra, func4_ret      # set return address
+    j       func5
+func4_ret:
+    
+func4_skip:
+    lw      x10, 8(x2)         # restore depth counter
+    lw      ra, 12(x2)
     addi    x2, x2, 16
-    jalr    x6, 0(x1)          # return (use x6 instead of x0)
+    jr      ra                 # return
 
 ############################################################
 # FUNC5
 ############################################################
 func5:
     addi    x2, x2, -16
-    sw      x1, 12(x2)
+    sw      ra, 12(x2)
+    sw      x10, 8(x2)         # save depth counter
+    
     addi    x11, x0, 1
     addi    x12, x0, 2
     addi    x13, x0, 3
@@ -122,17 +182,28 @@ func5:
     or      x16, x14, x15
     and     x17, x14, x15
     xor     x18, x14, x16
-    jal     x1, func6
-    lw      x1, 12(x2)
+    
+    addi    x10, x10, -1       # decrement depth
+    addi    x6, x0, 1          # x6 = 1 for comparison
+    blt     x10, x6, func5_skip # if depth < 1, skip call
+    la      ra, func5_ret      # set return address
+    j       func6
+func5_ret:
+    
+func5_skip:
+    lw      x10, 8(x2)         # restore depth counter
+    lw      ra, 12(x2)
     addi    x2, x2, 16
-    jalr    x6, 0(x1)          # return (use x6 instead of x0)
+    jr      ra                 # return
 
 ############################################################
-# FUNC6 — deepest level (5th level)
+# FUNC6 — deepest level, can recurse back to func1
 ############################################################
 func6:
     addi    x2, x2, -16
-    sw      x1, 12(x2)
+    sw      ra, 12(x2)
+    sw      x10, 8(x2)         # save depth counter
+    
     # Do some ALU and memory operations
     la      x19, arr
     lw      x20, 0(x19)
@@ -147,7 +218,16 @@ func6:
     slli    x27, x23, 2
     srli    x28, x23, 1
     srai    x29, x25, 1
-    # Return up the chain
-    lw      x1, 12(x2)
+    
+    addi    x10, x10, -1       # decrement depth
+    addi    x6, x0, 1          # x6 = 1 for comparison
+    blt     x10, x6, func6_skip # if depth < 1, skip call
+    la      ra, func6_ret      # set return address
+    j       func1              # recurse back to func1 to restart chain
+func6_ret:
+    
+func6_skip:
+    lw      x10, 8(x2)         # restore depth counter
+    lw      ra, 12(x2)
     addi    x2, x2, 16
-    jalr    x6, 0(x1)          # return (use x6 instead of x0)
+    jr      ra                 # return
