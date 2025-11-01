@@ -13,10 +13,7 @@ main:
     addi    x10, x0, 5         # argument: n = 5
     la      ra, main_ret       # set return address
     j       countdown          # call countdown(5)
-main_ret:
-    la      x3, result
-    sw      x10, 0(x3)         # store result
-    wfi                        # end of program
+
 
 ############################################################
 # COUNTDOWN - Simple recursive function
@@ -48,3 +45,8 @@ base_case:
     lw      ra, 12(x2)         # restore return address
     addi    x2, x2, 16         # pop frame
     jr      ra                 # return
+
+main_ret:
+    la      x3, result
+    sw      x10, 0(x3)         # store result
+    wfi                        # end of program

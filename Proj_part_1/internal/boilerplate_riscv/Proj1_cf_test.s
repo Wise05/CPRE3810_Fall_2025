@@ -17,8 +17,6 @@ main:
     addi    x10, x0, 5         # argument: depth count
     la      ra, main_ret       # set return address
     j       func1              # call first function
-main_ret:
-    wfi                        # end of program
 
 ############################################################
 # FUNC1
@@ -231,3 +229,6 @@ func6_skip:
     lw      ra, 12(x2)
     addi    x2, x2, 16
     jr      ra                 # return
+main_ret:
+    wfi                        # end of program
+
