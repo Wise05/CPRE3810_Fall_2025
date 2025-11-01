@@ -136,7 +136,7 @@ s_setLessThan <= x"00000001" when (s_zero = '1') else x"00000000";
       in6 => s_AddSub,
       in7 => s_BarrelShifted,
       in8 => s_setLessThan,
-      in9 => s_BarrelShifted,
+      in9 => s_setLessThan,
       in10 => s_BarrelShifted,
       in11 => B,
       in12 => x"00000000",
@@ -146,7 +146,7 @@ s_setLessThan <= x"00000001" when (s_zero = '1') else x"00000000";
       y => S
     );
 
-    overflow <= s_Overflw;
+    overflow <= '1' when (s_Overflw = '1' and (ALU_Control = "0010" or ALU_Control = "0110")) else '0';
     
 
 end structural;

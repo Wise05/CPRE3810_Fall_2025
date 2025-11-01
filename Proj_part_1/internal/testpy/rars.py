@@ -110,6 +110,7 @@ class Rars:
 
 
     def run_sim(self, asm_file_path, output_trace, timeout=30):
+        rars_errs = []
         '''Simulates given RISCV file.
 
         Args:
