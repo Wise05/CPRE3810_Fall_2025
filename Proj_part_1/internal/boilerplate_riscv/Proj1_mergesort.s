@@ -16,14 +16,7 @@ newline: .asciiz "\n"
 # main: entry point
 ############################################################
 main:
-    la   x10, array          # x10 = base address of array
-    lw   x11, n              # x11 = number of elements
-    addi x12, x0, 0          # left index = 0
-    addi x13, x11, -1        # right index = n-1
-    jal  x1, mergesort
-    # Program finished — halt
-    wfi
-
+ jal x0, major   
 ############################################################
 # mergesort(base=x10, left=x12, right=x13)
 # if left < right:
@@ -170,3 +163,13 @@ merge_exit:
     lw   x1, 44(x2)
     addi x2, x2, 48
     jalr x6, 0(x1)            # return (changed from x0 to x6)
+
+major: 
+la   x10, array          # x10 = base address of array
+    lw   x11, n              # x11 = number of elements
+    addi x12, x0, 0          # left index = 0
+    addi x13, x11, -1        # right index = n-1
+    jal  x1, mergesort
+    # Program finished — halt
+    wfi
+

@@ -12,41 +12,9 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-<<<<<<< HEAD
-vsim work.tb_left_shifter -voptargs=+acc
-# vsim work.tb_left_shifter -voptargs="+acc" 
-# Start time: 14:28:37 on Oct 29,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.tb_left_shifter(sim)#1
-# Loading work.left_shifter(structural)#1
-add wave sim:/tb_Left_Shifter/*
-run 1000
-# Causality operation skipped due to absence of debug database file
-# End time: 16:54:38 on Oct 29,2025, Elapsed time: 2:26:01
-# Errors: 0, Warnings: 1
-=======
 add wave -position insertpoint  \
 vsim:/tb/CLK
 add wave -position insertpoint  \
 vsim:/tb/alu_out
 add wave -position insertpoint  \
 vsim:/tb/MyRiscv/IMem/q
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/mind_control/o_Jump
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/ALU/zero
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/ALU/overflow
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/Fetch_of_ultamite_power/instr_addr
-# ** Error: (vish-7) Failed to open info file "/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/containers/sim_container_0/work/_info" in read mode.
-# No such file or directory. (errno = ENOENT)
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/mind_control/o_Mem_Write
->>>>>>> ee6427f5f865876606d7e9bbe8af16e1fd730d67
