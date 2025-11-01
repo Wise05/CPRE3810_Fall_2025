@@ -27,3 +27,5 @@ vsim work.tb_left_shifter -voptargs=+acc
 add wave sim:/tb_Left_Shifter/*
 run 1000
 # Causality operation skipped due to absence of debug database file
+# End time: 16:54:38 on Oct 29,2025, Elapsed time: 2:26:01
+# Errors: 0, Warnings: 1
