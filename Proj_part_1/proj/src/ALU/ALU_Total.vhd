@@ -146,7 +146,8 @@ s_setLessThan <= x"00000001" when (s_zero = '1') else x"00000000";
       y => S
     );
 
-    overflow <= '1' when (s_Overflw = '1' and (ALU_Control = "0010" or ALU_Control = "0110")) else '0';
+--    overflow <= '1' when (s_Overflw = '1' and (ALU_Control = "0010" or ALU_Control = "0110")) else '0';
+    overflow <= '0';
     
 
 end structural;
