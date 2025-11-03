@@ -84,6 +84,8 @@ begin
 
   o_imm_sel <= "01" when (
     (i_opcode = "0010011" and i_funct3 = "000") or
+    (i_opcode = "0010011" and i_funct3 = "100") or
+    (i_opcode = "0010011" and i_funct3 = "111") or
     (i_opcode = "0010011" and i_funct3 = "010") or
     (i_opcode = "0010011" and i_funct3 = "011") or
     (i_opcode = "0000011") or
