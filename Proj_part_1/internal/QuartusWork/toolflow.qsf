@@ -55,3 +55,4 @@ set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_par
 set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/fetch/dffg_N_reset.vhd"
 set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/fetch/fetch.vhd"
 set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/fetch/mux2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/loadHandler/load_handler.vhd"
