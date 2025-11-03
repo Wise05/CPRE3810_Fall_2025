@@ -12,7 +12,7 @@ main:
 ############################################################
 # LUI / AUIPC
 ############################################################
-    lui   x5, 0x12345          # load upper immediate
+    lui   x5, 0x74565          # load upper immediate
     auipc x6, 0x10             # PC-relative immediate add
 
 ############################################################
@@ -104,13 +104,12 @@ unsigned_ge_label:
 # JAL / JALR
 ############################################################
     jal   x11, jump_label       # jump and link
+    jal   x0, end
     addi  x12, x0, 9            # skipped
 jump_label:
-    jalr  x0, 4(x11)            # return to next instruction
+    jalr  x0, 0(x11)            # return to next instruction
 
-############################################################
-# Final: WFI (halts processor)
-############################################################
+end:
     wfi
 
 ############################################################
