@@ -1,0 +1,58 @@
+
+#
+# CprE 381 Generated Quartus Settings File
+#
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:07:08  JANUARY 28, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION "21.1.1 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name TOP_LEVEL_ENTITY RISCV_Processor
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/Branch.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/mux_16t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/tb_N-bit_ones_comp_structural.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/mux2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/tb_TPU_MV_Element.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/tb_mux2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/Lab2_components/dffg.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/RISCV_types.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/TopLevel/mem.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/barrel_shifter/barrel_shifter.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/control/control.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/extender/butter_extender_Nt32.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/fetch/Left_Shifter.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/fetch/PC.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/fetch/dffg_N_reset.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/fetch/fetch.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/fetch/mux2t1_N.vhd"
+set_global_assignment -name VHDL_FILE "/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/loadHandler/load_handler.vhd"
