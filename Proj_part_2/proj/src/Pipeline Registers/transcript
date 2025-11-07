@@ -1,0 +1,417 @@
+# //  Questa Sim-64
+# //  Version 2025.1_2 linux_x86_64 Apr  7 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+vlib work
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:33:08 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.riscv_types.
+# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(3): (vcom-1195) Cannot find expanded name "work.RISCV_types".
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(3): Unknown expanded name.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(5): VHDL Compiler exiting
+# End time: 17:33:08 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:33:08 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Nbit_reg
+# -- Compiling architecture structural of Nbit_reg
+# End time: 17:33:08 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:33:12 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Error: (vcom-11) Could not find work.riscv_types.
+# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(3): (vcom-1195) Cannot find expanded name "work.RISCV_types".
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(3): Unknown expanded name.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(5): VHDL Compiler exiting
+# End time: 17:33:12 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:33:40 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(18): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(18): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(18): Type error in range expression.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(20): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(20): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(20): Type error in range expression.
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(28): (vcom-1624) Component instance IF_ID(structural).instruct_reg has a generic map clause and the component Nbit_reg has no generics.
+# Generic map will be ignored.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(37): VHDL Compiler exiting
+# End time: 17:33:41 on Nov 06,2025, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 1
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:33:43 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(18): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(18): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(18): Type error in range expression.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(20): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(20): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(20): Type error in range expression.
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(28): (vcom-1624) Component instance IF_ID(structural).instruct_reg has a generic map clause and the component Nbit_reg has no generics.
+# Generic map will be ignored.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(37): VHDL Compiler exiting
+# End time: 17:33:43 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 1
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:34:27 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(30): (vcom-1624) Component instance IF_ID(structural).instruct_reg has a generic map clause and the component Nbit_reg has no generics.
+# Generic map will be ignored.
+# End time: 17:34:27 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:34:31 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(30): (vcom-1624) Component instance IF_ID(structural).instruct_reg has a generic map clause and the component Nbit_reg has no generics.
+# Generic map will be ignored.
+# End time: 17:34:31 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:35:02 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(30): (vcom-1624) Component instance IF_ID(structural).instruct_reg has a generic map clause and the component Nbit_reg has no generics.
+# Generic map will be ignored.
+# End time: 17:35:02 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:36:59 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(30): (vcom-1624) Component instance IF_ID(structural).instruct_reg has a generic map clause and the component Nbit_reg has no generics.
+# Generic map will be ignored.
+# End time: 17:36:59 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:37:13 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(6): near "(": (vcom-1576) expecting END.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(6): VHDL Compiler exiting
+# End time: 17:37:13 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:37:30 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(6): near "(": (vcom-1576) expecting END.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd(6): VHDL Compiler exiting
+# End time: 17:37:30 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:38:05 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# End time: 17:38:05 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:38:06 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:38:06 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd 
+# ** Warning: (vcom-6) -- Waiting for lock by "shanen@linuxvdi-f25-46.ece.iastate.edu, pid = 29045". Lockfile is "/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/work/_lock".
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# End time: 17:38:06 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# End time: 17:38:07 on Nov 06,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 17:59:43 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(56): Signal [mode IN port] "in_ALUSrc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(58): Cannot assign to object "out_ALUSrc" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(58): Signal [mode IN port] "out_ALUSrc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(67): Cannot assign to object "out_ALUControl" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(76): Cannot assign to object "out_ImmType" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(83): Signal [mode IN port] "in_MemWrite" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(85): Cannot assign to object "out_MemWrite" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(85): Signal [mode IN port] "out_MemWrite" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(94): Cannot assign to object "out_imm_sel" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(103): Cannot assign to object "out_branch_type" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(110): Signal [mode IN port] "in_jump" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(112): Cannot assign to object "out_jump" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(112): Signal [mode IN port] "out_jump" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(119): Signal [mode IN port] "in_link" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(121): Cannot assign to object "out_link" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(121): Signal [mode IN port] "out_link" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(128): Signal [mode IN port] "in_PCReg" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(130): Cannot assign to object "out_PCReg" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(130): Signal [mode IN port] "out_PCReg" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(137): Signal [mode IN port] "in_auipc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(139): Cannot assign to object "out_auipc" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(139): Signal [mode IN port] "out_auipc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(148): Cannot assign to object "out_data1" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(157): Cannot assign to object "out_data2" of mode IN.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(166): Cannot assign to object "out_extender" of mode IN.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(171): VHDL Compiler exiting
+# End time: 17:59:43 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 25, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:00:44 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(56): Signal [mode IN port] "in_ALUSrc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(58): Signal [mode OUT port] "out_ALUSrc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(83): Signal [mode IN port] "in_MemWrite" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(85): Signal [mode OUT port] "out_MemWrite" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(110): Signal [mode IN port] "in_jump" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(112): Signal [mode OUT port] "out_jump" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(119): Signal [mode IN port] "in_link" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(121): Signal [mode OUT port] "out_link" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(128): Signal [mode IN port] "in_PCReg" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(130): Signal [mode OUT port] "out_PCReg" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(137): Signal [mode IN port] "in_auipc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(139): Signal [mode OUT port] "out_auipc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(171): VHDL Compiler exiting
+# End time: 18:00:44 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:08:55 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(57): Signal [mode IN port] "in_ALUSrc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(59): Signal [mode OUT port] "out_ALUSrc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(87): Signal [mode IN port] "in_MemWrite" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(89): Signal [mode OUT port] "out_MemWrite" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(117): Signal [mode IN port] "in_jump" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(119): Signal [mode OUT port] "out_jump" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(127): Signal [mode IN port] "in_link" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(129): Signal [mode OUT port] "out_link" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(137): Signal [mode IN port] "in_PCReg" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(139): Signal [mode OUT port] "out_PCReg" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(147): Signal [mode IN port] "in_auipc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(149): Signal [mode OUT port] "out_auipc" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(184): VHDL Compiler exiting
+# End time: 18:08:55 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:10:55 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# End time: 18:10:55 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:37:53 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): (vcom-1136) Unknown identifier "RST".
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): near ":": (vcom-1576) expecting ';' or ')'.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): VHDL Compiler exiting
+# End time: 18:37:53 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:38:55 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): (vcom-1136) Unknown identifier "RST".
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): near ":": (vcom-1576) expecting ';' or ')'.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): VHDL Compiler exiting
+# End time: 18:38:55 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:39:23 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): (vcom-1136) Unknown identifier "RST".
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): near ":": (vcom-1576) expecting ';' or ')'.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(40): VHDL Compiler exiting
+# End time: 18:39:23 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:39:56 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# End time: 18:39:56 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:54:13 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd(5): (vcom-1615) Existing entity 'ID_EX' at /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(5) will be overwritten.
+# -- Compiling entity ID_EX
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd(43): (vcom-1615) Existing architecture 'ID_EX(structural)' at /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd(45) will be overwritten.
+# -- Compiling architecture structural of ID_EX
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd(181): near "=>": syntax error
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd(188): Statement cannot be labeled.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd(208): VHDL Compiler exiting
+# End time: 18:54:13 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:55:04 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity EX_MEM
+# -- Compiling architecture structural of EX_MEM
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd(181): near "=>": syntax error
+# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd(188): Statement cannot be labeled.
+# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd(208): VHDL Compiler exiting
+# End time: 18:55:04 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 18:55:33 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity EX_MEM
+# -- Compiling architecture structural of EX_MEM
+# End time: 18:55:34 on Nov 06,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:01:46 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd(5): (vcom-1615) Existing entity 'EX_MEM' at /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd(5) will be overwritten.
+# -- Compiling entity EX_MEM
+# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd(21): (vcom-1615) Existing architecture 'EX_MEM(structural)' at /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd(43) will be overwritten.
+# -- Compiling architecture structural of EX_MEM
+# End time: 19:01:46 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:02:35 on Nov 06,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MEM_WB
+# -- Compiling architecture structural of MEM_WB
+# End time: 19:02:35 on Nov 06,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
