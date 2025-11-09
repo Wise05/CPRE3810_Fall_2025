@@ -11,6 +11,7 @@ entity control is
     o_ALUSRC     : out std_logic;
     o_ALUControl : out std_logic_vector(3 downto 0);
     o_ImmType    : out std_logic_vector(2 downto 0);
+    o_ResultSrc  : out std_logic_vector(1 downto 0);
     o_Mem_Write  : out std_logic;
     o_RegWrite   : out std_logic;
     o_imm_sel    : out std_logic_vector(1 downto 0);
@@ -66,9 +67,9 @@ begin
                "100" when (i_opcode = "1101111") else
 	       "001" when (i_opcode = "0100011") else 
                "---";
--- Pretty sure that we never actually use this 
---  o_ResultSrc <= "01" when (i_opcode = "0000011") else
---                 "10" when (i_opcode = "1101111" or i_opcode = "1100111") else "00" when (i_opcode = "0010011" or i_opcode = "0110011" or i_opcode = "0010111") else "--";
+
+  o_ResultSrc <= "01" when (i_opcode = "0000011") else
+                 "10" when (i_opcode = "1101111" or i_opcode = "1100111") else "00" when (i_opcode = "0010011" or i_opcode = "0110011" or i_opcode = "0010111") else "--";
 
   o_Mem_Write <= '1' when (i_opcode = "0100011") else
                  '0';
