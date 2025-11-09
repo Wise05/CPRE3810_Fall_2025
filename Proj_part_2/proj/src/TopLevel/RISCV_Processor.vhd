@@ -73,15 +73,15 @@ architecture structure of RISCV_Processor is
   -- s_Halt = should be given by control and sent to testbench environment 
   -- s_Ovfl = should be given by ALU dunno for what maybe just debugging
 
-  -- MY SIGNALS
+  -- ############### MY SIGNALS ##################
   -- ==========IF SIGS===================
+  signal s_Inst_ID : std_logic_vector(N-1 downto 0);
 
   -- ==========ID SIGS==================
   -- control
   signal s_ALUSRC : std_logic;
   signal s_ALUControl : std_logic_vector(3 downto 0);  
   signal s_ImmType    : std_logic_vector(2 downto 0);
-  signal s_ResultSrc  : std_logic_vector(1 downto 0);
   signal s_Mem_Write  : std_logic;
   signal s_RegWrite   : std_logic;
   signal s_imm_sel    : std_logic_vector(1 downto 0);
@@ -114,12 +114,9 @@ architecture structure of RISCV_Processor is
   -- ==========WB SIGS========================
   signal s_DMEM_fixed : std_logic_vector(31 downto 0);
   
+  signal s_RegWrite_ctrl : std_logic; 
 
-
-
-signal s_RegWrite_ctrl : std_logic; 
-
-
+ -- ### THE COMPONENTS WE MADE ALONG THE WAY ###
   component mem is
     generic(ADDR_WIDTH : integer;
             DATA_WIDTH : integer);
@@ -131,13 +128,12 @@ signal s_RegWrite_ctrl : std_logic;
           q            : out std_logic_vector((DATA_WIDTH -1) downto 0));
     end component;
 
-
     component control is
       port (
         i_opcode     : in  std_logic_vector(6 downto 0);
         i_funct3     : in  std_logic_vector(2 downto 0);
         i_funct7     : in  std_logic_vector(6 downto 0);
-	i_imm	     : in std_logic_vector(11 downto 0);
+        i_imm	     : in std_logic_vector(11 downto 0);
         o_ALUSRC     : out std_logic;
         o_ALUControl : out std_logic_vector(3 downto 0);
         o_ImmType    : out std_logic_vector(2 downto 0);
@@ -159,7 +155,7 @@ signal s_RegWrite_ctrl : std_logic;
 
     component fetch is 
       port (
-    clk : in std_logic;
+        clk : in std_logic;
         rst : in std_logic;
         branch : in std_logic;
         zero_flag_ALU : in std_logic;
@@ -336,11 +332,10 @@ signal s_RegWrite_ctrl : std_logic;
     );
   end MEM_WB;
 
-
 begin
 
   -- ================IF========================= 
-  with iInstLd select
+  with iInstLd select                 -- Dont touch prob
     s_IMemAddr <= s_NextInstAddr when '0',
       iInstAddr when others;
 
@@ -367,35 +362,29 @@ begin
         plus4_o => s_andLink_imm
       );
 
-
   reg_IF_ID : IF_ID 
     port (
-      in_instruct  => ,
-      WE           => ,
-      out_instruct => , 
-      RST          => ,        
-      CLK          =>     
+      in_instruct  => s_Inst,
+      WE           => '1',
+      out_instruct => s_Inst_ID, 
+      RST          => iRST,        
+      CLK          => iCLK    
   );
 
-
-
 -- ===================ID===================
-  s_RegWrAddr <= s_Inst(11 downto 7);
-
-  s_RegWr <= s_RegWrite_ctrl when s_Inst(11 downto 7) /= "00000" else '0';
+  s_RegWr <= s_RegWrite_ctrl when s_Inst(11 downto 7) /= "00000" else '0'; -- Don't touch prob
 
   s_RegWrAddr <= s_Inst(11 downto 7);
 
   mind_control : control
     port map (
-      i_opcode     => s_Inst(6 downto 0),
-      i_funct3     => s_Inst(14 downto 12),
-      i_funct7     => s_Inst(31 downto 25),
-      i_imm        => s_Inst(31 downto 20),
+      i_opcode     => s_Inst_ID(6 downto 0),
+      i_funct3     => s_Inst_ID(14 downto 12),
+      i_funct7     => s_Inst_ID(31 downto 25),
+      i_imm        => s_Inst_ID(31 downto 20),
       o_ALUSRC     => s_ALUSRC,
       o_ALUControl => s_ALUControl,
       o_ImmType    => s_ImmType,
-      o_ResultSrc  => s_ResultSrc,
       o_Mem_Write  => s_DMemWr,
       o_RegWrite   => s_RegWrite_ctrl,
       o_imm_sel    => s_imm_sel,
@@ -407,7 +396,7 @@ begin
       o_Branch     => s_Branch,
       o_auipcSrc   => s_auipcSrc,
       o_PCReg      => s_PCReg,
-      o_load       => s_load
+      o_load       => s_load                
     );
 
   Register_File : RV32_regFile 
@@ -417,60 +406,61 @@ begin
       RegWrite  => s_RegWr,
       Rd        => s_RegWrAddr,
       DATA_IN   => s_RegWrData,
-      RS1       => s_Inst(19 downto 15),
-      RS2       => s_Inst(24 downto 20),
+      RS1       => s_Inst_ID(19 downto 15),
+      RS2       => s_Inst_ID(24 downto 20),
       OS1       => s_OS1,
-      OS2       => s_DMemData  
+      OS2       => s_OS2  
     );
+    s_DMemData <= s_OS2;
 
    Sign_Extend : butter_extender_Nt32
       generic map (N => 32)
       port map (
-        imm_in     => s_Inst,
+        imm_in     => s_Inst_ID,
         sign_ext   => s_imm_sel,
         imm_type   => s_ImmType,
         imm_out    => s_extended_imm
       );
 
-
+  -- s_Branch dunno if this should be somewhere
   reg_ID_EX : ID_EX
     port (
-      in_ALUSrc       => ,               
-      in_ALUControl   => ,                  
-      in_ImmType      => ,                 
-      in_regWrite     => ,                   
-      in_MemWrite     => ,              
-      in_imm_sel      => ,                    
-      in_branch_type  => ,                    
-      in_jump         => ,                  
-      in_link         => ,              
-      in_PCReg        => ,                  
-      in_auipc        => ,            
-      in_data1        => ,               
-      in_data2        => ,               
-      in_extender     => ,                    
-      in_halt         => ,                     
-      in_MemtoReg     => ,                       
-      in_load         => ,                   
-      WE              => ,                             
-      out_ALUSrc      => ,                    
-      out_ALUControl  => ,                     
-      out_ImmType     => ,                      
-      out_MemWrite    => ,                      
-      out_imm_sel     => ,                           
-      out_branch_type => ,                       
-      out_jump        => ,                         
-      out_link        => ,                    
-      out_PCReg       => ,                      
-      out_auipc       => ,                   
-      out_data1       => ,                        
-      out_data2       => ,                    
-      out_extender    => ,                    
-      out_halt        => ,                              
-      out_MemtoReg    => ,                  
-      out_load        => ,                   
-      RST             => ,                 
-      CLK             =>                
+      in_ALUSrc       => s_ALUSRC,                       
+      in_ALUControl   => s_ALUControl,                      
+      in_ImmType      => , -- should not be here                        
+      in_regWrite     => s_RegWr,
+      in_MemWrite     => s_DMemWr,                      
+      in_imm_sel      => s_imm_sel,                     
+      in_branch_type  => s_BranchType,                           
+      in_jump         => s_Jump,                      
+      in_link         => s_Link,                    
+      in_PCReg        => s_PCReg,                            
+      in_auipc        => s_auipcSrc,                      
+      in_data1        => s_OS1,
+      in_data2        => s_OS2,
+      in_extender     => s_extended_imm,
+      in_halt         => s_Halt,
+      in_MemtoReg     => s_MemtoReg,                      
+      in_load         => s_load,                   
+      WE              => '1',                             
+      out_ALUSrc      => s_ALUSrc_EX,                    
+      out_ALUControl  => s_ALUControl_EX,                     
+      out_ImmType     => s_ImmType_EX,                      
+      out_MemWrite    => s_MemWrite_EX,                      
+      out_imm_sel     => s_imm_sel_EX,
+      out_branch_type => s_branch_type_EX,
+      out_jump        => s_jump_EX,
+      out_link        => s_link_EX,
+      out_PCReg       => s_PCReg_EX,
+      out_auipc       => s_auipc_EX,
+      out_data1       => s_data1_EX,
+      out_data2       => s_data2_EX,
+      out_extender    => s_extender_EX,
+      out_halt        => s_halt_EX,
+      out_MemtoReg    => s_MemToReg_EX,
+      out_load        => s_load_EX,
+      RST             => iRST,
+      CLK             => iCLK               
     );
 
 -- ==================EX==========================
