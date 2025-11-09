@@ -27,7 +27,7 @@ entity RISCV_Processor is
        iInstLd         : in std_logic;
        iInstAddr       : in std_logic_vector(N-1 downto 0);
        iInstExt        : in std_logic_vector(N-1 downto 0);
-       oALUOut         : out std_logic_vector(N-1 downto 0)); -- TODO: Hook this up to the output of the ALU. It is important for synthesis that you have this output that can effectively be impacted by all other components so they are not optimized away.
+       oALUOut         : out std_logic_vector(N-1 downto 0));
 
 end  RISCV_Processor;
 
@@ -35,26 +35,26 @@ end  RISCV_Processor;
 architecture structure of RISCV_Processor is
 
   -- Required data memory signals
-  signal s_DMemWr       : std_logic; -- TODO: use this signal as the final active high data memory write enable signal
-  signal s_DMemAddr     : std_logic_vector(N-1 downto 0); -- TODO: use this signal as the final data memory address input
-  signal s_DMemData     : std_logic_vector(N-1 downto 0); -- TODO: use this signal as the final data memory data input
-  signal s_DMemOut      : std_logic_vector(N-1 downto 0); -- TODO: use this signal as the data memory output
+  signal s_DMemWr       : std_logic;
+  signal s_DMemAddr     : std_logic_vector(N-1 downto 0);
+  signal s_DMemData     : std_logic_vector(N-1 downto 0);
+  signal s_DMemOut      : std_logic_vector(N-1 downto 0);
  
   -- Required register file signals 
-  signal s_RegWr        : std_logic; -- TODO: use this signal as the final active high write enable input to the register file
-  signal s_RegWrAddr    : std_logic_vector(4 downto 0); -- TODO: use this signal as the final destination register address input
-  signal s_RegWrData    : std_logic_vector(N-1 downto 0); -- TODO: use this signal as the final data memory data input
+  signal s_RegWr        : std_logic;
+  signal s_RegWrAddr    : std_logic_vector(4 downto 0);
+  signal s_RegWrData    : std_logic_vector(N-1 downto 0);
 
   -- Required instruction memory signals
-  signal s_IMemAddr     : std_logic_vector(N-1 downto 0); -- Do not assign this signal, assign to s_NextInstAddr instead
-  signal s_NextInstAddr : std_logic_vector(N-1 downto 0); -- TODO: use this signal as your intended final instruction memory address input.
-  signal s_Inst         : std_logic_vector(N-1 downto 0); -- TODO: use this signal as the instruction signal 
+  signal s_IMemAddr     : std_logic_vector(N-1 downto 0);
+  signal s_NextInstAddr : std_logic_vector(N-1 downto 0);
+  signal s_Inst         : std_logic_vector(N-1 downto 0);
 
   -- Required halt signal -- for simulation
-  signal s_Halt         : std_logic;  -- TODO: this signal indicates to the simulation that intended program execution has completed. (Opcode: 01 0100)
+  signal s_Halt         : std_logic; 
 
   -- Required overflow signal -- for overflow exception detection
-  signal s_Ovfl         : std_logic;  -- TODO: this signal indicates an overflow exception would have been initiated
+  signal s_Ovfl         : std_logic;
 
   -- SIGNALS dictionary elaboration
   -- s_DMemWr = MemWrite
@@ -120,8 +120,6 @@ signal s_RegWrite_ctrl : std_logic;
           q            : out std_logic_vector((DATA_WIDTH -1) downto 0));
     end component;
 
-  -- TODO: You may add any additional signals or components your implementation 
-  --       requires below this comment
 
     component control is
       port (
@@ -152,15 +150,14 @@ signal s_RegWrite_ctrl : std_logic;
       port (
     clk : in std_logic;
         rst : in std_logic;
-        -- Maybe we need RegWrite for the PC, but rn it will be set to 1
         branch : in std_logic;
         zero_flag_ALU : in std_logic;
         jump : in std_logic;
-        imm : in std_logic_vector(31 downto 0); -- immediate offset
+        imm : in std_logic_vector(31 downto 0); 
 	PCReg : in std_logic;
 	reg_in : in std_logic_vector(31 downto 0);
-        instr_addr : out std_logic_vector(31 downto 0); -- address sent to imem
-        plus4_o : out std_logic_vector(31 downto 0) -- address that gets sent to "AndLink" address
+        instr_addr : out std_logic_vector(31 downto 0);
+        plus4_o : out std_logic_vector(31 downto 0)
      );
     end component;
 
@@ -170,8 +167,8 @@ signal s_RegWrite_ctrl : std_logic;
       );
       port (
         imm_in : in  std_logic_vector(N-1 downto 0);
-        sign_ext : in  std_logic_vector(1 downto 0); -- '01' = sign extend, '00' = zero extend,'10' = lui
-        imm_type : in std_logic_vector(2 downto 0); -- '000' = I, '001' = S, '010' = SB, '011' = U, '100' = UJ
+        sign_ext : in  std_logic_vector(1 downto 0);
+        imm_type : in std_logic_vector(2 downto 0);
         imm_out : out std_logic_vector(31 downto 0)
       );
     end component;
@@ -189,7 +186,7 @@ signal s_RegWrite_ctrl : std_logic;
     end component;
 
     component mux2t1_N is 
-      generic(N : integer := 16); -- Generic of type integer for input/output data width. Default value is 32.
+      generic(N : integer := 16);
       port(i_S          : in std_logic;
            i_D0         : in std_logic_vector(N-1 downto 0);
            i_D1         : in std_logic_vector(N-1 downto 0);
@@ -210,14 +207,109 @@ signal s_RegWrite_ctrl : std_logic;
       );
     end component;
 
-component load_handler is 
-  port (
-    DMEM_in : in std_logic_vector(31 downto 0);
-    load_control : in std_logic_vector(2 downto 0); -- 000: lw, 001: 1b, 010: lh, 011: lbu, 100: lhu
-    offset      : in  std_logic_vector(1 downto 0);
-    DMEM_out : out std_logic_vector(31 downto 0)
+  component load_handler is 
+    port (
+      DMEM_in : in std_logic_vector(31 downto 0);
+      load_control : in std_logic_vector(2 downto 0);
+      offset      : in  std_logic_vector(1 downto 0);
+      DMEM_out : out std_logic_vector(31 downto 0)
+    );
+  end component;
+
+  component IF_ID is 
+    port (
+          in_instruct : in std_logic_vector(31 downto 0);
+    WE : in std_logic;
+    out_instruct : out std_logic_vector(31 downto 0);
+    RST : in std_logic;
+    CLK: in std_logic
   );
-end component;
+  end component;
+
+  component ID_EX is --14 inputs
+  port (
+    in_ALUSrc : in std_logic;
+    in_ALUControl : in std_logic_vector(3 downto 0);
+    in_ImmType : in std_logic_vector(2 downto 0);
+    in_regWrite : in std_logic;
+    in_MemWrite : in std_logic;
+    in_imm_sel : in std_logic_vector(1 downto 0);
+    in_branch_type : in std_logic_vector(2 downto 0);
+    in_jump : in std_logic;
+    in_link : in std_logic;
+    in_PCReg : in std_logic;
+    in_auipc : in std_logic;
+    in_data1 : in std_logic_vector(31 downto 0);
+    in_data2 : in std_logic_vector(31 downto 0);
+    in_extender : in std_logic_vector(31 downto 0);
+    in_halt     : in std_logic;
+    in_MemtoReg     : in std_logic;
+    in_load : in std_logic_vector(2 downto 0);
+    WE : in std_logic;
+    out_ALUSrc : out std_logic;
+    out_ALUControl : out std_logic_vector(3 downto 0);
+    out_ImmType : out std_logic_vector(2 downto 0);
+    out_MemWrite : out std_logic;
+    out_imm_sel : out std_logic_vector(1 downto 0);
+    out_branch_type : out std_logic_vector(2 downto 0);
+    out_jump : out std_logic;
+    out_link : out std_logic;
+    out_PCReg : out std_logic;
+    out_auipc : out std_logic;
+    out_data1 : out std_logic_vector(31 downto 0);
+    out_data2 : out std_logic_vector(31 downto 0);
+    out_extender : out std_logic_vector(31 downto 0);
+    out_halt     : out std_logic;
+    out_MemtoReg     : out std_logic;
+    out_load : out std_logic_vector(2 downto 0);
+    RST : in std_logic;
+    CLK: in std_logic
+  );
+ end component;
+
+ component EX_MEM is
+   port (
+    in_ImmType : in std_logic_vector(2 downto 0);
+    in_MemWrite : in std_logic;
+    in_imm_sel : in std_logic_vector(1 downto 0);
+    in_branch_type : in std_logic_vector(2 downto 0);
+    in_jump : in std_logic;
+    in_PCReg : in std_logic;
+    in_data1 : in std_logic_vector(31 downto 0);
+    in_data2 : in std_logic_vector(31 downto 0);
+    in_extender : in std_logic_vector(31 downto 0);
+    in_halt     : in std_logic;
+    in_MemtoReg     : in std_logic;
+    in_regWrite : in std_logic;
+    in_load : in std_logic_vector(2 downto 0);
+    in_mux : in std_logic_vector(31 downto 0);
+    in_alu : in std_logic_vector(31 downto 0);
+    in_zero : in std_logic;
+    WE : in std_logic;
+    out_ImmType : out std_logic_vector(2 downto 0);
+    out_MemWrite : out std_logic;
+    out_regWrite : out std_logic;
+    out_imm_sel : out std_logic_vector(1 downto 0);
+    out_branch_type : out std_logic_vector(2 downto 0);
+    out_jump : out std_logic;
+    out_PCReg : out std_logic;
+    out_data1 : out std_logic_vector(31 downto 0);
+    out_data2 : out std_logic_vector(31 downto 0);
+    out_extender : out std_logic_vector(31 downto 0);
+    out_halt     : out std_logic;
+    out_MemtoReg     : out std_logic;
+    out_load : out std_logic_vector(2 downto 0);
+    out_mux : out std_logic_vector(31 downto 0);
+    out_alu : out std_logic_vector(31 downto 0);
+    out_zero : out std_logic;
+    RST : in std_logic;
+    CLK: in std_logic
+    );
+  end component;
+
+
+
+
 
 begin
 

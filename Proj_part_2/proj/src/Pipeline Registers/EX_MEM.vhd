@@ -15,6 +15,7 @@ entity EX_MEM is --13 inputs
 	in_extender : in std_logic_vector(31 downto 0);
 	in_halt     : in std_logic;
 	in_MemtoReg     : in std_logic;
+  in_regWrite : in std_logic;
 	in_load : in std_logic_vector(2 downto 0);
 	in_mux : in std_logic_vector(31 downto 0);
 	in_alu : in std_logic_vector(31 downto 0);
@@ -22,6 +23,7 @@ entity EX_MEM is --13 inputs
 	WE : in std_logic;
 	out_ImmType : out std_logic_vector(2 downto 0);
 	out_MemWrite : out std_logic;
+  out_regWrite : out std_logic;
 	out_imm_sel : out std_logic_vector(1 downto 0);
 	out_branch_type : out std_logic_vector(2 downto 0);
 	out_jump : out std_logic;
@@ -74,6 +76,17 @@ MemWrite_reg: Nbit_reg
 		RST => RST,
 		CLK => CLK
     );
+
+regWrite_reg : Nbit_reg
+  generic map (N => 1)
+	port map (
+		in_1(0) => in_regWrite,
+		WE => WE,
+		out_1(0) => out_regWrite,
+		RST => RST,
+		CLK => CLK
+    );
+
 
 imm_sel_reg: Nbit_reg
 	generic map (N => 2)
