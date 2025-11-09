@@ -6,11 +6,13 @@ entity MEM_WB is --13 inputs
   port (
 	in_dmem : in std_logic_vector(31 downto 0);
 	in_MemtoReg     : in std_logic;
+	in_RegWrite     : in std_logic;
 	in_mux : in std_logic_vector(31 downto 0);
 	in_alu : in std_logic_vector(31 downto 0);
 	WE : in std_logic;
 	out_dmem : out std_logic_vector(31 downto 0);
 	out_MemtoReg     : out std_logic;
+	out_RegWrite     : out std_logic;
 	out_mux : out std_logic_vector(31 downto 0);
 	out_alu : out std_logic_vector(31 downto 0);
 	RST : in std_logic;
@@ -49,6 +51,16 @@ MemtoReg_reg: Nbit_reg
 		in_1(0) => in_MemtoReg,
 		WE => WE,
 		out_1(0) => out_MemtoReg,
+		RST => RST,
+		CLK => CLK
+    );
+    
+RegWrite_reg: Nbit_reg
+	generic map (N => 1)
+	port map (
+		in_1(0) => in_RegWrite,
+		WE => WE,
+		out_1(0) => out_RegWrite,
 		RST => RST,
 		CLK => CLK
     );
