@@ -74,7 +74,9 @@ architecture structure of RISCV_Processor is
   -- s_Ovfl = should be given by ALU dunno for what maybe just debugging
 
   -- MY SIGNALS
+  -- ==========IF SIGS===================
 
+  -- ==========ID SIGS==================
   -- control
   signal s_ALUSRC : std_logic;
   signal s_ALUControl : std_logic_vector(3 downto 0);  
@@ -93,18 +95,27 @@ architecture structure of RISCV_Processor is
   signal s_load : std_logic_vector(2 downto 0);
   signal s_jalr : std_logic;
 
+  -- Sign extend
+  signal s_extended_imm : std_logic_vector(31 downto 0);
 
+  -- ==========EX SIGS===================
   -- ALU
   signal s_OS1 : std_logic_vector(31 downto 0);
+  signal s_ALU_A : std_logic_vector(31 downto 0);
   signal s_ALU_B : std_logic_vector(31 downto 0);
   signal s_Zero : std_logic;
 
-  signal s_extended_imm : std_logic_vector(31 downto 0);
+  -- and link mux
   signal s_andLink_imm : std_logic_vector(31 downto 0);
-  signal s_notDMem : std_logic_vector(31 downto 0);
+  signal s_andLink_mux_out : std_logic_vector(31 downto 0);
+  
+  -- ==========MEM SIGS===================
 
-  signal s_ALU_A : std_logic_vector(31 downto 0);
+  -- ==========WB SIGS========================
   signal s_DMEM_fixed : std_logic_vector(31 downto 0);
+  
+
+
 
 signal s_RegWrite_ctrl : std_logic; 
 
@@ -139,10 +150,10 @@ signal s_RegWrite_ctrl : std_logic;
         o_halt     : out std_logic;
         o_Jump       : out std_logic;
         o_Link       : out std_logic;
-	o_Branch  : out std_logic;
-	o_auipcSrc  : out std_logic;
-	o_PCReg : out std_logic;
-	o_load : out std_logic_vector(2 downto 0)
+        o_Branch  : out std_logic;
+        o_auipcSrc  : out std_logic;
+        o_PCReg : out std_logic;
+        o_load : out std_logic_vector(2 downto 0)
       );
     end component;
 
@@ -154,8 +165,8 @@ signal s_RegWrite_ctrl : std_logic;
         zero_flag_ALU : in std_logic;
         jump : in std_logic;
         imm : in std_logic_vector(31 downto 0); 
-	PCReg : in std_logic;
-	reg_in : in std_logic_vector(31 downto 0);
+        PCReg : in std_logic;
+        reg_in : in std_logic_vector(31 downto 0);
         instr_addr : out std_logic_vector(31 downto 0);
         plus4_o : out std_logic_vector(31 downto 0)
      );
@@ -307,13 +318,28 @@ signal s_RegWrite_ctrl : std_logic;
     );
   end component;
 
-
-
+  component MEM_WB is
+    port (
+      in_dmem : in std_logic_vector(31 downto 0);
+      in_MemtoReg     : in std_logic;
+      in_RegWrite     : in std_logic;
+      in_mux : in std_logic_vector(31 downto 0);
+      in_alu : in std_logic_vector(31 downto 0);
+      WE : in std_logic;
+      out_dmem : out std_logic_vector(31 downto 0);
+      out_MemtoReg     : out std_logic;
+      out_RegWrite     : out std_logic;
+      out_mux : out std_logic_vector(31 downto 0);
+      out_alu : out std_logic_vector(31 downto 0);
+      RST : in std_logic;
+      CLK: in std_logic
+    );
+  end MEM_WB;
 
 
 begin
 
-  -- TODO: This is required to be your final input to your instruction memory. This provides a feasible method to externally load the memory module which means that the synthesis tool must assume it knows nothing about the values stored in the instruction memory. If this is not included, much, if not all of the design is optimized out because the synthesis tool will believe the memory to be all zeros.
+  -- ================IF========================= 
   with iInstLd select
     s_IMemAddr <= s_NextInstAddr when '0',
       iInstAddr when others;
@@ -326,7 +352,207 @@ begin
              data => iInstExt,
              we   => iInstLd,
              q    => s_Inst);
+
+  Fetch_of_ultamite_power : fetch
+      port map (
+        clk => iCLK,
+        rst => iRST,
+        branch => s_Branch,
+        zero_flag_ALU => s_Zero,
+        jump => s_Jump,
+        imm => s_extended_imm,
+        PCReg => s_PCReg,
+        reg_in => s_DMEMAddr,
+        instr_addr => s_NextInstAddr,
+        plus4_o => s_andLink_imm
+      );
+
+
+  reg_IF_ID : IF_ID 
+    port (
+      in_instruct  => ,
+      WE           => ,
+      out_instruct => , 
+      RST          => ,        
+      CLK          =>     
+  );
+
+
+
+-- ===================ID===================
+  s_RegWrAddr <= s_Inst(11 downto 7);
+
+  s_RegWr <= s_RegWrite_ctrl when s_Inst(11 downto 7) /= "00000" else '0';
+
+  s_RegWrAddr <= s_Inst(11 downto 7);
+
+  mind_control : control
+    port map (
+      i_opcode     => s_Inst(6 downto 0),
+      i_funct3     => s_Inst(14 downto 12),
+      i_funct7     => s_Inst(31 downto 25),
+      i_imm        => s_Inst(31 downto 20),
+      o_ALUSRC     => s_ALUSRC,
+      o_ALUControl => s_ALUControl,
+      o_ImmType    => s_ImmType,
+      o_ResultSrc  => s_ResultSrc,
+      o_Mem_Write  => s_DMemWr,
+      o_RegWrite   => s_RegWrite_ctrl,
+      o_imm_sel    => s_imm_sel,
+      o_BranchType => s_BranchType,
+      o_MemtoReg   => s_MemtoReg,
+      o_halt       => s_Halt,
+      o_Jump       => s_Jump,
+      o_Link       => s_Link,	
+      o_Branch     => s_Branch,
+      o_auipcSrc   => s_auipcSrc,
+      o_PCReg      => s_PCReg,
+      o_load       => s_load
+    );
+
+  Register_File : RV32_regFile 
+    port map (
+      clk       => iCLK,
+      rst       => iRST,
+      RegWrite  => s_RegWr,
+      Rd        => s_RegWrAddr,
+      DATA_IN   => s_RegWrData,
+      RS1       => s_Inst(19 downto 15),
+      RS2       => s_Inst(24 downto 20),
+      OS1       => s_OS1,
+      OS2       => s_DMemData  
+    );
+
+   Sign_Extend : butter_extender_Nt32
+      generic map (N => 32)
+      port map (
+        imm_in     => s_Inst,
+        sign_ext   => s_imm_sel,
+        imm_type   => s_ImmType,
+        imm_out    => s_extended_imm
+      );
+
+
+  reg_ID_EX : ID_EX
+    port (
+      in_ALUSrc       => ,               
+      in_ALUControl   => ,                  
+      in_ImmType      => ,                 
+      in_regWrite     => ,                   
+      in_MemWrite     => ,              
+      in_imm_sel      => ,                    
+      in_branch_type  => ,                    
+      in_jump         => ,                  
+      in_link         => ,              
+      in_PCReg        => ,                  
+      in_auipc        => ,            
+      in_data1        => ,               
+      in_data2        => ,               
+      in_extender     => ,                    
+      in_halt         => ,                     
+      in_MemtoReg     => ,                       
+      in_load         => ,                   
+      WE              => ,                             
+      out_ALUSrc      => ,                    
+      out_ALUControl  => ,                     
+      out_ImmType     => ,                      
+      out_MemWrite    => ,                      
+      out_imm_sel     => ,                           
+      out_branch_type => ,                       
+      out_jump        => ,                         
+      out_link        => ,                    
+      out_PCReg       => ,                      
+      out_auipc       => ,                   
+      out_data1       => ,                        
+      out_data2       => ,                    
+      out_extender    => ,                    
+      out_halt        => ,                              
+      out_MemtoReg    => ,                  
+      out_load        => ,                   
+      RST             => ,                 
+      CLK             =>                
+    );
+
+-- ==================EX==========================
+    ALU_Src_Mux : mux2t1_N
+      generic map (N => 32)
+      port map (
+        i_S    => s_ALUSRC,
+        i_D0   => s_DMemData,
+        i_D1   => s_extended_imm,
+        o_O    => s_ALU_B
+      );
   
+     AuiPC_Mux : mux2t1_N
+      generic map (N => 32)
+      port map (
+        i_S    => s_auipcSrc,
+        i_D0   => s_OS1,
+        i_D1   => s_NextInstAddr,
+        o_O    => s_ALU_A
+      );
+      
+     ALU : ALU_Total
+      port map (
+        A               => s_ALU_A,
+        B               => s_ALU_B,
+        ALU_Control     => s_ALUControl,
+        Branch_Control  => s_BranchType,
+        S               => s_DMemAddr,
+        zero            => s_Zero,
+        overflow        => s_Ovfl
+      );
+    oALUOut <= s_DMemAddr;
+
+    AndLink_Mux : mux2t1_N
+      generic map (N => 32)
+      port map (
+        i_S     => s_Link,
+        i_D0    => s_DMemAddr,
+        i_D1    => s_andLink_imm,
+        o_O     => s_andLink_mux_out
+      );     
+
+   reg_EX_MEM : EX_MEM
+     port (
+      in_ImmType          => ,              
+      in_MemWrite         => ,          
+      in_imm_sel          => ,           
+      in_branch_type      => ,               
+      in_jump             => ,        
+      in_PCReg            => ,        
+      in_data1            => ,                  
+      in_data2            => ,                        
+      in_extender         => ,                       
+      in_halt             => ,              
+      in_MemtoReg         => ,          
+      in_regWrite         => ,                         
+      in_load             => ,                          
+      in_mux              => ,                      
+      in_alu              => ,                   
+      in_zero             => ,                       
+      WE                  => ,                    
+      out_ImmType         => ,                     
+      out_MemWrite        => ,                   
+      out_regWrite        => ,                   
+      out_imm_sel         => ,               
+      out_branch_type     => ,                        
+      out_jump            => ,                    
+      out_PCReg           => ,                 
+      out_data1           => ,                   
+      out_data2           => ,              
+      out_extender        => ,             
+      out_halt            => ,               
+      out_MemtoReg        => ,             
+      out_load            => ,                 
+      out_mux             => ,              
+      out_alu             => ,         
+      out_zero            => ,            
+      RST                 => ,         
+      CLK                 =>       
+      );
+
+-- ===================MEM=================
   DMem: mem
     generic map(ADDR_WIDTH => ADDR_WIDTH,
                 DATA_WIDTH => N)
@@ -336,133 +562,40 @@ begin
              we   => s_DMemWr,
              q    => s_DMemOut);
 
-
-  -- TODO: Ensure that s_Halt is connected to an output control signal produced from decoding the Halt instruction (Opcode: 01 0100)
-  -- TODO: Ensure that s_Ovfl is connected to the overflow output of your ALU
-
-  -- TODO: Implement the rest of your processor below this comment! 
-
-  mind_control : control
-    port map (
-      i_opcode => s_Inst(6 downto 0),
-      i_funct3 => s_Inst(14 downto 12),
-      i_funct7 => s_Inst(31 downto 25),
-      i_imm => s_Inst(31 downto 20),
-      o_ALUSRC => s_ALUSRC,
-      o_ALUControl => s_ALUControl,
-      o_ImmType => s_ImmType,
-      o_ResultSrc => s_ResultSrc,
-      o_Mem_Write => s_DMemWr,
-      o_RegWrite => s_RegWrite_ctrl,
-      o_imm_sel => s_imm_sel,
-      o_BranchType => s_BranchType,
-      o_MemtoReg => s_MemtoReg,
-      o_halt  => s_Halt,
-      o_Jump => s_Jump,
-      o_Link => s_Link,	
-      o_Branch => s_Branch,
-	o_auipcSrc => s_auipcSrc,
-      o_PCReg => s_PCReg,
-	o_load => s_load
+  reg_MEM_WB : MEM_WB 
+    port (
+      in_dmem      => ,   
+      in_MemtoReg  => ,        
+      in_RegWrite  => ,       
+      in_mux       => ,         
+      in_alu       => ,         
+      WE           => ,         
+      out_dmem     => ,          
+      out_MemtoReg => ,             
+      out_RegWrite => ,              
+      out_mux      => ,                   
+      out_alu      => ,           
+      RST          => ,          
+      CLK          =>           
     );
 
-s_RegWrAddr <= s_Inst(11 downto 7);
-s_RegWr <= s_RegWrite_ctrl when s_Inst(11 downto 7) /= "00000" else '0';
+-- =================WB===================
 
-  Register_File : RV32_regFile 
+  DMEM_fixer : load_handler 
     port map (
-      clk => iCLK,
-      rst => iRST,
-      RegWrite => s_RegWr,
-      Rd => s_RegWrAddr,
-      DATA_IN => s_RegWrData,
-      RS1 => s_Inst(19 downto 15),
-      RS2 => s_Inst(24 downto 20),
-      OS1 => s_OS1,
-      OS2 => s_DMemData  
+      DMEM_in      => s_DMemOut,
+      load_control => s_load,
+      offset       => s_Inst(21 downto 20),
+      DMEM_out     => s_DMEM_fixed
     );
-
-  Fetch_of_ultamite_power : fetch
-    port map (
-      clk => iCLK,
-      rst => iRST,
-      branch => s_Branch,
-      zero_flag_ALU => s_Zero,
-      jump => s_Jump,
-      imm => s_extended_imm,
-      PCReg => s_PCReg,
-      reg_in => s_DMEMAddr,
-      instr_addr => s_NextInstAddr,
-      plus4_o => s_andLink_imm
-    );
-
-    Sign_Extend : butter_extender_Nt32
+     
+    MemtoReg_Mux : mux2t1_N
       generic map (N => 32)
       port map (
-        imm_in => s_Inst,
-        sign_ext => s_imm_sel,
-        imm_type => s_ImmType,
-        imm_out => s_extended_imm
-      );
-
-    ALU : ALU_Total
-      port map (
-         A => s_ALU_A,
-    	B => s_ALU_B,
-    	ALU_Control => s_ALUControl,
-    	Branch_Control => s_BranchType,
-    	S => s_DMemAddr,
-    	zero => s_Zero,
-    	overflow => s_Ovfl
-      );
-
-    oALUOut <= s_DMemAddr;
-
-DMEM_fixer : load_handler 
-  port map (
-    DMEM_in => s_DMemOut,
-    load_control => s_load,
-    offset => s_Inst(21 downto 20),
-    DMEM_out => s_DMEM_fixed
-  );
-
-
-    ALU_Src_Mux : mux2t1_N
-      generic map (N => 32)
-      port map (
-        i_S => s_ALUSRC,
-        i_D0 => s_DMemData,
-        i_D1 => s_extended_imm,
-        o_O => s_ALU_B
-      );
-      
-     AndLink_Mux : mux2t1_N
-      generic map (N => 32)
-      port map (
-        i_S => s_Link,
-        i_D0 => s_DMemAddr,
-        i_D1 => s_andLink_imm,
-        o_O => s_notDMem
-      );     
-
-     MemtoReg_Mux : mux2t1_N
-      generic map (N => 32)
-      port map (
-        i_S => s_MemtoReg,
-        i_D0 => s_notDMem,
+        i_S  => s_MemtoReg,
+        i_D0 => ,
         i_D1 => s_DMEM_fixed,
-        o_O => s_RegWrData
+        o_O  => s_RegWrData
       );
 
-     AuiPC_Mux : mux2t1_N
-      generic map (N => 32)
-      port map (
-        i_S => s_auipcSrc,
-        i_D0 => s_OS1,
-        i_D1 => s_NextInstAddr,
-        o_O => s_ALU_A
-      );
-
-
-s_RegWrAddr <= s_Inst(11 downto 7);
 end structure;
