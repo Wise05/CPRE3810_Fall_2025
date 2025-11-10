@@ -12,9 +12,3 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-add wave -position insertpoint  \
-vsim:/tb/CLK
-add wave -position insertpoint  \
-vsim:/tb/alu_out
-add wave -position insertpoint  \
-vsim:/tb/MyRiscv/IMem/q
