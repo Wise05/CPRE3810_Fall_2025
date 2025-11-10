@@ -1,19 +1,19 @@
 Oh no...
 
-Cycle: 6
-RARS instruction number: 3	Instruction: ori x9,x0,291
+Cycle: 8
+RARS instruction number: 5	Instruction: ori x9,x0,291
 Expected:	Register Write to Reg: 0x09 Val: 0x00000123
 Got     :	Register Write to Reg: 0x08 Val: 0xFFFFFFFF
 Incorrect write
 
-Cycle: 7
-RARS instruction number: 5	Instruction: jal x1,20
-Expected:	Register Write to Reg: 0x01 Val: 0x0040001C
+Cycle: 9
+RARS instruction number: 11	Instruction: jal x1,52
+Expected:	Register Write to Reg: 0x01 Val: 0x0040003C
 Got     :	Register Write to Reg: 0x09 Val: 0x00000123
 Incorrect write
 
-Cycle: 9
-RARS instruction number: 6	Instruction: ori x18,x0,291
+Cycle: 11
+RARS instruction number: 12	Instruction: ori x18,x0,291
 Expected:	Register Write to Reg: 0x12 Val: 0x00000123
 Got     :	Register Write to Reg: 0x09 Val: 0x00000123
 Incorrect write
