@@ -3,16 +3,20 @@
 fibs:.word   0 : 19         # "array" of words to contain fib values
 size: .word  19             # size of "array" (agrees with array declaration)
 .text
-      la   s0, fibs        # load address of array
+      #la   s0, fibs        # load address of array
+      lui   s0, 0x10010
+      #la   s5, size        # load address of size variable
+      lui s5, 0x10010
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
-      la   s5, size        # load address of size variable
+      addi x0, x0, 0       # NOP
+      addi s5, s5, 0x4C
+      addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       lw   s5, 0(s5)       # load array size
-      addi x0, x0, 0       # NOP
-      addi x0, x0, 0       # NOP
       li   s2, 1           # 1 is the known value of first and second Fib. number
+      addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       sw   s2, 0(s0)       # F[0] = 1
@@ -20,22 +24,28 @@ size: .word  19             # size of "array" (agrees with array declaration)
       addi s1, s5, -2      # Counter for loop, will execute (size-2) times
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
+      addi x0, x0, 0       # NOP
       
       # Loop to compute each Fibonacci number using the previous two Fib. numbers.
 loop: lw   s3, 0(s0)       # Get value from array F[n-2]
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
+      addi x0, x0, 0       # NOP
       lw   s4, 4(s0)       # Get value from array F[n-1]
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
+      addi x0, x0, 0       # NOP
       add  s2, s3, s4      # F[n] = F[n-1] + F[n-2]
+      addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       sw   s2, 8(s0)       # Store newly computed F[n] in array
       addi s0, s0, 4       # increment address to now-known Fib. number storage
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
+      addi x0, x0, 0       # NOP
       addi s1, s1, -1      # decrement loop counter
+      addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       bne s1, zero, loop   # repeat while not finished
@@ -44,7 +54,9 @@ loop: lw   s3, 0(s0)       # Get value from array F[n-2]
       la   a0, fibs        # first argument for print (array)
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
+      addi x0, x0, 0       # NOP
       add  a1, zero, s5    # second argument for print (size)
+      addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       jal  print           # call print routine. 
@@ -60,13 +72,17 @@ head: .asciz  "The Fibonacci numbers are:\n"
 print:add  t0, zero, a0    # starting address of array of data to be printed
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
+      addi x0, x0, 0       # NOP
       add  t1, zero, a1    # initialize loop counter to array size
+      addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       la   a0, head        # load address of the print heading string
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
+      addi x0, x0, 0       # NOP
       ori  a7, zero , 4    # specify Print String service
+      addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       ecall                # print the heading string
@@ -74,7 +90,9 @@ print:add  t0, zero, a0    # starting address of array of data to be printed
 out:  lw   a0, 0(t0)       # load the integer to be printed (the current Fib. number)
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
+      addi x0, x0, 0       # NOP
       ori  a7, zero , 1    # specify Print Integer service
+      addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       ecall                # print fibonacci number
@@ -82,7 +100,9 @@ out:  lw   a0, 0(t0)       # load the integer to be printed (the current Fib. nu
       la   a0, space       # load address of spacer for syscall
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
+      addi x0, x0, 0       # NOP
       ori  a7, zero , 4    # specify Print String service
+      addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       ecall                # print the spacer string
@@ -90,7 +110,9 @@ out:  lw   a0, 0(t0)       # load the integer to be printed (the current Fib. nu
       addi t0, t0, 4       # increment address of data to be printed
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
+      addi x0, x0, 0       # NOP
       addi t1, t1, -1      # decrement loop counter
+      addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       addi x0, x0, 0       # NOP
       bne t1, zero , out   # repeat while not finished

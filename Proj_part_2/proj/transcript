@@ -12,3 +12,27 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
+view -new wave
+# .main_pane.wave1.interior.cs.body.pw.wf
+add wave -position insertpoint  \
+vsim:/tb/CLK
+add wave -position insertpoint  \
+vsim:/tb/alu_out
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/mind_control/o_Branch
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/ALU/zero
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/PC_reg/DATA_IN
+# ** Error: (vish-7) Failed to open info file "/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/containers/sim_container_0/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/PC_reg/OS
+# ** Error: (vish-7) Failed to open info file "/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/containers/sim_container_0/work/_info" in read mode.
+# No such file or directory. (errno = ENOENT)
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/ALU/A
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/ALU/B
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/MemtoReg_Mux/o_O
