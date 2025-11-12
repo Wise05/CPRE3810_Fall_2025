@@ -1,1 +1,1 @@
-internal/boilerplate_riscv/fibonacci.s
+internal/boilerplate_riscv/grendel.s
