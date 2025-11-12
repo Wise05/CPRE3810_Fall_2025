@@ -375,7 +375,12 @@ telling:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
-        li   a1,    0x0000ffff
+        #li   a1,    0x0000ffff
+        lui a1, 0x1
+        addi x0, x0, 0             # NOP
+        addi x0, x0, 0             # NOP
+        addi x0, x0, 0             # NOP
+        addi a1, a1, -1
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -779,6 +784,9 @@ measley:
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	slt  t2,	t3, t2     	# slt 	$2,$3,$2
+    	addi x0, x0, 0             # NOP
+	addi x0, x0, 0             # NOP
+	addi x0, x0, 0             # NOP
     	beq  t2,	x0, experience # beq 	$2,$0,experience # beq, j to simulate bne
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
@@ -874,6 +882,9 @@ recast:
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	slt  t2,	t3, t2     	# slt 	$2,$3,$2
+    	addi x0, x0, 0             # NOP
+	addi x0, x0, 0             # NOP
+	addi x0, x0, 0             # NOP
     	beq  t2,	x0, pat    	# beq 	$2,$zero,pat # beq, j to simulate bne
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
@@ -980,6 +991,9 @@ evasive:
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	slt  t2,	t3, t2       	# slt 	$2,$3,$2
+    	addi x0, x0, 0             # NOP
+	addi x0, x0, 0             # NOP
+	addi x0, x0, 0             # NOP
     	beq  t2,	x0,representative# beq $2,$0,representitive # beq, j to simulate bne
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP

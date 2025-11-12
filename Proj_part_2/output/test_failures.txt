@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-internal/boilerplate_riscv/grendel.s
-=======
->>>>>>> bad81cb5676895734bd71d7d06b347accf748306
-=======
-internal/boilerplate_riscv/grendel.s
->>>>>>> 858f727 (asian lady bug)

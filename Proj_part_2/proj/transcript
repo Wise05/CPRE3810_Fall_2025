@@ -13,7 +13,14 @@
 # // and may not be used in any way not expressly authorized by SISW.
 # //
 add wave -position insertpoint  \
-vsim:/tb/CLK \
-vsim:/tb/reset \
-vsim:/tb/reset_done \
+vsim:/tb/CLK
+add wave -position insertpoint  \
 vsim:/tb/alu_out
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/mind_control/o_Branch
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/ALU/zero
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/ALU/A
+add wave -position insertpoint  \
+vsim:/tb/MyRiscv/ALU/B
