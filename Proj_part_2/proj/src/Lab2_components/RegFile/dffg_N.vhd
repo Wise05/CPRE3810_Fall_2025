@@ -19,7 +19,7 @@ begin
   begin
     if i_RST = '1' then
       r_Q <= (others => '0');
-    elsif rising_edge(i_CLK) then
+    elsif falling_edge(i_CLK) then
       if i_WE = '1' then
         r_Q <= i_D;
       end if;
