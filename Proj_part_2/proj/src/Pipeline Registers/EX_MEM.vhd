@@ -22,6 +22,8 @@ entity EX_MEM is
     in_alu            : in std_logic_vector(31 downto 0);
     in_zero           : in std_logic;
     in_PC_offset      : in std_logic_vector(31 downto 0);
+    in_stall_execute  : in std_logic;
+    in_flush_execute  : in std_logic;
     WE                : in std_logic;
     out_ImmType       : out std_logic_vector(2 downto 0);
     out_MemWrite      : out std_logic;
@@ -60,7 +62,28 @@ architecture structural of EX_MEM is
     );
   end component;
 
+  signal regWrite_in       : std_logic;
+  signal regWrite_addr_in  : std_logic_vector(4 downto 0);
+  signal MemWrite_in       : std_logic;
+  signal jump_in           : std_logic;
+  signal PCReg_in          : std_logic;
+  signal data1_in          : std_logic_vector(31 downto 0);
+  signal data2_in          : std_logic_vector(31 downto 0);
+  signal MemtoReg_in       : std_logic;
+  signal load_in           : std_logic_vector(2 downto 0);
+
 begin
+
+--stall/flush: sets siganls to a NOP instruction (add zero, zero, zero)
+    regWrite_in      <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_regWrite;
+    regWrite_addr_in <= (others => '0') when in_stall_execute = '1' or in_flush_execute = '1' else in_regWrite_addr;
+    MemWrite_in      <= '1' when in_stall_execute = '1' or in_flush_execute = '1' else in_MemWrite; --1
+    jump_in          <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_jump;
+    PCReg_in         <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_PCReg;--0
+    data1_in         <= (others => '0') when in_stall_execute = '1' or in_flush_execute = '1' else in_data1;
+    data2_in         <= (others => '0') when in_stall_execute = '1' or in_flush_execute = '1' else in_data2;
+    MemtoReg_in      <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_MemtoReg;
+    load_in          <= (others => '0') when in_stall_execute = '1' or in_flush_execute = '1' else in_load;
 
   ImmType_reg: Nbit_reg
     generic map (N => 3)
@@ -75,7 +98,7 @@ begin
   MemWrite_reg: Nbit_reg
     generic map (N => 1)
     port map (
-      in_1(0)  => in_MemWrite,
+      in_1(0)  => MemWrite_in,
       WE       => WE,
       out_1(0) => out_MemWrite,
       RST      => RST,
@@ -85,7 +108,7 @@ begin
   regWrite_reg: Nbit_reg
     generic map (N => 1)
     port map (
-      in_1(0)  => in_regWrite,
+      in_1(0)  => regWrite_in,
       WE       => WE,
       out_1(0) => out_regWrite,
       RST      => RST,
@@ -95,7 +118,7 @@ begin
   regWrite_addr_reg: Nbit_reg
     generic map (N => 5)
     port map (
-      in_1  => in_regWrite_addr,
+      in_1  => regWrite_addr_in,
       WE    => WE,
       out_1 => out_regWrite_addr,
       RST   => RST,
@@ -125,7 +148,7 @@ begin
   jump_reg: Nbit_reg
     generic map (N => 1)
     port map (
-      in_1(0)  => in_jump,
+      in_1(0)  => jump_in,
       WE       => WE,
       out_1(0) => out_jump,
       RST      => RST,
@@ -145,7 +168,7 @@ begin
   PCReg_reg: Nbit_reg
     generic map (N => 1)
     port map (
-      in_1(0)  => in_PCReg,
+      in_1(0)  => PCReg_in,
       WE       => WE,
       out_1(0) => out_PCReg,
       RST      => RST,
@@ -155,7 +178,7 @@ begin
   data1_reg: Nbit_reg
     generic map (N => 32)
     port map (
-      in_1  => in_data1,
+      in_1  => data1_in,
       WE    => WE,
       out_1 => out_data1,
       RST   => RST,
@@ -165,7 +188,7 @@ begin
   data2_reg: Nbit_reg
     generic map (N => 32)
     port map (
-      in_1  => in_data2,
+      in_1  => data2_in,
       WE    => WE,
       out_1 => out_data2,
       RST   => RST,
@@ -195,7 +218,7 @@ begin
   MemtoReg_reg: Nbit_reg
     generic map (N => 1)
     port map (
-      in_1(0)  => in_MemtoReg,
+      in_1(0)  => MemtoReg_in,
       WE       => WE,
       out_1(0) => out_MemtoReg,
       RST      => RST,
@@ -205,7 +228,7 @@ begin
   load_reg: Nbit_reg
     generic map (N => 3)
     port map (
-      in_1  => in_load,
+      in_1  => load_in,
       WE    => WE,
       out_1 => out_load,
       RST   => RST,
