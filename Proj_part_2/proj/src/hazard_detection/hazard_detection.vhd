@@ -4,16 +4,18 @@ use IEEE.numeric_std.all;
 
 entity hazard_detection is
   port (
-    i_opcode_execute   : in  std_logic_vector(6 downto 0);
+    i_opcode_execute  : in  std_logic_vector(6 downto 0);
     i_opcode_memory   : in  std_logic_vector(6 downto 0); 
-    i_rs1 : in  std_logic_vector(4 downto 0);
-    i_rs2      : in  std_logic_vector(4 downto 0);
-    i_rd       : in  std_logic_vector(4 downto 0);
-    i_offsetpc       : in  std_logic;
-    o_stall_decode     : out std_logic;
-    o_stall_execute     : out std_logic;
-    o_flush_decode     : out std_logic;
-    o_flush_execute     : out std_logic
+    i_rs1             : in  std_logic_vector(4 downto 0);
+    i_rs2             : in  std_logic_vector(4 downto 0);
+    i_rd              : in  std_logic_vector(4 downto 0);
+    i_offsetpc        : in  std_logic;
+    o_stall_pc        : out std_logic;
+    o_stall_decode    : out std_logic;
+    o_stall_execute   : out std_logic;
+    o_flush_fetch     : out std_logic;
+    o_flush_decode    : out std_logic;
+    o_flush_execute   : out std_logic
   );
 end hazard_detection;
 
@@ -27,9 +29,11 @@ load_use_hazard <= '1'
 when (i_opcode_memory = "0000011" and (i_opcode_execute /= "1101111" and i_opcode_execute /= "1100111") and i_rd /= "00000" and (i_rd = i_rs1 or i_rd = i_rs2))
 else '0';       
 
+o_stall_pc         <= '1' when (load_use_hazard = '1' and i_offsetpc  = '0') else '0';
 o_stall_decode     <= '1' when (load_use_hazard = '1' and i_offsetpc  = '0') else '0';
 o_stall_execute    <= '1' when (load_use_hazard = '1' and i_offsetpc  = '0') else '0';
 
+o_flush_fetch      <= '1' when (i_offsetpc  = '1') else '0';
 o_flush_decode     <= '1' when (i_offsetpc  = '1') else '0';
 o_flush_execute    <= '1' when (i_offsetpc  = '1' or load_use_hazard = '1') else '0';
 
