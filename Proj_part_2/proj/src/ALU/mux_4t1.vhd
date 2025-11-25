@@ -3,15 +3,15 @@ use ieee.std_logic_1164.all;
 
 entity mux_4t1 is
     generic (
-        WIDTH : integer := 32  
+        N : integer := 32  
     );
     port (
         sel    : in  std_logic_vector(1 downto 0);
-        in0    : in  std_logic_vector(WIDTH-1 downto 0);
-        in1    : in  std_logic_vector(WIDTH-1 downto 0);
-        in2    : in  std_logic_vector(WIDTH-1 downto 0);
-        in3    : in  std_logic_vector(WIDTH-1 downto 0);
-        y      : out std_logic_vector(WIDTH-1 downto 0)
+        in0    : in  std_logic_vector(N-1 downto 0);
+        in1    : in  std_logic_vector(N-1 downto 0);
+        in2    : in  std_logic_vector(N-1 downto 0);
+        in3    : in  std_logic_vector(N-1 downto 0);
+        y      : out std_logic_vector(N-1 downto 0)
     );
 end entity mux_4t1;
 
@@ -22,6 +22,6 @@ with sel select
                in1  when "01",
                in2  when "10",
                in3  when "11",
-               x"00000000" when others;
+               (others => '0') when others;
 end Behavioral;
 
