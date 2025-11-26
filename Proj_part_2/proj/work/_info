@@ -49,8 +49,8 @@ R6
 R7
 !i122 226
 R4
-Z10 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd
-Z11 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd
+8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd
+F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd
 <<<<<<< HEAD
 !s110 1761752700
 !i10b 1
@@ -58,11 +58,11 @@ Z11 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Tota
 !s90 -reportprogress|300|-work|work|/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd|
 !s107 /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd|
 R8
-Z12 !s110 1761769620
+Z10 !s110 1761769620
 !i10b 1
-Z13 !s108 1761769620.000000
-Z14 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd|
-Z15 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd|
+Z11 !s108 1761769620.000000
+Z12 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd|
+Z13 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/ALU_Total.vhd|
 R4
 <<<<<<< HEAD
 !i122 227
@@ -71,7 +71,7 @@ R8
 R4
 <<<<<<< HEAD
 w1761509677
-Z16 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R6
 R7
 !i122 224
@@ -80,7 +80,7 @@ R9
 F/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/barrel_shifter/barrel_shifter.vhd
 R8
 w1761161615
-R16
+R14
 R6
 R7
 !i122 152
@@ -94,997 +94,997 @@ F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/barrel_shifter/b
 !s90 -reportprogress|300|-work|work|/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/barrel_shifter/barrel_shifter.vhd|
 !s107 /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/barrel_shifter/barrel_shifter.vhd|
 R8
-Z17 !s110 1761162069
+Z15 !s110 1761162069
 !i10b 1
-Z18 !s108 1761162069.000000
-Z19 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/barrel_shifter/barrel_shifter.vhd|
-Z20 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/barrel_shifter/barrel_shifter.vhd|
+Z16 !s108 1761162069.000000
+Z17 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/barrel_shifter/barrel_shifter.vhd|
+Z18 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/barrel_shifter/barrel_shifter.vhd|
 R4
 <<<<<<< HEAD
-Z21 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/Branch.vhd
-Z22 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/Branch.vhd
+Z19 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/Branch.vhd
+Z20 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/Branch.vhd
+R8
+R19
+R20
+R4
+<<<<<<< HEAD
+Z21 !s110 1761162084
+!i10b 1
+Z22 !s108 1761162084.000000
+Z23 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/Branch.vhd|
+Z24 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/Branch.vhd|
 R8
 R21
+!i10b 1
 R22
-R4
-<<<<<<< HEAD
-Z23 !s110 1761162084
-!i10b 1
-Z24 !s108 1761162084.000000
-Z25 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/Branch.vhd|
-Z26 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/Branch.vhd|
-R8
 R23
-!i10b 1
 R24
-R25
-R26
 R4
 <<<<<<< HEAD
-R23
+R21
 !i10b 1
 R8
 R4
 <<<<<<< HEAD
 R8
-R26
+R24
 R4
 <<<<<<< HEAD
-Z27 w1761089768
+Z25 w1761089768
 R8
+R25
+R4
+<<<<<<< HEAD
+Z26 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/extender/butter_extender_Nt32.vhd
+Z27 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/extender/butter_extender_Nt32.vhd
+R8
+R26
 R27
 R4
 <<<<<<< HEAD
-Z28 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/extender/butter_extender_Nt32.vhd
-Z29 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/extender/butter_extender_Nt32.vhd
+Z28 !s110 1761146295
+!i10b 1
+Z29 !s108 1761146295.000000
+Z30 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/extender/butter_extender_Nt32.vhd|
+Z31 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/extender/butter_extender_Nt32.vhd|
 R8
 R28
+!i10b 1
 R29
+R30
+R31
 R4
 <<<<<<< HEAD
-Z30 !s110 1761146295
+R28
 !i10b 1
-Z31 !s108 1761146295.000000
-Z32 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/extender/butter_extender_Nt32.vhd|
-Z33 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/extender/butter_extender_Nt32.vhd|
 R8
-R30
-!i10b 1
+R4
+<<<<<<< HEAD
+R8
 R31
+R4
+<<<<<<< HEAD
+Z32 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
+Z33 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
+R8
 R32
 R33
 R4
 <<<<<<< HEAD
-R30
+Z34 !s110 1761146196
 !i10b 1
-R8
-R4
-<<<<<<< HEAD
-R8
-R33
-R4
-<<<<<<< HEAD
-Z34 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
-Z35 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
+Z35 !s108 1761146196.000000
+Z36 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|
+Z37 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|
 R8
 R34
+!i10b 1
 R35
+R36
+R37
 R4
 <<<<<<< HEAD
-Z36 !s110 1761146196
+R34
 !i10b 1
-Z37 !s108 1761146196.000000
-Z38 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|
-Z39 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|
 R8
-R36
-!i10b 1
+R4
+<<<<<<< HEAD
+R8
 R37
+R4
+<<<<<<< HEAD
+Z38 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+Z39 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+R8
 R38
 R39
 R4
 <<<<<<< HEAD
-R36
+Z40 !s110 1761162086
 !i10b 1
-R8
-R4
-<<<<<<< HEAD
-R8
-R39
-R4
-<<<<<<< HEAD
-Z40 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-Z41 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
+Z41 !s108 1761162086.000000
+Z42 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd|
+Z43 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd|
 R8
 R40
+!i10b 1
 R41
-R4
-<<<<<<< HEAD
-Z42 !s110 1761162086
-!i10b 1
-Z43 !s108 1761162086.000000
-Z44 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd|
-Z45 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd|
-R8
 R42
-!i10b 1
 R43
-R44
-R45
 R4
 <<<<<<< HEAD
-R42
+R40
 !i10b 1
 R8
 R4
 <<<<<<< HEAD
 R8
-R45
+R43
 R4
 <<<<<<< HEAD
-Z46 w1761578191
+Z44 w1761578191
 R8
+R44
+R4
+<<<<<<< HEAD
+Z45 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd
+Z46 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd
+R8
+R45
 R46
 R4
 <<<<<<< HEAD
-Z47 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd
-Z48 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd
+Z47 !s110 1761578735
+!i10b 1
+Z48 !s108 1761578735.000000
+Z49 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd|
+Z50 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd|
 R8
 R47
+!i10b 1
 R48
-R4
-<<<<<<< HEAD
-Z49 !s110 1761578735
-!i10b 1
-Z50 !s108 1761578735.000000
-Z51 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd|
-Z52 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/control/control.vhd|
-R8
 R49
-!i10b 1
 R50
-R51
-R52
 R4
 <<<<<<< HEAD
-R49
+R47
 !i10b 1
 R8
 R4
 <<<<<<< HEAD
 R8
-R52
+R50
 R4
 <<<<<<< HEAD
-Z53 w1761089778
+Z51 w1761089778
 R8
+R51
+R4
+<<<<<<< HEAD
+Z52 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd
+Z53 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd
+R8
+R52
 R53
 R4
 <<<<<<< HEAD
-Z54 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd
-Z55 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd
+Z54 !s110 1761146248
+!i10b 1
+Z55 !s108 1761146248.000000
+Z56 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd|
+Z57 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd|
 R8
 R54
+!i10b 1
 R55
+R56
+R57
 R4
 <<<<<<< HEAD
-Z56 !s110 1761146248
+R54
 !i10b 1
-Z57 !s108 1761146248.000000
-Z58 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd|
-Z59 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/decoder_5t32.vhd|
 R8
-R56
-!i10b 1
+R4
+<<<<<<< HEAD
+R8
 R57
+R4
+<<<<<<< HEAD
+R51
+R8
+R52
+R4
+<<<<<<< HEAD
+Z58 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd
+Z59 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd
+R8
 R58
 R59
 R4
 <<<<<<< HEAD
-R56
+Z60 !s110 1761146648
 !i10b 1
-R8
-R4
-<<<<<<< HEAD
-R8
-R59
-R4
-<<<<<<< HEAD
-R53
-R8
-R54
-R4
-<<<<<<< HEAD
-Z60 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd
-Z61 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd
+Z61 !s108 1761146648.000000
+Z62 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd|
+Z63 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd|
 R8
 R60
+!i10b 1
 R61
-R4
-<<<<<<< HEAD
-Z62 !s110 1761146648
-!i10b 1
-Z63 !s108 1761146648.000000
-Z64 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd|
-Z65 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/dffg.vhd|
-R8
 R62
-!i10b 1
 R63
-R64
-R65
 R4
 <<<<<<< HEAD
-R62
+R60
 !i10b 1
 R8
 R4
 <<<<<<< HEAD
 R8
-R65
+R63
 R4
 <<<<<<< HEAD
-Z66 L14 16
+Z64 L14 16
 R8
+R64
+R4
+<<<<<<< HEAD
+Z65 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd|
+Z66 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd|
+!i113 0
+Z67 o-work work
+Z68 tExplicit 1 NoCoverage 1 CvgOpt 0
+Z69 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
+Z70 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
+R8
+R65
+R66
+!i113 0
+R67
+R68
+R69
+R70
+R4
+<<<<<<< HEAD
+R69
+R66
+R8
+R70
+R69
+R4
+<<<<<<< HEAD
+Z71 !s110 1761314128
+!i10b 1
+Z72 !s108 1761314128.000000
+R65
+R65
+R8
+R71
+!i10b 1
+R72
+R65
 R66
 R4
 <<<<<<< HEAD
-Z67 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd|
-Z68 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd|
-!i113 0
-Z69 o-work work
-Z70 tExplicit 1 NoCoverage 1 CvgOpt 0
-Z71 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
-Z72 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/dffg_N.vhd
-R8
-R67
-R68
-!i113 0
-R69
-R70
 R71
+!i10b 1
+R71
+R65
+R65
+R8
+R71
+!i10b 1
 R72
+R65
+R66
 R4
 <<<<<<< HEAD
-R71
-R68
-R8
-R72
-R71
-R4
-<<<<<<< HEAD
-Z73 !s110 1761314128
-!i10b 1
-Z74 !s108 1761314128.000000
-R67
-R67
+Z73 w1761314104
 R8
 R73
-!i10b 1
+R4
+<<<<<<< HEAD
+Z74 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/dffg_N_reset.vhd
+Z75 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/dffg_N_reset.vhd
+R8
 R74
-R67
-R68
-R4
-<<<<<<< HEAD
-R73
-!i10b 1
-R73
-R67
-R67
-R8
-R73
-!i10b 1
-R74
-R67
-R68
-R4
-<<<<<<< HEAD
-Z75 w1761314104
-R8
 R75
 R4
 <<<<<<< HEAD
-Z76 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/dffg_N_reset.vhd
-Z77 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/dffg_N_reset.vhd
+Z76 !s110 1761314174
+!i10b 1
+Z77 !s108 1761314174.000000
+Z78 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/dffg_N_reset.vhd|
+Z79 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/dffg_N_reset.vhd|
 R8
 R76
+!i10b 1
 R77
+R78
+R79
 R4
 <<<<<<< HEAD
-Z78 !s110 1761314174
+R76
 !i10b 1
-Z79 !s108 1761314174.000000
-Z80 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/dffg_N_reset.vhd|
-Z81 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/dffg_N_reset.vhd|
 R8
-R78
-!i10b 1
+R4
+<<<<<<< HEAD
+R8
 R79
+R4
+<<<<<<< HEAD
+Z80 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd
+Z81 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd
+R8
 R80
 R81
 R4
 <<<<<<< HEAD
-R78
+Z82 !s110 1761146235
 !i10b 1
-R8
-R4
-<<<<<<< HEAD
-R8
-R81
-R4
-<<<<<<< HEAD
-Z82 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd
-Z83 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd
+Z83 !s108 1761146233.000000
+Z84 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
+Z85 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
 R8
 R82
+!i10b 1
 R83
-R4
-<<<<<<< HEAD
-Z84 !s110 1761146235
-!i10b 1
-Z85 !s108 1761146233.000000
-Z86 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
-Z87 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Extenders/extender_Nt32.vhd|
-R8
 R84
-!i10b 1
 R85
-R86
-R87
 R4
 <<<<<<< HEAD
-R84
+R82
 !i10b 1
 R8
 R4
 <<<<<<< HEAD
 R8
-R87
+R85
 R4
 <<<<<<< HEAD
-Z88 w1761090952
+Z86 w1761090952
 R8
+R86
+R4
+<<<<<<< HEAD
+Z87 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_extender_Nt32.vhd
+Z88 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_extender_Nt32.vhd
+R8
+R87
 R88
 R4
 <<<<<<< HEAD
-Z89 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_extender_Nt32.vhd
-Z90 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_extender_Nt32.vhd
+Z89 !s110 1761093746
+!i10b 1
+Z90 !s108 1761093746.000000
+Z91 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_extender_Nt32.vhd|
+Z92 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_extender_Nt32.vhd|
+!i113 0
+R67
+Z93 tExplicit 1 CvgOpt 0
 R8
 R89
+!i10b 1
 R90
+R91
+R92
+!i113 0
+R67
+R93
 R4
 <<<<<<< HEAD
-Z91 !s110 1761093746
+R89
 !i10b 1
-Z92 !s108 1761093746.000000
-Z93 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_extender_Nt32.vhd|
-Z94 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_extender_Nt32.vhd|
-!i113 0
-R69
-Z95 tExplicit 1 CvgOpt 0
 R8
-R91
-!i10b 1
-R92
-R93
-R94
+R4
+<<<<<<< HEAD
 !i113 0
-R69
+R67
+R92
+R4
+<<<<<<< HEAD
+Z94 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd
+Z95 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd
+R8
+R94
 R95
 R4
 <<<<<<< HEAD
-R91
+Z96 !s110 1761318125
 !i10b 1
-R8
-R4
-<<<<<<< HEAD
-!i113 0
-R69
-R94
-R4
-<<<<<<< HEAD
-Z96 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd
-Z97 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd
+Z97 !s108 1761318125.000000
+Z98 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd|
+Z99 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd|
 R8
 R96
+!i10b 1
 R97
+R98
+R99
 R4
 <<<<<<< HEAD
-Z98 !s110 1761318125
+R96
 !i10b 1
-Z99 !s108 1761318125.000000
-Z100 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd|
-Z101 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/fetch.vhd|
 R8
-R98
-!i10b 1
+R4
+<<<<<<< HEAD
+R8
 R99
+R4
+<<<<<<< HEAD
+Z100 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
+Z101 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
+R8
 R100
 R101
 R4
 <<<<<<< HEAD
-R98
+Z102 !s110 1761090120
 !i10b 1
-R8
-R4
-<<<<<<< HEAD
-R8
-R101
-R4
-<<<<<<< HEAD
-Z102 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
-Z103 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
+Z103 !s108 1761090120.000000
+Z104 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|
+Z105 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|
+!i113 0
+R67
+R92
 R8
 R102
+!i10b 1
 R103
-R4
-<<<<<<< HEAD
-Z104 !s110 1761090120
-!i10b 1
-Z105 !s108 1761090120.000000
-Z106 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|
-Z107 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|
-!i113 0
-R69
-R94
-R8
 R104
-!i10b 1
 R105
-R106
-R107
 !i113 0
-R69
-Z108 w1761318123
+R67
+Z106 w1761318123
 R4
 <<<<<<< HEAD
-R104
+R102
 !i10b 1
 R8
 R4
 <<<<<<< HEAD
 !i113 0
-R69
-R94
+R67
+R92
+R8
+R105
+!i113 0
+R67
+R106
+R4
+<<<<<<< HEAD
+Z107 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd
+Z108 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd
 R8
 R107
-!i113 0
-R69
 R108
 R4
 <<<<<<< HEAD
-Z109 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd
-Z110 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd
+Z109 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd|
+Z110 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd|
 R8
 R109
 R110
 R4
 <<<<<<< HEAD
-Z111 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd|
-Z112 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/invg.vhd|
+R109
+R109
 R8
-R111
-R112
+R109
+R110
 R4
 <<<<<<< HEAD
-R111
-R111
+Z111 w1761162649
 R8
 R111
-R112
 R4
 <<<<<<< HEAD
-Z113 w1761162649
+Z112 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/Left_Shifter.vhd
+Z113 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/Left_Shifter.vhd
 R8
+R112
 R113
 R4
 <<<<<<< HEAD
-Z114 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/Left_Shifter.vhd
-Z115 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/Left_Shifter.vhd
+Z114 !s110 1761162661
+!i10b 1
+Z115 !s108 1761162661.000000
+Z116 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/Left_Shifter.vhd|
+Z117 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/Left_Shifter.vhd|
 R8
 R114
+!i10b 1
 R115
-R4
-<<<<<<< HEAD
-Z116 !s110 1761162661
-!i10b 1
-Z117 !s108 1761162661.000000
-Z118 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/Left_Shifter.vhd|
-Z119 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/Left_Shifter.vhd|
-R8
 R116
-!i10b 1
 R117
-R118
-R119
 R4
 <<<<<<< HEAD
-R116
+R114
 !i10b 1
 R8
 R4
 <<<<<<< HEAD
 R8
-R119
+R117
 !i113 0
-R69
-R70
+R67
+R68
 R4
 <<<<<<< HEAD
-Z120 w1761089787
+Z118 w1761089787
 R8
+R118
+R4
+<<<<<<< HEAD
+Z119 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/mem.vhd
+Z120 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/mem.vhd
+R8
+R119
 R120
 R4
 <<<<<<< HEAD
-Z121 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/mem.vhd
-Z122 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/mem.vhd
+Z121 !s110 1761146347
+!i10b 1
+Z122 !s108 1761146347.000000
+Z123 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/mem.vhd|
+Z124 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/mem.vhd|
 R8
 R121
+!i10b 1
 R122
+R123
+R124
 R4
 <<<<<<< HEAD
-Z123 !s110 1761146347
+R121
 !i10b 1
-Z124 !s108 1761146347.000000
-Z125 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/mem.vhd|
-Z126 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/mem.vhd|
-R8
+R122
 R123
-!i10b 1
 R124
+R8
+R121
+!i10b 1
+R122
+R123
+R124
+R4
+<<<<<<< HEAD
+R51
+R8
+R52
+R4
+<<<<<<< HEAD
+Z125 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd
+Z126 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd
+R8
 R125
 R126
 R4
 <<<<<<< HEAD
-R123
+Z127 !s110 1761144045
 !i10b 1
-R124
-R125
-R126
-R8
-R123
-!i10b 1
-R124
-R125
-R126
-R4
-<<<<<<< HEAD
-R53
-R8
-R54
-R4
-<<<<<<< HEAD
-Z127 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd
-Z128 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd
+Z128 !s108 1761144045.000000
+Z129 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd|
+Z130 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd|
 R8
 R127
+!i10b 1
 R128
+R129
+R130
 R4
 <<<<<<< HEAD
-Z129 !s110 1761144045
+R127
 !i10b 1
-Z130 !s108 1761144045.000000
-Z131 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd|
-Z132 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Multiplier.vhd|
+R128
+R129
+R130
 R8
-R129
+R127
 !i10b 1
+R128
+R129
 R130
-R131
-R132
 R4
 <<<<<<< HEAD
-R129
-!i10b 1
-R130
-R131
-R132
+Z131 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
+Z132 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
 R8
-R129
-!i10b 1
-R130
 R131
 R132
 R4
 <<<<<<< HEAD
-Z133 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
-Z134 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
+Z133 !s110 1761146207
+!i10b 1
+Z134 !s108 1761146207.000000
+Z135 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|
+Z136 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|
 R8
 R133
+!i10b 1
 R134
+R135
+R136
 R4
 <<<<<<< HEAD
-Z135 !s110 1761146207
+R133
 !i10b 1
-Z136 !s108 1761146207.000000
-Z137 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|
-Z138 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|
-R8
+R134
 R135
-!i10b 1
 R136
-R137
-R138
+R8
+R133
+!i10b 1
+R134
+R135
+R136
 R4
 <<<<<<< HEAD
-R135
-!i10b 1
-R136
-R137
-R138
+Z137 w1761093332
 R8
-R135
-!i10b 1
-R136
 R137
-R138
 R4
 <<<<<<< HEAD
-Z139 w1761093332
+Z138 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd
+Z139 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd
 R8
+R138
 R139
 R4
 <<<<<<< HEAD
-Z140 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd
-Z141 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd
+Z140 !s110 1761146339
+!i10b 1
+Z141 !s108 1761146339.000000
+Z142 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd|
+Z143 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd|
 R8
 R140
+!i10b 1
 R141
-R4
-<<<<<<< HEAD
-Z142 !s110 1761146339
-!i10b 1
-Z143 !s108 1761146339.000000
-Z144 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd|
-Z145 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/mux2t1_N.vhd|
-R8
 R142
-!i10b 1
 R143
-R144
-R145
 R4
 <<<<<<< HEAD
-Z146 L30 21
+Z144 L30 21
 R8
+R144
+R4
+<<<<<<< HEAD
+R140
+!i10b 1
+R141
+R142
+R143
+R8
+R140
+!i10b 1
+R141
+R142
+R143
+R4
+<<<<<<< HEAD
+Z145 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/mux_16t1.vhd
+Z146 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/mux_16t1.vhd
+R8
+R145
 R146
 R4
 <<<<<<< HEAD
-R142
+Z147 !s110 1761162088
 !i10b 1
-R143
-R144
-R145
-R8
-R142
-!i10b 1
-R143
-R144
-R145
-R4
-<<<<<<< HEAD
-Z147 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/mux_16t1.vhd
-Z148 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/mux_16t1.vhd
+Z148 !s108 1761162088.000000
+Z149 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/mux_16t1.vhd|
+Z150 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/mux_16t1.vhd|
 R8
 R147
+!i10b 1
 R148
-R4
-<<<<<<< HEAD
-Z149 !s110 1761162088
-!i10b 1
-Z150 !s108 1761162088.000000
-Z151 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/mux_16t1.vhd|
-Z152 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/mux_16t1.vhd|
-R8
 R149
-!i10b 1
 R150
-R151
-R152
 R4
 <<<<<<< HEAD
-R146
+R144
 R8
-R146
+R144
 R4
 <<<<<<< HEAD
+R147
+!i10b 1
+R148
 R149
-!i10b 1
 R150
-R151
-R152
 R8
-R149
+R147
 !i10b 1
+R148
+R149
 R150
-R151
-R152
 R4
 <<<<<<< HEAD
-R53
-Z153 DPx4 work 11 riscv_types 0 22 3MXBmUn;n1@8jmRRf@HXg3
+R51
+Z151 DPx4 work 11 riscv_types 0 22 3MXBmUn;n1@8jmRRf@HXg3
 R8
-R54
+R52
+R151
+R4
+<<<<<<< HEAD
+Z152 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
+Z153 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
+R8
+R152
 R153
 R4
 <<<<<<< HEAD
-Z154 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
-Z155 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd
+Z154 !s110 1761146253
+!i10b 1
+Z155 !s108 1761146253.000000
+Z156 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd|
+Z157 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd|
 R8
 R154
+!i10b 1
 R155
+R156
+R157
 R4
 <<<<<<< HEAD
-Z156 !s110 1761146253
-!i10b 1
-Z157 !s108 1761146253.000000
-Z158 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd|
-Z159 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/mux_32t1.vhd|
+R151
 R8
-R156
+R151
+R4
+<<<<<<< HEAD
+R154
 !i10b 1
+R155
+R156
 R157
+R8
+R154
+!i10b 1
+R155
+R156
+R157
+R4
+<<<<<<< HEAD
+Z158 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+Z159 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+R8
 R158
 R159
 R4
 <<<<<<< HEAD
-R153
-R8
-R153
-R4
-<<<<<<< HEAD
-R156
+Z160 !s110 1761146212
 !i10b 1
-R157
-R158
-R159
-R8
-R156
-!i10b 1
-R157
-R158
-R159
-R4
-<<<<<<< HEAD
-Z160 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
-Z161 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+Z161 !s108 1761146212.000000
+Z162 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|
+Z163 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|
 R8
 R160
+!i10b 1
 R161
+R162
+R163
 R4
 <<<<<<< HEAD
-Z162 !s110 1761146212
-!i10b 1
-Z163 !s108 1761146212.000000
-Z164 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|
-Z165 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|
+R64
 R8
-R162
+R65
+R4
+<<<<<<< HEAD
+R160
 !i10b 1
+R161
+R162
 R163
+R8
+R160
+!i10b 1
+R161
+R162
+R163
+R4
+<<<<<<< HEAD
+Z164 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd
+Z165 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd
+R8
 R164
 R165
 R4
 <<<<<<< HEAD
-R66
-R8
-R67
-R4
-<<<<<<< HEAD
-R162
+Z166 !s110 1761146188
 !i10b 1
-R163
-R164
-R165
-R8
-R162
-!i10b 1
-R163
-R164
-R165
-R4
-<<<<<<< HEAD
-Z166 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd
-Z167 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd
+Z167 !s108 1761146188.000000
+Z168 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd|
+Z169 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd|
 R8
 R166
+!i10b 1
 R167
+R168
+R169
 R4
 <<<<<<< HEAD
-Z168 !s110 1761146188
+R166
 !i10b 1
-Z169 !s108 1761146188.000000
-Z170 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd|
-Z171 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/org2.vhd|
-R8
+R167
 R168
-!i10b 1
 R169
-R170
-R171
+R8
+R166
+!i10b 1
+R167
+R168
+R169
 R4
 <<<<<<< HEAD
-R168
-!i10b 1
-R169
-R170
-R171
+Z170 w1761314115
 R8
-R168
-!i10b 1
-R169
 R170
-R171
 R4
 <<<<<<< HEAD
-Z172 w1761314115
+Z171 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd
+Z172 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd
 R8
+R171
 R172
 R4
 <<<<<<< HEAD
-Z173 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd
-Z174 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd
+Z173 !s110 1761314177
+!i10b 1
+Z174 !s108 1761314177.000000
+Z175 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd|
+Z176 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd|
 R8
 R173
+!i10b 1
 R174
+R175
+R176
 R4
 <<<<<<< HEAD
-Z175 !s110 1761314177
+R173
 !i10b 1
-Z176 !s108 1761314177.000000
-Z177 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd|
-Z178 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/fetch/PC.vhd|
-R8
+R174
 R175
-!i10b 1
 R176
+R8
+R173
+!i10b 1
+R174
+R175
+R176
+R4
+<<<<<<< HEAD
+Z177 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd
+Z178 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd
+R8
 R177
 R178
 R4
 <<<<<<< HEAD
-R175
+R166
 !i10b 1
-R176
-R177
-R178
+R167
+Z179 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd|
+Z180 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd|
 R8
-R175
+R174
 !i10b 1
-R176
-R177
-R178
-R4
-<<<<<<< HEAD
-Z179 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd
-Z180 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd
-R8
+R175
 R179
 R180
 R4
 <<<<<<< HEAD
-R168
+R166
 !i10b 1
-R169
-Z181 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd|
-Z182 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Reg.vhd|
+R167
+R179
+R180
 R8
-R176
+R174
 !i10b 1
-R177
+R175
+R179
+R180
+R4
+<<<<<<< HEAD
+Z181 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd
+Z182 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd
+R8
 R181
 R182
 R4
 <<<<<<< HEAD
-R168
+R166
 !i10b 1
-R169
-R181
-R182
+R167
+Z183 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd|
+Z184 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd|
 R8
-R176
+R174
 !i10b 1
-R177
-R181
-R182
-R4
-<<<<<<< HEAD
-Z183 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd
-Z184 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd
-R8
+R175
 R183
 R184
 R4
 <<<<<<< HEAD
-R168
+R166
 !i10b 1
-R169
-Z185 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd|
-Z186 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/RegLd.vhd|
+R167
+R183
+R184
 R8
-R176
+R174
 !i10b 1
-R177
+R175
+R183
+R184
+R4
+<<<<<<< HEAD
+Z185 w1761578768
+Z186 DPx4 work 11 riscv_types 0 22 IS=_@C_zo1X4[c7`?03GW0
+R8
 R185
 R186
 R4
 <<<<<<< HEAD
-R168
-!i10b 1
-R169
-R185
-R186
-R8
-R176
-!i10b 1
-R177
-R185
-R186
-R4
-<<<<<<< HEAD
-Z187 w1761578768
-Z188 DPx4 work 11 riscv_types 0 22 IS=_@C_zo1X4[c7`?03GW0
+Z187 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd
+Z188 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd
 R8
 R187
 R188
 R4
 <<<<<<< HEAD
-Z189 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd
-Z190 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd
+Z189 !s110 1761578770
+!i10b 1
+Z190 !s108 1761578770.000000
+Z191 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd|
+Z192 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd|
 R8
 R189
+!i10b 1
 R190
-R4
-<<<<<<< HEAD
-Z191 !s110 1761578770
-!i10b 1
-Z192 !s108 1761578770.000000
-Z193 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd|
-Z194 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/TopLevel/RISCV_Processor.vhd|
-R8
 R191
-!i10b 1
 R192
-R193
-R194
 R4
 <<<<<<< HEAD
-R188
+R186
 R8
-R188
+R186
 R4
 <<<<<<< HEAD
+R189
+!i10b 1
+R190
 R191
-!i10b 1
 R192
-R193
-R194
 R8
+R189
+!i10b 1
+R190
 R191
-!i10b 1
 R192
-R193
-R194
 R4
 <<<<<<< HEAD
-R188
+R186
 R8
-R188
+R186
 R4
 <<<<<<< HEAD
-R53
-R153
+R51
+R151
 R8
-R54
-R161
+R52
+R159
 R4
 <<<<<<< HEAD
-R153
+R151
 R8
-R161
+R159
 R4
 <<<<<<< HEAD
 w1761165019
-R16
+R14
 R6
 R7
 !i122 226
@@ -1093,7 +1093,7 @@ R9
 F/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd
 R8
 w1761165377
-R16
+R14
 R6
 R7
 !i122 163
@@ -1107,15 +1107,15 @@ F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vh
 !s90 -reportprogress|300|-work|work|/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd|
 !s107 /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd|
 R8
-Z195 !s110 1761165702
+Z193 !s110 1761165702
 !i10b 1
-Z196 !s108 1761165702.000000
-Z197 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd|
-Z198 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd|
+Z194 !s108 1761165702.000000
+Z195 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd|
+Z196 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_ALU_Total.vhd|
 R4
 <<<<<<< HEAD
 w1761345474
-R16
+R14
 R6
 R7
 !i122 225
@@ -1124,7 +1124,7 @@ R9
 F/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_barrel_shifter.vhd
 R8
 w1761322852
-R16
+R14
 R6
 R7
 !i122 183
@@ -1138,90 +1138,90 @@ F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_barrel_shift
 !s90 -reportprogress|300|-work|work|/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_barrel_shifter.vhd|
 !s107 /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_barrel_shifter.vhd|
 R8
-Z199 !s110 1761322886
+Z197 !s110 1761322886
 !i10b 1
-Z200 !s108 1761322886.000000
-Z201 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_barrel_shifter.vhd|
-Z202 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_barrel_shifter.vhd|
+Z198 !s108 1761322886.000000
+Z199 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_barrel_shifter.vhd|
+Z200 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_barrel_shifter.vhd|
 R4
 <<<<<<< HEAD
-R88
+R86
 R8
-R89
+R87
 R4
 <<<<<<< HEAD
-R94
+R92
 R8
-R108
+R106
 R4
 <<<<<<< HEAD
-R94
+R92
 R8
-R108
+R106
 R4
 <<<<<<< HEAD
-R88
+R86
 R8
-R89
+R87
 R4
 <<<<<<< HEAD
-R94
+R92
 R8
-R108
+R106
 R4
 <<<<<<< HEAD
-R94
+R92
 R8
-R108
+R106
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L4 1
-Z203 VnE:Ezbg4P`7W^gSfmzhYU0
-Z204 !s100 d`EC9LzIM@6QYHF[en4_41
-Z205 OL;C;2025.1_2;82
+Z201 VnE:Ezbg4P`7W^gSfmzhYU0
+Z202 !s100 d`EC9LzIM@6QYHF[en4_41
+Z203 OL;C;2025.1_2;82
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructural
 R6
 R7
-Z206 DEx4 work 9 alu_total 0 22 nE:Ezbg4P`7W^gSfmzhYU0
+Z204 DEx4 work 9 alu_total 0 22 nE:Ezbg4P`7W^gSfmzhYU0
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l85
-Z207 L16 137
+L16 137
 V5Z?XA0jbkoem4cUU7Y2C[0
 !s100 8GIO0GHH>Y>>l51k^]8T73
-R205
+R203
 33
-R12
+R10
 !i10b 1
+R11
+R12
 R13
-R14
-R15
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L5 1
 V5RTVgEPZ3@ODNKdizPF@b0
 !s100 @3jO<i:]oX1Q>Z<kl_S4R0
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructural
-R16
+R14
 R6
 R7
 DEx4 work 14 barrel_shifter 0 22 5RTVgEPZ3@ODNKdizPF@b0
@@ -1230,53 +1230,53 @@ l31
 L14 101
 VAYc2jONmG@2?RnGnnzKQ71
 !s100 Fog:FTX@Y6eZ^BW05656d1
-R205
+R203
 33
-R17
+R15
 !i10b 1
+R16
+R17
 R18
-R19
-R20
 !i113 0
-R69
-R70
+R67
+R68
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L4 1
-VRh;<R2?6CJX9?f@M2X6T@3
-!s100 @N[2l9<A>DHCVHD>8o_Wn1
-R205
+Z205 VRh;<R2?6CJX9?f@M2X6T@3
+Z206 !s100 @N[2l9<A>DHCVHD>8o_Wn1
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructural
 R6
 R7
-DEx4 work 6 branch 0 22 Rh;<R2?6CJX9?f@M2X6T@3
+Z207 DEx4 work 6 branch 0 22 Rh;<R2?6CJX9?f@M2X6T@3
 !i122 155
 l19
-L14 40
+Z208 L14 40
 V;h6I=0gfag6ZiPAYERIB?1
 !s100 Gn3E7cdR_>@A=g1?iJ]BZ2
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R23
+R21
 !i10b 1
-R24
-R25
+R22
+R23
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R16
+R14
 R6
 R7
 !i122 129
@@ -1286,16 +1286,16 @@ l0
 L5 1
 Vf`M;]n^[ez8ZF21_j@jL:3
 !s100 NgldS5b8oiK3zBI?W49`H0
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Ageneratebased
-R16
+R14
 R6
 R7
 DEx4 work 20 butter_extender_nt32 0 22 f`M;]n^[ez8ZF21_j@jL:3
@@ -1304,31 +1304,31 @@ l20
 L17 37
 V0bGDz?fKA6I6H_U:S1WQE2
 !s100 bGFMh]Ol1KIAXe4UM?WLT0
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R30
+R28
 !i10b 1
-R31
-R32
+R29
+R30
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L7 1
 VS_5YilDn]<F[XR8m`V:l]0
 !s100 Cj80ooNV=gH6SNgQohMnm3
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructural
 R6
@@ -1339,56 +1339,56 @@ l30
 L16 32
 VR_1>hV=akF`S^o]gAjofl3
 !s100 k:J4SW]iQzEaM^<7iU1c`0
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R36
+R34
 !i10b 1
-R37
-R38
+R35
+R36
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L7 1
-V;UUd0?[4ahhGMFY28b<^B1
-!s100 eale@:2B:Tfbe4gn`z4CS0
-R205
+Z209 V;UUd0?[4ahhGMFY28b<^B1
+Z210 !s100 eale@:2B:Tfbe4gn`z4CS0
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructural
 R6
 R7
-DEx4 work 18 carry_adder_n_over 0 22 ;UUd0?[4ahhGMFY28b<^B1
+Z211 DEx4 work 18 carry_adder_n_over 0 22 ;UUd0?[4ahhGMFY28b<^B1
 !i122 156
 l31
-L17 33
-Vn:7T6HeUaQV6<`ZThSI4F2
-!s100 6eWZ8ff9PNfDF61WC?H_53
-R205
+Z212 L17 33
+Z213 Vn:7T6HeUaQV6<`ZThSI4F2
+Z214 !s100 6eWZ8ff9PNfDF61WC?H_53
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R42
+R40
 !i10b 1
-R43
-R44
+R41
+R42
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R16
+R14
 R6
 R7
 !i122 219
@@ -1398,16 +1398,16 @@ l0
 L5 1
 V74VE]]XI5B3A@n7N46OoN1
 !s100 bkembX:W3NN3dFZP;0kM`0
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Adataflow
-R16
+R14
 R6
 R7
 DEx4 work 7 control 0 22 74VE]]XI5B3A@n7N46OoN1
@@ -1416,18 +1416,18 @@ l30
 L29 104
 VhMaEUG[fJZ__;;z9:M7OA0
 !s100 JIWNHz3mT^A^Ac^j:PQ472
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R49
+R47
 !i10b 1
-R50
-R51
+R48
+R49
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
@@ -1439,13 +1439,13 @@ l0
 L4 1
 V0zcT_:>nRlFV<fkb0lSXf2
 !s100 PV5_7Q_]Lo[HF^B=<`f]W0
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Adataflow
 R6
@@ -1456,18 +1456,18 @@ l10
 L9 38
 Vhc6_?9QX3gC@d[ah0GZTe2
 !s100 mFXi=g0oi7L_M3XOBV>Nd2
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R56
+R54
 !i10b 1
-R57
-R58
+R55
+R56
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
@@ -1476,16 +1476,16 @@ R7
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
-Z208 L23 1
+Z215 L23 1
 VH7[7fQclb0RF5ljXe<KKY0
 !s100 T4gcXQGMCgKJbn8XhBM;b0
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Amixed
 R6
@@ -1496,18 +1496,18 @@ l37
 L33 29
 VM>A>L<U`E78`0<h>bR]Yh3
 !s100 iOdlTUid@@]UimFK_53^C1
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R62
+R60
 !i10b 1
-R63
-R64
+R61
+R62
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Abehavioral
 R6
@@ -1518,7 +1518,7 @@ l16
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 V2_cc2]IWc3;aP8OaTA:lN0
 !s100 o@gc_JD1W@hFdbQ=J2U^o3
-R205
+R203
 33
 !s110 1761146267
 !i10b 1
@@ -1531,13 +1531,13 @@ l0
 L4 1
 VN;8^_fP^kIl2eS8ig7TC]1
 !s100 8RK<]INEE8nVOYoW298G53
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Abehavioral
 R6
@@ -1548,12 +1548,12 @@ l17
 L15 16
 VHo]]^[I:zIOPhEke;EH9G0
 !s100 G7fcAM;V`<LMe0O]SRUBA3
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
@@ -1565,13 +1565,13 @@ l0
 L4 1
 VoZ?n8;WZHY6V`hXaIKFVb1
 !s100 Y?9]NAfIY^;MR?QOP05Ek1
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Abehavioral
 R6
@@ -1582,34 +1582,34 @@ l19
 L18 13
 VaLk[VjWkH:f53?L1=cOJM1
 !s100 [6k7oT1bPFb6S0]^@6VzL0
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R78
+R76
 !i10b 1
-R79
-R80
+R77
+R78
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L6 1
 VVDBf::TbH0SjW3NMR@Afc1
 !s100 <WY:1=A=dGT<Yz7K6XFaj1
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Ageneratebased
-R16
+R14
 R6
 R7
 DEx4 work 13 extender_nt32 0 22 VDBf::TbH0SjW3NMR@Afc1
@@ -1618,21 +1618,21 @@ l18
 L17 10
 V[U0F69coG=D=DBno=ISl01
 !s100 CcQVREGK1CO;3CC@3aTPI2
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R84
+R82
 !i10b 1
-R85
-R86
+R83
+R84
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R16
+R14
 R6
 R7
 !i122 50
@@ -1642,13 +1642,13 @@ l0
 L5 1
 Vi^ZG>c^7_8U;[a4;g6Fn;0
 !s100 D;_?4[Z<U=5X[86eBdzGj1
-R205
+R203
 32
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R4
 Abehavior
-R16
+R14
 R6
 R7
 DEx4 work 16 extender_nt32_tb 0 22 i^ZG>c^7_8U;[a4;g6Fn;0
@@ -1657,13 +1657,13 @@ l29
 L8 159
 V5n9FY47I_Dn@2GN0cmQRi2
 !s100 ?m=97Jl[O@P2P;6DTb0D83
-R205
+R203
 32
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R91
+R89
 !i10b 1
-R92
-R93
+R90
+R91
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
@@ -1675,13 +1675,13 @@ l0
 L4 1
 VNb;5B_znWf5PE<OW12jSG3
 !s100 AFGCBY;B765db[^EA=1ON0
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructural
 R6
@@ -1692,31 +1692,31 @@ l70
 L19 113
 VXbV2Y>hbghc<V3NgGFl^92
 !s100 HNNDDOMC:F:JMzKFD`[P53
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R98
+R96
 !i10b 1
-R99
-R100
+R97
+R98
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L9 1
 Vj=NzgB<>oLVOm7I27TBLM0
 !s100 mo[n2]EW6g`C>XbLWK1_z1
-R205
+R203
 32
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R4
 Abehavior
-R16
+R14
 R6
 R7
 DEx4 work 10 full_adder 0 22 j=NzgB<>oLVOm7I27TBLM0
@@ -1725,31 +1725,31 @@ l39
 L17 50
 V95=VcTBh@M@82ee^iUP;i2
 !s100 a]Y2dGOeV[koFPz<_lnOK0
-R205
+R203
 32
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R104
+R102
 !i10b 1
-R105
-R106
+R103
+R104
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
-R208
+R215
 VzJhOLc0g_4RfSF]IXa;:73
 !s100 _XK?_^5z0Rm1<k12?;5R?2
-R205
+R203
 33
-Z209 !s110 1761146181
+Z216 !s110 1761146181
 !i10b 1
-Z210 !s108 1761146181.000000
+Z217 !s108 1761146181.000000
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Adataflow
 R6
@@ -1760,18 +1760,18 @@ l31
 L30 6
 VT@AA60h>IXVJ?D^`RRiZk1
 !s100 bk7I76o8e1LURdoZEQb8H0
-R205
+R203
 33
-R209
+R216
 !i10b 1
-R210
+R217
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R16
+R14
 R6
 R7
 !i122 158
@@ -1781,16 +1781,16 @@ l0
 L5 1
 VL2Db1[1IQd0ZmUb:ONB;L3
 !s100 ]2hc2?YOg[G>0d?CJK7`W3
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructural
-R16
+R14
 R6
 R7
 DEx4 work 12 left_shifter 0 22 L2Db1[1IQd0ZmUb:ONB;L3
@@ -1799,21 +1799,21 @@ l13
 L12 5
 V3e?[AjnJ^c5aMJNm9N`e`2
 !s100 z=MHYYz[8lhIB`70l7HaW3
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R116
+R114
 !i10b 1
-R117
-R118
+R115
+R116
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R16
+R14
 R6
 R7
 !i122 139
@@ -1823,16 +1823,16 @@ l0
 L8 1
 VQ_Y953^@mg4h;HoXAPe2d2
 !s100 fRlcaiTJZJ1H;nZh;8=LI3
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Artl
-R16
+R14
 R6
 R7
 DEx4 work 3 mem 0 22 Q_Y953^@mg4h;HoXAPe2d2
@@ -1841,34 +1841,34 @@ l37
 L27 24
 VcdMDH_i8fEBbejOT7K`iC2
 !s100 OI8_3><BhDkT3l3n8`OXd3
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R16
+R14
 R6
 R7
 !i122 73
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
-Z211 L26 1
+Z218 L26 1
 VQZQz[19A0G@R7Zk3i4J2N3
 !s100 7X@Jko]<<Vj_GlPXZCnEf3
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Abehavior
-R16
+R14
 R6
 R7
 DEx4 work 10 multiplier 0 22 QZQz[19A0G@R7Zk3i4J2N3
@@ -1877,28 +1877,28 @@ l38
 L37 11
 VcALVPaD=z:AC?Rc=UV1zA2
 !s100 NZ_1jPD9^a_Gc254BDF0C1
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L11 1
 VPkKgX[1^3CFPcC?n`P4N`0
 !s100 7i2P_V8V?m733gNoJHTB61
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Abehavior
-R16
+R14
 R6
 R7
 DEx4 work 6 mux2t1 0 22 PkKgX[1^3CFPcC?n`P4N`0
@@ -1907,12 +1907,12 @@ l40
 L19 43
 Voi[W]AmC8=BW>YDaMU`RE1
 !s100 8MeOIDC^;7@QLnl=8QG3T3
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
@@ -1924,13 +1924,13 @@ l0
 L21 1
 VX=8caLddO;GBDIdffNOz`3
 !s100 a8b75l9QH119Si`4JcQ1J0
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructural
 R6
@@ -1941,43 +1941,43 @@ l39
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 VS;7^3=hDiT7zH78Vm1Xhk1
 !s100 W>5MMWO2LBg`K8[P>h>Ye1
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L4 1
-VinCR<me?nYYGO97Lk56T:0
-!s100 c_TJcoiZVJX?gi9=gDDbC3
-R205
+Z219 VinCR<me?nYYGO97Lk56T:0
+Z220 !s100 c_TJcoiZVJX?gi9=gDDbC3
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Abehavioral
 R6
 R7
-DEx4 work 8 mux_16t1 0 22 inCR<me?nYYGO97Lk56T:0
+Z221 DEx4 work 8 mux_16t1 0 22 inCR<me?nYYGO97Lk56T:0
 !i122 157
 l31
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-V2if1Fb4C>FOzRTF^Dn:L53
-!s100 Gh5jmfP>l0ePAJP29khNC2
-R205
+Z222 V2if1Fb4C>FOzRTF^Dn:L53
+Z223 !s100 Gh5jmfP>l0ePAJP29khNC2
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
@@ -1989,13 +1989,13 @@ l0
 L5 1
 Vl?R`ClY^RjzH3DecTZ;7J3
 !s100 [hl;CKVAR>ZUbK7Ka9HW60
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Adataflow
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
@@ -2007,26 +2007,26 @@ l15
 L14 37
 VQ_MLHj;m<8N`i`i@az4jS1
 !s100 W5dXhW_975ck]Ad]CNhXa2
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L8 1
 VHlnD6o8Z:PTN@1eNQfUzQ1
 !s100 ?S_OC`;]2A6198NA7jK953
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructural
 R6
@@ -2037,26 +2037,26 @@ l21
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 V]ZkakV?jYbCDo^L>BYLj?2
 !s100 O6VFDA4V1^eg?eP>zU^nM2
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
-R208
+R215
 V0FzB9ATDX9TV=M:n@=VB83
 !s100 bGQ1F9eW^Q17OoL9h4g7z2
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Adataflow
 R6
@@ -2064,15 +2064,15 @@ R7
 DEx4 work 4 org2 0 22 0FzB9ATDX9TV=M:n@=VB83
 !i122 105
 l32
-Z212 L31 6
+Z224 L31 6
 V0JC>N7cRXc=9bni@>dg7o3
 !s100 h5_AzR3TdRA0a_K=dQ>mI2
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
@@ -2082,44 +2082,44 @@ R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L4 1
-VZ5bT[i811cJHH7lhD?mRR2
-!s100 =j2gLOVA:RfXG;Ho2JNL23
-R205
+Z225 VZ5bT[i811cJHH7lhD?mRR2
+Z226 !s100 =j2gLOVA:RfXG;Ho2JNL23
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructural
 R6
 R7
-DEx4 work 2 pc 0 22 Z5bT[i811cJHH7lhD?mRR2
+Z227 DEx4 work 2 pc 0 22 Z5bT[i811cJHH7lhD?mRR2
 !i122 177
 l25
-L14 24
-VA?CdVT;<mAj9]S<Ek10A^3
-!s100 L@56IZVM=HViZ@4n<cz<b2
-R205
+Z228 L14 24
+Z229 VA?CdVT;<mAj9]S<Ek10A^3
+Z230 !s100 L@56IZVM=HViZ@4n<cz<b2
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
-R208
+R215
 V`PX^3h8TjOoe:BSO9PXbo0
 !s100 [YR2K8dfC;91mFlo`2lkO2
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Abehavior
 R6
@@ -2130,25 +2130,25 @@ l34
 L33 11
 VW]PYjc?1E[F?b0T?m:Xa]1
 !s100 nf[`4S9cGXRcE4GX;@:6^1
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
-R208
+R215
 VIOdN@HA1O9ghc_C>a1oiT3
 !s100 ikPXW34H>Yig3olobSE7c2
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Abehavior
 R6
@@ -2159,12 +2159,12 @@ l37
 L34 19
 VXMG4Uj12V?[=H;NC9BfP`2
 !s100 IC8af?T7V5V4Kal8D0chZ1
-R205
+R203
 33
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
@@ -2173,34 +2173,34 @@ R7
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
-R208
-Z213 V3dOCFPSU=DaWUNCHab0kc2
-Z214 !s100 AbfQc??>7BL50WIf1Na1i2
-R205
+R215
+V3dOCFPSU=DaWUNCHab0kc2
+!s100 AbfQc??>7BL50WIf1Na1i2
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Astructure
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
 R7
-Z215 DEx4 work 15 riscv_processor 0 22 3dOCFPSU=DaWUNCHab0kc2
+DEx4 work 15 riscv_processor 0 22 3dOCFPSU=DaWUNCHab0kc2
 !i122 221
 l207
 L35 313
 V=_RhP8UXU`H9JNj?gk^jU0
 !s100 Q@Bn]N[e0GTJbD2YD5jVl0
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
@@ -2210,74 +2210,74 @@ l0
 L31 3
 VG^f_52?:_FXS30F>zDizR0
 !s100 TeH8G`JY8=]8Uzk2_`a2b2
-R205
+R203
 33
-Z216 !s110 1761146352
+Z231 !s110 1761146352
 !i10b 1
-Z217 !s108 1761146352.000000
-Z218 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/RISCV_types.vhd|
-Z219 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/RISCV_types.vhd|
+Z232 !s108 1761146352.000000
+Z233 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/RISCV_types.vhd|
+Z234 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/RISCV_types.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
 R7
 !i122 119
 R4
-Z220 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
-Z221 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
+Z235 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
+Z236 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
 l0
 L5 1
-Z222 VI[l7EkTEz@QC]XlHO;lX70
-Z223 !s100 i72LfS_P4To@7gGe@F]2e0
-R205
+Z237 VI[l7EkTEz@QC]XlHO;lX70
+Z238 !s100 i72LfS_P4To@7gGe@F]2e0
+R203
 33
-Z224 !s110 1761146256
+Z239 !s110 1761146256
 !i10b 1
-Z225 !s108 1761146256.000000
-Z226 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd|
-Z227 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd|
+Z240 !s108 1761146256.000000
+Z241 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd|
+Z242 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/RegFile/RV32_regFile.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Astructural
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R6
 R7
-Z228 DEx4 work 12 rv32_regfile 0 22 I[l7EkTEz@QC]XlHO;lX70
+Z243 DEx4 work 12 rv32_regfile 0 22 I[l7EkTEz@QC]XlHO;lX70
 !i122 119
 l44
 R5
 VRKckOgbdO>iC@CaNC]PbI1
 !s100 ^_6`6YazM<i5SaXF]ITf43
-R205
+R203
 33
-R224
+R239
 !i10b 1
-R225
-R226
-R227
+R240
+R241
+R242
 !i113 0
-R69
-R70
+R67
+R68
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L5 1
 VUHcLZM=V4Io@5HT`:e=6h3
 !s100 AcF5SH^c2zX9z0I1nBfTA2
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Abehavior
-R16
+R14
 R6
 R7
 DEx4 work 12 tb_alu_total 0 22 UHcLZM=V4Io@5HT`:e=6h3
@@ -2286,31 +2286,31 @@ l37
 L10 128
 VECE=a``c5a3QflKd8N5zB2
 !s100 AVXz3nSIhd^hBi4KYBmkV0
-R205
+R203
 33
-R195
+R193
 !i10b 1
+R194
+R195
 R196
-R197
-R198
 !i113 0
-R69
-R70
+R67
+R68
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 l0
 L5 1
 V7CYJQMgSTEZ_X0XmhnoBJ0
 !s100 4M8^]a22OCh6O@TM:UBm=1
-R205
+R203
 33
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 !i113 0
-R69
-R70
+R67
+R68
 R4
 Abehavior
-R16
+R14
 R6
 R7
 DEx4 work 17 tb_barrel_shifter 0 22 7CYJQMgSTEZ_X0XmhnoBJ0
@@ -2319,18 +2319,18 @@ l26
 L8 66
 VE91F^Ae`>[P_;:7Jn1?<P2
 !s100 c<V4H59lYcEiYi^^2[[ol0
-R205
+R203
 33
-R199
+R197
 !i10b 1
+R198
+R199
 R200
-R201
-R202
 !i113 0
-R69
-R70
+R67
+R68
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R16
+R14
 R6
 R7
 !i122 51
@@ -2341,19 +2341,19 @@ l0
 L5 1
 V^fggRa93Jd>IR7gaM6lFR2
 !s100 Ahg4;>kh:SjFPc7ARAm:>0
-R205
+R203
 32
-Z229 !s110 1761093748
+Z244 !s110 1761093748
 !i10b 1
-Z230 !s108 1761093748.000000
-Z231 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_butter_extender.vhd|
-Z232 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_butter_extender.vhd|
+Z245 !s108 1761093748.000000
+Z246 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_butter_extender.vhd|
+Z247 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_butter_extender.vhd|
 !i113 0
-R69
+R67
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R4
 Atestbench
-R16
+R14
 R6
 R7
 DEx4 work 18 tb_butter_extender 0 22 ^fggRa93Jd>IR7gaM6lFR2
@@ -2362,19 +2362,19 @@ l29
 L8 145
 VXjOoMQ4=iaWDnLFz36GI[0
 !s100 o9f?ATBV1EUU<_>6H90Ri0
-R205
+R203
 32
-R229
+R244
 !i10b 1
-R230
-R231
-R232
+R245
+R246
+R247
 !i113 0
-R69
+R67
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R4
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
-R16
+R14
 R6
 R7
 !i122 49
@@ -2385,19 +2385,19 @@ l0
 L5 1
 V5Tc@dz0_e4LMdHcoj4L6Z1
 !s100 TA5j5`M3T<?_i<dQ]c2G11
-R205
+R203
 32
-Z233 !s110 1761093744
+Z248 !s110 1761093744
 !i10b 1
-Z234 !s108 1761093744.000000
-Z235 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_Left_Shifter.vhd|
-Z236 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_Left_Shifter.vhd|
+Z249 !s108 1761093744.000000
+Z250 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_Left_Shifter.vhd|
+Z251 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_Left_Shifter.vhd|
 !i113 0
-R69
+R67
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R4
 Asim
-R16
+R14
 R6
 R7
 DEx4 work 15 tb_left_shifter 0 22 5Tc@dz0_e4LMdHcoj4L6Z1
@@ -2406,15 +2406,15 @@ l19
 L8 29
 VF2WJFiRD=V_APWI8zcb5G3
 !s100 U_312]CeLJBXEhnNl_4LL2
-R205
+R203
 32
-R233
+R248
 !i10b 1
-R234
-R235
-R236
+R249
+R250
+R251
 !i113 0
-R69
+R67
 >>>>>>> 49a1f37 (dmem handler that shouyld have been done by the dmem like in my opinion)
 R4
 T_opt
@@ -2423,14 +2423,14 @@ VSUgF1aE@lWo?iIFKGEF]T2
 04 12 8 work tb_alu_total behavior 1
 =1-000ae431a4f1-6902368f-86c16-364a
 R1
-Z237 !s12f OEM100
-Z238 !s12b OEM100
-Z239 !s124 OEM100
-Z240 !s135 nogc
-Z241 o-quiet -auto_acc_if_foreign -work work +acc
-Z242 tCvgOpt 0
+Z252 !s12f OEM100
+Z253 !s12b OEM100
+Z254 !s124 OEM100
+Z255 !s135 nogc
+Z256 o-quiet -auto_acc_if_foreign -work work +acc
+Z257 tCvgOpt 0
 n@_opt
-Z243 OL;O;2025.1_2;82
+Z258 OL;O;2025.1_2;82
 R4
 T_opt2
 !s110 1761766117
@@ -2438,37 +2438,37 @@ V6jIKbFlmE[?z09mQH8B;b1
 04 15 3 work tb_left_shifter sim 1
 =1-000ae431a4f1-69026ae5-51d83-564e
 R1
-R237
-R238
-R239
-R240
-R241
-R242
+R252
+R253
+R254
+R255
+R256
+R257
 n@_opt2
-R243
+R258
 R4
 Eadd_sub_n
-Z244 w1761089779
+Z259 w1761089779
 R6
 R7
 !i122 110
 R4
-Z245 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd
-Z246 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd
+Z260 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd
+Z261 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd
 l0
 L7 1
 V19kW20TJAZ`IaCKMdi4nl2
 !s100 n4dRbZTT^mWhOUYa6EoeG1
-R205
+R203
 33
-Z247 !s110 1761146201
+Z262 !s110 1761146201
 !i10b 1
-Z248 !s108 1761146201.000000
-Z249 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|
-Z250 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|
+Z263 !s108 1761146201.000000
+Z264 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|
+Z265 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Astructural
 R6
 R7
@@ -2478,41 +2478,41 @@ l52
 L18 63
 V73mm6k7MzCiCe_B@cXS^W0
 !s100 Ba8eJRmlI_C2I[`80[Ofb2
-R205
+R203
 33
-R247
+R262
 !i10b 1
-R248
-R249
-R250
+R263
+R264
+R265
 !i113 0
-R69
-R70
+R67
+R68
 Eadder
-R244
-R16
+R259
+R14
 R6
 R7
 !i122 101
 R4
-Z251 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd
-Z252 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd
+Z266 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd
+Z267 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd
 l0
-R211
+R218
 VS4MI8V^FMP8KeNkOzBRIC3
 !s100 D7GUTT<S>Ij<;bm;`5=Z12
-R205
+R203
 33
-R209
+R216
 !i10b 1
-R210
-Z253 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd|
-Z254 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd|
+R217
+Z268 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd|
+Z269 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/Adder.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Abehavior
-R16
+R14
 R6
 R7
 DEx4 work 5 adder 0 22 S4MI8V^FMP8KeNkOzBRIC3
@@ -2521,186 +2521,256 @@ l40
 L39 11
 V^o_C@ia_k]2UCzD6DY1DA3
 !s100 z]F]Ulo_Tema=Q<>RNE;Q0
-R205
+R203
 33
-R209
+R216
 !i10b 1
-R210
-R253
-R254
+R217
+R268
+R269
 !i113 0
-R69
-R70
+R67
+R68
 Eaddsub_overflow
-Z255 w1761768555
+Z270 w1762794004
 R6
 R7
-!i122 225
-R4
-Z256 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd
-Z257 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd
+!i122 281
+Z271 d/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj
+Z272 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/AddSub_overflow.vhd
+Z273 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/AddSub_overflow.vhd
 l0
 L7 1
 V1=WAOBMHS;:gI^nl]P1B:0
 !s100 SS74<lS]NkiKf`HT]SK7H1
-R205
+R203
 33
-Z258 !s110 1761769618
+Z274 !s110 1764020966
 !i10b 1
-Z259 !s108 1761769618.000000
-Z260 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd|
-Z261 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd|
+Z275 !s108 1764020966.000000
+Z276 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/AddSub_overflow.vhd|
+Z277 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/AddSub_overflow.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Astructural
 R6
 R7
 DEx4 work 15 addsub_overflow 0 22 1=WAOBMHS;:gI^nl]P1B:0
-!i122 225
+!i122 281
 l56
 L19 69
 VUCF[Kbo4WVLPFO_82W=^C0
 !s100 m<2lKJ`l2=bM;`P>NI<E@1
-R205
+R203
 33
-R258
+R274
 !i10b 1
-R259
-R260
-R261
+R275
+R276
+R277
 !i113 0
-R69
-R70
+R67
+R68
 Ealu_total
-Z262 w1761840040
+R270
 R6
 R7
-!i122 259
-R4
-R10
-R11
+!i122 282
+R271
+Z278 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/ALU_Total.vhd
+Z279 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/ALU_Total.vhd
 l0
 L4 1
+R201
+R202
 R203
-R204
-R205
 33
-Z263 !s110 1761840050
+Z280 !s110 1764020969
 !i10b 1
-Z264 !s108 1761840050.000000
-R14
-R15
+Z281 !s108 1764020969.000000
+Z282 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/ALU_Total.vhd|
+Z283 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/ALU_Total.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Astructural
 R6
 R7
-R206
-!i122 259
+R204
+!i122 282
 l85
-R207
-V9HZO?3A4OZ8HI0TQbA_eX3
-!s100 SZP^Y=GCXO]S:HM9<<>Y>1
-R205
+L16 138
+V_j:W8gfYNK@]<]PL>6^B^0
+!s100 <C@nWMmULYIzK?BH<VXj;0
+R203
 33
-R263
+R280
 !i10b 1
-R264
-R14
-R15
+R281
+R282
+R283
 !i113 0
-R69
-R70
+R67
+R68
 Eandg2
-R244
+R259
 R6
 R7
 !i122 102
 R4
-Z265 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd
-Z266 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd
+Z284 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd
+Z285 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd
 l0
-R208
+R215
 VzJ2OoPJ=<ja2?Y;OcjQk;3
 !s100 YT?bGzEmcFo:DlnoC^B4_0
-R205
+R203
 33
-R209
+R216
 !i10b 1
-R210
-Z267 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd|
-Z268 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd|
+R217
+Z286 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd|
+Z287 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/andg2.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Adataflow
 R6
 R7
 DEx4 work 5 andg2 0 22 zJ2OoPJ=<ja2?Y;OcjQk;3
 !i122 102
 l32
-R212
+R224
 V3oa1[>iDZj;2zVo:oz1>e2
 !s100 I`@Z@UBObS]<7m8bPgKUS1
-R205
+R203
 33
-R209
+R216
 !i10b 1
-R210
-R267
-R268
+R217
+R286
+R287
 !i113 0
-R69
-R70
+R67
+R68
 Ebarrel_shifter
 R4
 Ebranch
-w1761150524
+R270
 R6
 R7
-!i122 155
-R4
+!i122 283
+R271
+Z288 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/Branch.vhd
+Z289 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/Branch.vhd
+l0
+L4 1
+R205
+R206
+R203
+33
+Z290 !s110 1764020971
+!i10b 1
+Z291 !s108 1764020971.000000
+Z292 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/Branch.vhd|
+Z293 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/Branch.vhd|
+!i113 0
+R67
+R68
+Astructural
+R6
+R7
+R207
+!i122 283
+l19
+R208
+V2:FbRRlc=<R?;J2F3Z@Lm0
+!s100 VIb_O6^Z>5<>0Ao6cJn8Y0
+R203
+33
+R290
+!i10b 1
+R291
+R292
+R293
+!i113 0
+R67
+R68
 Ebutter_extender_nt32
 R4
 Ecarry_adder_n
-R244
+R259
 R6
 R7
 !i122 109
 R4
 Ecarry_adder_n_over
-R21
+R270
 R6
 R7
-!i122 156
-R4
+!i122 284
+R271
+Z294 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/carry_adder_N_over.vhd
+Z295 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/carry_adder_N_over.vhd
+l0
+L7 1
+R209
+R210
+R203
+33
+Z296 !s110 1764020974
+!i10b 1
+Z297 !s108 1764020974.000000
+Z298 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/carry_adder_N_over.vhd|
+Z299 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/carry_adder_N_over.vhd|
+!i113 0
+R67
+R68
+Astructural
+R6
+R7
+R211
+!i122 284
+l31
+R212
+R213
+R214
+R203
+33
+R296
+!i10b 1
+R297
+R298
+R299
+!i113 0
+R67
+R68
 Econtrol
-Z269 w1761835122
-R16
+Z300 w1761835122
+R14
 R6
 R7
 !i122 252
 R4
-R47
-R48
+R45
+R46
 l0
 L5 1
 VAgHN1dcLN;98c?LGfggC50
 !s100 9J8PW@Pcf3;9g46i8UX?K3
-R205
+R203
 33
-Z270 !s110 1761835212
+Z301 !s110 1761835212
 !i10b 1
-Z271 !s108 1761835212.000000
-R51
-R52
+Z302 !s108 1761835212.000000
+R49
+R50
 !i113 0
-R69
-R70
+R67
+R68
 Adataflow
-R16
+R14
 R6
 R7
 DEx4 work 7 control 0 22 AgHN1dcLN;98c?LGfggC50
@@ -2709,31 +2779,72 @@ l31
 L30 109
 Vi]HTGD_6>@5aG1DYBZ<U50
 !s100 f0C9eJSRHXAh]Ci?<HUXb3
-R205
+R203
 33
-R270
+R301
 !i10b 1
-R271
-R51
-R52
+R302
+R49
+R50
 !i113 0
-R69
-R70
+R67
+R68
 Edecoder_5t32
 R4
 Edffg
 R4
 Edffg_n
-R21
+R19
 R6
 R7
 !i122 175
 R4
 Edffg_n_reset
 R4
+Eex_mem
+Z303 w1764020727
+R6
+R7
+!i122 272
+R271
+Z304 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd
+Z305 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd
+l0
+L4 1
+V7HmlN_8RL[CI0fCk0BZn42
+!s100 Ela<<I@f@dD99ieO9M?oc2
+R203
+33
+Z306 !s110 1764020900
+!i10b 1
+Z307 !s108 1764020900.000000
+Z308 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd|
+Z309 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd|
+!i113 0
+R67
+R68
+Astructural
+R6
+R7
+DEx4 work 6 ex_mem 0 22 7HmlN_8RL[CI0fCk0BZn42
+!i122 272
+l75
+L52 227
+VE6OBK?YokPm`gn3A44c<Z3
+!s100 I2e@5WF[C4IV=QLdTH7]`1
+R203
+33
+R306
+!i10b 1
+R307
+R308
+R309
+!i113 0
+R67
+R68
 Eextender_nt32
-R244
-R16
+R259
+R14
 R6
 R7
 !i122 115
@@ -2741,25 +2852,193 @@ R4
 Eextender_nt32_tb
 R4
 Efetch
-R108
+R106
 R8
-R94
+R92
 !i113 0
-R69
-R108
+R67
+R106
 R4
 Efetch
-R108
+R106
 R4
+Eforwarding_unit
+R303
+R14
+R6
+R7
+!i122 278
+R271
+Z310 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/forwarding/forwarding_unit.vhd
+Z311 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/forwarding/forwarding_unit.vhd
+l0
+L5 1
+V2Zk6`674Qc474=JZP`c8H3
+!s100 V<Jka]YRJNKO03ImjIlWz1
+R203
+33
+Z312 !s110 1764020918
+!i10b 1
+Z313 !s108 1764020918.000000
+Z314 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/forwarding/forwarding_unit.vhd|
+Z315 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/forwarding/forwarding_unit.vhd|
+!i113 0
+R67
+R68
+Adataflow
+R14
+R6
+R7
+DEx4 work 15 forwarding_unit 0 22 2Zk6`674Qc474=JZP`c8H3
+!i122 278
+l21
+L20 24
+V3i<LfGS8caUA<9QGhGJaZ1
+!s100 F3KV@=j=lHN@IIkU`^I_k3
+R203
+33
+R312
+!i10b 1
+R313
+R314
+R315
+!i113 0
+R67
+R68
 Efull_adder
-R244
-R16
+R259
+R14
 R6
 R7
 !i122 10
 R4
+Ehazard_detection
+R303
+R14
+R6
+R7
+!i122 279
+R271
+Z316 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/hazard_detection/hazard_detection.vhd
+Z317 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/hazard_detection/hazard_detection.vhd
+l0
+L5 1
+V]>PbV1:CZ:AYnaPo?`01:0
+!s100 BL5`DzhXDGe^znU:k72kS3
+R203
+33
+Z318 !s110 1764020926
+!i10b 1
+Z319 !s108 1764020926.000000
+Z320 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/hazard_detection/hazard_detection.vhd|
+Z321 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/hazard_detection/hazard_detection.vhd|
+!i113 0
+R67
+R68
+Adataflow
+R14
+R6
+R7
+DEx4 work 16 hazard_detection 0 22 ]>PbV1:CZ:AYnaPo?`01:0
+!i122 279
+l26
+L22 19
+Vo6k1;4BTi=`UOjAoZbUEa1
+!s100 Mi`80T^nB[7zWJ:F=U:9N1
+R203
+33
+R318
+!i10b 1
+R319
+R320
+R321
+!i113 0
+R67
+R68
+Eid_ex
+R303
+R6
+R7
+!i122 273
+R271
+Z322 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd
+Z323 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd
+l0
+L4 1
+VGznm93^aCe3jCDEWYc0380
+!s100 b4SFhc6ghDGSkfn16;SX@0
+R203
+33
+Z324 !s110 1764020903
+!i10b 1
+Z325 !s108 1764020903.000000
+Z326 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd|
+Z327 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd|
+!i113 0
+R67
+R68
+Astructural
+R6
+R7
+DEx4 work 5 id_ex 0 22 Gznm93^aCe3jCDEWYc0380
+!i122 273
+l82
+L56 254
+VIgzQi5XZ61@P<I2k>SH2g3
+!s100 5Ui`ISVKI6_RmHN_UjUHa1
+R203
+33
+R324
+!i10b 1
+R325
+R326
+R327
+!i113 0
+R67
+R68
+Eif_id
+R303
+R6
+R7
+!i122 274
+R271
+Z328 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd
+Z329 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd
+l0
+L4 1
+VbeGm5cF1E?z@130CTXhFk0
+!s100 X[^SYLUhK@OaHIPiHJ9H?3
+R203
+33
+Z330 !s110 1764020905
+!i10b 1
+Z331 !s108 1764020905.000000
+Z332 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd|
+Z333 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd|
+!i113 0
+R67
+R68
+Astructural
+R6
+R7
+DEx4 work 5 if_id 0 22 beGm5cF1E?z@130CTXhFk0
+!i122 274
+l36
+L19 51
+V]14;:83B18IO=179VzLXg1
+!s100 [<M7oLT_NQjA=H1IHd3hE2
+R203
+33
+R330
+!i10b 1
+R331
+R332
+R333
+!i113 0
+R67
+R68
 Einvg
-R244
+R259
 R6
 R7
 !i122 103
@@ -2767,30 +3046,30 @@ R4
 Eleft_shifter
 R4
 Eload_handler
-Z272 w1761792423
-R16
+Z334 w1761792423
+R14
 R6
 R7
 !i122 250
 R4
-Z273 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
-Z274 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
+Z335 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
+Z336 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd
 l0
 L5 1
 Vlj@5aj57MUPgQ3<BZ5QDY1
 !s100 A=hcBgc[2C[TTKN@f[1I<3
-R205
+R203
 33
-Z275 !s110 1761792427
+Z337 !s110 1761792427
 !i10b 1
-Z276 !s108 1761792427.000000
-Z277 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd|
-Z278 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd|
+Z338 !s108 1761792427.000000
+Z339 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd|
+Z340 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/loadHandler/load_handler.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Abehavioral
-R16
+R14
 R6
 R7
 DEx4 work 12 load_handler 0 22 lj@5aj57MUPgQ3<BZ5QDY1
@@ -2799,16 +3078,16 @@ l18
 L14 54
 V;mJAgB7L_BoYkn^RN>5:H1
 !s100 Y<Ab9:ebU?HBXkT2d@T2P1
-R205
+R203
 33
-R275
+R337
 !i10b 1
-R276
-R277
-R278
+R338
+R339
+R340
 !i113 0
-R69
-R70
+R67
+R68
 Astructural
 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
@@ -2820,65 +3099,65 @@ l19
 L13 31
 Vjcboc?@4>ZbT@CP`b1f>L1
 !s100 Y3aVXi;^44[YYbc=l7MYD1
-R205
+R203
 33
 !s110 1761791830
 !i10b 1
 !s108 1761791830.000000
-R277
-R278
+R339
+R340
 !i113 0
-R69
-R70
+R67
+R68
 w1761792315
 Emem
 R4
 Emem_wb
-Z279 w1762800396
+Z341 w1762805277
 R6
 R7
-!i122 271
-Z280 d/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj
-Z281 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd
-Z282 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd
+!i122 275
+R271
+Z342 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd
+Z343 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd
 l0
 L5 1
 Vi2<0:P9;e[=6MNdE2b^NG3
 !s100 cNkD5KkEX1hX5i^3NSH^[0
-R205
+R203
 33
-Z283 !s110 1762800537
+Z344 !s110 1764020908
 !i10b 1
-Z284 !s108 1762800537.000000
-Z285 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd|
-Z286 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd|
+Z345 !s108 1764020908.000000
+Z346 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd|
+Z347 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Astructural
 R6
 R7
-Z287 DEx4 work 6 mem_wb 0 22 i2<0:P9;e[=6MNdE2b^NG3
-!i122 271
+DEx4 work 6 mem_wb 0 22 i2<0:P9;e[=6MNdE2b^NG3
+!i122 275
 l43
-Z288 L30 96
-Z289 Vam6QSfcdbACDfbZW0HDWL2
-Z290 !s100 8nGeXoT_[_=>OFFA?L]Bz1
-R205
+L30 96
+VM9HFo6?ILZb:heAe1YkFb1
+!s100 k_>OR<3V5MTT`I;>CPPOH2
+R203
 33
-R283
+R344
 !i10b 1
-R284
-R285
-R286
+R345
+R346
+R347
 !i113 0
-R69
-R70
+R67
+R68
 Emultiplier
 R4
 Emux2t1
-R244
-R16
+R259
+R14
 R6
 R7
 !i122 111
@@ -2886,148 +3165,306 @@ R4
 Emux2t1_n
 R4
 Emux_16t1
-R21
+R270
 R6
 R7
-!i122 157
-R4
+!i122 287
+R271
+Z348 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/mux_16t1.vhd
+Z349 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/mux_16t1.vhd
+l0
+L4 1
+R219
+R220
+R203
+33
+Z350 !s110 1764020981
+!i10b 1
+Z351 !s108 1764020981.000000
+Z352 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/mux_16t1.vhd|
+Z353 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/mux_16t1.vhd|
+!i113 0
+R67
+R68
+Abehavioral
+R6
+R7
+R221
+!i122 287
+l31
+R144
+R222
+R223
+R203
+33
+R350
+!i10b 1
+R351
+R352
+R353
+!i113 0
+R67
+R68
 Emux_32t1
 R4
+Emux_4t1
+Z354 w1764082053
+R6
+R7
+!i122 306
+R271
+Z355 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/mux_4t1.vhd
+Z356 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/mux_4t1.vhd
+l0
+L4 1
+VZ=9oTT_YU26kUkjcmX9Eb1
+!s100 1gebaCzn0Je=7H0;f?2=i0
+R203
+33
+Z357 !s110 1764082874
+!i10b 1
+Z358 !s108 1764082873.000000
+Z359 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/mux_4t1.vhd|
+Z360 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/ALU/mux_4t1.vhd|
+!i113 0
+R67
+R68
+Abehavioral
+R6
+R7
+DEx4 work 7 mux_4t1 0 22 Z=9oTT_YU26kUkjcmX9Eb1
+!i122 306
+l19
+L18 9
+V>7]TKKJNN4LXYbaGZ[`a23
+!s100 a]g8KXAQ<jXd<c@`We;AL3
+R203
+33
+R357
+!i10b 1
+R358
+R359
+R360
+!i113 0
+R67
+R68
+Enbit_reg
+R341
+R14
+R6
+R7
+!i122 277
+R271
+Z361 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd
+Z362 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd
+l0
+L5 1
+ViOYZEBD0B1gkIA7JOj3BZ0
+!s100 I:Rbzgo<<o;f8=SAFV9^50
+R203
+33
+Z363 !s110 1764020912
+!i10b 1
+Z364 !s108 1764020912.000000
+Z365 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd|
+Z366 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd|
+!i113 0
+R67
+R68
+Astructural
+R14
+R6
+R7
+DEx4 work 8 nbit_reg 0 22 iOYZEBD0B1gkIA7JOj3BZ0
+!i122 277
+l25
+L16 23
+VocS6DM:ma7eNhQ]EUWAc02
+!s100 i>UfZ<Z4heS31SgjeoFHa3
+R203
+33
+R363
+!i10b 1
+R364
+R365
+R366
+!i113 0
+R67
+R68
 Eones_comp_n
-R244
+R259
 R6
 R7
 !i122 112
 R4
 Eorg2
-R244
+R259
 R6
 R7
 !i122 105
 R4
 Epc
-R4
+Z367 w1762794003
+R6
+R7
+!i122 290
+R271
+Z368 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/fetch/PC.vhd
+Z369 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/fetch/PC.vhd
+l0
+L4 1
+R225
+R226
+R203
+33
+Z370 !s110 1764021184
+!i10b 1
+Z371 !s108 1764021184.000000
+Z372 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/fetch/PC.vhd|
+Z373 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/fetch/PC.vhd|
+!i113 0
+R67
+R68
+Astructural
+R6
+R7
+R227
+!i122 290
+l25
+R228
+R229
+R230
+R203
+33
+R370
+!i10b 1
+R371
+R372
+R373
+!i113 0
+R67
+R68
 Ereg
-R244
+R259
 R6
 R7
 !i122 106
 R4
 Eregld
-R244
+R259
 R6
 R7
 !i122 107
 R4
 Eriscv_processor
-Z291 w1762795548
-R188
+Z374 w1764090607
+R186
 R6
 R7
-!i122 268
-R280
-Z292 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd
-Z293 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd
+!i122 311
+R271
+Z375 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd
+Z376 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd
 l0
-R208
-R213
-R214
-R205
+L22 1
+VH`MGoKHg6fo65WQR>[W=c2
+!s100 =18RflJSYl]PcFJI[?nUO2
+R203
 33
-Z294 !s110 1762795553
+Z377 !s110 1764090630
 !i10b 1
-Z295 !s108 1762795553.000000
-Z296 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd|
-Z297 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd|
+Z378 !s108 1764090630.000000
+Z379 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd|
+Z380 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Astructure
-R188
+R186
 R6
 R7
-R215
-!i122 268
-l424
-L35 726
-V0^LGGmoi`]9`GAQCB:g1B3
-!s100 7XC:HI2QDGlTC[^EM_nX63
-R205
+Z381 DEx4 work 15 riscv_processor 0 22 H`MGoKHg6fo65WQR>[W=c2
+!i122 311
+l452
+Z382 L34 801
+V=7Ejnd8YzOgn0`XSf_?F_0
+!s100 W^MFRnn88i2J=lb9F49;k1
+R203
 33
-R294
+R377
 !i10b 1
-R295
-R296
-R297
+R378
+R379
+R380
 !i113 0
-R69
-R70
+R67
+R68
 Priscv_types
 R6
 R7
 !i122 141
-Z298 w1761089695
+Z383 w1761089695
 R4
-Z299 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/RISCV_types.vhd
-Z300 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/RISCV_types.vhd
+Z384 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/RISCV_types.vhd
+Z385 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/RISCV_types.vhd
 l0
 L15 15
 VIS=_@C_zo1X4[c7`?03GW0
 !s100 U1Nl?U;g4O5j_H<N9G71M2
-R205
+R203
 33
-R216
+R231
 !i10b 1
-R217
-R218
-R219
+R232
+R233
+R234
 !i113 0
-R69
-R70
+R67
+R68
 Bbody
 Erv32_regfile
-Z301 w1761839273
-R188
+Z386 w1761839273
+R186
 R6
 R7
 !i122 257
 R4
-R220
-R221
+R235
+R236
 l0
 L5 1
-R222
-R223
-R205
+R237
+R238
+R203
 33
-Z302 !s110 1761839287
+Z387 !s110 1761839287
 !i10b 1
-Z303 !s108 1761839287.000000
-R226
-R227
+Z388 !s108 1761839287.000000
+R241
+R242
 !i113 0
-R69
-R70
+R67
+R68
 Astructural
-R188
+R186
 R6
 R7
-R228
+R243
 !i122 257
 l45
 L19 85
 V7:R>1E>0]=]PJ1o]SQT<d2
 !s100 JfFO3LFZKbf9fQ`2Jz_k@0
-R205
+R203
 33
-R302
+R387
 !i10b 1
-R303
-R226
-R227
+R388
+R241
+R242
 !i113 0
-R69
-R70
+R67
+R68
 Etb_alu_total
 R4
 Etb_barrel_shifter
@@ -3035,30 +3472,30 @@ R4
 Etb_butter_extender
 R4
 Etb_fetch
-Z304 w1761099384
-R16
+Z389 w1761099384
+R14
 R6
 R7
 !i122 61
 R4
-Z305 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd
-Z306 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd
+Z390 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd
+Z391 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd
 l0
 L5 1
 V4N;_gOaC1j]ZkJl^^c>Ea2
 !s100 0:f9z:zQoCgOnmM`lNKml2
-R205
+R203
 33
-Z307 !s110 1761141749
+Z392 !s110 1761141749
 !i10b 1
-Z308 !s108 1761141749.000000
-Z309 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd|
-Z310 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd|
+Z393 !s108 1761141749.000000
+Z394 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd|
+Z395 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/test/tb_fetch.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Abehavior
-R16
+R14
 R6
 R7
 DEx4 work 8 tb_fetch 0 22 4N;_gOaC1j]ZkJl^^c>Ea2
@@ -3067,43 +3504,43 @@ l40
 L10 78
 V=o^>707PfS:z]<<eBl8Le0
 !s100 [m2Y^^YU@ceg3R7YOOY713
-R205
+R203
 33
-R307
+R392
 !i10b 1
-R308
-R309
-R310
+R393
+R394
+R395
 !i113 0
-R69
-R70
+R67
+R68
 Etb_left_shifter
 R4
 Etpu_mv_element
-R244
-R16
+R259
+R14
 R6
 R7
 !i122 72
 R4
-Z311 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd
-Z312 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd
+Z396 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd
+Z397 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd
 l0
 L24 1
 VzYh9PZ:M>^FhOUkf:Q7Y=1
 !s100 Oan5[g6PEML;U2o>_dSN00
-R205
+R203
 33
-Z313 !s110 1761144037
+Z398 !s110 1761144037
 !i10b 1
-Z314 !s108 1761144037.000000
-Z315 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|
-Z316 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|
+Z399 !s108 1761144037.000000
+Z400 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|
+Z401 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Astructure
-R16
+R14
 R6
 R7
 DEx4 work 14 tpu_mv_element 0 22 zYh9PZ:M>^FhOUkf:Q7Y=1
@@ -3112,54 +3549,54 @@ l85
 L38 104
 VczC<?l@kF9Kh9D]zQ>1Dh1
 !s100 FCmAjFWXGjLlhb;Rm=3A83
-R205
+R203
 33
-R313
+R398
 !i10b 1
-R314
-R315
-R316
+R399
+R400
+R401
 !i113 0
-R69
-R70
+R67
+R68
 Exorg2
-R244
+R259
 R6
 R7
 !i122 108
 R4
-Z317 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd
-Z318 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd
+Z402 8/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd
+Z403 F/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd
 l0
-R208
+R215
 VV6C:miP5l_oAXXFV_WP4`3
 !s100 [hI[mXFH4_j16U;>U1Lfn2
-R205
+R203
 33
-Z319 !s110 1761146191
+Z404 !s110 1761146191
 !i10b 1
-Z320 !s108 1761146191.000000
-Z321 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd|
-Z322 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd|
+Z405 !s108 1761146191.000000
+Z406 !s90 -reportprogress|300|-work|work|/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd|
+Z407 !s107 /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_1/proj/src/Lab2_components/Lab1/xorg2.vhd|
 !i113 0
-R69
-R70
+R67
+R68
 Adataflow
 R6
 R7
 DEx4 work 5 xorg2 0 22 V6C:miP5l_oAXXFV_WP4`3
 !i122 108
 l32
-R212
+R224
 V0<8Ik`hGa2ooIj9K`Y3Wc0
 !s100 Z6[FAPS4fBLB`F?OO<AY72
-R205
+R203
 33
-R319
+R404
 !i10b 1
-R320
-R321
-R322
+R405
+R406
+R407
 !i113 0
-R69
-R70
+R67
+R68
