@@ -118,11 +118,11 @@ architecture structure of RISCV_Processor is
   signal s_PC_val_EX     : std_logic_vector(31 downto 0);
   signal s_PC_plus4_EX   : std_logic_vector(31 downto 0);
   signal s_Branch_EX     : std_logic;
+  signal s_Inst_EX       : std_logic_vector(31 downto 0);
   signal s_stall_execute : std_logic;
   signal s_flush_execute : std_logic;
   signal s_alu_a_mux     : std_logic_vector(1 downto 0);
   signal s_alu_b_mux     : std_logic_vector(1 downto 0);
-  signal s_EX_MEM_WE     : std_logic;
 
   -- ALU
   signal s_ALU_A : std_logic_vector(31 downto 0);
@@ -143,9 +143,9 @@ architecture structure of RISCV_Processor is
   signal s_ImmType_MEM     : std_logic_vector(2 downto 0);
   signal s_MemWrite_MEM    : std_logic;
   signal s_RegWrite_MEM    : std_logic;
-  signal s_RegWriteAddr_MEM : std_logic_vector(4 downto 0);
+  signal s_RegWriteAddr_MEM: std_logic_vector(4 downto 0);
   signal s_imm_sel_MEM     : std_logic_vector(1 downto 0);
-  signal s_branch_type_MEM: std_logic_vector(2 downto 0);
+  signal s_branch_type_MEM : std_logic_vector(2 downto 0);
   signal s_jump_MEM        : std_logic;
   signal s_PCReg_MEM       : std_logic;
   signal s_data1_MEM       : std_logic_vector(31 downto 0);
@@ -159,6 +159,7 @@ architecture structure of RISCV_Processor is
   signal s_zero_MEM        : std_logic;
   signal s_Branch_MEM      : std_logic;
   signal s_PC_offset_MEM   : std_logic_vector(31 downto 0);
+  signal s_inst_MEM        : std_logic_vector(31 downto 0);
 
   -- Jump/Branch control signals
   signal s_branch_taken    : std_logic;  -- Output of AND gate (branch AND zero)
@@ -306,6 +307,7 @@ component ID_EX is
        in_load            : in std_logic_vector(2 downto 0);
        in_pc_val          : in std_logic_vector(N-1 downto 0);
        in_pc_plus4        : in std_logic_vector(N-1 downto 0);
+       in_instruct        : in std_logic_vector(31 downto 0);
        in_stall_decode    : in std_logic;
        in_flush_decode    : in std_logic;
        WE                 : in std_logic;
@@ -330,6 +332,7 @@ component ID_EX is
        out_load           : out std_logic_vector(2 downto 0);
        out_pc_val         : out std_logic_vector(N-1 downto 0);
        out_pc_plus4       : out std_logic_vector(N-1 downto 0);
+       out_instruct       : out std_logic_vector(31 downto 0);
        RST                : in std_logic;
        CLK                : in std_logic);
 end component;
@@ -392,6 +395,7 @@ component EX_MEM is
        in_alu              : in std_logic_vector(N-1 downto 0);
        in_zero             : in std_logic;
        in_PC_offset        : in std_logic_vector(N-1 downto 0);
+       in_instruct         : in std_logic_vector(31 downto 0);
        in_stall_execute    : in std_logic;
        in_flush_execute    : in std_logic;
        WE                  : in std_logic;
@@ -414,6 +418,7 @@ component EX_MEM is
        out_alu             : out std_logic_vector(N-1 downto 0);
        out_zero            : out std_logic;
        out_PC_offset       : out std_logic_vector(N-1 downto 0);
+       out_instruct         : out std_logic_vector(31 downto 0);
        RST                 : in std_logic;
        CLK                 : in std_logic);
 end component;
@@ -530,12 +535,12 @@ s_RegWr <= s_RegWrite_WB;
 
   hudini_hdu : hazard_detection
     port map (
-      i_opcode_execute => s_Inst_ID(6 downto 0),  
-      i_opcode_memory  => s_Inst_ID(6 downto 0), 
-      i_rs1            => s_Inst_ID(19 downto 15), 
-      i_rs2            => s_Inst_ID(24 downto 20), 
+      i_opcode_execute => s_Inst_EX(6 downto 0),  
+      i_opcode_memory  => s_Inst_MEM(6 downto 0), 
+      i_rs1            => s_Inst_EX(19 downto 15), 
+      i_rs2            => s_Inst_EX(24 downto 20), 
       i_rd             => s_RegWriteAddr_MEM, 
-      i_offsetpc       => s_take_branch_or_jump, -- Signal that an instruction might change PC
+      i_offsetpc       => s_take_branch_or_jump, 
       o_stall_pc       => s_stall_pc, 
       o_stall_decode   => s_stall_decode, 
       o_stall_execute  => s_stall_execute, 
@@ -615,6 +620,7 @@ s_RegWr <= s_RegWrite_WB;
       in_load            => s_load,
       in_pc_val          => s_PC_val_ID,
       in_pc_plus4        => s_PC_plus4_ID,
+      in_instruct        => s_Inst_ID,
       in_stall_decode    => s_stall_decode,
       in_flush_decode    => s_flush_decode,
       WE                 => s_ID_EX_WE,                            
@@ -639,6 +645,7 @@ s_RegWr <= s_RegWrite_WB;
       out_load           => s_load_EX,
       out_pc_val         => s_PC_val_EX,
       out_pc_plus4       => s_PC_plus4_EX,
+      out_instruct       => s_Inst_EX,
       RST                => iRST,
       CLK                => iCLK            
     );
@@ -711,8 +718,8 @@ s_RegWr <= s_RegWrite_WB;
 
   forward : forwarding_unit
     port map (
-      i_rs1_ex         => s_Inst_ID(19 downto 15), -- RS1 address in ID (approximation)
-      i_rs2_ex         => s_Inst_ID(24 downto 20), -- RS2 address in ID (approximation)
+      i_rs1_ex         => s_Inst_EX(19 downto 15),
+      i_rs2_ex         => s_Inst_EX(24 downto 20), 
       i_rd_mem         => s_RegWriteAddr_MEM, 
       i_rd_wb          => s_RegWriteAddr_WB,  
       i_regWrite_mem   => s_RegWrite_MEM, 
@@ -722,9 +729,6 @@ s_RegWr <= s_RegWrite_WB;
       o_alu_a_mux      => s_alu_a_mux, 
       o_alu_b_mux      => s_alu_b_mux 
     );
-
-  -- EX/MEM Pipeline Register Write Enable (stalled on load-use)
-  s_EX_MEM_WE <= not s_stall_execute;
 
   reg_EX_MEM : EX_MEM
     port map (
@@ -747,7 +751,8 @@ s_RegWr <= s_RegWrite_WB;
       in_alu              => s_ALU_Out,           
       in_zero             => s_Zero,
       in_PC_offset        => PC_offset_s,
-      in_stall_execute    => s_EX_MEM_WE,
+      in_instruct         => s_Inst_EX,
+      in_stall_execute    => s_stall_execute,
       in_flush_execute    => s_flush_execute,
       WE                  => '1',           
       out_ImmType         => s_ImmType_MEM,   
@@ -760,22 +765,23 @@ s_RegWr <= s_RegWrite_WB;
       out_branch          => s_Branch_MEM,
       out_PCReg           => s_PCReg_MEM,         
       out_data1           => s_data1_MEM,           
-      out_data2           => s_DMemData,            -- Data to be written to memory
+      out_data2           => s_data2_MEM,
       out_extender        => s_extender_MEM,        
       out_halt            => s_halt_MEM,        
       out_MemtoReg        => s_MemToReg_MEM,        
       out_load            => s_load_MEM,          
       out_mux             => s_mux_MEM,           
-      out_alu             => s_DMemAddr,            -- Address for data memory
+      out_alu             => s_alu_MEM,  
       out_zero            => s_zero_MEM,
       out_PC_offset       => s_PC_offset_MEM,
+      out_instruct        => s_inst_MEM,
       RST                 => iRST,          
       CLK                 => iCLK        
     );
 
 -- ===================MEM=================
-  s_alu_MEM <= s_DMemAddr;
-  s_data2_MEM <= s_DMemData;
+  s_DMemAddr <= s_alu_MEM;
+  s_DMemData <= s_data2_MEM;
 
   -- Branch/Jump control logic:
   -- AND gate: branch AND zero -> branch_taken

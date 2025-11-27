@@ -24,6 +24,7 @@ entity ID_EX is
     in_load          : in std_logic_vector(2 downto 0);
     in_pc_val        : in std_logic_vector(31 downto 0);
     in_pc_plus4      : in std_logic_vector(31 downto 0);
+    in_instruct      : in std_logic_vector(31 downto 0);
     in_stall_decode  : in std_logic;
     in_flush_decode  : in std_logic;
     WE               : in std_logic;
@@ -48,6 +49,7 @@ entity ID_EX is
     out_load         : out std_logic_vector(2 downto 0);
     out_pc_val       : out std_logic_vector(31 downto 0);
     out_pc_plus4     : out std_logic_vector(31 downto 0);
+    out_instruct     : out std_logic_vector(31 downto 0);
     RST              : in std_logic;
     CLK              : in std_logic
   );
@@ -78,6 +80,7 @@ architecture structural of ID_EX is
   signal MemtoReg_in       : std_logic;
   signal load_in           : std_logic_vector(2 downto 0);
   signal pc_val_in         : std_logic_vector(31 downto 0);
+  signal instruct_in       : std_logic_vector(31 downto 0);
 
 begin
 
@@ -87,7 +90,7 @@ begin
     ALUControl_in    <= "0010" when in_stall_decode = '1' or in_flush_decode = '1' else in_ALUControl;
     regWrite_in      <= '0' when in_stall_decode = '1' or in_flush_decode = '1' else in_regWrite;
     regWrite_addr_in <= (others => '0') when in_stall_decode = '1' or in_flush_decode = '1' else in_regWrite_addr;
-    MemWrite_in      <= '1' when in_stall_decode = '1' or in_flush_decode = '1' else in_MemWrite; --1
+    MemWrite_in      <= '0' when in_stall_decode = '1' or in_flush_decode = '1' else in_MemWrite; --1
     jump_in          <= '0' when in_stall_decode = '1' or in_flush_decode = '1' else in_jump;
     PCReg_in         <= '0' when in_stall_decode = '1' or in_flush_decode = '1' else in_PCReg;--0
     data1_in         <= (others => '0') when in_stall_decode = '1' or in_flush_decode = '1' else in_data1;
@@ -95,6 +98,7 @@ begin
     MemtoReg_in      <= '0' when in_stall_decode = '1' or in_flush_decode = '1' else in_MemtoReg;
     load_in          <= (others => '0') when in_stall_decode = '1' or in_flush_decode = '1' else in_load;
     pc_val_in        <= (others => '0') when in_stall_decode = '1' or in_flush_decode = '1' else in_pc_val;
+    instruct_in      <= x"00000013" when in_stall_decode = '1' or in_flush_decode = '1' else in_instruct;
 
   ALUSrc_reg: Nbit_reg
     generic map (N => 1)
@@ -302,6 +306,16 @@ begin
       in_1  => in_pc_plus4,
       WE    => WE,
       out_1 => out_pc_plus4,
+      RST   => RST,
+      CLK   => CLK
+    );
+
+  instruct_reg: Nbit_reg
+    generic map (N => 32)
+    port map (
+      in_1  => instruct_in, 
+      WE    => WE,
+      out_1 => out_instruct,
       RST   => RST,
       CLK   => CLK
     );
