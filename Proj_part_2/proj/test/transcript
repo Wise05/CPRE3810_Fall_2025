@@ -12,307 +12,155 @@
 # // of the Customer's facilities without the express written permission of SISW,
 # // and may not be used in any way not expressly authorized by SISW.
 # //
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd}
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/test/tb_pipeline.vhd}
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:25:55 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd 
+# Start time: 19:02:31 on Nov 26,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/test/tb_pipeline.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# End time: 15:25:55 on Oct 22,2025, Elapsed time: 0:00:00
+# -- Compiling entity tb_pipeline
+# -- Compiling architecture behavior of tb_pipeline
+# -- Loading entity IF_ID
+# -- Loading entity ID_EX
+# -- Loading entity EX_MEM
+# -- Loading entity MEM_WB
+# End time: 19:02:31 on Nov 26,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.tb_alu_total -voptargs=+acc
-# vsim work.tb_alu_total -voptargs="+acc" 
-# Start time: 15:26:09 on Oct 22,2025
+vsim work.tb_pipeline -voptargs=+acc
+# vsim work.tb_pipeline -voptargs="+acc" 
+# Start time: 19:02:52 on Nov 26,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd(39): (vopt-1270) Bad default binding for component instance "DUT: ALU_Total".
-#  (Component port "overflow" is not on the entity "work.ALU_Total".)
-#  (Entity is selected because it is in the same library as the design unit that contains the component.)
+# ** Warning: (vopt-58) Design unit '/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/test/work.dffg' is missing or has an invalid version string.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
+# ** Warning: /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd(29): (vopt-1447) Instance "dffgI" is bound to entity "work.dffg" that has no architectures.
 # Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=49.
 # Error loading design
-# End time: 15:26:09 on Oct 22,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd}
+# End time: 19:02:53 on Nov 26,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 49
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/dffg.vhd}
 # QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:29:00 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd 
+# Start time: 19:03:25 on Nov 26,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/dffg.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# ** Error: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd(48): (vcom-1035) Formal port "clk" has OPEN or no actual associated with it.
-# ** Note: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd(137): VHDL Compiler exiting
-# End time: 15:29:00 on Oct 22,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:30:24 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# End time: 15:30:24 on Oct 22,2025, Elapsed time: 0:00:00
+# -- Compiling entity dffg
+# -- Compiling architecture mixed of dffg
+# End time: 19:03:26 on Nov 26,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.tb_alu_total
-# vsim -voptargs="+acc" work.tb_alu_total 
-# Start time: 15:30:34 on Oct 22,2025
+vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/dffg_N.vhd}
+# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
+# Start time: 19:03:30 on Nov 26,2025
+# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/dffg_N.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity dffg_N
+# -- Compiling architecture behavioral of dffg_N
+# End time: 19:03:30 on Nov 26,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_pipeline
+# vsim -voptargs="+acc" work.tb_pipeline 
+# Start time: 19:03:54 on Nov 26,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Error (suppressible): /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd(39): (vopt-1270) Bad default binding for component instance "DUT: ALU_Total".
-#  (Component port "overflow" is not on the entity "work.ALU_Total".)
-#  (Entity is selected because it is in the same library as the design unit that contains the component.)
-# Optimization failed
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=1.
-# Error loading design
-# End time: 15:30:34 on Oct 22,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
-# Modified modelsim.ini
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:33:26 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/test/tb_ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity tb_ALU_Total
-# -- Compiling architecture behavior of tb_ALU_Total
-# End time: 15:33:26 on Oct 22,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:33:36 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity AddSub_overflow
-# -- Compiling architecture structural of AddSub_overflow
-# End time: 15:33:36 on Oct 22,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:33:36 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity ALU_Total
-# -- Compiling architecture structural of ALU_Total
-# End time: 15:33:36 on Oct 22,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/Branch.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:33:36 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/Branch.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity Branch
-# -- Compiling architecture structural of Branch
-# End time: 15:33:36 on Oct 22,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:33:36 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity carry_adder_N_over
-# -- Compiling architecture structural of carry_adder_N_over
-# End time: 15:33:36 on Oct 22,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work {/home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/mux_16t1.vhd}
-# QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-# Start time: 15:33:36 on Oct 22,2025
-# vcom -reportprogress 300 -work work /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/mux_16t1.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity mux_16t1
-# -- Compiling architecture Behavioral of mux_16t1
-# End time: 15:33:36 on Oct 22,2025, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -voptargs=+acc work.tb_alu_total
-# vsim -voptargs="+acc" work.tb_alu_total 
-# Start time: 15:33:45 on Oct 22,2025
-# ** Note: (vsim-3812) Design is being optimized...
-# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd(58): (vopt-3473) Component instance "INV_B : ones_comp_N" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd(65): (vopt-3473) Component instance "B_SELECT : mux2t1_N" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(0)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(1)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(2)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(3)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(4)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(5)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(6)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(7)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(8)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(9)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(10)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(11)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(12)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(13)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(14)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(15)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(16)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(17)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(18)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(19)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(20)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(21)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(22)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(23)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(24)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(25)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(26)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(27)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(28)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(29)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(30)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd(36): (vopt-3473) Component instance "full_adderI : full_adder" is not bound.
-#         Region: /tb_ALU_Total/DUT/adder/ADDER/G_NBit_Carry_Adder(31)
-# ** Warning: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd(97): (vopt-3473) Component instance "shifty_time : barrel_shifter" is not bound.
-#         Region: /tb_ALU_Total/DUT
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=36.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
-# Loading work.tb_alu_total(behavior)#1
-# Loading work.alu_total(structural)#1
-# Loading work.addsub_overflow(structural)#1
-# ** Warning: (vsim-3473) Component instance "INV_B : ones_comp_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_alu_total/DUT/adder File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd
-# ** Warning: (vsim-3473) Component instance "B_SELECT : mux2t1_N" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_alu_total/DUT/adder File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/AddSub_overflow.vhd
-# Loading work.carry_adder_n_over(structural)#1
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(0) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(1) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(2) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(3) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(4) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(5) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(6) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(7) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(8) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(9) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(10) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(11) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(12) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(13) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(14) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(15) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(16) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(17) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(18) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(19) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(20) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(21) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(22) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(23) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(24) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(25) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(26) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(27) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(28) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(29) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(30) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "full_adderI : full_adder" is not bound.
-#    Time: 0 ns  Iteration: 0  Region: /tb_alu_total/DUT/adder/ADDER/G_NBit_Carry_Adder(31) File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/carry_adder_N_over.vhd
-# ** Warning: (vsim-3473) Component instance "shifty_time : barrel_shifter" is not bound.
-#    Time: 0 ns  Iteration: 0  Instance: /tb_alu_total/DUT File: /home/shanen/CPRE 3810 Project 1/Proj_part_1/proj/src/ALU/ALU_Total.vhd
-# Loading work.branch(structural)#1
-# Loading work.mux_16t1(behavioral)#1
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_alu_total/DUT/adder/ADDER/S_i(31), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_alu_total/DUT/s_AddSub(31).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_alu_total/DUT/adder/ADDER/S_i(30 downto 0), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_alu_total/DUT/s_AddSub(30 downto 0).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_alu_total/DUT/adder/S_i(31), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_alu_total/DUT/s_AddSub(31).
-# ** Warning: (vsim-8684) No drivers exist on out port /tb_alu_total/DUT/adder/S_i(30 downto 0), and its initial value is not used.
-# Therefore, simulation behavior may occur that is not in compliance with
-# the VHDL standard as the initial values come from the base signal /tb_alu_total/DUT/s_AddSub(30 downto 0).
-# ** Warning: (vsim-8683) Uninitialized out port /tb_alu_total/DUT/adder/C_out has no driver.
-# This port will contribute value (U) to the signal network.
-# End time: 17:03:37 on Oct 22,2025, Elapsed time: 1:29:52
-# Errors: 0, Warnings: 76
+# Loading work.tb_pipeline(behavior)#1
+# Loading work.if_id(structural)#1
+# Loading work.nbit_reg(structural)#1
+# Loading work.dffg(mixed)#1
+# Loading work.id_ex(structural)#1
+# Loading work.nbit_reg(structural)#2
+# Loading work.nbit_reg(structural)#3
+# Loading work.nbit_reg(structural)#4
+# Loading work.nbit_reg(structural)#5
+# Loading work.nbit_reg(structural)#6
+# Loading work.ex_mem(structural)#1
+# Loading work.mem_wb(structural)#1
+add wave -position insertpoint  \
+sim:/tb_pipeline/CLK \
+sim:/tb_pipeline/RST \
+sim:/tb_pipeline/WE \
+sim:/tb_pipeline/if_instr_in \
+sim:/tb_pipeline/if_pc_in \
+sim:/tb_pipeline/if_pc4_in \
+sim:/tb_pipeline/flush_if \
+sim:/tb_pipeline/id_instr_out \
+sim:/tb_pipeline/id_pc_out \
+sim:/tb_pipeline/id_pc4_out \
+sim:/tb_pipeline/stall_id \
+sim:/tb_pipeline/flush_id \
+sim:/tb_pipeline/ex_data1 \
+sim:/tb_pipeline/ex_data2 \
+sim:/tb_pipeline/ex_ext \
+sim:/tb_pipeline/stall_ex \
+sim:/tb_pipeline/flush_ex \
+sim:/tb_pipeline/mem_data1 \
+sim:/tb_pipeline/mem_data2 \
+sim:/tb_pipeline/mem_alu_in \
+sim:/tb_pipeline/mem_mux_in \
+sim:/tb_pipeline/mem_load_in \
+sim:/tb_pipeline/mem_rw_in \
+sim:/tb_pipeline/mem_rwaddr_in \
+sim:/tb_pipeline/mem_mtreg_in \
+sim:/tb_pipeline/mem_halt_in \
+sim:/tb_pipeline/wb_alu \
+sim:/tb_pipeline/wb_mux \
+sim:/tb_pipeline/wb_load \
+sim:/tb_pipeline/wb_rw \
+sim:/tb_pipeline/wb_rwaddr
+run 1000 ns
+# Causality operation skipped due to absence of debug database file
