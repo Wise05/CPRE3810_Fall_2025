@@ -123,6 +123,8 @@ architecture structure of RISCV_Processor is
   signal s_flush_execute : std_logic;
   signal s_alu_a_mux     : std_logic_vector(1 downto 0);
   signal s_alu_b_mux     : std_logic_vector(1 downto 0);
+  signal s_dmem_data_EX  : std_logic_vector(31 downto 0);
+  signal s_sw_mux        : std_logic_vector(1 downto 0);
 
   -- ALU
   signal s_ALU_A : std_logic_vector(31 downto 0);
@@ -372,7 +374,8 @@ component forwarding_unit is
        i_ALU_src        : in std_logic;
        i_auipc          : in std_logic;
        o_alu_a_mux      : out std_logic_vector(1 downto 0);
-       o_alu_b_mux      : out std_logic_vector(1 downto 0));
+       o_alu_b_mux      : out std_logic_vector(1 downto 0);
+       o_sw_mux         : out std_logic_vector(1 downto 0));
 end component;
 
 component EX_MEM is
@@ -673,6 +676,17 @@ s_RegWr <= s_RegWrite_WB;
       in3 => s_PC_val_EX,  -- auipc (PC value)
       y   => s_ALU_A  
     );
+
+  SW_Mux : mux_4t1
+    generic map (N => 32)
+    port map (
+      sel => s_sw_mux, 
+      in0 => s_data2_EX,  
+      in1 => s_RegWrData,  
+      in2 => s_alu_MEM,    
+      in3 => s_extender_EX,  
+      y   => s_dmem_data_EX  
+    );
       
   ALU : ALU_Total
     port map (
@@ -727,7 +741,8 @@ s_RegWr <= s_RegWrite_WB;
       i_ALU_src        => s_ALUSrc_EX, -- Placeholder
       i_auipc          => s_auipc_EX, -- Placeholder
       o_alu_a_mux      => s_alu_a_mux, 
-      o_alu_b_mux      => s_alu_b_mux 
+      o_alu_b_mux      => s_alu_b_mux,
+      o_sw_mux         => s_sw_mux
     );
 
   reg_EX_MEM : EX_MEM
@@ -740,7 +755,7 @@ s_RegWr <= s_RegWrite_WB;
       in_branch           => s_Branch_EX,
       in_PCReg            => s_PCReg_EX,        
       in_data1            => s_data1_EX,          
-      in_data2            => s_data2_EX, 
+      in_data2            => s_dmem_data_EX, 
       in_extender         => s_extender_EX,       
       in_halt             => s_halt_EX,   
       in_MemtoReg         => s_MemToReg_EX,         
