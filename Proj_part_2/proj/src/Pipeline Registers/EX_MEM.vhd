@@ -74,6 +74,7 @@ architecture structural of EX_MEM is
   signal load_in           : std_logic_vector(2 downto 0);
   signal halt_in           : std_logic;
   signal instruct_in       : std_logic_vector(31 downto 0);
+  signal branch_in         : std_logic;
 
 begin
 
@@ -88,6 +89,7 @@ begin
     MemtoReg_in      <= '0' when in_flush_execute = '1' else in_MemtoReg;
     load_in          <= (others => '0') when in_flush_execute = '1' else in_load;
     halt_in          <= '0' when in_flush_execute = '1' else in_halt;
+    branch_in        <= '0' when in_flush_execute = '1' else in_branch;
     instruct_in      <= x"00000013" when in_flush_execute = '1' else in_instruct;
 
   ImmType_reg: Nbit_reg
@@ -163,7 +165,7 @@ begin
   branch_reg: Nbit_reg
     generic map (N => 1)
     port map (
-      in_1(0)  => in_branch,
+      in_1(0)  => branch_in,
       WE       => WE,
       out_1(0) => out_branch,
       RST      => RST,

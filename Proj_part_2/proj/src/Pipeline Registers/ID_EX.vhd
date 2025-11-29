@@ -82,6 +82,7 @@ architecture structural of ID_EX is
   signal pc_val_in         : std_logic_vector(31 downto 0);
   signal instruct_in       : std_logic_vector(31 downto 0);
   signal branch_in         : std_logic;
+  signal halt_in           : std_logic;
 
 begin
 
@@ -101,6 +102,7 @@ begin
     pc_val_in        <= (others => '0') when in_stall_decode = '1' or in_flush_decode = '1' else in_pc_val;
     branch_in        <= '0' when in_stall_decode = '1' or in_flush_decode = '1' else in_branch;
     instruct_in      <= x"00000013" when in_stall_decode = '1' or in_flush_decode = '1' else in_instruct;
+    halt_in          <= '0' when in_stall_decode = '1' or in_flush_decode = '1' else in_halt;
 
   ALUSrc_reg: Nbit_reg
     generic map (N => 1)
@@ -265,7 +267,7 @@ begin
   halt_reg: Nbit_reg
     generic map (N => 1)
     port map (
-      in_1(0)  => in_halt,
+      in_1(0)  => halt_in,
       WE       => WE,
       out_1(0) => out_halt,
       RST      => RST,
