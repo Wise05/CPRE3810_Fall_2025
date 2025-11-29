@@ -1,172 +1,62 @@
+# Compute several Fibonacci numbers and put in array, then print
 .data
-fibs: .word 0 : 19         # array to contain fib values
-size: .word 19             # size of array (agrees with declaration)
-
+fibs:.word   0 : 19         # "array" of words to contain fib values
+size: .word  19             # size of "array" (agrees with array declaration)
 .text
+      la   s0, fibs        # load address of array
+      la   s5, size        # load address of size variable
+      lw   s5, 0(s5)      # load array size
+
+      li   s2, 1           # 1 is the known value of first and second Fib. number
+      sw   s2, 0(s0)      # F[0] = 1
+      sw   s2, 4(s0)      # F[1] = F[0] = 1
+      addi s1, s5, -2     # Counter for loop, will execute (size-2) times
+      
+      # Loop to compute each Fibonacci number using the previous two Fib. numbers.
+loop: lw   s3, 0(s0)      # Get value from array F[n-2]
+      lw   s4, 4(s0)      # Get value from array F[n-1]
+      add  s2, s3, s4    # F[n] = F[n-1] + F[n-2]
+      sw   s2, 8(s0)      # Store newly computed F[n] in array
+      addi s0, s0, 4      # increment address to now-known Fib. number storage
+      addi s1, s1, -1     # decrement loop counter
+      bne s1, zero, loop  # repeat while not finished
+      
+      # Fibonacci numbers are computed and stored in array. Print them.
+      la   a0, fibs        # first argument for print (array)
+      add  a1, zero, s5  # second argument for print (size)
+      jal  print            # call print routine. 
+
+      # The program is finished. Exit.
+      j die 
+		
 ###############################################################
-# ---- Setup ----
-# la s0, fibs
-    lui   s0, %hi(fibs)
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  s0, s0, %lo(fibs)
-
-# la s5, size
-    lui   s5, %hi(size)
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  s5, s5, %lo(size)
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
-    lw    s5, 0(s5)        # load array size
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
-# Initialize Fibonacci base cases
-    li    s2, 1            # F[0] = F[1] = 1
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    sw    s2, 0(s0)
-    sw    s2, 4(s0)
-
-# Prepare loop counter: s1 = s5 - 2
-    addi  s1, s5, -2
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
+# Subroutine to print the numbers on one line.
+      .data
+space:.asciz  " "          # space to insert between numbers
+head: .asciz  "The Fibonacci numbers are:\n"
+      .text
+print:add  t0, zero, a0  # starting address of array of data to be printed
+      add  t1, zero, a1  # initialize loop counter to array size
+      la   a0, head        # load address of the print heading string
+      ori  a7, zero , 4           # specify Print String service
+      ecall               # print the heading string
+      
+out:  lw   a0, 0(t0)      # load the integer to be printed (the current Fib. number)
+      ori  a7, zero , 1           # specify Print Integer service
+      ecall               # print fibonacci number
+      
+      la   a0, space       # load address of spacer for syscall
+      ori  a7, zero , 4           # specify Print String service
+      ecall               # print the spacer string
+      
+      addi t0, t0, 4      # increment address of data to be printed
+      addi t1, t1, -1     # decrement loop counter
+      bne t1, zero , out         # repeat while not finished
+      
+      jr   ra              # return from subroutine
+      
+# End of subroutine to print the numbers on one line
 ###############################################################
-# ---- Fibonacci loop ----
-loop:
-    lw    s3, 0(s0)        # s3 = F[n-2]
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
 
-    lw    s4, 4(s0)        # s4 = F[n-1]
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
-    add   s2, s3, s4       # s2 = F[n]
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
-    sw    s2, 8(s0)        # F[n] stored
-    addi  s0, s0, 4        # advance pointer
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
-    addi  s1, s1, -1       # decrement counter
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
-    bne   s1, zero, loop   # continue if not done
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
-###############################################################
-# ---- Printing phase ----
-# la a0, fibs
-    lui   a0, %hi(fibs)
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  a0, a0, %lo(fibs)
-
-    add   a1, zero, s5
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
-    jal   print
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    j     die
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
-###############################################################
-# ---- Subroutine: print ----
-.data
-space: .asciz " "
-head:  .asciz "The Fibonacci numbers are:\n"
-.text
-
-print:
-    add   t0, zero, a0
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    add   t1, zero, a1
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
-# la a0, head
-    lui   a0, %hi(head)
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  a0, a0, %lo(head)
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    ori   a7, zero, 4
-    ecall                  # print heading
-
-out:
-    lw    a0, 0(t0)
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    ori   a7, zero, 1
-    ecall                  # print number
-
-# la a0, space
-    lui   a0, %hi(space)
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  a0, a0, %lo(space)
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    ori   a7, zero, 4
-    ecall                  # print space
-
-    addi  t0, t0, 4
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  t1, t1, -1
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    bne   t1, zero, out
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    jr    ra
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    
-    
-
-###############################################################
 die:
-    wfi
-
+wfi
