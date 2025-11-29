@@ -23,7 +23,6 @@ entity EX_MEM is
     in_zero           : in std_logic;
     in_PC_offset      : in std_logic_vector(31 downto 0);
     in_instruct       : in std_logic_vector(31 downto 0);
-    in_stall_execute  : in std_logic;
     in_flush_execute  : in std_logic;
     WE                : in std_logic;
     out_ImmType       : out std_logic_vector(2 downto 0);
@@ -78,18 +77,18 @@ architecture structural of EX_MEM is
 
 begin
 
---stall/flush: sets siganls to a NOP instruction (add zero, zero, zero)
-    regWrite_in      <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_regWrite;
-    regWrite_addr_in <= (others => '0') when in_stall_execute = '1' or in_flush_execute = '1' else in_regWrite_addr;
-    MemWrite_in      <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_MemWrite; 
-    jump_in          <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_jump;
-    PCReg_in         <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_PCReg;--0
-    data1_in         <= (others => '0') when in_stall_execute = '1' or in_flush_execute = '1' else in_data1;
-    data2_in         <= (others => '0') when in_stall_execute = '1' or in_flush_execute = '1' else in_data2;
-    MemtoReg_in      <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_MemtoReg;
-    load_in          <= (others => '0') when in_stall_execute = '1' or in_flush_execute = '1' else in_load;
-    halt_in          <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_halt;
-    instruct_in      <= x"00000013" when in_stall_execute = '1' or in_flush_execute = '1' else in_instruct;
+-- Flush only (no stall): sets signals to a NOP instruction (add zero, zero, zero)
+    regWrite_in      <= '0' when in_flush_execute = '1' else in_regWrite;
+    regWrite_addr_in <= (others => '0') when in_flush_execute = '1' else in_regWrite_addr;
+    MemWrite_in      <= '0' when in_flush_execute = '1' else in_MemWrite; 
+    jump_in          <= '0' when in_flush_execute = '1' else in_jump;
+    PCReg_in         <= '0' when in_flush_execute = '1' else in_PCReg;
+    data1_in         <= (others => '0') when in_flush_execute = '1' else in_data1;
+    data2_in         <= (others => '0') when in_flush_execute = '1' else in_data2;
+    MemtoReg_in      <= '0' when in_flush_execute = '1' else in_MemtoReg;
+    load_in          <= (others => '0') when in_flush_execute = '1' else in_load;
+    halt_in          <= '0' when in_flush_execute = '1' else in_halt;
+    instruct_in      <= x"00000013" when in_flush_execute = '1' else in_instruct;
 
   ImmType_reg: Nbit_reg
     generic map (N => 3)

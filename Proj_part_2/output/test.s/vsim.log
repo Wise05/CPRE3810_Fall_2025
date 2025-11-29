@@ -3,7 +3,7 @@ Reading pref.tcl
 # 2025.1_2
 
 # vsim -postsimdataflow -debugdb -c -voptargs=""+acc"" tb -do "modelsim_framework.do" -gOUTPUT_TRACE=ms.trace 
-# Start time: 20:39:52 on Nov 27,2025
+# Start time: 09:16:04 on Nov 29,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Note: (vsim-8611) Generating debug db.
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
@@ -79,10 +79,10 @@ Reading pref.tcl
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ns  Iteration: 0  Instance: /tb/MyRiscv/IMem
 # ** Note: Data structure takes 58668648 bytes of memory
-#          Process time 0.07 seconds
+#          Process time 0.05 seconds
 #          stop
-#    Time: 160 ns  Iteration: 1  Instance: /tb
+#    Time: 220 ns  Iteration: 1  Instance: /tb
 # Break in Process P_DUMP_STATE at /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/internal/testpy/tb.vhd line 150
 # Stopped at /home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/internal/testpy/tb.vhd line 150
-# End time: 20:39:53 on Nov 27,2025, Elapsed time: 0:00:01
+# End time: 09:16:05 on Nov 29,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 3

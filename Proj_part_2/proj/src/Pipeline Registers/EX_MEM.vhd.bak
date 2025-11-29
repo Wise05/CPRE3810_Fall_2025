@@ -89,7 +89,7 @@ begin
     MemtoReg_in      <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_MemtoReg;
     load_in          <= (others => '0') when in_stall_execute = '1' or in_flush_execute = '1' else in_load;
     halt_in          <= '0' when in_stall_execute = '1' or in_flush_execute = '1' else in_halt;
-    instruct_in      <= x"00000013" when in_stall_decode = '1' or in_flush_decode = '1' else in_instruct;
+    instruct_in      <= x"00000013" when in_stall_execute = '1' or in_flush_execute = '1' else in_instruct;
 
   ImmType_reg: Nbit_reg
     generic map (N => 3)

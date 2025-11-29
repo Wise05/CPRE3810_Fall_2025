@@ -88,7 +88,7 @@ architecture structure of RISCV_Processor is
   signal s_load        : std_logic_vector(2 downto 0);
   signal s_jalr        : std_logic;
   signal s_halt_ID     : std_logic;
-  signal s_stall_decode  : std_logic;
+  signal s_stall_IF_ID  : std_logic;
   signal s_flush_decode  : std_logic;
 
   -- Sign extend
@@ -119,7 +119,7 @@ architecture structure of RISCV_Processor is
   signal s_PC_plus4_EX   : std_logic_vector(31 downto 0);
   signal s_Branch_EX     : std_logic;
   signal s_Inst_EX       : std_logic_vector(31 downto 0);
-  signal s_stall_execute : std_logic;
+  signal s_stall_ID_EX : std_logic;
   signal s_flush_execute : std_logic;
   signal s_alu_a_mux     : std_logic_vector(1 downto 0);
   signal s_alu_b_mux     : std_logic_vector(1 downto 0);
@@ -218,31 +218,35 @@ component mem is
 end component;
 
 component IF_ID is
-  port(in_instruct     : in std_logic_vector(N-1 downto 0);
-       in_PC_val       : in std_logic_vector(N-1 downto 0);
-       in_PC_plus4     : in std_logic_vector(N-1 downto 0);
-       in_flush_fetch  : in std_logic;
-       WE              : in std_logic;
-       out_instruct    : out std_logic_vector(N-1 downto 0);
-       out_PC_val      : out std_logic_vector(N-1 downto 0);
-       out_PC_plus4    : out std_logic_vector(N-1 downto 0);
-       RST             : in std_logic;
-       CLK             : in std_logic);
+  port (
+    in_instruct     : in std_logic_vector(31 downto 0);
+    in_PC_val       : in std_logic_vector(31 downto 0);
+    in_PC_plus4     : in std_logic_vector(31 downto 0);
+    in_stall_fetch  : in std_logic;
+    in_flush_fetch  : in std_logic;
+    WE              : in std_logic;
+    out_instruct    : out std_logic_vector(31 downto 0);
+    out_PC_val      : out std_logic_vector(31 downto 0);
+    out_PC_plus4    : out std_logic_vector(31 downto 0);
+    RST             : in std_logic;
+    CLK             : in std_logic
+  );
 end component;
 
 component hazard_detection is
-  port (i_opcode_execute : in std_logic_vector(6 downto 0);
-        i_opcode_memory  : in std_logic_vector(6 downto 0);
-        i_rs1            : in std_logic_vector(4 downto 0);
-        i_rs2            : in std_logic_vector(4 downto 0);
-        i_rd             : in std_logic_vector(4 downto 0);
-        i_offsetpc       : in std_logic;
-        o_stall_pc       : out std_logic;
-        o_stall_decode   : out std_logic;
-        o_stall_execute  : out std_logic;
-        o_flush_fetch    : out std_logic;
-        o_flush_decode   : out std_logic;
-        o_flush_execute  : out std_logic);
+  port (
+    i_opcode_execute  : in  std_logic_vector(6 downto 0); 
+    i_rs1_decode      : in  std_logic_vector(4 downto 0);
+    i_rs2_decode       : in  std_logic_vector(4 downto 0);
+    i_rd_execute      : in  std_logic_vector(4 downto 0);
+    i_offsetpc        : in  std_logic;
+    o_stall_pc        : out std_logic;
+    o_stall_IF_ID     : out std_logic;
+    o_stall_ID_EX     : out std_logic;
+    o_flush_fetch     : out std_logic;
+    o_flush_decode    : out std_logic;
+    o_flush_execute   : out std_logic
+  );
 end component;
 
 component control is
@@ -288,55 +292,57 @@ component butter_extender_Nt32 is
 end component;
 
 component ID_EX is
-  port(in_ALUSrc          : in std_logic;
-       in_ALUControl      : in std_logic_vector(3 downto 0);
-       in_ImmType         : in std_logic_vector(2 downto 0);
-       in_regWrite        : in std_logic;
-       in_regWrite_addr   : in std_logic_vector(4 downto 0);
-       in_MemWrite        : in std_logic;
-       in_imm_sel         : in std_logic_vector(1 downto 0);
-       in_branch_type     : in std_logic_vector(2 downto 0);
-       in_jump            : in std_logic;
-       in_link            : in std_logic;
-       in_branch          : in std_logic;
-       in_PCReg           : in std_logic;
-       in_auipc           : in std_logic;
-       in_data1           : in std_logic_vector(N-1 downto 0);
-       in_data2           : in std_logic_vector(N-1 downto 0);
-       in_extender        : in std_logic_vector(N-1 downto 0);
-       in_halt            : in std_logic;
-       in_MemtoReg        : in std_logic;
-       in_load            : in std_logic_vector(2 downto 0);
-       in_pc_val          : in std_logic_vector(N-1 downto 0);
-       in_pc_plus4        : in std_logic_vector(N-1 downto 0);
-       in_instruct        : in std_logic_vector(31 downto 0);
-       in_stall_decode    : in std_logic;
-       in_flush_decode    : in std_logic;
-       WE                 : in std_logic;
-       out_ALUSrc         : out std_logic;
-       out_ALUControl     : out std_logic_vector(3 downto 0);
-       out_ImmType        : out std_logic_vector(2 downto 0);
-       out_MemWrite       : out std_logic;
-       out_regWrite_addr  : out std_logic_vector(4 downto 0);
-       out_regWrite       : out std_logic;
-       out_imm_sel        : out std_logic_vector(1 downto 0);
-       out_branch_type    : out std_logic_vector(2 downto 0);
-       out_jump           : out std_logic;
-       out_link           : out std_logic;
-       out_branch         : out std_logic;
-       out_PCReg          : out std_logic;
-       out_auipc          : out std_logic;
-       out_data1          : out std_logic_vector(N-1 downto 0);
-       out_data2          : out std_logic_vector(N-1 downto 0);
-       out_extender       : out std_logic_vector(N-1 downto 0);
-       out_halt           : out std_logic;
-       out_MemtoReg       : out std_logic;
-       out_load           : out std_logic_vector(2 downto 0);
-       out_pc_val         : out std_logic_vector(N-1 downto 0);
-       out_pc_plus4       : out std_logic_vector(N-1 downto 0);
-       out_instruct       : out std_logic_vector(31 downto 0);
-       RST                : in std_logic;
-       CLK                : in std_logic);
+   port (
+    in_ALUSrc        : in std_logic;
+    in_ALUControl    : in std_logic_vector(3 downto 0);
+    in_ImmType       : in std_logic_vector(2 downto 0);
+    in_regWrite      : in std_logic;
+    in_regWrite_addr : in std_logic_vector(4 downto 0);
+    in_MemWrite      : in std_logic;
+    in_imm_sel       : in std_logic_vector(1 downto 0);
+    in_branch_type   : in std_logic_vector(2 downto 0);
+    in_jump          : in std_logic;
+    in_link          : in std_logic;
+    in_branch        : in std_logic;
+    in_PCReg         : in std_logic;
+    in_auipc         : in std_logic;
+    in_data1         : in std_logic_vector(31 downto 0);
+    in_data2         : in std_logic_vector(31 downto 0);
+    in_extender      : in std_logic_vector(31 downto 0);
+    in_halt          : in std_logic;
+    in_MemtoReg      : in std_logic;
+    in_load          : in std_logic_vector(2 downto 0);
+    in_pc_val        : in std_logic_vector(31 downto 0);
+    in_pc_plus4      : in std_logic_vector(31 downto 0);
+    in_instruct      : in std_logic_vector(31 downto 0);
+    in_stall_decode  : in std_logic;
+    in_flush_decode  : in std_logic;
+    WE               : in std_logic;
+    out_ALUSrc       : out std_logic;
+    out_ALUControl   : out std_logic_vector(3 downto 0);
+    out_ImmType      : out std_logic_vector(2 downto 0);
+    out_MemWrite     : out std_logic;
+    out_regWrite     : out std_logic;
+    out_regWrite_addr : out std_logic_vector(4 downto 0);
+    out_imm_sel      : out std_logic_vector(1 downto 0);
+    out_branch_type  : out std_logic_vector(2 downto 0);
+    out_jump         : out std_logic;
+    out_link         : out std_logic;
+    out_branch       : out std_logic;
+    out_PCReg        : out std_logic;
+    out_auipc        : out std_logic;
+    out_data1        : out std_logic_vector(31 downto 0);
+    out_data2        : out std_logic_vector(31 downto 0);
+    out_extender     : out std_logic_vector(31 downto 0);
+    out_halt         : out std_logic;
+    out_MemtoReg     : out std_logic;
+    out_load         : out std_logic_vector(2 downto 0);
+    out_pc_val       : out std_logic_vector(31 downto 0);
+    out_pc_plus4     : out std_logic_vector(31 downto 0);
+    out_instruct     : out std_logic_vector(31 downto 0);
+    RST              : in std_logic;
+    CLK              : in std_logic
+  );
 end component;
 
 component mux_4t1 is
@@ -399,7 +405,6 @@ component EX_MEM is
        in_zero             : in std_logic;
        in_PC_offset        : in std_logic_vector(N-1 downto 0);
        in_instruct         : in std_logic_vector(31 downto 0);
-       in_stall_execute    : in std_logic;
        in_flush_execute    : in std_logic;
        WE                  : in std_logic;
        out_ImmType         : out std_logic_vector(2 downto 0);
@@ -520,7 +525,8 @@ begin
       in_instruct     => s_Inst,
       in_PC_val       => s_PC_out,  
       in_PC_plus4     => s_PC_plus4,    
-      in_flush_fetch  => s_flush_fetch, -- Flush on taken branch/jump
+      in_stall_fetch  => s_stall_IF_ID,
+      in_flush_fetch  => s_flush_fetch,
       WE              => '1',
       out_instruct    => s_Inst_ID, 
       out_PC_val      => s_PC_val_ID, 
@@ -539,14 +545,13 @@ s_RegWr <= s_RegWrite_WB;
   hudini_hdu : hazard_detection
     port map (
       i_opcode_execute => s_Inst_EX(6 downto 0),  
-      i_opcode_memory  => s_Inst_MEM(6 downto 0), 
-      i_rs1            => s_Inst_EX(19 downto 15), 
-      i_rs2            => s_Inst_EX(24 downto 20), 
-      i_rd             => s_RegWriteAddr_MEM, 
+      i_rs1_decode     => s_Inst_ID(19 downto 15), 
+      i_rs2_decode     => s_Inst_ID(24 downto 20), 
+      i_rd_execute     => s_RegWriteAddr_EX, 
       i_offsetpc       => s_take_branch_or_jump, 
       o_stall_pc       => s_stall_pc, 
-      o_stall_decode   => s_stall_decode, 
-      o_stall_execute  => s_stall_execute, 
+      o_stall_IF_ID    => s_stall_IF_ID, 
+      o_stall_ID_EX    => s_stall_ID_EX, 
       o_flush_fetch    => s_flush_fetch, 
       o_flush_decode   => s_flush_decode, 
       o_flush_execute  => s_flush_execute 
@@ -598,7 +603,6 @@ s_RegWr <= s_RegWrite_WB;
       );
   
   -- ID/EX Pipeline Register Write Enable (stalled on load-use)
-  s_ID_EX_WE <= not s_stall_decode;
 
   reg_ID_EX : ID_EX
     port map (
@@ -624,9 +628,9 @@ s_RegWr <= s_RegWrite_WB;
       in_pc_val          => s_PC_val_ID,
       in_pc_plus4        => s_PC_plus4_ID,
       in_instruct        => s_Inst_ID,
-      in_stall_decode    => s_stall_decode,
+      in_stall_decode    => s_stall_ID_EX,
       in_flush_decode    => s_flush_decode,
-      WE                 => s_ID_EX_WE,                            
+      WE                 => '1',                            
       out_ALUSrc         => s_ALUSrc_EX,                   
       out_ALUControl     => s_ALUControl_EX,
       out_ImmType        => s_ImmType_EX,                      
@@ -767,7 +771,6 @@ s_RegWr <= s_RegWrite_WB;
       in_zero             => s_Zero,
       in_PC_offset        => PC_offset_s,
       in_instruct         => s_Inst_EX,
-      in_stall_execute    => s_stall_execute,
       in_flush_execute    => s_flush_execute,
       WE                  => '1',           
       out_ImmType         => s_ImmType_MEM,   
