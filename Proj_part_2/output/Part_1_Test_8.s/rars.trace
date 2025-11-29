@@ -1,0 +1,7 @@
+[inst #1] auipc x5,0
+Register Write to Reg: 0x05 Val: 0x00400000
+[inst #2] add x6,x5,x1
+Register Write to Reg: 0x06 Val: 0x00400000
+[inst #3] wfi 
+
+Program terminated by dropping off the bottom.
