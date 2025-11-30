@@ -1,0 +1,419 @@
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Sun Nov 30 10:09:13 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/ALU_Total.vhd
+    Info (12022): Found design unit 1: ALU_Total-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/ALU_Total.vhd Line: 16
+    Info (12023): Found entity 1: ALU_Total File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/ALU_Total.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/AddSub_overflow.vhd
+    Info (12022): Found design unit 1: AddSub_overflow-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/AddSub_overflow.vhd Line: 19
+    Info (12023): Found entity 1: AddSub_overflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/AddSub_overflow.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/Branch.vhd
+    Info (12022): Found design unit 1: Branch-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/Branch.vhd Line: 14
+    Info (12023): Found entity 1: Branch File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/Branch.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/carry_adder_N_over.vhd
+    Info (12022): Found design unit 1: carry_adder_N_over-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/carry_adder_N_over.vhd Line: 17
+    Info (12023): Found entity 1: carry_adder_N_over File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/carry_adder_N_over.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/mux_16t1.vhd
+    Info (12022): Found design unit 1: mux_16t1-Behavioral File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/mux_16t1.vhd Line: 30
+    Info (12023): Found entity 1: mux_16t1 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/mux_16t1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/mux_4t1.vhd
+    Info (12022): Found design unit 1: mux_4t1-Behavioral File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/mux_4t1.vhd Line: 18
+    Info (12023): Found entity 1: mux_4t1 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/mux_4t1.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Extenders/extender_Nt32.vhd
+    Info (12022): Found design unit 1: extender_Nt32-GenerateBased File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Extenders/extender_Nt32.vhd Line: 17
+    Info (12023): Found entity 1: extender_Nt32 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Extenders/extender_Nt32.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd
+    Info (12022): Found design unit 1: add_sub_N-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd Line: 18
+    Info (12023): Found entity 1: add_sub_N File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder.vhd
+    Info (12022): Found design unit 1: Adder-behavior File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder.vhd Line: 39
+    Info (12023): Found entity 1: Adder File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder.vhd Line: 26
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd
+    Info (12022): Found design unit 1: carry_adder_N-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd Line: 16
+    Info (12023): Found entity 1: carry_adder_N File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd
+    Info (12022): Found design unit 1: full_adder-behavior File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd Line: 17
+    Info (12023): Found entity 1: full_adder File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd Line: 9
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Multiplier.vhd
+    Info (12022): Found design unit 1: Multiplier-behavior File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Multiplier.vhd Line: 37
+    Info (12023): Found entity 1: Multiplier File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Multiplier.vhd Line: 26
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd
+    Info (12022): Found design unit 1: mux2t1-behavior File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd Line: 19
+    Info (12023): Found entity 1: mux2t1 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd
+    Info (12022): Found design unit 1: mux2t1_dataflow-behavior File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd Line: 17
+    Info (12023): Found entity 1: mux2t1_dataflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd
+    Info (12022): Found design unit 1: ones_comp_N-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd Line: 14
+    Info (12023): Found entity 1: ones_comp_N File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Reg.vhd
+    Info (12022): Found design unit 1: Reg-behavior File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Reg.vhd Line: 33
+    Info (12023): Found entity 1: Reg File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Reg.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/RegLd.vhd
+    Info (12022): Found design unit 1: RegLd-behavior File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/RegLd.vhd Line: 34
+    Info (12023): Found entity 1: RegLd File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/RegLd.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd
+    Info (12022): Found design unit 1: TPU_MV_Element-structure File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd Line: 38
+    Info (12023): Found entity 1: TPU_MV_Element File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd Line: 24
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/andg2.vhd
+    Info (12022): Found design unit 1: andg2-dataflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/andg2.vhd Line: 31
+    Info (12023): Found entity 1: andg2 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/andg2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/invg.vhd
+    Info (12022): Found design unit 1: invg-dataflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/invg.vhd Line: 30
+    Info (12023): Found entity 1: invg File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/invg.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/mux2t1_N.vhd
+    Info (12022): Found design unit 1: mux2t1_N-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/mux2t1_N.vhd Line: 30
+    Info (12023): Found entity 1: mux2t1_N File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/mux2t1_N.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/org2.vhd
+    Info (12022): Found design unit 1: org2-dataflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/org2.vhd Line: 31
+    Info (12023): Found entity 1: org2 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/org2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/xorg2.vhd
+    Info (12022): Found design unit 1: xorg2-dataflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/xorg2.vhd Line: 31
+    Info (12023): Found entity 1: xorg2 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/xorg2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd
+    Info (12022): Found design unit 1: RV32_regFile-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 19
+    Info (12023): Found entity 1: RV32_regFile File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/decoder_5t32.vhd
+    Info (12022): Found design unit 1: decoder_5t32-dataflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/decoder_5t32.vhd Line: 9
+    Info (12023): Found entity 1: decoder_5t32 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/decoder_5t32.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/dffg_N.vhd
+    Info (12022): Found design unit 1: dffg_N-behavioral File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/dffg_N.vhd Line: 15
+    Info (12023): Found entity 1: dffg_N File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/dffg_N.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/mux_32t1.vhd
+    Info (12022): Found design unit 1: mux_32t1-dataflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/mux_32t1.vhd Line: 14
+    Info (12023): Found entity 1: mux_32t1 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/mux_32t1.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/dffg.vhd
+    Info (12022): Found design unit 1: dffg-mixed File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/dffg.vhd Line: 33
+    Info (12023): Found entity 1: dffg File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/dffg.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd
+    Info (12022): Found design unit 1: EX_MEM-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd Line: 53
+    Info (12023): Found entity 1: EX_MEM File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/EX_MEM.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd
+    Info (12022): Found design unit 1: ID_EX-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd Line: 58
+    Info (12023): Found entity 1: ID_EX File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd
+    Info (12022): Found design unit 1: IF_ID-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd Line: 20
+    Info (12023): Found entity 1: IF_ID File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd
+    Info (12022): Found design unit 1: MEM_WB-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd Line: 30
+    Info (12023): Found entity 1: MEM_WB File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/MEM_WB.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd
+    Info (12022): Found design unit 1: Nbit_reg-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd Line: 16
+    Info (12023): Found entity 1: Nbit_reg File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd Line: 5
+Info (12021): Found 2 design units, including 0 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/RISCV_types.vhd
+    Info (12022): Found design unit 1: RISCV_types File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/RISCV_types.vhd Line: 15
+    Info (12022): Found design unit 2: RISCV_types-body File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/RISCV_types.vhd Line: 31
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd
+    Info (12022): Found design unit 1: RISCV_Processor-structure File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 34
+    Info (12023): Found entity 1: RISCV_Processor File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 22
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/mem.vhd
+    Info (12022): Found design unit 1: mem-rtl File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/mem.vhd Line: 27
+    Info (12023): Found entity 1: mem File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/mem.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/barrel_shifter/barrel_shifter.vhd
+    Info (12022): Found design unit 1: barrel_shifter-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/barrel_shifter/barrel_shifter.vhd Line: 14
+    Info (12023): Found entity 1: barrel_shifter File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/barrel_shifter/barrel_shifter.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/control/control.vhd
+    Info (12022): Found design unit 1: control-dataflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/control/control.vhd Line: 29
+    Info (12023): Found entity 1: control File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/control/control.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/extender/butter_extender_Nt32.vhd
+    Info (12022): Found design unit 1: butter_extender_Nt32-GenerateBased File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/extender/butter_extender_Nt32.vhd Line: 17
+    Info (12023): Found entity 1: butter_extender_Nt32 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/extender/butter_extender_Nt32.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/Left_Shifter.vhd
+    Info (12022): Found design unit 1: Left_Shifter-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/Left_Shifter.vhd Line: 12
+    Info (12023): Found entity 1: Left_Shifter File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/Left_Shifter.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/PC.vhd
+    Info (12022): Found design unit 1: PC-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/PC.vhd Line: 14
+    Info (12023): Found entity 1: PC File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/PC.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/dffg_N_reset.vhd
+    Info (12022): Found design unit 1: dffg_N_reset-behavioral File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/dffg_N_reset.vhd Line: 18
+    Info (12023): Found entity 1: dffg_N_reset File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/dffg_N_reset.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/fetch.vhd
+    Info (12022): Found design unit 1: fetch-structural File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/fetch.vhd Line: 19
+    Info (12023): Found entity 1: fetch File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/fetch.vhd Line: 4
+Info (15248): File "/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/mux2t1_N.vhd" is a duplicate of already analyzed file "/home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/mux2t1_N.vhd" (same filename, same library name and same md5 digest). Skipping analysis of this file.
+Info (12021): Found 0 design units, including 0 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/mux2t1_N.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/forwarding/forwarding_unit.vhd
+    Info (12022): Found design unit 1: forwarding_unit-dataflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/forwarding/forwarding_unit.vhd Line: 21
+    Info (12023): Found entity 1: forwarding_unit File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/forwarding/forwarding_unit.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/hazard_detection/hazard_detection.vhd
+    Info (12022): Found design unit 1: hazard_detection-dataflow File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/hazard_detection/hazard_detection.vhd Line: 21
+    Info (12023): Found entity 1: hazard_detection File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/hazard_detection/hazard_detection.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/loadHandler/load_handler.vhd
+    Info (12022): Found design unit 1: load_handler-behavioral File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/loadHandler/load_handler.vhd Line: 14
+    Info (12023): Found entity 1: load_handler File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/loadHandler/load_handler.vhd Line: 5
+Info (12127): Elaborating entity "RISCV_Processor" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at RISCV_Processor.vhd(54): object "s_Halt" assigned a value but never read File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 54
+Warning (10036): Verilog HDL or VHDL warning at RISCV_Processor.vhd(57): object "s_Ovfl" assigned a value but never read File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 57
+Warning (10036): Verilog HDL or VHDL warning at RISCV_Processor.vhd(63): object "s_cout_plus4" assigned a value but never read File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 63
+Warning (10036): Verilog HDL or VHDL warning at RISCV_Processor.vhd(141): object "PC_off_cOut_s" assigned a value but never read File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 141
+Warning (10036): Verilog HDL or VHDL warning at RISCV_Processor.vhd(145): object "s_ImmType_MEM" assigned a value but never read File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 145
+Warning (10036): Verilog HDL or VHDL warning at RISCV_Processor.vhd(149): object "s_imm_sel_MEM" assigned a value but never read File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 149
+Warning (10036): Verilog HDL or VHDL warning at RISCV_Processor.vhd(150): object "s_branch_type_MEM" assigned a value but never read File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 150
+Warning (10036): Verilog HDL or VHDL warning at RISCV_Processor.vhd(153): object "s_data1_MEM" assigned a value but never read File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 153
+Warning (10036): Verilog HDL or VHDL warning at RISCV_Processor.vhd(155): object "s_extender_MEM" assigned a value but never read File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 155
+Warning (10036): Verilog HDL or VHDL warning at RISCV_Processor.vhd(164): object "s_inst_MEM" assigned a value but never read File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 164
+Info (12128): Elaborating entity "PC" for hierarchy "PC:PC_reg" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 474
+Info (12128): Elaborating entity "dffg_N_reset" for hierarchy "PC:PC_reg|dffg_N_reset:pc_reg" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/PC.vhd Line: 26
+Info (12128): Elaborating entity "carry_adder_N" for hierarchy "carry_adder_N:plus4" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 483
+Info (12128): Elaborating entity "full_adder" for hierarchy "carry_adder_N:plus4|full_adder:\G_NBit_Carry_Adder:0:full_adderI" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd Line: 35
+Info (12128): Elaborating entity "xorg2" for hierarchy "carry_adder_N:plus4|full_adder:\G_NBit_Carry_Adder:0:full_adderI|xorg2:xor_gate1" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd Line: 41
+Info (12128): Elaborating entity "andg2" for hierarchy "carry_adder_N:plus4|full_adder:\G_NBit_Carry_Adder:0:full_adderI|andg2:and_gate1" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd Line: 46
+Info (12128): Elaborating entity "org2" for hierarchy "carry_adder_N:plus4|full_adder:\G_NBit_Carry_Adder:0:full_adderI|org2:or_gate1" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Adder/full_adder.vhd Line: 61
+Info (12128): Elaborating entity "mux2t1_N" for hierarchy "mux2t1_N:mux_jump" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 494
+Info (12128): Elaborating entity "mux2t1" for hierarchy "mux2t1_N:mux_jump|mux2t1:\G_NBit_MUX:0:MUXI" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/mux2t1_N.vhd Line: 43
+Info (12128): Elaborating entity "invg" for hierarchy "mux2t1_N:mux_jump|mux2t1:\G_NBit_MUX:0:MUXI|invg:not_gate1" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd Line: 42
+Info (12128): Elaborating entity "mem" for hierarchy "mem:IMem" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 513
+Info (12128): Elaborating entity "IF_ID" for hierarchy "IF_ID:reg_IF_ID" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 523
+Info (12128): Elaborating entity "Nbit_reg" for hierarchy "IF_ID:reg_IF_ID|Nbit_reg:instruct_pipe_reg" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/IF_ID.vhd Line: 50
+Info (12128): Elaborating entity "dffg" for hierarchy "IF_ID:reg_IF_ID|Nbit_reg:instruct_pipe_reg|dffg:\G_NBit_reg:0:dffgI" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/Nbit_reg.vhd Line: 29
+Info (12128): Elaborating entity "hazard_detection" for hierarchy "hazard_detection:hudini_hdu" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 545
+Info (12128): Elaborating entity "control" for hierarchy "control:mind_control" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 560
+Info (10041): Inferred latch for "o_load[0]" at control.vhd(133) File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/control/control.vhd Line: 133
+Info (10041): Inferred latch for "o_load[1]" at control.vhd(133) File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/control/control.vhd Line: 133
+Info (10041): Inferred latch for "o_load[2]" at control.vhd(133) File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/control/control.vhd Line: 133
+Info (12128): Elaborating entity "RV32_regFile" for hierarchy "RV32_regFile:Register_File" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 583
+Info (12128): Elaborating entity "decoder_5t32" for hierarchy "RV32_regFile:Register_File|decoder_5t32:Rd_dec" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 46
+Info (12128): Elaborating entity "dffg_N" for hierarchy "RV32_regFile:Register_File|dffg_N:\gen_regs:1:normal_reg:dffg_32I" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 78
+Info (12128): Elaborating entity "mux_32t1" for hierarchy "RV32_regFile:Register_File|mux_32t1:Mux_RS1" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 90
+Info (12128): Elaborating entity "butter_extender_Nt32" for hierarchy "butter_extender_Nt32:Sign_Extend" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 596
+Info (12128): Elaborating entity "ID_EX" for hierarchy "ID_EX:reg_ID_EX" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 607
+Info (12128): Elaborating entity "Nbit_reg" for hierarchy "ID_EX:reg_ID_EX|Nbit_reg:ALUSrc_reg" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd Line: 107
+Info (12128): Elaborating entity "Nbit_reg" for hierarchy "ID_EX:reg_ID_EX|Nbit_reg:ALUControl_reg" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd Line: 117
+Info (12128): Elaborating entity "Nbit_reg" for hierarchy "ID_EX:reg_ID_EX|Nbit_reg:ImmType_reg" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd Line: 127
+Info (12128): Elaborating entity "Nbit_reg" for hierarchy "ID_EX:reg_ID_EX|Nbit_reg:regWrite_addr_reg" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd Line: 147
+Info (12128): Elaborating entity "Nbit_reg" for hierarchy "ID_EX:reg_ID_EX|Nbit_reg:imm_sel_reg" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Pipeline Registers/ID_EX.vhd Line: 167
+Info (12128): Elaborating entity "mux_4t1" for hierarchy "mux_4t1:ALU_Src_Mux" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 662
+Info (12128): Elaborating entity "ALU_Total" for hierarchy "ALU_Total:ALU" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 695
+Info (12128): Elaborating entity "AddSub_overflow" for hierarchy "ALU_Total:ALU|AddSub_overflow:adder" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/ALU_Total.vhd Line: 94
+Info (12128): Elaborating entity "ones_comp_N" for hierarchy "ALU_Total:ALU|AddSub_overflow:adder|ones_comp_N:INV_B" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/AddSub_overflow.vhd Line: 58
+Info (12128): Elaborating entity "carry_adder_N_over" for hierarchy "ALU_Total:ALU|AddSub_overflow:adder|carry_adder_N_over:ADDER" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/AddSub_overflow.vhd Line: 74
+Info (12128): Elaborating entity "barrel_shifter" for hierarchy "ALU_Total:ALU|barrel_shifter:shifty_time" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/ALU_Total.vhd Line: 105
+Info (12128): Elaborating entity "Branch" for hierarchy "ALU_Total:ALU|Branch:branch_time" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/ALU_Total.vhd Line: 113
+Info (12128): Elaborating entity "mux_16t1" for hierarchy "ALU_Total:ALU|mux_16t1:big_mux" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/ALU/ALU_Total.vhd Line: 126
+Info (12128): Elaborating entity "Left_Shifter" for hierarchy "Left_Shifter:shift_off" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 718
+Info (12128): Elaborating entity "forwarding_unit" for hierarchy "forwarding_unit:forward" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 737
+Info (12128): Elaborating entity "EX_MEM" for hierarchy "EX_MEM:reg_EX_MEM" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 752
+Info (12128): Elaborating entity "MEM_WB" for hierarchy "MEM_WB:reg_MEM_WB" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 819
+Info (12128): Elaborating entity "load_handler" for hierarchy "load_handler:DMEM_fixer" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 844
+Info (276014): Found 1 instances of uninferred RAM logic
+    Info (276007): RAM logic "mem:IMem|ram" is uninferred due to asynchronous read logic File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/mem.vhd Line: 35
+Info (19000): Inferred 1 megafunctions from design logic
+    Info (276029): Inferred altsyncram megafunction from the following design logic: "mem:DMem|ram_rtl_0" 
+        Info (286033): Parameter OPERATION_MODE set to SINGLE_PORT
+        Info (286033): Parameter WIDTH_A set to 32
+        Info (286033): Parameter WIDTHAD_A set to 10
+        Info (286033): Parameter NUMWORDS_A set to 1024
+        Info (286033): Parameter OUTDATA_REG_A set to UNREGISTERED
+        Info (286033): Parameter ADDRESS_ACLR_A set to NONE
+        Info (286033): Parameter OUTDATA_ACLR_A set to NONE
+        Info (286033): Parameter READ_DURING_WRITE_MODE_PORT_A set to OLD_DATA
+        Info (286033): Parameter INDATA_ACLR_A set to NONE
+        Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
+Info (12130): Elaborated megafunction instantiation "mem:DMem|altsyncram:ram_rtl_0"
+Info (12133): Instantiated megafunction "mem:DMem|altsyncram:ram_rtl_0" with the following parameter:
+    Info (12134): Parameter "OPERATION_MODE" = "SINGLE_PORT"
+    Info (12134): Parameter "WIDTH_A" = "32"
+    Info (12134): Parameter "WIDTHAD_A" = "10"
+    Info (12134): Parameter "NUMWORDS_A" = "1024"
+    Info (12134): Parameter "OUTDATA_REG_A" = "UNREGISTERED"
+    Info (12134): Parameter "ADDRESS_ACLR_A" = "NONE"
+    Info (12134): Parameter "OUTDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "READ_DURING_WRITE_MODE_PORT_A" = "OLD_DATA"
+    Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
+    Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_eg81.tdf
+    Info (12023): Found entity 1: altsyncram_eg81 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/internal/QuartusWork/db/altsyncram_eg81.tdf Line: 28
+Info (13000): Registers with preset signals will power-up high File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/fetch/dffg_N_reset.vhd Line: 22
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 22 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "iInstAddr[0]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[1]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[12]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[13]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[14]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[15]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[16]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[17]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[18]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[19]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[20]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[21]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[22]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[23]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[24]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[25]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[26]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[27]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[28]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[29]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[30]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+    Warning (15610): No output dependent on input pin "iInstAddr[31]" File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 27
+Info (21057): Implemented 59720 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 67 input pins
+    Info (21059): Implemented 32 output pins
+    Info (21061): Implemented 59589 logic cells
+    Info (21064): Implemented 32 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 34 warnings
+    Info: Peak virtual memory: 903 megabytes
+    Info: Processing ended: Sun Nov 30 10:10:37 2025
+    Info: Elapsed time: 00:01:24
+    Info: Total CPU time (on all processors): 00:01:18
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Sun Nov 30 10:10:38 2025
+Info: Command: quartus_fit --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = toolflow
+Info: Revision = toolflow
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (119006): Selected device EP4CE115F29C7 for design "toolflow"
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
+    Info (176445): Device EP4CE40F29C7 is compatible
+    Info (176445): Device EP4CE40F29I7 is compatible
+    Info (176445): Device EP4CE30F29C7 is compatible
+    Info (176445): Device EP4CE30F29I7 is compatible
+    Info (176445): Device EP4CE55F29C7 is compatible
+    Info (176445): Device EP4CE55F29I7 is compatible
+    Info (176445): Device EP4CE75F29C7 is compatible
+    Info (176445): Device EP4CE75F29I7 is compatible
+    Info (176445): Device EP4CE115F29I7 is compatible
+Info (169124): Fitter converted 5 user pins into dedicated programming pins
+    Info (169125): Pin ~ALTERA_ASDO_DATA1~ is reserved at location F4
+    Info (169125): Pin ~ALTERA_FLASH_nCE_nCSO~ is reserved at location E2
+    Info (169125): Pin ~ALTERA_DCLK~ is reserved at location P3
+    Info (169125): Pin ~ALTERA_DATA0~ is reserved at location N7
+    Info (169125): Pin ~ALTERA_nCEO~ is reserved at location P28
+Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Info (176045): Design uses memory blocks. Violating setup or hold times of memory block address registers for either read or write operations could cause memory contents to be corrupted. Make sure that all memory block address registers meet the setup and hold time requirements.
+Critical Warning (169085): No exact pin location assignment(s) for 99 pins of 99 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
+Warning (335093): The Timing Analyzer is analyzing 3 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
+Info (332104): Reading SDC File: 'toolflow.sdc'
+Info (332129): Detected timing requirements -- optimizing circuit to achieve only the specified requirements
+Info (332111): Found 1 clocks
+    Info (332111):   Period   Clock Name
+    Info (332111): ======== ============
+    Info (332111):   20.000         iCLK
+Info (176353): Automatically promoted node iCLK~input (placed in PIN J1 (CLK1, DIFFCLK_0n)) File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 24
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
+Info (176353): Automatically promoted node iRST~input (placed in PIN Y2 (CLK2, DIFFCLK_1p)) File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/TopLevel/RISCV_Processor.vhd Line: 25
+    Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G4
+    Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
+        Info (176357): Destination node RV32_regFile:Register_File|s_DATA_IN[2][31]~0 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 23
+        Info (176357): Destination node RV32_regFile:Register_File|sp_reg~0
+        Info (176357): Destination node RV32_regFile:Register_File|s_DATA_IN[2][30]~2 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 23
+        Info (176357): Destination node RV32_regFile:Register_File|s_DATA_IN[2][29]~3 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 23
+        Info (176357): Destination node RV32_regFile:Register_File|s_DATA_IN[2][28]~4 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 23
+        Info (176357): Destination node RV32_regFile:Register_File|s_DATA_IN[2][27]~5 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 23
+        Info (176357): Destination node RV32_regFile:Register_File|s_DATA_IN[2][26]~6 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 23
+        Info (176357): Destination node RV32_regFile:Register_File|s_DATA_IN[2][25]~7 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 23
+        Info (176357): Destination node RV32_regFile:Register_File|s_DATA_IN[2][24]~8 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 23
+        Info (176357): Destination node RV32_regFile:Register_File|s_DATA_IN[2][23]~9 File: /home/shanen/CPRE 3810 Project 1/Proj_part_2/proj/src/Lab2_components/RegFile/RV32_regFile.vhd Line: 23
+        Info (176358): Non-global destination nodes limited to 10 nodes
+Info (176233): Starting register packing
+Info (176235): Finished register packing
+    Extra Info (176219): No registers were packed into other blocks
+Info (176214): Statistics of I/O pins that need to be placed that use the same VCCIO and VREF, before I/O pin placement
+    Info (176211): Number of I/O pins in group: 97 (unused VREF, 2.5V VCCIO, 65 input, 32 output, 0 bidirectional)
+        Info (176212): I/O standards used: 2.5 V.
+Info (176215): I/O bank details before I/O pin placement
+    Info (176214): Statistics of I/O banks
+        Info (176213): I/O bank number 1 does not use VREF pins and has undetermined VCCIO pins. 5 total pin(s) used --  51 pins available
+        Info (176213): I/O bank number 2 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  62 pins available
+        Info (176213): I/O bank number 3 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  73 pins available
+        Info (176213): I/O bank number 4 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  71 pins available
+        Info (176213): I/O bank number 5 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  65 pins available
+        Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  57 pins available
+        Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  72 pins available
+        Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  71 pins available
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:37
+Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
+Info (170189): Fitter placement preparation operations beginning
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:11
+Info (170191): Fitter placement operations beginning
+Info (170137): Fitter placement was successful
+Info (170192): Fitter placement operations ending: elapsed time is 00:01:40
+Info (170193): Fitter routing operations beginning
+Info (170195): Router estimated average interconnect usage is 14% of the available device resources
+    Info (170196): Router estimated peak interconnect usage is 31% of the available device resources in the region that extends from location X81_Y12 to location X91_Y23
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+Info (170194): Fitter routing operations ending: elapsed time is 00:01:11
+Info (11888): Total time spent on timing analysis during the Fitter is 26.01 seconds.
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:14
+Info (144001): Generated suppressed messages file /home/shanen/CPRE 3810 Project 1/Proj_part_2/internal/QuartusWork/output_files/toolflow.fit.smsg
+Info: Quartus Prime Fitter was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 1990 megabytes
+    Info: Processing ended: Sun Nov 30 10:15:05 2025
+    Info: Elapsed time: 00:04:27
+    Info: Total CPU time (on all processors): 00:07:55
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and any partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel FPGA IP License Agreement, or other applicable license
+    Info: agreement, including, without limitation, that your use is for
+    Info: the sole purpose of programming logic devices manufactured by
+    Info: Intel and sold by Intel or its authorized distributors.  Please
+    Info: refer to the applicable agreement for further details, at
+    Info: https://fpgasoftware.intel.com/eula.
+    Info: Processing started: Sun Nov 30 10:15:07 2025
+Info: Command: quartus_asm --read_settings_files=on --write_settings_files=off toolflow -c toolflow
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (115031): Writing out detailed assembly data for power analysis
+Info (115030): Assembler is generating device programming files
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 701 megabytes
+    Info: Processing ended: Sun Nov 30 10:15:12 2025
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:04
