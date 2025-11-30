@@ -2919,10 +2919,10 @@ R6
 !i122 83
 R1
 T_opt
-!s110 1764446739
-VYIT7l6Te6BSjMBR7DWUI:1
+!s110 1764461594
+VofD^>`S^K5lMhbDjNNhTV0
 04 2 5 work tb mixed 1
-=1-000ae431a4f1-692b5212-a70ba-3637
+=1-000ae431a4f1-692b8c1a-248e8-405f
 R0
 !s12f OEM100
 !s12b OEM100
@@ -2936,7 +2936,7 @@ Eadd_sub_n
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R280
 R281
@@ -2946,9 +2946,9 @@ R282
 R283
 R120
 33
-Z353 !s110 1764446736
+Z353 !s110 1764461592
 !i10b 1
-Z354 !s108 1764446736.000000
+Z354 !s108 1764461592.000000
 Z355 !s90 -2008|-work|internal/ModelSimContainer/work|proj/src/RISCV_types.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|proj/src/forwarding/forwarding_unit.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/mux_4t1.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/loadHandler/load_handler.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/fetch/fetch.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/dffg_N_reset.vhd|proj/src/Pipeline Registers/Nbit_reg.vhd|proj/src/Pipeline Registers/IF_ID.vhd|proj/src/Pipeline Registers/ID_EX.vhd|proj/src/Pipeline Registers/MEM_WB.vhd|proj/src/Pipeline Registers/EX_MEM.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/TopLevel/mem.vhd|proj/src/control/control.vhd|proj/src/hazard_detection/hazard_detection.vhd|
 Z356 !s107 proj/src/hazard_detection/hazard_detection.vhd|proj/src/control/control.vhd|proj/src/TopLevel/mem.vhd|proj/src/TopLevel/RISCV_Processor.vhd|proj/src/extender/butter_extender_Nt32.vhd|proj/src/Pipeline Registers/EX_MEM.vhd|proj/src/Pipeline Registers/MEM_WB.vhd|proj/src/Pipeline Registers/ID_EX.vhd|proj/src/Pipeline Registers/IF_ID.vhd|proj/src/Pipeline Registers/Nbit_reg.vhd|proj/src/fetch/dffg_N_reset.vhd|proj/src/fetch/PC.vhd|proj/src/fetch/mux2t1_N.vhd|proj/src/fetch/Left_Shifter.vhd|proj/src/fetch/fetch.vhd|proj/src/Lab2_components/Extenders/extender_Nt32.vhd|proj/src/Lab2_components/Lab1/Adder/full_adder.vhd|proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd|proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd|proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd|proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd|proj/src/Lab2_components/Lab1/Multiplier.vhd|proj/src/Lab2_components/Lab1/Reg.vhd|proj/src/Lab2_components/Lab1/RegLd.vhd|proj/src/Lab2_components/Lab1/Adder.vhd|proj/src/Lab2_components/Lab1/andg2.vhd|proj/src/Lab2_components/Lab1/invg.vhd|proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd|proj/src/Lab2_components/Lab1/mux2t1_N.vhd|proj/src/Lab2_components/Lab1/org2.vhd|proj/src/Lab2_components/Lab1/xorg2.vhd|proj/src/Lab2_components/RegFile/dffg_N.vhd|proj/src/Lab2_components/RegFile/decoder_5t32.vhd|proj/src/Lab2_components/RegFile/mux_32t1.vhd|proj/src/Lab2_components/RegFile/RV32_regFile.vhd|proj/src/Lab2_components/dffg.vhd|proj/src/barrel_shifter/barrel_shifter.vhd|proj/src/loadHandler/load_handler.vhd|proj/src/ALU/ALU_Total.vhd|proj/src/ALU/carry_adder_N_over.vhd|proj/src/ALU/mux_4t1.vhd|proj/src/ALU/Branch.vhd|proj/src/ALU/AddSub_overflow.vhd|proj/src/ALU/mux_16t1.vhd|proj/src/forwarding/forwarding_unit.vhd|internal/testpy/tb.vhd|proj/src/RISCV_types.vhd|
 !i113 0
@@ -2958,7 +2958,7 @@ Astructural
 R3
 R4
 R284
-!i122 242
+!i122 272
 l52
 R117
 R118
@@ -2978,7 +2978,7 @@ R2
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R123
 R124
@@ -3001,7 +3001,7 @@ R9
 R3
 R4
 R128
-!i122 242
+!i122 272
 l40
 R129
 R130
@@ -3020,7 +3020,7 @@ Eaddsub_overflow
 R67
 R3
 R4
-!i122 242
+!i122 272
 R5
 R285
 R286
@@ -3042,7 +3042,7 @@ Astructural
 R3
 R4
 R289
-!i122 242
+!i122 272
 l56
 R132
 R133
@@ -3061,7 +3061,7 @@ Ealu_total
 Z357 w1762186455
 R3
 R4
-!i122 242
+!i122 272
 R5
 R10
 R11
@@ -3083,7 +3083,7 @@ Astructural
 R3
 R4
 R12
-!i122 242
+!i122 272
 l85
 R135
 R136
@@ -3102,7 +3102,7 @@ Eandg2
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R13
 R14
@@ -3124,7 +3124,7 @@ Adataflow
 R3
 R4
 R15
-!i122 242
+!i122 272
 l32
 R138
 R139
@@ -3144,7 +3144,7 @@ Z358 w1761509677
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R16
 R17
@@ -3167,7 +3167,7 @@ R9
 R3
 R4
 R18
-!i122 242
+!i122 272
 l31
 R141
 R142
@@ -3186,7 +3186,7 @@ Ebranch
 R67
 R3
 R4
-!i122 242
+!i122 272
 R5
 R19
 R20
@@ -3208,7 +3208,7 @@ Astructural
 R3
 R4
 R21
-!i122 242
+!i122 272
 l19
 R144
 R145
@@ -3228,7 +3228,7 @@ R2
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R147
 R148
@@ -3251,7 +3251,7 @@ R9
 R3
 R4
 R22
-!i122 242
+!i122 272
 l20
 R151
 R152
@@ -3270,7 +3270,7 @@ Ecarry_adder_n
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R23
 R24
@@ -3292,7 +3292,7 @@ Astructural
 R3
 R4
 R25
-!i122 242
+!i122 272
 l30
 R154
 R155
@@ -3311,7 +3311,7 @@ Ecarry_adder_n_over
 Z359 w1761149699
 R3
 R4
-!i122 242
+!i122 272
 R5
 R26
 R27
@@ -3333,7 +3333,7 @@ Astructural
 R3
 R4
 R28
-!i122 242
+!i122 272
 l31
 R157
 R158
@@ -3353,7 +3353,7 @@ Z360 w1762904444
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R29
 R30
@@ -3376,7 +3376,7 @@ R9
 R3
 R4
 R31
-!i122 242
+!i122 272
 l30
 R160
 R161
@@ -3395,7 +3395,7 @@ Edecoder_5t32
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R32
 R33
@@ -3417,7 +3417,7 @@ Adataflow
 R3
 R4
 R34
-!i122 242
+!i122 272
 l10
 R163
 R164
@@ -3436,7 +3436,7 @@ Edffg
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R35
 R36
@@ -3458,7 +3458,7 @@ Amixed
 R3
 R4
 R37
-!i122 242
+!i122 272
 l37
 R166
 R167
@@ -3477,7 +3477,7 @@ Edffg_n
 Z361 w1763259628
 R3
 R4
-!i122 242
+!i122 272
 R5
 R38
 R39
@@ -3499,7 +3499,7 @@ Abehavioral
 R3
 R4
 R40
-!i122 242
+!i122 272
 l17
 R169
 V;8BInHLIK1DX?bCg@BA`11
@@ -3518,7 +3518,7 @@ Edffg_n_reset
 Z362 w1761345474
 R3
 R4
-!i122 242
+!i122 272
 R5
 R41
 R42
@@ -3540,7 +3540,7 @@ Abehavioral
 R3
 R4
 R43
-!i122 242
+!i122 272
 l19
 R170
 R171
@@ -3559,7 +3559,7 @@ Eex_mem
 Z363 w1764436469
 R3
 R4
-!i122 242
+!i122 272
 R5
 R44
 R45
@@ -3581,7 +3581,7 @@ Astructural
 R3
 R4
 DEx4 work 6 ex_mem 0 22 QP2UNk:o?5P4UIJ9mnSn52
-!i122 242
+!i122 272
 l79
 L53 243
 Vedd<nnzJ@hKGVAUC?BMMh3
@@ -3601,7 +3601,7 @@ R2
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R173
 R174
@@ -3624,7 +3624,7 @@ R9
 R3
 R4
 R47
-!i122 242
+!i122 272
 l18
 R177
 R178
@@ -3643,7 +3643,7 @@ Efetch
 R362
 R3
 R4
-!i122 242
+!i122 272
 R5
 R48
 R49
@@ -3665,7 +3665,7 @@ Astructural
 R3
 R4
 R50
-!i122 242
+!i122 272
 l70
 R180
 R181
@@ -3685,7 +3685,7 @@ R363
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 Z364 8proj/src/forwarding/forwarding_unit.vhd
 Z365 Fproj/src/forwarding/forwarding_unit.vhd
@@ -3708,7 +3708,7 @@ R9
 R3
 R4
 DEx4 work 15 forwarding_unit 0 22 <7A[inz4TJF34o=nz><7@3
-!i122 242
+!i122 272
 l22
 L21 33
 VIiAYJHb50cL:CBf1WEPW70
@@ -3728,7 +3728,7 @@ R2
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R183
 R184
@@ -3751,7 +3751,7 @@ R9
 R3
 R4
 R51
-!i122 242
+!i122 272
 l39
 R187
 R188
@@ -3767,14 +3767,14 @@ R356
 R121
 R122
 Ehazard_detection
-R363
+Z366 w1764461113
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
-Z366 8proj/src/hazard_detection/hazard_detection.vhd
-Z367 Fproj/src/hazard_detection/hazard_detection.vhd
+Z367 8proj/src/hazard_detection/hazard_detection.vhd
+Z368 Fproj/src/hazard_detection/hazard_detection.vhd
 l0
 L5 1
 V;Cjj44ZKaBlRf[HgcC@1o1
@@ -3794,7 +3794,7 @@ R9
 R3
 R4
 DEx4 work 16 hazard_detection 0 22 ;Cjj44ZKaBlRf[HgcC@1o1
-!i122 242
+!i122 272
 l25
 L21 21
 VSSD0SokGGYSVH4N507ZZe0
@@ -3813,7 +3813,7 @@ Eid_ex
 R363
 R3
 R4
-!i122 242
+!i122 272
 R5
 R52
 R53
@@ -3835,7 +3835,7 @@ Astructural
 R3
 R4
 DEx4 work 5 id_ex 0 22 Q<NC[2`23YC@7B=AQG8Rc2
-!i122 242
+!i122 272
 l87
 L58 270
 V6AYlWl7aEM;k_ii^0kN^@2
@@ -3854,7 +3854,7 @@ Eif_id
 R363
 R3
 R4
-!i122 242
+!i122 272
 R5
 R55
 R56
@@ -3876,7 +3876,7 @@ Astructural
 R3
 R4
 DEx4 work 5 if_id 0 22 L4@VHDM9GzSCZ2mPM`mOo0
-!i122 242
+!i122 272
 l38
 L20 58
 VOM02UVVRZg?ERzN2jOz1h0
@@ -3895,7 +3895,7 @@ Einvg
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R58
 R59
@@ -3917,7 +3917,7 @@ Adataflow
 R3
 R4
 R60
-!i122 242
+!i122 272
 l31
 R191
 R192
@@ -3933,11 +3933,11 @@ R356
 R121
 R122
 Eleft_shifter
-Z368 w1761169905
+Z369 w1761169905
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R61
 R62
@@ -3960,7 +3960,7 @@ R9
 R3
 R4
 R63
-!i122 242
+!i122 272
 l13
 R194
 R195
@@ -3980,7 +3980,7 @@ R67
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R64
 R65
@@ -4003,7 +4003,7 @@ R9
 R3
 R4
 R66
-!i122 242
+!i122 272
 l18
 R197
 R198
@@ -4023,7 +4023,7 @@ R2
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R200
 R201
@@ -4046,7 +4046,7 @@ R9
 R3
 R4
 R68
-!i122 242
+!i122 272
 l37
 R204
 R205
@@ -4065,7 +4065,7 @@ Emem_wb
 R360
 R3
 R4
-!i122 242
+!i122 272
 R5
 R69
 R70
@@ -4087,7 +4087,7 @@ Astructural
 R3
 R4
 R71
-!i122 242
+!i122 272
 l43
 R207
 R208
@@ -4107,7 +4107,7 @@ R2
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R210
 R211
@@ -4130,7 +4130,7 @@ R9
 R3
 R4
 R72
-!i122 242
+!i122 272
 l38
 R214
 R215
@@ -4150,7 +4150,7 @@ R2
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R217
 R218
@@ -4173,7 +4173,7 @@ R9
 R3
 R4
 R73
-!i122 242
+!i122 272
 l40
 R190
 R222
@@ -4193,7 +4193,7 @@ R2
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R224
 R225
@@ -4216,7 +4216,7 @@ R9
 R3
 R4
 R74
-!i122 242
+!i122 272
 l18
 R229
 R230
@@ -4235,7 +4235,7 @@ Emux2t1_n
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R75
 R76
@@ -4257,7 +4257,7 @@ Astructural
 R3
 R4
 R77
-!i122 242
+!i122 272
 l39
 R232
 R233
@@ -4276,7 +4276,7 @@ Emux_16t1
 R359
 R3
 R4
-!i122 242
+!i122 272
 R5
 R78
 R79
@@ -4298,7 +4298,7 @@ Abehavioral
 R3
 R4
 R80
-!i122 242
+!i122 272
 l31
 R232
 R235
@@ -4318,7 +4318,7 @@ R2
 R81
 R3
 R4
-!i122 242
+!i122 272
 R5
 R237
 R238
@@ -4341,7 +4341,7 @@ R81
 R3
 R4
 R82
-!i122 242
+!i122 272
 l15
 R241
 R242
@@ -4357,13 +4357,13 @@ R356
 R121
 R122
 Emux_4t1
-Z369 w1764184228
+Z370 w1764184228
 R3
 R4
-!i122 242
+!i122 272
 R5
-Z370 8proj/src/ALU/mux_4t1.vhd
-Z371 Fproj/src/ALU/mux_4t1.vhd
+Z371 8proj/src/ALU/mux_4t1.vhd
+Z372 Fproj/src/ALU/mux_4t1.vhd
 l0
 L4 1
 VgJhZ8KMQ1ikb>25I^zjnK0
@@ -4382,7 +4382,7 @@ Abehavioral
 R3
 R4
 DEx4 work 7 mux_4t1 0 22 gJhZ8KMQ1ikb>25I^zjnK0
-!i122 242
+!i122 272
 l19
 L18 9
 VLL71gW64N8Dd8:fe17RiN3
@@ -4398,11 +4398,11 @@ R356
 R121
 R122
 Enbit_reg
-Z372 w1758064241
+Z373 w1758064241
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R83
 R84
@@ -4425,7 +4425,7 @@ R9
 R3
 R4
 R85
-!i122 242
+!i122 272
 l25
 R244
 R245
@@ -4444,7 +4444,7 @@ Eones_comp_n
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R86
 R87
@@ -4466,7 +4466,7 @@ Astructural
 R3
 R4
 R88
-!i122 242
+!i122 272
 l21
 R247
 R248
@@ -4485,7 +4485,7 @@ Eorg2
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R89
 R90
@@ -4507,7 +4507,7 @@ Adataflow
 R3
 R4
 R91
-!i122 242
+!i122 272
 l32
 R138
 R250
@@ -4526,7 +4526,7 @@ Epc
 R362
 R3
 R4
-!i122 242
+!i122 272
 R5
 R92
 R93
@@ -4548,7 +4548,7 @@ Astructural
 R3
 R4
 R94
-!i122 242
+!i122 272
 l25
 R252
 R253
@@ -4567,7 +4567,7 @@ Ereg
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R95
 R96
@@ -4589,7 +4589,7 @@ Abehavior
 R3
 R4
 R97
-!i122 242
+!i122 272
 l34
 R255
 R256
@@ -4608,7 +4608,7 @@ Eregld
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R98
 R99
@@ -4630,7 +4630,7 @@ Abehavior
 R3
 R4
 R100
-!i122 242
+!i122 272
 l37
 R258
 R259
@@ -4650,7 +4650,7 @@ R363
 R81
 R3
 R4
-!i122 242
+!i122 272
 R5
 R101
 R102
@@ -4673,7 +4673,7 @@ R81
 R3
 R4
 DEx4 work 15 riscv_processor 0 22 IJa31zX=_V<ncKLeKA;g00
-!i122 242
+!i122 272
 l465
 L34 828
 V[lWT3jQIjCGo08@1JAXJ]3
@@ -4691,7 +4691,7 @@ R122
 Priscv_types
 R3
 R4
-!i122 242
+!i122 272
 R2
 R5
 R340
@@ -4714,7 +4714,7 @@ Bbody
 R81
 R3
 R4
-!i122 242
+!i122 272
 l0
 R261
 R262
@@ -4734,7 +4734,7 @@ R67
 R81
 R3
 R4
-!i122 242
+!i122 272
 R5
 R104
 R105
@@ -4757,7 +4757,7 @@ R81
 R3
 R4
 R106
-!i122 242
+!i122 272
 l45
 R264
 R265
@@ -4778,7 +4778,7 @@ R349
 R350
 R3
 R4
-!i122 242
+!i122 272
 R5
 R107
 R108
@@ -4802,7 +4802,7 @@ R350
 R3
 R4
 R109
-!i122 242
+!i122 272
 l56
 R267
 R268
@@ -4822,7 +4822,7 @@ R2
 R9
 R3
 R4
-!i122 242
+!i122 272
 R5
 R270
 R271
@@ -4845,7 +4845,7 @@ R9
 R3
 R4
 R110
-!i122 242
+!i122 272
 l85
 R275
 R276
@@ -4864,7 +4864,7 @@ Exorg2
 R2
 R3
 R4
-!i122 242
+!i122 272
 R5
 R111
 R112
@@ -4886,7 +4886,7 @@ Adataflow
 R3
 R4
 R113
-!i122 242
+!i122 272
 l32
 R138
 R278

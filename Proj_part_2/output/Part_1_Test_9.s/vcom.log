@@ -1,5 +1,5 @@
 QuestaSim-64 vcom 2025.1_2 Compiler 2025.04 Apr  7 2025
-Start time: 14:26:13 on Nov 29,2025
+Start time: 18:13:37 on Nov 29,2025
 vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd internal/testpy/tb.vhd proj/src/RISCV_types.vhd proj/src/forwarding/forwarding_unit.vhd proj/src/ALU/mux_16t1.vhd proj/src/ALU/AddSub_overflow.vhd proj/src/ALU/Branch.vhd proj/src/ALU/mux_4t1.vhd proj/src/ALU/carry_adder_N_over.vhd proj/src/ALU/ALU_Total.vhd proj/src/loadHandler/load_handler.vhd proj/src/barrel_shifter/barrel_shifter.vhd proj/src/Lab2_components/dffg.vhd proj/src/Lab2_components/RegFile/RV32_regFile.vhd proj/src/Lab2_components/RegFile/mux_32t1.vhd proj/src/Lab2_components/RegFile/decoder_5t32.vhd proj/src/Lab2_components/RegFile/dffg_N.vhd proj/src/Lab2_components/Lab1/xorg2.vhd proj/src/Lab2_components/Lab1/org2.vhd proj/src/Lab2_components/Lab1/mux2t1_N.vhd proj/src/Lab2_components/Lab1/TPU_MV_Element.vhd proj/src/Lab2_components/Lab1/invg.vhd proj/src/Lab2_components/Lab1/andg2.vhd proj/src/Lab2_components/Lab1/Adder.vhd proj/src/Lab2_components/Lab1/RegLd.vhd proj/src/Lab2_components/Lab1/Reg.vhd proj/src/Lab2_components/Lab1/Multiplier.vhd proj/src/Lab2_components/Lab1/AddSub/Add_Subtract_N.vhd proj/src/Lab2_components/Lab1/Mux/mux2t1_dataflow.vhd proj/src/Lab2_components/Lab1/Mux/mux2t1.vhd proj/src/Lab2_components/Lab1/OnesComp/N-bit_ones_comp_structural.vhd proj/src/Lab2_components/Lab1/Adder/carry_adder_N.vhd proj/src/Lab2_components/Lab1/Adder/full_adder.vhd proj/src/Lab2_components/Extenders/extender_Nt32.vhd proj/src/fetch/fetch.vhd proj/src/fetch/Left_Shifter.vhd proj/src/fetch/mux2t1_N.vhd proj/src/fetch/PC.vhd proj/src/fetch/dffg_N_reset.vhd proj/src/Pipeline Registers/Nbit_reg.vhd proj/src/Pipeline Registers/IF_ID.vhd proj/src/Pipeline Registers/ID_EX.vhd proj/src/Pipeline Registers/MEM_WB.vhd proj/src/Pipeline Registers/EX_MEM.vhd proj/src/extender/butter_extender_Nt32.vhd proj/src/TopLevel/RISCV_Processor.vhd proj/src/TopLevel/mem.vhd proj/src/control/control.vhd proj/src/hazard_detection/hazard_detection.vhd 
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -114,5 +114,5 @@ vcom -2008 -work internal/ModelSimContainer/work proj/src/RISCV_types.vhd intern
 -- Compiling architecture dataflow of control
 -- Compiling entity hazard_detection
 -- Compiling architecture dataflow of hazard_detection
-End time: 14:26:13 on Nov 29,2025, Elapsed time: 0:00:00
+End time: 18:13:37 on Nov 29,2025, Elapsed time: 0:00:00
 Errors: 0, Warnings: 6

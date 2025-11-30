@@ -1,5 +1,8 @@
-# Test 4: Load-Use Stall
-li   x10, 0x10010000
-lw   x5, 0(x10)
-add  x6, x5, x1
+# Test 5: Branch Taken → Flush
+addi x1, x0, 1
+addi x2, x0, 1
+beq  x1, x2, target   # taken → flush next inst
+addi x3, x0, 9        # must be flushed
+target:
+addi x3, x0, 5
 wfi
