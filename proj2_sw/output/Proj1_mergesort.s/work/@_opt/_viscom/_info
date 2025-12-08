@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-__design_bin_path=/home/shanen/CPRE 3810 Project 1/Proj_part_2/containers/sim_container_0
-opt_data_elab=/home/shanen/CPRE 3810 Project 1/Proj_part_2/containers/sim_container_0/work/@_opt
-=======
-__design_bin_path=/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/containers/sim_container_0
-opt_data_elab=/home/zevang/Documents/CPRE3810_Fall_2025/Proj_part_2/containers/sim_container_0/work/@_opt
->>>>>>> bad81cb5676895734bd71d7d06b347accf748306
+__design_bin_path=/home/zevang/Documents/CPRE3810_Fall_2025/proj2_sw/containers/sim_container_0
+opt_data_elab=/home/zevang/Documents/CPRE3810_Fall_2025/proj2_sw/containers/sim_container_0/work/@_opt
