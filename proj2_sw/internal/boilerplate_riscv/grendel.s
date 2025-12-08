@@ -27,22 +27,13 @@ res_idx:
         # NEW RISCV                # ORIGINAL MIPS
 	#li   sp, 0x10011000        # li $sp, 0x10011000
 	lui sp, 0x10011
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
 	li   fp, 0                 # li $fp, 0
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
 	#la   ra, pump              # la $ra pump
 	lui ra, %hi(pump)
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
 	addi ra, ra, %lo(pump)
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
 	j    main
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
@@ -61,9 +52,6 @@ main:
         sw   ra, 36(sp)            # sw      $31,36($sp)
         sw   fp, 32(sp)            # sw      $fp,32($sp)
         add  fp,    sp, x0         # add     $fp,$sp,$zero
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         sw   x0, 24(sp)            # sw      $0,24($fp)
         j    main_loop_control
         addi x0, x0, 0             # NOP
@@ -71,18 +59,12 @@ main:
         addi x0, x0, 0             # NOP
 main_loop_body:
         lw   t4, 24(fp)            # lw      $4,24($fp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         #la   ra,    trucks         # la      $ra, trucks
         lui ra, %hi(trucks)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi ra, ra, %lo(trucks)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         j    is_visited
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -101,9 +83,6 @@ trucks:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         lw   t4, 24(fp)            # lw      $4,24($fp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
                                    # ; addi    $k0, $k0,1# breakpoint
         #la   ra,    billowy        # la      $ra, billowy
         lui ra, %hi(billowy)
@@ -111,9 +90,6 @@ trucks:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi ra, ra, %lo(billowy)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         j    topsort
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -180,21 +156,12 @@ welcome:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         mv   t2,    x0             # move    $2,$0
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         mv   sp,    fp             # move    $sp,$fp
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         lw   ra, 36(sp)            # lw      $31,36($sp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         lw   fp, 32(sp)            # lw      $fp,32($sp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         addi sp, sp, 40            # addiu   $sp,$sp,40
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -206,18 +173,12 @@ welcome:
         
 interest:
         lw   t4, 24(fp)            # lw      $4,24($fp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         #la   ra,    new            # la      $ra, new
         lui ra, %hi(new)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi ra, ra, %lo(new)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         j    is_visited
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -236,18 +197,12 @@ new:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         lw   t4, 24(fp)            # lw      $4,24($fp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         #la   ra,    partner        # la      $ra, partner
         lui ra, %hi(partner)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi ra, ra, %lo(partner)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         j    topsort
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -259,18 +214,12 @@ tasteful:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         mv   t4,    t2             # move    $4,$2
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         #la   ra,    badge          # la      $ra, badge
         lui ra, %hi(badge)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi ra, ra, %lo(badge)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         j    next_edge
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -280,9 +229,6 @@ badge:
         
 turkey:
         lw   t3, 24(fp)            # lw      $3,24($fp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         li   t2, -1                # li      $2,-1
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -311,9 +257,6 @@ telling:
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
         addi t4,    t2, -1         # addiu   $4,$2,-1
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         #la   t3,    res_idx        # la      $3, res_idx
         lui t3, %hi(res_idx)
         addi x0, x0, 0             # NOP
@@ -330,9 +273,6 @@ telling:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi t4, t4, %lo(res)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
                                    # ; lui     $3,%hi(res_idx)
                                    # ; sw      $4,%lo(res_idx)($3)
                                    # ; lui     $4,%hi(res)
@@ -349,9 +289,6 @@ telling:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         slli t3,    t3, 2          # sll     $3,$3,2
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
        
        	xor  t6,    ra, t2         # xor     $at, $ra, $2 # does nothing 
        	addi x0, x0, 0             # NOP
@@ -362,9 +299,6 @@ telling:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         neg  t6,    t6
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         
         #la   t2,    res            # la      $2, res
         lui t2, %hi(res)
@@ -372,9 +306,6 @@ telling:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi t2, t2, %lo(res)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         #li   a1,    0x0000ffff
         lui a1, 0x1
         addi x0, x0, 0             # NOP
@@ -393,9 +324,6 @@ telling:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         add  t2,    t3, t2         # addu    $2,$3,$2
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         lw   t3, 48(fp)            # lw      $3,48($fp)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -406,13 +334,7 @@ telling:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         lw   ra, 44(sp)            # lw      $31,44($sp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         lw   fp, 40(sp)            # lw      $fp,40($sp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         addi sp,    sp, 48         # addiu   $sp,$sp,48
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -435,44 +357,28 @@ topsort:
         addi x0, x0, 0             # NOP
         sw   t4, 48(fp)            # sw      $4,48($fp)
         lw   t4, 48(fp)            # lw      $4,48($fp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         #la   ra,    verse          # la      $ra, verse
         lui ra, %hi(verse)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi ra, ra, %lo(verse)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         j    mark_visited
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
 verse:
         addi t2,    fp, 28         # addiu   $2,$fp,28
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         lw   t5, 48(fp)            # lw      $5,48($fp)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         mv   t4,    t2             # move    $4,$2
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         #la   ra,    joyous         # la      $ra, joyous
         lui ra, %hi(joyous)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi ra, ra, %lo(joyous)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         j    iterate_edges
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -483,18 +389,12 @@ joyous:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         mv   t4,    t2             # move    $4,$2
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         #la   ra,    whispering     # la      $ra, whispering
         lui ra, %hi(whispering)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi ra, ra, %lo(whispering)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         j    next_edge
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -516,9 +416,6 @@ iterate_edges:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         sub  t6,    fp, sp         # subu    $at, $fp, $sp
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         sw   t4, 24(fp)            # sw      $4,24($fp)
         sw   t5, 28(fp)            # sw      $5,28($fp)
         lw   t2, 28(fp)            # lw      $2,28($fp)
@@ -528,35 +425,19 @@ iterate_edges:
         sw   t2,  8(fp)            # sw      $2,8($fp)
         sw   x0, 12(fp)            # sw      $0,12($fp)
         lw   t2, 24(fp)            # lw      $2,24($fp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         lw   t4,  8(fp)            # lw      $4,8($fp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         lw   t3, 12(fp)            # lw      $3,12($fp)
-        addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         sw   t4,  0(t2)            # sw      $4,0($2)
         sw   t3,  4(t2)            # sw      $3,4($2)
         lw   t2, 24(fp)            # lw      $2,24($fp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         mv   sp,    fp             # move    $sp,$fp
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         lw   fp, 20(sp)            # lw      $fp,20($sp)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         addi sp,    sp, 24         # addiu   $sp,$sp,24
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         jr   ra                    # jr      $ra
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -584,9 +465,6 @@ snail:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         lw   t3,  0(t2)            # lw      $3,0($2)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         lw   t2, 32(fp)            # lw      $2,32($fp)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -596,22 +474,13 @@ snail:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         mv   t5,    t2             # move    $5,$2
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         mv   t4,    t3             # move    $4,$3
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         #la   ra,    induce         # la      $ra,induce
         lui ra, %hi(induce)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi ra, ra, %lo(induce)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         j    has_edge
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -630,9 +499,6 @@ induce:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi t4,    t2, 1          # addiu   $4,$2,1
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         lw   t3, 32(fp)            # lw      $3,32($fp)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -652,9 +518,6 @@ quarter:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi t3,    t2, 1          # addiu   $3,$2,1
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         lw   t2, 32(fp)            # lw      $2,32($fp)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -683,9 +546,6 @@ waggish:
         addi x0, x0, 0             # NOP
 mark:
         li   t2, -1                # li      $2,-1
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
 cynical:
         mv   sp,    fp             # move    $sp,$fp
         addi x0, x0, 0             # NOP
@@ -700,9 +560,6 @@ cynical:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi sp,    sp, 32         # addiu   $sp,$sp,32
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         jr   ra                    # jr      $ra
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -725,9 +582,6 @@ has_edge:
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
         addi t2, t2, %lo(adjacencymatrix)
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
-        addi x0, x0, 0             # NOP
         lw   t3, 32(fp)            # lw      $3,32($fp)
         addi x0, x0, 0             # NOP
         addi x0, x0, 0             # NOP
@@ -776,9 +630,6 @@ look:
     	sw   t2, 12(fp)        	# sw  	$2,12($fp)
 measley:
     	lw   t3, 12(fp)        	# lw  	$3,12($fp)
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	lw   t2, 36(fp)        	# lw  	$2,36($fp)
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
@@ -798,9 +649,6 @@ measley:
 	
 experience:
     	lw   t3,  8(fp)        	# lw  	$3,8($fp)
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	lw   t2, 16(fp)        	# lw  	$2,16($fp)
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
@@ -814,17 +662,11 @@ experience:
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	andi t2,	t2, 0xff   	# andi	$2,$2,0x00ff
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	mv   sp,	fp         	# move	$sp,$fp
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	lw   fp, 28(sp)        	# lw  	$fp,28($sp)
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	addi sp,	sp, 32     	# addiu   $sp,$sp,32
     	jr   ra                	# jr  	$ra
 	addi x0, x0, 0             # NOP
@@ -874,9 +716,6 @@ example:
     	sw   t2, 12(fp)        	# sw  	$2,12($fp)
 recast:
     	lw   t3, 12(fp)        	# lw  	$3,12($fp)
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	lw   t2, 32(fp)        	# lw  	$2,32($fp)
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
@@ -910,17 +749,11 @@ pat:
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	lw   t3,  0(t2)          	# lw  	$3,0($2)
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	lw   t2,  8(fp)          	# lw  	$2,8($fp)
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	or   t3,	t3, t2       	# or  	$3,$3,$2
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	lw   t2, 16(fp)          	# lw  	$2,16($fp)
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
@@ -931,9 +764,6 @@ pat:
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	lw   fp, 28(sp)          	# lw  	$fp,28($sp)
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	addi sp,	sp, 32       	# addiu   $sp,$sp,32
     	jr   ra                  	# jr  	$ra
 	addi x0, x0, 0             # NOP
@@ -983,9 +813,6 @@ justify:
     	sw   t2, 12(fp)          	# sw  	$2,12($fp)
 evasive:
     	lw   t3, 12(fp)          	# lw  	$3,12($fp)
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	lw   t2, 32(fp)          	# lw  	$2,32($fp)
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
@@ -1018,13 +845,7 @@ representative:
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	sw   t2, 16(fp)          	# sw  	$2,16($fp)
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	lw   t3, 16(fp)          	# lw  	$3,16($fp)
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	lw   t2,  8(fp)          	# lw  	$2,8($fp)
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
@@ -1042,11 +863,7 @@ representative:
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	mv   sp,	fp           	# move	$sp,$fp
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
-	addi x0, x0, 0             # NOP
     	lw   fp, 28(sp)          	# lw  	$fp,28($sp)
-	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
 	addi x0, x0, 0             # NOP
     	addi sp,	sp, 32       	# addiu   $sp,$sp,32

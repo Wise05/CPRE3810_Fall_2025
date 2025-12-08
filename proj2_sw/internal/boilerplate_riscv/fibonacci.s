@@ -23,9 +23,6 @@ size: .word 19             # size of array (agrees with declaration)
     addi  x0, x0, 0        # NOP
 
     lw    s5, 0(s5)        # load array size
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
 
 # Initialize Fibonacci base cases
     li    s2, 1            # F[0] = F[1] = 1
@@ -37,18 +34,11 @@ size: .word 19             # size of array (agrees with declaration)
 
 # Prepare loop counter: s1 = s5 - 2
     addi  s1, s5, -2
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
 
 ###############################################################
 # ---- Fibonacci loop ----
 loop:
     lw    s3, 0(s0)        # s3 = F[n-2]
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-
     lw    s4, 4(s0)        # s4 = F[n-1]
     addi  x0, x0, 0        # NOP
     addi  x0, x0, 0        # NOP
@@ -61,9 +51,6 @@ loop:
 
     sw    s2, 8(s0)        # F[n] stored
     addi  s0, s0, 4        # advance pointer
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
-    addi  x0, x0, 0        # NOP
 
     addi  s1, s1, -1       # decrement counter
     addi  x0, x0, 0        # NOP

@@ -15,9 +15,6 @@ addi  x7,  x0,  7    # Place 7  in $7
 addi  x8,  x0,  8    # Place 8  in $8
 addi  x9,  x0,  9    # Place 9  in $9
 addi  x10, x0,  10   # Place 10 in $10
-addi  x0,  x0,  0    # NOP
-addi  x0,  x0,  0    # NOP
-addi  x0,  x0,  0    # NOP
 add   x11, x1,  x2   # x11 = x1  + x2
 addi  x0,  x0,  0    # NOP
 addi  x0,  x0,  0    # NOP
